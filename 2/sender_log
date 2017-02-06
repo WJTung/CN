@@ -1,0 +1,4155 @@
+send	SYN
+receive	SYNACK
+****************************************
+base = 1 cwnd = 1
+send	data	#1	winSize = 1
+recv	ack	#1
+****************************************
+base = 2 cwnd = 2
+send	data	#2	winSize = 2
+send	data	#3	winSize = 2
+recv	ack	#2
+recv	ack	#3
+****************************************
+base = 4 cwnd = 4
+send	data	#4	winSize = 4
+send	data	#5	winSize = 4
+send	data	#6	winSize = 4
+send	data	#7	winSize = 4
+recv	ack	#5
+recv	ack	#6
+recv	ack	#7
+time out	threshold = 2
+****************************************
+base = 4 cwnd = 1
+resnd	data	#4	winSize = 1
+recv	ack	#4
+****************************************
+base = 5 cwnd = 2
+resnd	data	#5	winSize = 2
+resnd	data	#6	winSize = 2
+recv	ack	#5
+time out	threshold = 1
+****************************************
+base = 6 cwnd = 1
+resnd	data	#6	winSize = 1
+recv	ack	#6
+****************************************
+base = 7 cwnd = 2
+resnd	data	#7	winSize = 2
+send	data	#8	winSize = 2
+recv	ack	#7
+recv	ack	#8
+****************************************
+base = 9 cwnd = 3
+send	data	#9	winSize = 3
+send	data	#10	winSize = 3
+send	data	#11	winSize = 3
+recv	ack	#9
+recv	ack	#11
+time out	threshold = 1
+****************************************
+base = 10 cwnd = 1
+resnd	data	#10	winSize = 1
+time out	threshold = 1
+****************************************
+base = 10 cwnd = 1
+resnd	data	#10	winSize = 1
+recv	ack	#10
+****************************************
+base = 11 cwnd = 2
+resnd	data	#11	winSize = 2
+send	data	#12	winSize = 2
+recv	ack	#11
+time out	threshold = 1
+****************************************
+base = 12 cwnd = 1
+resnd	data	#12	winSize = 1
+time out	threshold = 1
+****************************************
+base = 12 cwnd = 1
+resnd	data	#12	winSize = 1
+recv	ack	#12
+****************************************
+base = 13 cwnd = 2
+send	data	#13	winSize = 2
+send	data	#14	winSize = 2
+recv	ack	#13
+time out	threshold = 1
+****************************************
+base = 14 cwnd = 1
+resnd	data	#14	winSize = 1
+recv	ack	#14
+****************************************
+base = 15 cwnd = 2
+send	data	#15	winSize = 2
+send	data	#16	winSize = 2
+recv	ack	#15
+recv	ack	#16
+****************************************
+base = 17 cwnd = 3
+send	data	#17	winSize = 3
+send	data	#18	winSize = 3
+send	data	#19	winSize = 3
+recv	ack	#17
+recv	ack	#18
+recv	ack	#19
+****************************************
+base = 20 cwnd = 4
+send	data	#20	winSize = 4
+send	data	#21	winSize = 4
+send	data	#22	winSize = 4
+send	data	#23	winSize = 4
+recv	ack	#20
+recv	ack	#22
+recv	ack	#23
+time out	threshold = 2
+****************************************
+base = 21 cwnd = 1
+resnd	data	#21	winSize = 1
+recv	ack	#21
+****************************************
+base = 22 cwnd = 2
+resnd	data	#22	winSize = 2
+resnd	data	#23	winSize = 2
+recv	ack	#22
+recv	ack	#23
+****************************************
+base = 24 cwnd = 3
+send	data	#24	winSize = 3
+send	data	#25	winSize = 3
+send	data	#26	winSize = 3
+recv	ack	#24
+recv	ack	#25
+recv	ack	#26
+****************************************
+base = 27 cwnd = 4
+send	data	#27	winSize = 4
+send	data	#28	winSize = 4
+send	data	#29	winSize = 4
+send	data	#30	winSize = 4
+recv	ack	#27
+recv	ack	#28
+recv	ack	#30
+time out	threshold = 2
+****************************************
+base = 29 cwnd = 1
+resnd	data	#29	winSize = 1
+recv	ack	#29
+****************************************
+base = 30 cwnd = 2
+resnd	data	#30	winSize = 2
+send	data	#31	winSize = 2
+recv	ack	#30
+recv	ack	#31
+****************************************
+base = 32 cwnd = 3
+send	data	#32	winSize = 3
+send	data	#33	winSize = 3
+send	data	#34	winSize = 3
+recv	ack	#32
+recv	ack	#34
+time out	threshold = 1
+****************************************
+base = 33 cwnd = 1
+resnd	data	#33	winSize = 1
+recv	ack	#33
+****************************************
+base = 34 cwnd = 2
+resnd	data	#34	winSize = 2
+send	data	#35	winSize = 2
+recv	ack	#34
+time out	threshold = 1
+****************************************
+base = 35 cwnd = 1
+resnd	data	#35	winSize = 1
+time out	threshold = 1
+****************************************
+base = 35 cwnd = 1
+resnd	data	#35	winSize = 1
+recv	ack	#35
+****************************************
+base = 36 cwnd = 2
+send	data	#36	winSize = 2
+send	data	#37	winSize = 2
+recv	ack	#36
+recv	ack	#37
+****************************************
+base = 38 cwnd = 3
+send	data	#38	winSize = 3
+send	data	#39	winSize = 3
+send	data	#40	winSize = 3
+recv	ack	#38
+recv	ack	#39
+recv	ack	#40
+****************************************
+base = 41 cwnd = 4
+send	data	#41	winSize = 4
+send	data	#42	winSize = 4
+send	data	#43	winSize = 4
+send	data	#44	winSize = 4
+recv	ack	#41
+recv	ack	#42
+recv	ack	#43
+recv	ack	#44
+****************************************
+base = 45 cwnd = 5
+send	data	#45	winSize = 5
+send	data	#46	winSize = 5
+send	data	#47	winSize = 5
+send	data	#48	winSize = 5
+send	data	#49	winSize = 5
+recv	ack	#45
+recv	ack	#47
+recv	ack	#49
+time out	threshold = 2
+****************************************
+base = 46 cwnd = 1
+resnd	data	#46	winSize = 1
+recv	ack	#46
+****************************************
+base = 47 cwnd = 2
+resnd	data	#47	winSize = 2
+resnd	data	#48	winSize = 2
+recv	ack	#47
+recv	ack	#48
+****************************************
+base = 49 cwnd = 3
+resnd	data	#49	winSize = 3
+send	data	#50	winSize = 3
+send	data	#51	winSize = 3
+recv	ack	#49
+recv	ack	#50
+recv	ack	#51
+****************************************
+base = 52 cwnd = 4
+send	data	#52	winSize = 4
+send	data	#53	winSize = 4
+send	data	#54	winSize = 4
+send	data	#55	winSize = 4
+recv	ack	#52
+recv	ack	#53
+recv	ack	#54
+recv	ack	#55
+****************************************
+base = 56 cwnd = 5
+send	data	#56	winSize = 5
+send	data	#57	winSize = 5
+send	data	#58	winSize = 5
+send	data	#59	winSize = 5
+send	data	#60	winSize = 5
+recv	ack	#56
+recv	ack	#57
+recv	ack	#58
+recv	ack	#59
+recv	ack	#60
+****************************************
+base = 61 cwnd = 6
+send	data	#61	winSize = 6
+send	data	#62	winSize = 6
+send	data	#63	winSize = 6
+send	data	#64	winSize = 6
+send	data	#65	winSize = 6
+send	data	#66	winSize = 6
+recv	ack	#61
+recv	ack	#62
+recv	ack	#63
+recv	ack	#64
+time out	threshold = 3
+****************************************
+base = 65 cwnd = 1
+resnd	data	#65	winSize = 1
+time out	threshold = 1
+****************************************
+base = 65 cwnd = 1
+resnd	data	#65	winSize = 1
+recv	ack	#65
+****************************************
+base = 66 cwnd = 2
+resnd	data	#66	winSize = 2
+send	data	#67	winSize = 2
+recv	ack	#66
+time out	threshold = 1
+****************************************
+base = 67 cwnd = 1
+resnd	data	#67	winSize = 1
+recv	ack	#67
+****************************************
+base = 68 cwnd = 2
+send	data	#68	winSize = 2
+send	data	#69	winSize = 2
+recv	ack	#68
+recv	ack	#69
+****************************************
+base = 70 cwnd = 3
+send	data	#70	winSize = 3
+send	data	#71	winSize = 3
+send	data	#72	winSize = 3
+recv	ack	#71
+time out	threshold = 1
+****************************************
+base = 70 cwnd = 1
+resnd	data	#70	winSize = 1
+recv	ack	#70
+****************************************
+base = 71 cwnd = 2
+resnd	data	#71	winSize = 2
+resnd	data	#72	winSize = 2
+recv	ack	#72
+time out	threshold = 1
+****************************************
+base = 71 cwnd = 1
+resnd	data	#71	winSize = 1
+recv	ack	#71
+****************************************
+base = 72 cwnd = 2
+resnd	data	#72	winSize = 2
+send	data	#73	winSize = 2
+recv	ack	#72
+recv	ack	#73
+****************************************
+base = 74 cwnd = 3
+send	data	#74	winSize = 3
+send	data	#75	winSize = 3
+send	data	#76	winSize = 3
+recv	ack	#74
+recv	ack	#76
+time out	threshold = 1
+****************************************
+base = 75 cwnd = 1
+resnd	data	#75	winSize = 1
+recv	ack	#75
+****************************************
+base = 76 cwnd = 2
+resnd	data	#76	winSize = 2
+send	data	#77	winSize = 2
+recv	ack	#76
+recv	ack	#77
+****************************************
+base = 78 cwnd = 3
+send	data	#78	winSize = 3
+send	data	#79	winSize = 3
+send	data	#80	winSize = 3
+recv	ack	#78
+recv	ack	#79
+time out	threshold = 1
+****************************************
+base = 80 cwnd = 1
+resnd	data	#80	winSize = 1
+recv	ack	#80
+****************************************
+base = 81 cwnd = 2
+send	data	#81	winSize = 2
+send	data	#82	winSize = 2
+recv	ack	#81
+recv	ack	#82
+****************************************
+base = 83 cwnd = 3
+send	data	#83	winSize = 3
+send	data	#84	winSize = 3
+send	data	#85	winSize = 3
+recv	ack	#83
+recv	ack	#84
+recv	ack	#85
+****************************************
+base = 86 cwnd = 4
+send	data	#86	winSize = 4
+send	data	#87	winSize = 4
+send	data	#88	winSize = 4
+send	data	#89	winSize = 4
+recv	ack	#86
+recv	ack	#87
+recv	ack	#88
+recv	ack	#89
+****************************************
+base = 90 cwnd = 5
+send	data	#90	winSize = 5
+send	data	#91	winSize = 5
+send	data	#92	winSize = 5
+send	data	#93	winSize = 5
+send	data	#94	winSize = 5
+recv	ack	#90
+recv	ack	#91
+recv	ack	#92
+recv	ack	#93
+recv	ack	#94
+****************************************
+base = 95 cwnd = 6
+send	data	#95	winSize = 6
+send	data	#96	winSize = 6
+send	data	#97	winSize = 6
+send	data	#98	winSize = 6
+send	data	#99	winSize = 6
+send	data	#100	winSize = 6
+recv	ack	#95
+recv	ack	#96
+recv	ack	#98
+recv	ack	#99
+recv	ack	#100
+time out	threshold = 3
+****************************************
+base = 97 cwnd = 1
+resnd	data	#97	winSize = 1
+time out	threshold = 1
+****************************************
+base = 97 cwnd = 1
+resnd	data	#97	winSize = 1
+recv	ack	#97
+****************************************
+base = 98 cwnd = 2
+resnd	data	#98	winSize = 2
+resnd	data	#99	winSize = 2
+recv	ack	#98
+recv	ack	#99
+****************************************
+base = 100 cwnd = 3
+resnd	data	#100	winSize = 3
+send	data	#101	winSize = 3
+send	data	#102	winSize = 3
+recv	ack	#100
+recv	ack	#102
+time out	threshold = 1
+****************************************
+base = 101 cwnd = 1
+resnd	data	#101	winSize = 1
+recv	ack	#101
+****************************************
+base = 102 cwnd = 2
+resnd	data	#102	winSize = 2
+send	data	#103	winSize = 2
+recv	ack	#102
+recv	ack	#103
+****************************************
+base = 104 cwnd = 3
+send	data	#104	winSize = 3
+send	data	#105	winSize = 3
+send	data	#106	winSize = 3
+recv	ack	#104
+recv	ack	#105
+recv	ack	#106
+****************************************
+base = 107 cwnd = 4
+send	data	#107	winSize = 4
+send	data	#108	winSize = 4
+send	data	#109	winSize = 4
+send	data	#110	winSize = 4
+recv	ack	#107
+recv	ack	#108
+recv	ack	#109
+recv	ack	#110
+****************************************
+base = 111 cwnd = 5
+send	data	#111	winSize = 5
+send	data	#112	winSize = 5
+send	data	#113	winSize = 5
+send	data	#114	winSize = 5
+send	data	#115	winSize = 5
+recv	ack	#111
+time out	threshold = 2
+****************************************
+base = 112 cwnd = 1
+resnd	data	#112	winSize = 1
+recv	ack	#112
+****************************************
+base = 113 cwnd = 2
+resnd	data	#113	winSize = 2
+resnd	data	#114	winSize = 2
+recv	ack	#113
+recv	ack	#114
+****************************************
+base = 115 cwnd = 3
+resnd	data	#115	winSize = 3
+send	data	#116	winSize = 3
+send	data	#117	winSize = 3
+recv	ack	#115
+recv	ack	#117
+time out	threshold = 1
+****************************************
+base = 116 cwnd = 1
+resnd	data	#116	winSize = 1
+recv	ack	#116
+****************************************
+base = 117 cwnd = 2
+resnd	data	#117	winSize = 2
+send	data	#118	winSize = 2
+recv	ack	#117
+recv	ack	#118
+****************************************
+base = 119 cwnd = 3
+send	data	#119	winSize = 3
+send	data	#120	winSize = 3
+send	data	#121	winSize = 3
+recv	ack	#121
+time out	threshold = 1
+****************************************
+base = 119 cwnd = 1
+resnd	data	#119	winSize = 1
+recv	ack	#119
+****************************************
+base = 120 cwnd = 2
+resnd	data	#120	winSize = 2
+resnd	data	#121	winSize = 2
+recv	ack	#120
+recv	ack	#121
+****************************************
+base = 122 cwnd = 3
+send	data	#122	winSize = 3
+send	data	#123	winSize = 3
+send	data	#124	winSize = 3
+recv	ack	#123
+recv	ack	#124
+time out	threshold = 1
+****************************************
+base = 122 cwnd = 1
+resnd	data	#122	winSize = 1
+recv	ack	#122
+****************************************
+base = 123 cwnd = 2
+resnd	data	#123	winSize = 2
+resnd	data	#124	winSize = 2
+recv	ack	#123
+recv	ack	#124
+****************************************
+base = 125 cwnd = 3
+send	data	#125	winSize = 3
+send	data	#126	winSize = 3
+send	data	#127	winSize = 3
+recv	ack	#125
+recv	ack	#126
+recv	ack	#127
+****************************************
+base = 128 cwnd = 4
+send	data	#128	winSize = 4
+send	data	#129	winSize = 4
+send	data	#130	winSize = 4
+send	data	#131	winSize = 4
+recv	ack	#128
+recv	ack	#130
+recv	ack	#131
+time out	threshold = 2
+****************************************
+base = 129 cwnd = 1
+resnd	data	#129	winSize = 1
+time out	threshold = 1
+****************************************
+base = 129 cwnd = 1
+resnd	data	#129	winSize = 1
+recv	ack	#129
+****************************************
+base = 130 cwnd = 2
+resnd	data	#130	winSize = 2
+resnd	data	#131	winSize = 2
+recv	ack	#130
+recv	ack	#131
+****************************************
+base = 132 cwnd = 3
+send	data	#132	winSize = 3
+send	data	#133	winSize = 3
+send	data	#134	winSize = 3
+recv	ack	#132
+recv	ack	#133
+time out	threshold = 1
+****************************************
+base = 134 cwnd = 1
+resnd	data	#134	winSize = 1
+recv	ack	#134
+****************************************
+base = 135 cwnd = 2
+send	data	#135	winSize = 2
+send	data	#136	winSize = 2
+recv	ack	#135
+recv	ack	#136
+****************************************
+base = 137 cwnd = 3
+send	data	#137	winSize = 3
+send	data	#138	winSize = 3
+send	data	#139	winSize = 3
+recv	ack	#137
+recv	ack	#138
+recv	ack	#139
+****************************************
+base = 140 cwnd = 4
+send	data	#140	winSize = 4
+send	data	#141	winSize = 4
+send	data	#142	winSize = 4
+send	data	#143	winSize = 4
+recv	ack	#140
+recv	ack	#141
+recv	ack	#142
+recv	ack	#143
+****************************************
+base = 144 cwnd = 5
+send	data	#144	winSize = 5
+send	data	#145	winSize = 5
+send	data	#146	winSize = 5
+send	data	#147	winSize = 5
+send	data	#148	winSize = 5
+recv	ack	#144
+recv	ack	#145
+recv	ack	#146
+time out	threshold = 2
+****************************************
+base = 147 cwnd = 1
+resnd	data	#147	winSize = 1
+recv	ack	#147
+****************************************
+base = 148 cwnd = 2
+resnd	data	#148	winSize = 2
+send	data	#149	winSize = 2
+recv	ack	#148
+recv	ack	#149
+****************************************
+base = 150 cwnd = 3
+send	data	#150	winSize = 3
+send	data	#151	winSize = 3
+send	data	#152	winSize = 3
+recv	ack	#150
+recv	ack	#152
+time out	threshold = 1
+****************************************
+base = 151 cwnd = 1
+resnd	data	#151	winSize = 1
+recv	ack	#151
+****************************************
+base = 152 cwnd = 2
+resnd	data	#152	winSize = 2
+send	data	#153	winSize = 2
+recv	ack	#153
+time out	threshold = 1
+****************************************
+base = 152 cwnd = 1
+resnd	data	#152	winSize = 1
+time out	threshold = 1
+****************************************
+base = 152 cwnd = 1
+resnd	data	#152	winSize = 1
+recv	ack	#152
+****************************************
+base = 153 cwnd = 2
+resnd	data	#153	winSize = 2
+send	data	#154	winSize = 2
+recv	ack	#153
+recv	ack	#154
+****************************************
+base = 155 cwnd = 3
+send	data	#155	winSize = 3
+send	data	#156	winSize = 3
+send	data	#157	winSize = 3
+recv	ack	#157
+time out	threshold = 1
+****************************************
+base = 155 cwnd = 1
+resnd	data	#155	winSize = 1
+recv	ack	#155
+****************************************
+base = 156 cwnd = 2
+resnd	data	#156	winSize = 2
+resnd	data	#157	winSize = 2
+recv	ack	#157
+time out	threshold = 1
+****************************************
+base = 156 cwnd = 1
+resnd	data	#156	winSize = 1
+recv	ack	#156
+****************************************
+base = 157 cwnd = 2
+resnd	data	#157	winSize = 2
+send	data	#158	winSize = 2
+recv	ack	#157
+recv	ack	#158
+****************************************
+base = 159 cwnd = 3
+send	data	#159	winSize = 3
+send	data	#160	winSize = 3
+send	data	#161	winSize = 3
+recv	ack	#159
+recv	ack	#160
+time out	threshold = 1
+****************************************
+base = 161 cwnd = 1
+resnd	data	#161	winSize = 1
+time out	threshold = 1
+****************************************
+base = 161 cwnd = 1
+resnd	data	#161	winSize = 1
+time out	threshold = 1
+****************************************
+base = 161 cwnd = 1
+resnd	data	#161	winSize = 1
+recv	ack	#161
+****************************************
+base = 162 cwnd = 2
+send	data	#162	winSize = 2
+send	data	#163	winSize = 2
+recv	ack	#162
+recv	ack	#163
+****************************************
+base = 164 cwnd = 3
+send	data	#164	winSize = 3
+send	data	#165	winSize = 3
+send	data	#166	winSize = 3
+recv	ack	#164
+recv	ack	#165
+recv	ack	#166
+****************************************
+base = 167 cwnd = 4
+send	data	#167	winSize = 4
+send	data	#168	winSize = 4
+send	data	#169	winSize = 4
+send	data	#170	winSize = 4
+recv	ack	#167
+recv	ack	#168
+recv	ack	#169
+recv	ack	#170
+****************************************
+base = 171 cwnd = 5
+send	data	#171	winSize = 5
+send	data	#172	winSize = 5
+send	data	#173	winSize = 5
+send	data	#174	winSize = 5
+send	data	#175	winSize = 5
+recv	ack	#171
+recv	ack	#172
+recv	ack	#174
+recv	ack	#175
+time out	threshold = 2
+****************************************
+base = 173 cwnd = 1
+resnd	data	#173	winSize = 1
+time out	threshold = 1
+****************************************
+base = 173 cwnd = 1
+resnd	data	#173	winSize = 1
+recv	ack	#173
+****************************************
+base = 174 cwnd = 2
+resnd	data	#174	winSize = 2
+resnd	data	#175	winSize = 2
+recv	ack	#174
+recv	ack	#175
+****************************************
+base = 176 cwnd = 3
+send	data	#176	winSize = 3
+send	data	#177	winSize = 3
+send	data	#178	winSize = 3
+recv	ack	#176
+recv	ack	#178
+time out	threshold = 1
+****************************************
+base = 177 cwnd = 1
+resnd	data	#177	winSize = 1
+recv	ack	#177
+****************************************
+base = 178 cwnd = 2
+resnd	data	#178	winSize = 2
+send	data	#179	winSize = 2
+recv	ack	#178
+time out	threshold = 1
+****************************************
+base = 179 cwnd = 1
+resnd	data	#179	winSize = 1
+recv	ack	#179
+****************************************
+base = 180 cwnd = 2
+send	data	#180	winSize = 2
+send	data	#181	winSize = 2
+recv	ack	#180
+recv	ack	#181
+****************************************
+base = 182 cwnd = 3
+send	data	#182	winSize = 3
+send	data	#183	winSize = 3
+send	data	#184	winSize = 3
+time out	threshold = 1
+****************************************
+base = 182 cwnd = 1
+resnd	data	#182	winSize = 1
+recv	ack	#182
+****************************************
+base = 183 cwnd = 2
+resnd	data	#183	winSize = 2
+resnd	data	#184	winSize = 2
+recv	ack	#183
+time out	threshold = 1
+****************************************
+base = 184 cwnd = 1
+resnd	data	#184	winSize = 1
+recv	ack	#184
+****************************************
+base = 185 cwnd = 2
+send	data	#185	winSize = 2
+send	data	#186	winSize = 2
+recv	ack	#186
+time out	threshold = 1
+****************************************
+base = 185 cwnd = 1
+resnd	data	#185	winSize = 1
+time out	threshold = 1
+****************************************
+base = 185 cwnd = 1
+resnd	data	#185	winSize = 1
+recv	ack	#185
+****************************************
+base = 186 cwnd = 2
+resnd	data	#186	winSize = 2
+send	data	#187	winSize = 2
+recv	ack	#187
+time out	threshold = 1
+****************************************
+base = 186 cwnd = 1
+resnd	data	#186	winSize = 1
+recv	ack	#186
+****************************************
+base = 187 cwnd = 2
+resnd	data	#187	winSize = 2
+send	data	#188	winSize = 2
+recv	ack	#187
+time out	threshold = 1
+****************************************
+base = 188 cwnd = 1
+resnd	data	#188	winSize = 1
+recv	ack	#188
+****************************************
+base = 189 cwnd = 2
+send	data	#189	winSize = 2
+send	data	#190	winSize = 2
+recv	ack	#189
+time out	threshold = 1
+****************************************
+base = 190 cwnd = 1
+resnd	data	#190	winSize = 1
+recv	ack	#190
+****************************************
+base = 191 cwnd = 2
+send	data	#191	winSize = 2
+send	data	#192	winSize = 2
+recv	ack	#192
+time out	threshold = 1
+****************************************
+base = 191 cwnd = 1
+resnd	data	#191	winSize = 1
+recv	ack	#191
+****************************************
+base = 192 cwnd = 2
+resnd	data	#192	winSize = 2
+send	data	#193	winSize = 2
+recv	ack	#192
+time out	threshold = 1
+****************************************
+base = 193 cwnd = 1
+resnd	data	#193	winSize = 1
+time out	threshold = 1
+****************************************
+base = 193 cwnd = 1
+resnd	data	#193	winSize = 1
+recv	ack	#193
+****************************************
+base = 194 cwnd = 2
+send	data	#194	winSize = 2
+send	data	#195	winSize = 2
+recv	ack	#194
+recv	ack	#195
+****************************************
+base = 196 cwnd = 3
+send	data	#196	winSize = 3
+send	data	#197	winSize = 3
+send	data	#198	winSize = 3
+recv	ack	#197
+time out	threshold = 1
+****************************************
+base = 196 cwnd = 1
+resnd	data	#196	winSize = 1
+recv	ack	#196
+****************************************
+base = 197 cwnd = 2
+resnd	data	#197	winSize = 2
+resnd	data	#198	winSize = 2
+recv	ack	#197
+time out	threshold = 1
+****************************************
+base = 198 cwnd = 1
+resnd	data	#198	winSize = 1
+recv	ack	#198
+****************************************
+base = 199 cwnd = 2
+send	data	#199	winSize = 2
+send	data	#200	winSize = 2
+recv	ack	#199
+recv	ack	#200
+****************************************
+base = 201 cwnd = 3
+send	data	#201	winSize = 3
+send	data	#202	winSize = 3
+send	data	#203	winSize = 3
+recv	ack	#201
+recv	ack	#202
+recv	ack	#203
+****************************************
+base = 204 cwnd = 4
+send	data	#204	winSize = 4
+send	data	#205	winSize = 4
+send	data	#206	winSize = 4
+send	data	#207	winSize = 4
+recv	ack	#204
+recv	ack	#205
+recv	ack	#206
+recv	ack	#207
+****************************************
+base = 208 cwnd = 5
+send	data	#208	winSize = 5
+send	data	#209	winSize = 5
+send	data	#210	winSize = 5
+send	data	#211	winSize = 5
+send	data	#212	winSize = 5
+recv	ack	#209
+recv	ack	#210
+recv	ack	#211
+recv	ack	#212
+time out	threshold = 2
+****************************************
+base = 208 cwnd = 1
+resnd	data	#208	winSize = 1
+recv	ack	#208
+****************************************
+base = 209 cwnd = 2
+resnd	data	#209	winSize = 2
+resnd	data	#210	winSize = 2
+recv	ack	#209
+recv	ack	#210
+****************************************
+base = 211 cwnd = 3
+resnd	data	#211	winSize = 3
+resnd	data	#212	winSize = 3
+send	data	#213	winSize = 3
+recv	ack	#211
+recv	ack	#212
+recv	ack	#213
+****************************************
+base = 214 cwnd = 4
+send	data	#214	winSize = 4
+send	data	#215	winSize = 4
+send	data	#216	winSize = 4
+send	data	#217	winSize = 4
+recv	ack	#214
+recv	ack	#215
+recv	ack	#216
+recv	ack	#217
+****************************************
+base = 218 cwnd = 5
+send	data	#218	winSize = 5
+send	data	#219	winSize = 5
+send	data	#220	winSize = 5
+send	data	#221	winSize = 5
+send	data	#222	winSize = 5
+recv	ack	#218
+recv	ack	#219
+recv	ack	#220
+recv	ack	#221
+time out	threshold = 2
+****************************************
+base = 222 cwnd = 1
+resnd	data	#222	winSize = 1
+recv	ack	#222
+****************************************
+base = 223 cwnd = 2
+send	data	#223	winSize = 2
+send	data	#224	winSize = 2
+recv	ack	#223
+recv	ack	#224
+****************************************
+base = 225 cwnd = 3
+send	data	#225	winSize = 3
+send	data	#226	winSize = 3
+send	data	#227	winSize = 3
+recv	ack	#226
+recv	ack	#227
+time out	threshold = 1
+****************************************
+base = 225 cwnd = 1
+resnd	data	#225	winSize = 1
+recv	ack	#225
+****************************************
+base = 226 cwnd = 2
+resnd	data	#226	winSize = 2
+resnd	data	#227	winSize = 2
+recv	ack	#226
+recv	ack	#227
+****************************************
+base = 228 cwnd = 3
+send	data	#228	winSize = 3
+send	data	#229	winSize = 3
+send	data	#230	winSize = 3
+recv	ack	#228
+recv	ack	#229
+recv	ack	#230
+****************************************
+base = 231 cwnd = 4
+send	data	#231	winSize = 4
+send	data	#232	winSize = 4
+send	data	#233	winSize = 4
+send	data	#234	winSize = 4
+recv	ack	#231
+recv	ack	#232
+recv	ack	#233
+recv	ack	#234
+****************************************
+base = 235 cwnd = 5
+send	data	#235	winSize = 5
+send	data	#236	winSize = 5
+send	data	#237	winSize = 5
+send	data	#238	winSize = 5
+send	data	#239	winSize = 5
+recv	ack	#235
+recv	ack	#236
+recv	ack	#237
+recv	ack	#238
+recv	ack	#239
+****************************************
+base = 240 cwnd = 6
+send	data	#240	winSize = 6
+send	data	#241	winSize = 6
+send	data	#242	winSize = 6
+send	data	#243	winSize = 6
+send	data	#244	winSize = 6
+send	data	#245	winSize = 6
+recv	ack	#240
+recv	ack	#241
+recv	ack	#242
+recv	ack	#243
+recv	ack	#245
+time out	threshold = 3
+****************************************
+base = 244 cwnd = 1
+resnd	data	#244	winSize = 1
+recv	ack	#244
+****************************************
+base = 245 cwnd = 2
+resnd	data	#245	winSize = 2
+send	data	#246	winSize = 2
+recv	ack	#245
+recv	ack	#246
+****************************************
+base = 247 cwnd = 4
+send	data	#247	winSize = 4
+send	data	#248	winSize = 4
+send	data	#249	winSize = 4
+send	data	#250	winSize = 4
+recv	ack	#247
+recv	ack	#248
+recv	ack	#249
+recv	ack	#250
+****************************************
+base = 251 cwnd = 5
+send	data	#251	winSize = 5
+send	data	#252	winSize = 5
+send	data	#253	winSize = 5
+send	data	#254	winSize = 5
+send	data	#255	winSize = 5
+recv	ack	#251
+recv	ack	#253
+recv	ack	#255
+time out	threshold = 2
+****************************************
+base = 252 cwnd = 1
+resnd	data	#252	winSize = 1
+recv	ack	#252
+****************************************
+base = 253 cwnd = 2
+resnd	data	#253	winSize = 2
+resnd	data	#254	winSize = 2
+recv	ack	#253
+time out	threshold = 1
+****************************************
+base = 254 cwnd = 1
+resnd	data	#254	winSize = 1
+recv	ack	#254
+****************************************
+base = 255 cwnd = 2
+resnd	data	#255	winSize = 2
+send	data	#256	winSize = 2
+recv	ack	#255
+recv	ack	#256
+****************************************
+base = 257 cwnd = 3
+send	data	#257	winSize = 3
+send	data	#258	winSize = 3
+send	data	#259	winSize = 3
+time out	threshold = 1
+****************************************
+base = 257 cwnd = 1
+resnd	data	#257	winSize = 1
+recv	ack	#257
+****************************************
+base = 258 cwnd = 2
+resnd	data	#258	winSize = 2
+resnd	data	#259	winSize = 2
+recv	ack	#258
+recv	ack	#259
+****************************************
+base = 260 cwnd = 3
+send	data	#260	winSize = 3
+send	data	#261	winSize = 3
+send	data	#262	winSize = 3
+recv	ack	#260
+recv	ack	#261
+time out	threshold = 1
+****************************************
+base = 262 cwnd = 1
+resnd	data	#262	winSize = 1
+recv	ack	#262
+****************************************
+base = 263 cwnd = 2
+send	data	#263	winSize = 2
+send	data	#264	winSize = 2
+recv	ack	#263
+recv	ack	#264
+****************************************
+base = 265 cwnd = 3
+send	data	#265	winSize = 3
+send	data	#266	winSize = 3
+send	data	#267	winSize = 3
+recv	ack	#265
+recv	ack	#266
+recv	ack	#267
+****************************************
+base = 268 cwnd = 4
+send	data	#268	winSize = 4
+send	data	#269	winSize = 4
+send	data	#270	winSize = 4
+send	data	#271	winSize = 4
+recv	ack	#268
+recv	ack	#269
+recv	ack	#270
+recv	ack	#271
+****************************************
+base = 272 cwnd = 5
+send	data	#272	winSize = 5
+send	data	#273	winSize = 5
+send	data	#274	winSize = 5
+send	data	#275	winSize = 5
+send	data	#276	winSize = 5
+recv	ack	#272
+recv	ack	#273
+recv	ack	#274
+recv	ack	#275
+recv	ack	#276
+****************************************
+base = 277 cwnd = 6
+send	data	#277	winSize = 6
+send	data	#278	winSize = 6
+send	data	#279	winSize = 6
+send	data	#280	winSize = 6
+send	data	#281	winSize = 6
+send	data	#282	winSize = 6
+recv	ack	#277
+recv	ack	#278
+recv	ack	#279
+recv	ack	#280
+recv	ack	#281
+time out	threshold = 3
+****************************************
+base = 282 cwnd = 1
+resnd	data	#282	winSize = 1
+recv	ack	#282
+****************************************
+base = 283 cwnd = 2
+send	data	#283	winSize = 2
+send	data	#284	winSize = 2
+recv	ack	#283
+recv	ack	#284
+****************************************
+base = 285 cwnd = 4
+send	data	#285	winSize = 4
+send	data	#286	winSize = 4
+send	data	#287	winSize = 4
+send	data	#288	winSize = 4
+recv	ack	#285
+recv	ack	#286
+recv	ack	#288
+time out	threshold = 2
+****************************************
+base = 287 cwnd = 1
+resnd	data	#287	winSize = 1
+recv	ack	#287
+****************************************
+base = 288 cwnd = 2
+resnd	data	#288	winSize = 2
+send	data	#289	winSize = 2
+recv	ack	#288
+time out	threshold = 1
+****************************************
+base = 289 cwnd = 1
+resnd	data	#289	winSize = 1
+recv	ack	#289
+****************************************
+base = 290 cwnd = 2
+send	data	#290	winSize = 2
+send	data	#291	winSize = 2
+recv	ack	#290
+recv	ack	#291
+****************************************
+base = 292 cwnd = 3
+send	data	#292	winSize = 3
+send	data	#293	winSize = 3
+send	data	#294	winSize = 3
+recv	ack	#292
+recv	ack	#293
+recv	ack	#294
+****************************************
+base = 295 cwnd = 4
+send	data	#295	winSize = 4
+send	data	#296	winSize = 4
+send	data	#297	winSize = 4
+send	data	#298	winSize = 4
+recv	ack	#295
+recv	ack	#296
+recv	ack	#297
+time out	threshold = 2
+****************************************
+base = 298 cwnd = 1
+resnd	data	#298	winSize = 1
+time out	threshold = 1
+****************************************
+base = 298 cwnd = 1
+resnd	data	#298	winSize = 1
+recv	ack	#298
+****************************************
+base = 299 cwnd = 2
+send	data	#299	winSize = 2
+send	data	#300	winSize = 2
+recv	ack	#300
+time out	threshold = 1
+****************************************
+base = 299 cwnd = 1
+resnd	data	#299	winSize = 1
+time out	threshold = 1
+****************************************
+base = 299 cwnd = 1
+resnd	data	#299	winSize = 1
+recv	ack	#299
+****************************************
+base = 300 cwnd = 2
+resnd	data	#300	winSize = 2
+send	data	#301	winSize = 2
+recv	ack	#300
+recv	ack	#301
+****************************************
+base = 302 cwnd = 3
+send	data	#302	winSize = 3
+send	data	#303	winSize = 3
+send	data	#304	winSize = 3
+recv	ack	#302
+recv	ack	#303
+recv	ack	#304
+****************************************
+base = 305 cwnd = 4
+send	data	#305	winSize = 4
+send	data	#306	winSize = 4
+send	data	#307	winSize = 4
+send	data	#308	winSize = 4
+recv	ack	#305
+recv	ack	#306
+recv	ack	#307
+recv	ack	#308
+****************************************
+base = 309 cwnd = 5
+send	data	#309	winSize = 5
+send	data	#310	winSize = 5
+send	data	#311	winSize = 5
+send	data	#312	winSize = 5
+send	data	#313	winSize = 5
+recv	ack	#309
+recv	ack	#310
+recv	ack	#311
+recv	ack	#313
+time out	threshold = 2
+****************************************
+base = 312 cwnd = 1
+resnd	data	#312	winSize = 1
+time out	threshold = 1
+****************************************
+base = 312 cwnd = 1
+resnd	data	#312	winSize = 1
+recv	ack	#312
+****************************************
+base = 313 cwnd = 2
+resnd	data	#313	winSize = 2
+send	data	#314	winSize = 2
+recv	ack	#313
+recv	ack	#314
+****************************************
+base = 315 cwnd = 3
+send	data	#315	winSize = 3
+send	data	#316	winSize = 3
+send	data	#317	winSize = 3
+recv	ack	#316
+recv	ack	#317
+time out	threshold = 1
+****************************************
+base = 315 cwnd = 1
+resnd	data	#315	winSize = 1
+recv	ack	#315
+****************************************
+base = 316 cwnd = 2
+resnd	data	#316	winSize = 2
+resnd	data	#317	winSize = 2
+recv	ack	#316
+time out	threshold = 1
+****************************************
+base = 317 cwnd = 1
+resnd	data	#317	winSize = 1
+time out	threshold = 1
+****************************************
+base = 317 cwnd = 1
+resnd	data	#317	winSize = 1
+recv	ack	#317
+****************************************
+base = 318 cwnd = 2
+send	data	#318	winSize = 2
+send	data	#319	winSize = 2
+recv	ack	#318
+time out	threshold = 1
+****************************************
+base = 319 cwnd = 1
+resnd	data	#319	winSize = 1
+recv	ack	#319
+****************************************
+base = 320 cwnd = 2
+send	data	#320	winSize = 2
+send	data	#321	winSize = 2
+time out	threshold = 1
+****************************************
+base = 320 cwnd = 1
+resnd	data	#320	winSize = 1
+recv	ack	#320
+****************************************
+base = 321 cwnd = 2
+resnd	data	#321	winSize = 2
+send	data	#322	winSize = 2
+recv	ack	#322
+time out	threshold = 1
+****************************************
+base = 321 cwnd = 1
+resnd	data	#321	winSize = 1
+recv	ack	#321
+****************************************
+base = 322 cwnd = 2
+resnd	data	#322	winSize = 2
+send	data	#323	winSize = 2
+recv	ack	#322
+recv	ack	#323
+****************************************
+base = 324 cwnd = 3
+send	data	#324	winSize = 3
+send	data	#325	winSize = 3
+send	data	#326	winSize = 3
+recv	ack	#325
+time out	threshold = 1
+****************************************
+base = 324 cwnd = 1
+resnd	data	#324	winSize = 1
+recv	ack	#324
+****************************************
+base = 325 cwnd = 2
+resnd	data	#325	winSize = 2
+resnd	data	#326	winSize = 2
+recv	ack	#325
+time out	threshold = 1
+****************************************
+base = 326 cwnd = 1
+resnd	data	#326	winSize = 1
+recv	ack	#326
+****************************************
+base = 327 cwnd = 2
+send	data	#327	winSize = 2
+send	data	#328	winSize = 2
+recv	ack	#327
+recv	ack	#328
+****************************************
+base = 329 cwnd = 3
+send	data	#329	winSize = 3
+send	data	#330	winSize = 3
+send	data	#331	winSize = 3
+recv	ack	#329
+recv	ack	#330
+recv	ack	#331
+****************************************
+base = 332 cwnd = 4
+send	data	#332	winSize = 4
+send	data	#333	winSize = 4
+send	data	#334	winSize = 4
+send	data	#335	winSize = 4
+recv	ack	#333
+recv	ack	#334
+time out	threshold = 2
+****************************************
+base = 332 cwnd = 1
+resnd	data	#332	winSize = 1
+time out	threshold = 1
+****************************************
+base = 332 cwnd = 1
+resnd	data	#332	winSize = 1
+recv	ack	#332
+****************************************
+base = 333 cwnd = 2
+resnd	data	#333	winSize = 2
+resnd	data	#334	winSize = 2
+time out	threshold = 1
+****************************************
+base = 333 cwnd = 1
+resnd	data	#333	winSize = 1
+recv	ack	#333
+****************************************
+base = 334 cwnd = 2
+resnd	data	#334	winSize = 2
+resnd	data	#335	winSize = 2
+recv	ack	#334
+recv	ack	#335
+****************************************
+base = 336 cwnd = 3
+send	data	#336	winSize = 3
+send	data	#337	winSize = 3
+send	data	#338	winSize = 3
+recv	ack	#336
+recv	ack	#337
+recv	ack	#338
+****************************************
+base = 339 cwnd = 4
+send	data	#339	winSize = 4
+send	data	#340	winSize = 4
+send	data	#341	winSize = 4
+send	data	#342	winSize = 4
+recv	ack	#339
+recv	ack	#340
+recv	ack	#341
+time out	threshold = 2
+****************************************
+base = 342 cwnd = 1
+resnd	data	#342	winSize = 1
+recv	ack	#342
+****************************************
+base = 343 cwnd = 2
+send	data	#343	winSize = 2
+send	data	#344	winSize = 2
+recv	ack	#343
+recv	ack	#344
+****************************************
+base = 345 cwnd = 3
+send	data	#345	winSize = 3
+send	data	#346	winSize = 3
+send	data	#347	winSize = 3
+recv	ack	#346
+recv	ack	#347
+time out	threshold = 1
+****************************************
+base = 345 cwnd = 1
+resnd	data	#345	winSize = 1
+time out	threshold = 1
+****************************************
+base = 345 cwnd = 1
+resnd	data	#345	winSize = 1
+recv	ack	#345
+****************************************
+base = 346 cwnd = 2
+resnd	data	#346	winSize = 2
+resnd	data	#347	winSize = 2
+recv	ack	#346
+recv	ack	#347
+****************************************
+base = 348 cwnd = 3
+send	data	#348	winSize = 3
+send	data	#349	winSize = 3
+send	data	#350	winSize = 3
+recv	ack	#349
+recv	ack	#350
+time out	threshold = 1
+****************************************
+base = 348 cwnd = 1
+resnd	data	#348	winSize = 1
+time out	threshold = 1
+****************************************
+base = 348 cwnd = 1
+resnd	data	#348	winSize = 1
+recv	ack	#348
+****************************************
+base = 349 cwnd = 2
+resnd	data	#349	winSize = 2
+resnd	data	#350	winSize = 2
+recv	ack	#349
+time out	threshold = 1
+****************************************
+base = 350 cwnd = 1
+resnd	data	#350	winSize = 1
+time out	threshold = 1
+****************************************
+base = 350 cwnd = 1
+resnd	data	#350	winSize = 1
+recv	ack	#350
+****************************************
+base = 351 cwnd = 2
+send	data	#351	winSize = 2
+send	data	#352	winSize = 2
+recv	ack	#351
+recv	ack	#352
+****************************************
+base = 353 cwnd = 3
+send	data	#353	winSize = 3
+send	data	#354	winSize = 3
+send	data	#355	winSize = 3
+recv	ack	#354
+recv	ack	#355
+time out	threshold = 1
+****************************************
+base = 353 cwnd = 1
+resnd	data	#353	winSize = 1
+recv	ack	#353
+****************************************
+base = 354 cwnd = 2
+resnd	data	#354	winSize = 2
+resnd	data	#355	winSize = 2
+recv	ack	#354
+recv	ack	#355
+****************************************
+base = 356 cwnd = 3
+send	data	#356	winSize = 3
+send	data	#357	winSize = 3
+send	data	#358	winSize = 3
+recv	ack	#356
+recv	ack	#358
+time out	threshold = 1
+****************************************
+base = 357 cwnd = 1
+resnd	data	#357	winSize = 1
+recv	ack	#357
+****************************************
+base = 358 cwnd = 2
+resnd	data	#358	winSize = 2
+send	data	#359	winSize = 2
+recv	ack	#358
+time out	threshold = 1
+****************************************
+base = 359 cwnd = 1
+resnd	data	#359	winSize = 1
+recv	ack	#359
+****************************************
+base = 360 cwnd = 2
+send	data	#360	winSize = 2
+send	data	#361	winSize = 2
+recv	ack	#360
+recv	ack	#361
+****************************************
+base = 362 cwnd = 3
+send	data	#362	winSize = 3
+send	data	#363	winSize = 3
+send	data	#364	winSize = 3
+recv	ack	#362
+recv	ack	#364
+time out	threshold = 1
+****************************************
+base = 363 cwnd = 1
+resnd	data	#363	winSize = 1
+recv	ack	#363
+****************************************
+base = 364 cwnd = 2
+resnd	data	#364	winSize = 2
+send	data	#365	winSize = 2
+recv	ack	#364
+recv	ack	#365
+****************************************
+base = 366 cwnd = 3
+send	data	#366	winSize = 3
+send	data	#367	winSize = 3
+send	data	#368	winSize = 3
+recv	ack	#366
+recv	ack	#368
+time out	threshold = 1
+****************************************
+base = 367 cwnd = 1
+resnd	data	#367	winSize = 1
+time out	threshold = 1
+****************************************
+base = 367 cwnd = 1
+resnd	data	#367	winSize = 1
+recv	ack	#367
+****************************************
+base = 368 cwnd = 2
+resnd	data	#368	winSize = 2
+send	data	#369	winSize = 2
+recv	ack	#368
+recv	ack	#369
+****************************************
+base = 370 cwnd = 3
+send	data	#370	winSize = 3
+send	data	#371	winSize = 3
+send	data	#372	winSize = 3
+recv	ack	#371
+time out	threshold = 1
+****************************************
+base = 370 cwnd = 1
+resnd	data	#370	winSize = 1
+recv	ack	#370
+****************************************
+base = 371 cwnd = 2
+resnd	data	#371	winSize = 2
+resnd	data	#372	winSize = 2
+recv	ack	#371
+recv	ack	#372
+****************************************
+base = 373 cwnd = 3
+send	data	#373	winSize = 3
+send	data	#374	winSize = 3
+send	data	#375	winSize = 3
+recv	ack	#373
+recv	ack	#374
+time out	threshold = 1
+****************************************
+base = 375 cwnd = 1
+resnd	data	#375	winSize = 1
+recv	ack	#375
+****************************************
+base = 376 cwnd = 2
+send	data	#376	winSize = 2
+send	data	#377	winSize = 2
+recv	ack	#376
+recv	ack	#377
+****************************************
+base = 378 cwnd = 3
+send	data	#378	winSize = 3
+send	data	#379	winSize = 3
+send	data	#380	winSize = 3
+recv	ack	#378
+recv	ack	#379
+recv	ack	#380
+****************************************
+base = 381 cwnd = 4
+send	data	#381	winSize = 4
+send	data	#382	winSize = 4
+send	data	#383	winSize = 4
+send	data	#384	winSize = 4
+recv	ack	#381
+recv	ack	#382
+recv	ack	#383
+recv	ack	#384
+****************************************
+base = 385 cwnd = 5
+send	data	#385	winSize = 5
+send	data	#386	winSize = 5
+send	data	#387	winSize = 5
+send	data	#388	winSize = 5
+send	data	#389	winSize = 5
+recv	ack	#386
+recv	ack	#387
+recv	ack	#388
+time out	threshold = 2
+****************************************
+base = 385 cwnd = 1
+resnd	data	#385	winSize = 1
+recv	ack	#385
+****************************************
+base = 386 cwnd = 2
+resnd	data	#386	winSize = 2
+resnd	data	#387	winSize = 2
+recv	ack	#386
+recv	ack	#387
+****************************************
+base = 388 cwnd = 3
+resnd	data	#388	winSize = 3
+resnd	data	#389	winSize = 3
+send	data	#390	winSize = 3
+recv	ack	#388
+recv	ack	#390
+time out	threshold = 1
+****************************************
+base = 389 cwnd = 1
+resnd	data	#389	winSize = 1
+recv	ack	#389
+****************************************
+base = 390 cwnd = 2
+resnd	data	#390	winSize = 2
+send	data	#391	winSize = 2
+recv	ack	#390
+recv	ack	#391
+****************************************
+base = 392 cwnd = 3
+send	data	#392	winSize = 3
+send	data	#393	winSize = 3
+send	data	#394	winSize = 3
+recv	ack	#392
+recv	ack	#393
+time out	threshold = 1
+****************************************
+base = 394 cwnd = 1
+resnd	data	#394	winSize = 1
+recv	ack	#394
+****************************************
+base = 395 cwnd = 2
+send	data	#395	winSize = 2
+send	data	#396	winSize = 2
+recv	ack	#395
+recv	ack	#396
+****************************************
+base = 397 cwnd = 3
+send	data	#397	winSize = 3
+send	data	#398	winSize = 3
+send	data	#399	winSize = 3
+recv	ack	#397
+recv	ack	#398
+recv	ack	#399
+****************************************
+base = 400 cwnd = 4
+send	data	#400	winSize = 4
+send	data	#401	winSize = 4
+send	data	#402	winSize = 4
+send	data	#403	winSize = 4
+recv	ack	#400
+recv	ack	#402
+recv	ack	#403
+time out	threshold = 2
+****************************************
+base = 401 cwnd = 1
+resnd	data	#401	winSize = 1
+recv	ack	#401
+****************************************
+base = 402 cwnd = 2
+resnd	data	#402	winSize = 2
+resnd	data	#403	winSize = 2
+recv	ack	#402
+recv	ack	#403
+****************************************
+base = 404 cwnd = 3
+send	data	#404	winSize = 3
+send	data	#405	winSize = 3
+send	data	#406	winSize = 3
+recv	ack	#404
+recv	ack	#405
+time out	threshold = 1
+****************************************
+base = 406 cwnd = 1
+resnd	data	#406	winSize = 1
+recv	ack	#406
+****************************************
+base = 407 cwnd = 2
+send	data	#407	winSize = 2
+send	data	#408	winSize = 2
+recv	ack	#407
+recv	ack	#408
+****************************************
+base = 409 cwnd = 3
+send	data	#409	winSize = 3
+send	data	#410	winSize = 3
+send	data	#411	winSize = 3
+recv	ack	#409
+recv	ack	#410
+recv	ack	#411
+****************************************
+base = 412 cwnd = 4
+send	data	#412	winSize = 4
+send	data	#413	winSize = 4
+send	data	#414	winSize = 4
+send	data	#415	winSize = 4
+recv	ack	#412
+recv	ack	#413
+recv	ack	#415
+time out	threshold = 2
+****************************************
+base = 414 cwnd = 1
+resnd	data	#414	winSize = 1
+recv	ack	#414
+****************************************
+base = 415 cwnd = 2
+resnd	data	#415	winSize = 2
+send	data	#416	winSize = 2
+recv	ack	#415
+recv	ack	#416
+****************************************
+base = 417 cwnd = 3
+send	data	#417	winSize = 3
+send	data	#418	winSize = 3
+send	data	#419	winSize = 3
+recv	ack	#419
+time out	threshold = 1
+****************************************
+base = 417 cwnd = 1
+resnd	data	#417	winSize = 1
+recv	ack	#417
+****************************************
+base = 418 cwnd = 2
+resnd	data	#418	winSize = 2
+resnd	data	#419	winSize = 2
+recv	ack	#418
+recv	ack	#419
+****************************************
+base = 420 cwnd = 3
+send	data	#420	winSize = 3
+send	data	#421	winSize = 3
+send	data	#422	winSize = 3
+recv	ack	#420
+recv	ack	#422
+time out	threshold = 1
+****************************************
+base = 421 cwnd = 1
+resnd	data	#421	winSize = 1
+recv	ack	#421
+****************************************
+base = 422 cwnd = 2
+resnd	data	#422	winSize = 2
+send	data	#423	winSize = 2
+recv	ack	#422
+recv	ack	#423
+****************************************
+base = 424 cwnd = 3
+send	data	#424	winSize = 3
+send	data	#425	winSize = 3
+send	data	#426	winSize = 3
+recv	ack	#424
+recv	ack	#425
+recv	ack	#426
+****************************************
+base = 427 cwnd = 4
+send	data	#427	winSize = 4
+send	data	#428	winSize = 4
+send	data	#429	winSize = 4
+send	data	#430	winSize = 4
+recv	ack	#427
+recv	ack	#429
+recv	ack	#430
+time out	threshold = 2
+****************************************
+base = 428 cwnd = 1
+resnd	data	#428	winSize = 1
+recv	ack	#428
+****************************************
+base = 429 cwnd = 2
+resnd	data	#429	winSize = 2
+resnd	data	#430	winSize = 2
+recv	ack	#430
+time out	threshold = 1
+****************************************
+base = 429 cwnd = 1
+resnd	data	#429	winSize = 1
+recv	ack	#429
+****************************************
+base = 430 cwnd = 2
+resnd	data	#430	winSize = 2
+send	data	#431	winSize = 2
+recv	ack	#430
+recv	ack	#431
+****************************************
+base = 432 cwnd = 3
+send	data	#432	winSize = 3
+send	data	#433	winSize = 3
+send	data	#434	winSize = 3
+recv	ack	#432
+recv	ack	#433
+recv	ack	#434
+****************************************
+base = 435 cwnd = 4
+send	data	#435	winSize = 4
+send	data	#436	winSize = 4
+send	data	#437	winSize = 4
+send	data	#438	winSize = 4
+recv	ack	#435
+recv	ack	#437
+recv	ack	#438
+time out	threshold = 2
+****************************************
+base = 436 cwnd = 1
+resnd	data	#436	winSize = 1
+recv	ack	#436
+****************************************
+base = 437 cwnd = 2
+resnd	data	#437	winSize = 2
+resnd	data	#438	winSize = 2
+recv	ack	#437
+recv	ack	#438
+****************************************
+base = 439 cwnd = 3
+send	data	#439	winSize = 3
+send	data	#440	winSize = 3
+send	data	#441	winSize = 3
+recv	ack	#440
+recv	ack	#441
+time out	threshold = 1
+****************************************
+base = 439 cwnd = 1
+resnd	data	#439	winSize = 1
+recv	ack	#439
+****************************************
+base = 440 cwnd = 2
+resnd	data	#440	winSize = 2
+resnd	data	#441	winSize = 2
+recv	ack	#440
+time out	threshold = 1
+****************************************
+base = 441 cwnd = 1
+resnd	data	#441	winSize = 1
+time out	threshold = 1
+****************************************
+base = 441 cwnd = 1
+resnd	data	#441	winSize = 1
+recv	ack	#441
+****************************************
+base = 442 cwnd = 2
+send	data	#442	winSize = 2
+send	data	#443	winSize = 2
+recv	ack	#442
+recv	ack	#443
+****************************************
+base = 444 cwnd = 3
+send	data	#444	winSize = 3
+send	data	#445	winSize = 3
+send	data	#446	winSize = 3
+recv	ack	#444
+recv	ack	#445
+recv	ack	#446
+****************************************
+base = 447 cwnd = 4
+send	data	#447	winSize = 4
+send	data	#448	winSize = 4
+send	data	#449	winSize = 4
+send	data	#450	winSize = 4
+recv	ack	#447
+recv	ack	#448
+recv	ack	#450
+time out	threshold = 2
+****************************************
+base = 449 cwnd = 1
+resnd	data	#449	winSize = 1
+recv	ack	#449
+****************************************
+base = 450 cwnd = 2
+resnd	data	#450	winSize = 2
+send	data	#451	winSize = 2
+recv	ack	#450
+recv	ack	#451
+****************************************
+base = 452 cwnd = 3
+send	data	#452	winSize = 3
+send	data	#453	winSize = 3
+send	data	#454	winSize = 3
+recv	ack	#452
+recv	ack	#454
+time out	threshold = 1
+****************************************
+base = 453 cwnd = 1
+resnd	data	#453	winSize = 1
+time out	threshold = 1
+****************************************
+base = 453 cwnd = 1
+resnd	data	#453	winSize = 1
+recv	ack	#453
+****************************************
+base = 454 cwnd = 2
+resnd	data	#454	winSize = 2
+send	data	#455	winSize = 2
+recv	ack	#454
+recv	ack	#455
+****************************************
+base = 456 cwnd = 3
+send	data	#456	winSize = 3
+send	data	#457	winSize = 3
+send	data	#458	winSize = 3
+recv	ack	#456
+recv	ack	#457
+recv	ack	#458
+****************************************
+base = 459 cwnd = 4
+send	data	#459	winSize = 4
+send	data	#460	winSize = 4
+send	data	#461	winSize = 4
+send	data	#462	winSize = 4
+recv	ack	#459
+recv	ack	#460
+recv	ack	#461
+recv	ack	#462
+****************************************
+base = 463 cwnd = 5
+send	data	#463	winSize = 5
+send	data	#464	winSize = 5
+send	data	#465	winSize = 5
+send	data	#466	winSize = 5
+send	data	#467	winSize = 5
+recv	ack	#463
+recv	ack	#464
+recv	ack	#465
+recv	ack	#466
+recv	ack	#467
+****************************************
+base = 468 cwnd = 6
+send	data	#468	winSize = 6
+send	data	#469	winSize = 6
+send	data	#470	winSize = 6
+send	data	#471	winSize = 6
+send	data	#472	winSize = 6
+send	data	#473	winSize = 6
+recv	ack	#468
+recv	ack	#469
+recv	ack	#470
+recv	ack	#471
+recv	ack	#472
+recv	ack	#473
+****************************************
+base = 474 cwnd = 7
+send	data	#474	winSize = 7
+send	data	#475	winSize = 7
+send	data	#476	winSize = 7
+send	data	#477	winSize = 7
+send	data	#478	winSize = 7
+send	data	#479	winSize = 7
+send	data	#480	winSize = 7
+recv	ack	#474
+recv	ack	#475
+recv	ack	#476
+recv	ack	#477
+recv	ack	#478
+recv	ack	#479
+recv	ack	#480
+****************************************
+base = 481 cwnd = 8
+send	data	#481	winSize = 8
+send	data	#482	winSize = 8
+send	data	#483	winSize = 8
+send	data	#484	winSize = 8
+send	data	#485	winSize = 8
+send	data	#486	winSize = 8
+send	data	#487	winSize = 8
+send	data	#488	winSize = 8
+recv	ack	#483
+recv	ack	#485
+recv	ack	#486
+recv	ack	#487
+recv	ack	#488
+time out	threshold = 4
+****************************************
+base = 481 cwnd = 1
+resnd	data	#481	winSize = 1
+recv	ack	#481
+****************************************
+base = 482 cwnd = 2
+resnd	data	#482	winSize = 2
+resnd	data	#483	winSize = 2
+recv	ack	#482
+recv	ack	#483
+****************************************
+base = 484 cwnd = 4
+resnd	data	#484	winSize = 4
+resnd	data	#485	winSize = 4
+resnd	data	#486	winSize = 4
+resnd	data	#487	winSize = 4
+recv	ack	#484
+recv	ack	#485
+recv	ack	#486
+recv	ack	#487
+****************************************
+base = 488 cwnd = 5
+resnd	data	#488	winSize = 5
+send	data	#489	winSize = 5
+send	data	#490	winSize = 5
+send	data	#491	winSize = 5
+send	data	#492	winSize = 5
+recv	ack	#488
+recv	ack	#489
+recv	ack	#490
+recv	ack	#491
+recv	ack	#492
+****************************************
+base = 493 cwnd = 6
+send	data	#493	winSize = 6
+send	data	#494	winSize = 6
+send	data	#495	winSize = 6
+send	data	#496	winSize = 6
+send	data	#497	winSize = 6
+send	data	#498	winSize = 6
+recv	ack	#493
+recv	ack	#494
+recv	ack	#496
+recv	ack	#498
+time out	threshold = 3
+****************************************
+base = 495 cwnd = 1
+resnd	data	#495	winSize = 1
+recv	ack	#495
+****************************************
+base = 496 cwnd = 2
+resnd	data	#496	winSize = 2
+resnd	data	#497	winSize = 2
+time out	threshold = 1
+****************************************
+base = 496 cwnd = 1
+resnd	data	#496	winSize = 1
+recv	ack	#496
+****************************************
+base = 497 cwnd = 2
+resnd	data	#497	winSize = 2
+resnd	data	#498	winSize = 2
+recv	ack	#497
+recv	ack	#498
+****************************************
+base = 499 cwnd = 3
+send	data	#499	winSize = 3
+send	data	#500	winSize = 3
+send	data	#501	winSize = 3
+recv	ack	#499
+recv	ack	#501
+time out	threshold = 1
+****************************************
+base = 500 cwnd = 1
+resnd	data	#500	winSize = 1
+recv	ack	#500
+****************************************
+base = 501 cwnd = 2
+resnd	data	#501	winSize = 2
+send	data	#502	winSize = 2
+recv	ack	#501
+recv	ack	#502
+****************************************
+base = 503 cwnd = 3
+send	data	#503	winSize = 3
+send	data	#504	winSize = 3
+send	data	#505	winSize = 3
+recv	ack	#504
+recv	ack	#505
+time out	threshold = 1
+****************************************
+base = 503 cwnd = 1
+resnd	data	#503	winSize = 1
+recv	ack	#503
+****************************************
+base = 504 cwnd = 2
+resnd	data	#504	winSize = 2
+resnd	data	#505	winSize = 2
+recv	ack	#505
+time out	threshold = 1
+****************************************
+base = 504 cwnd = 1
+resnd	data	#504	winSize = 1
+recv	ack	#504
+****************************************
+base = 505 cwnd = 2
+resnd	data	#505	winSize = 2
+send	data	#506	winSize = 2
+recv	ack	#505
+time out	threshold = 1
+****************************************
+base = 506 cwnd = 1
+resnd	data	#506	winSize = 1
+recv	ack	#506
+****************************************
+base = 507 cwnd = 2
+send	data	#507	winSize = 2
+send	data	#508	winSize = 2
+recv	ack	#508
+time out	threshold = 1
+****************************************
+base = 507 cwnd = 1
+resnd	data	#507	winSize = 1
+time out	threshold = 1
+****************************************
+base = 507 cwnd = 1
+resnd	data	#507	winSize = 1
+recv	ack	#507
+****************************************
+base = 508 cwnd = 2
+resnd	data	#508	winSize = 2
+send	data	#509	winSize = 2
+recv	ack	#508
+recv	ack	#509
+****************************************
+base = 510 cwnd = 3
+send	data	#510	winSize = 3
+send	data	#511	winSize = 3
+send	data	#512	winSize = 3
+recv	ack	#511
+recv	ack	#512
+time out	threshold = 1
+****************************************
+base = 510 cwnd = 1
+resnd	data	#510	winSize = 1
+recv	ack	#510
+****************************************
+base = 511 cwnd = 2
+resnd	data	#511	winSize = 2
+resnd	data	#512	winSize = 2
+recv	ack	#511
+recv	ack	#512
+****************************************
+base = 513 cwnd = 3
+send	data	#513	winSize = 3
+send	data	#514	winSize = 3
+send	data	#515	winSize = 3
+recv	ack	#514
+recv	ack	#515
+time out	threshold = 1
+****************************************
+base = 513 cwnd = 1
+resnd	data	#513	winSize = 1
+recv	ack	#513
+****************************************
+base = 514 cwnd = 2
+resnd	data	#514	winSize = 2
+resnd	data	#515	winSize = 2
+recv	ack	#514
+recv	ack	#515
+****************************************
+base = 516 cwnd = 3
+send	data	#516	winSize = 3
+send	data	#517	winSize = 3
+send	data	#518	winSize = 3
+recv	ack	#516
+time out	threshold = 1
+****************************************
+base = 517 cwnd = 1
+resnd	data	#517	winSize = 1
+recv	ack	#517
+****************************************
+base = 518 cwnd = 2
+resnd	data	#518	winSize = 2
+send	data	#519	winSize = 2
+recv	ack	#518
+recv	ack	#519
+****************************************
+base = 520 cwnd = 3
+send	data	#520	winSize = 3
+send	data	#521	winSize = 3
+send	data	#522	winSize = 3
+recv	ack	#520
+recv	ack	#522
+time out	threshold = 1
+****************************************
+base = 521 cwnd = 1
+resnd	data	#521	winSize = 1
+recv	ack	#521
+****************************************
+base = 522 cwnd = 2
+resnd	data	#522	winSize = 2
+send	data	#523	winSize = 2
+recv	ack	#522
+recv	ack	#523
+****************************************
+base = 524 cwnd = 3
+send	data	#524	winSize = 3
+send	data	#525	winSize = 3
+send	data	#526	winSize = 3
+recv	ack	#524
+recv	ack	#525
+recv	ack	#526
+****************************************
+base = 527 cwnd = 4
+send	data	#527	winSize = 4
+send	data	#528	winSize = 4
+send	data	#529	winSize = 4
+send	data	#530	winSize = 4
+recv	ack	#527
+recv	ack	#528
+recv	ack	#529
+recv	ack	#530
+****************************************
+base = 531 cwnd = 5
+send	data	#531	winSize = 5
+send	data	#532	winSize = 5
+send	data	#533	winSize = 5
+send	data	#534	winSize = 5
+send	data	#535	winSize = 5
+recv	ack	#531
+recv	ack	#532
+recv	ack	#533
+recv	ack	#534
+recv	ack	#535
+****************************************
+base = 536 cwnd = 6
+send	data	#536	winSize = 6
+send	data	#537	winSize = 6
+send	data	#538	winSize = 6
+send	data	#539	winSize = 6
+send	data	#540	winSize = 6
+send	data	#541	winSize = 6
+recv	ack	#536
+recv	ack	#537
+recv	ack	#538
+recv	ack	#539
+recv	ack	#540
+recv	ack	#541
+****************************************
+base = 542 cwnd = 7
+send	data	#542	winSize = 7
+send	data	#543	winSize = 7
+send	data	#544	winSize = 7
+send	data	#545	winSize = 7
+send	data	#546	winSize = 7
+send	data	#547	winSize = 7
+send	data	#548	winSize = 7
+recv	ack	#542
+recv	ack	#543
+recv	ack	#544
+recv	ack	#546
+recv	ack	#547
+recv	ack	#548
+time out	threshold = 3
+****************************************
+base = 545 cwnd = 1
+resnd	data	#545	winSize = 1
+recv	ack	#545
+****************************************
+base = 546 cwnd = 2
+resnd	data	#546	winSize = 2
+resnd	data	#547	winSize = 2
+recv	ack	#546
+recv	ack	#547
+****************************************
+base = 548 cwnd = 4
+resnd	data	#548	winSize = 4
+send	data	#549	winSize = 4
+send	data	#550	winSize = 4
+send	data	#551	winSize = 4
+recv	ack	#548
+recv	ack	#549
+recv	ack	#550
+time out	threshold = 2
+****************************************
+base = 551 cwnd = 1
+resnd	data	#551	winSize = 1
+recv	ack	#551
+****************************************
+base = 552 cwnd = 2
+send	data	#552	winSize = 2
+send	data	#553	winSize = 2
+recv	ack	#552
+recv	ack	#553
+****************************************
+base = 554 cwnd = 3
+send	data	#554	winSize = 3
+send	data	#555	winSize = 3
+send	data	#556	winSize = 3
+recv	ack	#556
+time out	threshold = 1
+****************************************
+base = 554 cwnd = 1
+resnd	data	#554	winSize = 1
+recv	ack	#554
+****************************************
+base = 555 cwnd = 2
+resnd	data	#555	winSize = 2
+resnd	data	#556	winSize = 2
+recv	ack	#556
+time out	threshold = 1
+****************************************
+base = 555 cwnd = 1
+resnd	data	#555	winSize = 1
+recv	ack	#555
+****************************************
+base = 556 cwnd = 2
+resnd	data	#556	winSize = 2
+send	data	#557	winSize = 2
+recv	ack	#556
+recv	ack	#557
+****************************************
+base = 558 cwnd = 3
+send	data	#558	winSize = 3
+send	data	#559	winSize = 3
+send	data	#560	winSize = 3
+recv	ack	#558
+recv	ack	#559
+recv	ack	#560
+****************************************
+base = 561 cwnd = 4
+send	data	#561	winSize = 4
+send	data	#562	winSize = 4
+send	data	#563	winSize = 4
+send	data	#564	winSize = 4
+recv	ack	#561
+recv	ack	#562
+recv	ack	#563
+recv	ack	#564
+****************************************
+base = 565 cwnd = 5
+send	data	#565	winSize = 5
+send	data	#566	winSize = 5
+send	data	#567	winSize = 5
+send	data	#568	winSize = 5
+send	data	#569	winSize = 5
+recv	ack	#565
+recv	ack	#567
+recv	ack	#569
+time out	threshold = 2
+****************************************
+base = 566 cwnd = 1
+resnd	data	#566	winSize = 1
+recv	ack	#566
+****************************************
+base = 567 cwnd = 2
+resnd	data	#567	winSize = 2
+resnd	data	#568	winSize = 2
+recv	ack	#567
+recv	ack	#568
+****************************************
+base = 569 cwnd = 3
+resnd	data	#569	winSize = 3
+send	data	#570	winSize = 3
+send	data	#571	winSize = 3
+recv	ack	#569
+recv	ack	#570
+recv	ack	#571
+****************************************
+base = 572 cwnd = 4
+send	data	#572	winSize = 4
+send	data	#573	winSize = 4
+send	data	#574	winSize = 4
+send	data	#575	winSize = 4
+recv	ack	#572
+recv	ack	#573
+recv	ack	#575
+time out	threshold = 2
+****************************************
+base = 574 cwnd = 1
+resnd	data	#574	winSize = 1
+recv	ack	#574
+****************************************
+base = 575 cwnd = 2
+resnd	data	#575	winSize = 2
+send	data	#576	winSize = 2
+recv	ack	#575
+time out	threshold = 1
+****************************************
+base = 576 cwnd = 1
+resnd	data	#576	winSize = 1
+recv	ack	#576
+****************************************
+base = 577 cwnd = 2
+send	data	#577	winSize = 2
+send	data	#578	winSize = 2
+time out	threshold = 1
+****************************************
+base = 577 cwnd = 1
+resnd	data	#577	winSize = 1
+recv	ack	#577
+****************************************
+base = 578 cwnd = 2
+resnd	data	#578	winSize = 2
+send	data	#579	winSize = 2
+time out	threshold = 1
+****************************************
+base = 578 cwnd = 1
+resnd	data	#578	winSize = 1
+recv	ack	#578
+****************************************
+base = 579 cwnd = 2
+resnd	data	#579	winSize = 2
+send	data	#580	winSize = 2
+recv	ack	#579
+recv	ack	#580
+****************************************
+base = 581 cwnd = 3
+send	data	#581	winSize = 3
+send	data	#582	winSize = 3
+send	data	#583	winSize = 3
+recv	ack	#581
+recv	ack	#583
+time out	threshold = 1
+****************************************
+base = 582 cwnd = 1
+resnd	data	#582	winSize = 1
+recv	ack	#582
+****************************************
+base = 583 cwnd = 2
+resnd	data	#583	winSize = 2
+send	data	#584	winSize = 2
+recv	ack	#583
+recv	ack	#584
+****************************************
+base = 585 cwnd = 3
+send	data	#585	winSize = 3
+send	data	#586	winSize = 3
+send	data	#587	winSize = 3
+recv	ack	#585
+recv	ack	#587
+time out	threshold = 1
+****************************************
+base = 586 cwnd = 1
+resnd	data	#586	winSize = 1
+recv	ack	#586
+****************************************
+base = 587 cwnd = 2
+resnd	data	#587	winSize = 2
+send	data	#588	winSize = 2
+recv	ack	#587
+recv	ack	#588
+****************************************
+base = 589 cwnd = 3
+send	data	#589	winSize = 3
+send	data	#590	winSize = 3
+send	data	#591	winSize = 3
+recv	ack	#591
+time out	threshold = 1
+****************************************
+base = 589 cwnd = 1
+resnd	data	#589	winSize = 1
+recv	ack	#589
+****************************************
+base = 590 cwnd = 2
+resnd	data	#590	winSize = 2
+resnd	data	#591	winSize = 2
+recv	ack	#590
+recv	ack	#591
+****************************************
+base = 592 cwnd = 3
+send	data	#592	winSize = 3
+send	data	#593	winSize = 3
+send	data	#594	winSize = 3
+recv	ack	#592
+recv	ack	#593
+time out	threshold = 1
+****************************************
+base = 594 cwnd = 1
+resnd	data	#594	winSize = 1
+recv	ack	#594
+****************************************
+base = 595 cwnd = 2
+send	data	#595	winSize = 2
+send	data	#596	winSize = 2
+recv	ack	#595
+recv	ack	#596
+****************************************
+base = 597 cwnd = 3
+send	data	#597	winSize = 3
+send	data	#598	winSize = 3
+send	data	#599	winSize = 3
+recv	ack	#598
+recv	ack	#599
+time out	threshold = 1
+****************************************
+base = 597 cwnd = 1
+resnd	data	#597	winSize = 1
+recv	ack	#597
+****************************************
+base = 598 cwnd = 2
+resnd	data	#598	winSize = 2
+resnd	data	#599	winSize = 2
+recv	ack	#598
+recv	ack	#599
+****************************************
+base = 600 cwnd = 3
+send	data	#600	winSize = 3
+send	data	#601	winSize = 3
+send	data	#602	winSize = 3
+recv	ack	#600
+recv	ack	#601
+recv	ack	#602
+****************************************
+base = 603 cwnd = 4
+send	data	#603	winSize = 4
+send	data	#604	winSize = 4
+send	data	#605	winSize = 4
+send	data	#606	winSize = 4
+recv	ack	#603
+recv	ack	#604
+recv	ack	#605
+recv	ack	#606
+****************************************
+base = 607 cwnd = 5
+send	data	#607	winSize = 5
+send	data	#608	winSize = 5
+send	data	#609	winSize = 5
+send	data	#610	winSize = 5
+send	data	#611	winSize = 5
+recv	ack	#607
+recv	ack	#608
+recv	ack	#611
+time out	threshold = 2
+****************************************
+base = 609 cwnd = 1
+resnd	data	#609	winSize = 1
+recv	ack	#609
+****************************************
+base = 610 cwnd = 2
+resnd	data	#610	winSize = 2
+resnd	data	#611	winSize = 2
+recv	ack	#610
+recv	ack	#611
+****************************************
+base = 612 cwnd = 3
+send	data	#612	winSize = 3
+send	data	#613	winSize = 3
+send	data	#614	winSize = 3
+recv	ack	#613
+time out	threshold = 1
+****************************************
+base = 612 cwnd = 1
+resnd	data	#612	winSize = 1
+recv	ack	#612
+****************************************
+base = 613 cwnd = 2
+resnd	data	#613	winSize = 2
+resnd	data	#614	winSize = 2
+recv	ack	#613
+recv	ack	#614
+****************************************
+base = 615 cwnd = 3
+send	data	#615	winSize = 3
+send	data	#616	winSize = 3
+send	data	#617	winSize = 3
+recv	ack	#615
+recv	ack	#616
+recv	ack	#617
+****************************************
+base = 618 cwnd = 4
+send	data	#618	winSize = 4
+send	data	#619	winSize = 4
+send	data	#620	winSize = 4
+send	data	#621	winSize = 4
+recv	ack	#618
+recv	ack	#619
+recv	ack	#620
+recv	ack	#621
+****************************************
+base = 622 cwnd = 5
+send	data	#622	winSize = 5
+send	data	#623	winSize = 5
+send	data	#624	winSize = 5
+send	data	#625	winSize = 5
+send	data	#626	winSize = 5
+recv	ack	#622
+recv	ack	#623
+recv	ack	#624
+recv	ack	#625
+time out	threshold = 2
+****************************************
+base = 626 cwnd = 1
+resnd	data	#626	winSize = 1
+recv	ack	#626
+****************************************
+base = 627 cwnd = 2
+send	data	#627	winSize = 2
+send	data	#628	winSize = 2
+recv	ack	#627
+time out	threshold = 1
+****************************************
+base = 628 cwnd = 1
+resnd	data	#628	winSize = 1
+time out	threshold = 1
+****************************************
+base = 628 cwnd = 1
+resnd	data	#628	winSize = 1
+recv	ack	#628
+****************************************
+base = 629 cwnd = 2
+send	data	#629	winSize = 2
+send	data	#630	winSize = 2
+recv	ack	#629
+recv	ack	#630
+****************************************
+base = 631 cwnd = 3
+send	data	#631	winSize = 3
+send	data	#632	winSize = 3
+send	data	#633	winSize = 3
+recv	ack	#633
+time out	threshold = 1
+****************************************
+base = 631 cwnd = 1
+resnd	data	#631	winSize = 1
+recv	ack	#631
+****************************************
+base = 632 cwnd = 2
+resnd	data	#632	winSize = 2
+resnd	data	#633	winSize = 2
+recv	ack	#632
+recv	ack	#633
+****************************************
+base = 634 cwnd = 3
+send	data	#634	winSize = 3
+send	data	#635	winSize = 3
+send	data	#636	winSize = 3
+recv	ack	#634
+recv	ack	#636
+time out	threshold = 1
+****************************************
+base = 635 cwnd = 1
+resnd	data	#635	winSize = 1
+recv	ack	#635
+****************************************
+base = 636 cwnd = 2
+resnd	data	#636	winSize = 2
+send	data	#637	winSize = 2
+recv	ack	#636
+time out	threshold = 1
+****************************************
+base = 637 cwnd = 1
+resnd	data	#637	winSize = 1
+recv	ack	#637
+****************************************
+base = 638 cwnd = 2
+send	data	#638	winSize = 2
+send	data	#639	winSize = 2
+recv	ack	#639
+time out	threshold = 1
+****************************************
+base = 638 cwnd = 1
+resnd	data	#638	winSize = 1
+time out	threshold = 1
+****************************************
+base = 638 cwnd = 1
+resnd	data	#638	winSize = 1
+recv	ack	#638
+****************************************
+base = 639 cwnd = 2
+resnd	data	#639	winSize = 2
+send	data	#640	winSize = 2
+recv	ack	#639
+recv	ack	#640
+****************************************
+base = 641 cwnd = 3
+send	data	#641	winSize = 3
+send	data	#642	winSize = 3
+send	data	#643	winSize = 3
+recv	ack	#642
+recv	ack	#643
+time out	threshold = 1
+****************************************
+base = 641 cwnd = 1
+resnd	data	#641	winSize = 1
+recv	ack	#641
+****************************************
+base = 642 cwnd = 2
+resnd	data	#642	winSize = 2
+resnd	data	#643	winSize = 2
+recv	ack	#642
+recv	ack	#643
+****************************************
+base = 644 cwnd = 3
+send	data	#644	winSize = 3
+send	data	#645	winSize = 3
+send	data	#646	winSize = 3
+recv	ack	#644
+recv	ack	#645
+recv	ack	#646
+****************************************
+base = 647 cwnd = 4
+send	data	#647	winSize = 4
+send	data	#648	winSize = 4
+send	data	#649	winSize = 4
+send	data	#650	winSize = 4
+recv	ack	#647
+recv	ack	#648
+recv	ack	#649
+recv	ack	#650
+****************************************
+base = 651 cwnd = 5
+send	data	#651	winSize = 5
+send	data	#652	winSize = 5
+send	data	#653	winSize = 5
+send	data	#654	winSize = 5
+send	data	#655	winSize = 5
+recv	ack	#652
+recv	ack	#653
+recv	ack	#654
+recv	ack	#655
+time out	threshold = 2
+****************************************
+base = 651 cwnd = 1
+resnd	data	#651	winSize = 1
+recv	ack	#651
+****************************************
+base = 652 cwnd = 2
+resnd	data	#652	winSize = 2
+resnd	data	#653	winSize = 2
+recv	ack	#652
+recv	ack	#653
+****************************************
+base = 654 cwnd = 3
+resnd	data	#654	winSize = 3
+resnd	data	#655	winSize = 3
+send	data	#656	winSize = 3
+recv	ack	#654
+recv	ack	#655
+recv	ack	#656
+****************************************
+base = 657 cwnd = 4
+send	data	#657	winSize = 4
+send	data	#658	winSize = 4
+send	data	#659	winSize = 4
+send	data	#660	winSize = 4
+recv	ack	#657
+recv	ack	#658
+recv	ack	#659
+recv	ack	#660
+****************************************
+base = 661 cwnd = 5
+send	data	#661	winSize = 5
+send	data	#662	winSize = 5
+send	data	#663	winSize = 5
+send	data	#664	winSize = 5
+send	data	#665	winSize = 5
+recv	ack	#661
+recv	ack	#662
+recv	ack	#663
+recv	ack	#664
+recv	ack	#665
+****************************************
+base = 666 cwnd = 6
+send	data	#666	winSize = 6
+send	data	#667	winSize = 6
+send	data	#668	winSize = 6
+send	data	#669	winSize = 6
+send	data	#670	winSize = 6
+send	data	#671	winSize = 6
+recv	ack	#666
+recv	ack	#667
+recv	ack	#668
+recv	ack	#669
+recv	ack	#670
+recv	ack	#671
+****************************************
+base = 672 cwnd = 7
+send	data	#672	winSize = 7
+send	data	#673	winSize = 7
+send	data	#674	winSize = 7
+send	data	#675	winSize = 7
+send	data	#676	winSize = 7
+send	data	#677	winSize = 7
+send	data	#678	winSize = 7
+recv	ack	#672
+recv	ack	#674
+recv	ack	#675
+recv	ack	#676
+time out	threshold = 3
+****************************************
+base = 673 cwnd = 1
+resnd	data	#673	winSize = 1
+time out	threshold = 1
+****************************************
+base = 673 cwnd = 1
+resnd	data	#673	winSize = 1
+recv	ack	#673
+****************************************
+base = 674 cwnd = 2
+resnd	data	#674	winSize = 2
+resnd	data	#675	winSize = 2
+recv	ack	#674
+recv	ack	#675
+****************************************
+base = 676 cwnd = 3
+resnd	data	#676	winSize = 3
+resnd	data	#677	winSize = 3
+resnd	data	#678	winSize = 3
+recv	ack	#676
+time out	threshold = 1
+****************************************
+base = 677 cwnd = 1
+resnd	data	#677	winSize = 1
+recv	ack	#677
+****************************************
+base = 678 cwnd = 2
+resnd	data	#678	winSize = 2
+send	data	#679	winSize = 2
+recv	ack	#679
+time out	threshold = 1
+****************************************
+base = 678 cwnd = 1
+resnd	data	#678	winSize = 1
+recv	ack	#678
+****************************************
+base = 679 cwnd = 2
+resnd	data	#679	winSize = 2
+send	data	#680	winSize = 2
+recv	ack	#680
+time out	threshold = 1
+****************************************
+base = 679 cwnd = 1
+resnd	data	#679	winSize = 1
+recv	ack	#679
+****************************************
+base = 680 cwnd = 2
+resnd	data	#680	winSize = 2
+send	data	#681	winSize = 2
+recv	ack	#680
+recv	ack	#681
+****************************************
+base = 682 cwnd = 3
+send	data	#682	winSize = 3
+send	data	#683	winSize = 3
+send	data	#684	winSize = 3
+recv	ack	#682
+recv	ack	#683
+recv	ack	#684
+****************************************
+base = 685 cwnd = 4
+send	data	#685	winSize = 4
+send	data	#686	winSize = 4
+send	data	#687	winSize = 4
+send	data	#688	winSize = 4
+recv	ack	#685
+recv	ack	#686
+recv	ack	#687
+recv	ack	#688
+****************************************
+base = 689 cwnd = 5
+send	data	#689	winSize = 5
+send	data	#690	winSize = 5
+send	data	#691	winSize = 5
+send	data	#692	winSize = 5
+send	data	#693	winSize = 5
+recv	ack	#689
+recv	ack	#690
+recv	ack	#691
+recv	ack	#692
+time out	threshold = 2
+****************************************
+base = 693 cwnd = 1
+resnd	data	#693	winSize = 1
+recv	ack	#693
+****************************************
+base = 694 cwnd = 2
+send	data	#694	winSize = 2
+send	data	#695	winSize = 2
+recv	ack	#694
+recv	ack	#695
+****************************************
+base = 696 cwnd = 3
+send	data	#696	winSize = 3
+send	data	#697	winSize = 3
+send	data	#698	winSize = 3
+recv	ack	#696
+recv	ack	#697
+recv	ack	#698
+****************************************
+base = 699 cwnd = 4
+send	data	#699	winSize = 4
+send	data	#700	winSize = 4
+send	data	#701	winSize = 4
+send	data	#702	winSize = 4
+recv	ack	#699
+recv	ack	#700
+recv	ack	#701
+recv	ack	#702
+****************************************
+base = 703 cwnd = 5
+send	data	#703	winSize = 5
+send	data	#704	winSize = 5
+send	data	#705	winSize = 5
+send	data	#706	winSize = 5
+send	data	#707	winSize = 5
+recv	ack	#703
+time out	threshold = 2
+****************************************
+base = 704 cwnd = 1
+resnd	data	#704	winSize = 1
+recv	ack	#704
+****************************************
+base = 705 cwnd = 2
+resnd	data	#705	winSize = 2
+resnd	data	#706	winSize = 2
+recv	ack	#706
+time out	threshold = 1
+****************************************
+base = 705 cwnd = 1
+resnd	data	#705	winSize = 1
+recv	ack	#705
+****************************************
+base = 706 cwnd = 2
+resnd	data	#706	winSize = 2
+resnd	data	#707	winSize = 2
+recv	ack	#706
+recv	ack	#707
+****************************************
+base = 708 cwnd = 3
+send	data	#708	winSize = 3
+send	data	#709	winSize = 3
+send	data	#710	winSize = 3
+recv	ack	#708
+recv	ack	#709
+recv	ack	#710
+****************************************
+base = 711 cwnd = 4
+send	data	#711	winSize = 4
+send	data	#712	winSize = 4
+send	data	#713	winSize = 4
+send	data	#714	winSize = 4
+recv	ack	#711
+recv	ack	#712
+recv	ack	#713
+time out	threshold = 2
+****************************************
+base = 714 cwnd = 1
+resnd	data	#714	winSize = 1
+recv	ack	#714
+****************************************
+base = 715 cwnd = 2
+send	data	#715	winSize = 2
+send	data	#716	winSize = 2
+recv	ack	#715
+recv	ack	#716
+****************************************
+base = 717 cwnd = 3
+send	data	#717	winSize = 3
+send	data	#718	winSize = 3
+send	data	#719	winSize = 3
+recv	ack	#717
+recv	ack	#718
+recv	ack	#719
+****************************************
+base = 720 cwnd = 4
+send	data	#720	winSize = 4
+send	data	#721	winSize = 4
+send	data	#722	winSize = 4
+send	data	#723	winSize = 4
+recv	ack	#720
+recv	ack	#721
+recv	ack	#722
+recv	ack	#723
+****************************************
+base = 724 cwnd = 5
+send	data	#724	winSize = 5
+send	data	#725	winSize = 5
+send	data	#726	winSize = 5
+send	data	#727	winSize = 5
+send	data	#728	winSize = 5
+recv	ack	#724
+recv	ack	#725
+recv	ack	#726
+recv	ack	#727
+recv	ack	#728
+****************************************
+base = 729 cwnd = 6
+send	data	#729	winSize = 6
+send	data	#730	winSize = 6
+send	data	#731	winSize = 6
+send	data	#732	winSize = 6
+send	data	#733	winSize = 6
+send	data	#734	winSize = 6
+recv	ack	#729
+recv	ack	#730
+recv	ack	#731
+recv	ack	#732
+recv	ack	#733
+recv	ack	#734
+****************************************
+base = 735 cwnd = 7
+send	data	#735	winSize = 7
+send	data	#736	winSize = 7
+send	data	#737	winSize = 7
+send	data	#738	winSize = 7
+send	data	#739	winSize = 7
+send	data	#740	winSize = 7
+send	data	#741	winSize = 7
+recv	ack	#735
+recv	ack	#736
+recv	ack	#738
+recv	ack	#739
+recv	ack	#740
+recv	ack	#741
+time out	threshold = 3
+****************************************
+base = 737 cwnd = 1
+resnd	data	#737	winSize = 1
+recv	ack	#737
+****************************************
+base = 738 cwnd = 2
+resnd	data	#738	winSize = 2
+resnd	data	#739	winSize = 2
+recv	ack	#738
+recv	ack	#739
+****************************************
+base = 740 cwnd = 4
+resnd	data	#740	winSize = 4
+resnd	data	#741	winSize = 4
+send	data	#742	winSize = 4
+send	data	#743	winSize = 4
+recv	ack	#740
+recv	ack	#741
+recv	ack	#742
+recv	ack	#743
+****************************************
+base = 744 cwnd = 5
+send	data	#744	winSize = 5
+send	data	#745	winSize = 5
+send	data	#746	winSize = 5
+send	data	#747	winSize = 5
+send	data	#748	winSize = 5
+recv	ack	#744
+recv	ack	#745
+recv	ack	#746
+recv	ack	#747
+recv	ack	#748
+****************************************
+base = 749 cwnd = 6
+send	data	#749	winSize = 6
+send	data	#750	winSize = 6
+send	data	#751	winSize = 6
+send	data	#752	winSize = 6
+send	data	#753	winSize = 6
+send	data	#754	winSize = 6
+recv	ack	#751
+recv	ack	#752
+recv	ack	#753
+recv	ack	#754
+time out	threshold = 3
+****************************************
+base = 749 cwnd = 1
+resnd	data	#749	winSize = 1
+time out	threshold = 1
+****************************************
+base = 749 cwnd = 1
+resnd	data	#749	winSize = 1
+time out	threshold = 1
+****************************************
+base = 749 cwnd = 1
+resnd	data	#749	winSize = 1
+time out	threshold = 1
+****************************************
+base = 749 cwnd = 1
+resnd	data	#749	winSize = 1
+recv	ack	#749
+****************************************
+base = 750 cwnd = 2
+resnd	data	#750	winSize = 2
+resnd	data	#751	winSize = 2
+recv	ack	#750
+recv	ack	#751
+****************************************
+base = 752 cwnd = 3
+resnd	data	#752	winSize = 3
+resnd	data	#753	winSize = 3
+resnd	data	#754	winSize = 3
+recv	ack	#752
+recv	ack	#754
+time out	threshold = 1
+****************************************
+base = 753 cwnd = 1
+resnd	data	#753	winSize = 1
+recv	ack	#753
+****************************************
+base = 754 cwnd = 2
+resnd	data	#754	winSize = 2
+send	data	#755	winSize = 2
+recv	ack	#754
+recv	ack	#755
+****************************************
+base = 756 cwnd = 3
+send	data	#756	winSize = 3
+send	data	#757	winSize = 3
+send	data	#758	winSize = 3
+recv	ack	#757
+recv	ack	#758
+time out	threshold = 1
+****************************************
+base = 756 cwnd = 1
+resnd	data	#756	winSize = 1
+recv	ack	#756
+****************************************
+base = 757 cwnd = 2
+resnd	data	#757	winSize = 2
+resnd	data	#758	winSize = 2
+recv	ack	#757
+recv	ack	#758
+****************************************
+base = 759 cwnd = 3
+send	data	#759	winSize = 3
+send	data	#760	winSize = 3
+send	data	#761	winSize = 3
+recv	ack	#759
+recv	ack	#761
+time out	threshold = 1
+****************************************
+base = 760 cwnd = 1
+resnd	data	#760	winSize = 1
+recv	ack	#760
+****************************************
+base = 761 cwnd = 2
+resnd	data	#761	winSize = 2
+send	data	#762	winSize = 2
+recv	ack	#761
+recv	ack	#762
+****************************************
+base = 763 cwnd = 3
+send	data	#763	winSize = 3
+send	data	#764	winSize = 3
+send	data	#765	winSize = 3
+recv	ack	#763
+recv	ack	#764
+recv	ack	#765
+****************************************
+base = 766 cwnd = 4
+send	data	#766	winSize = 4
+send	data	#767	winSize = 4
+send	data	#768	winSize = 4
+send	data	#769	winSize = 4
+recv	ack	#766
+recv	ack	#767
+recv	ack	#768
+time out	threshold = 2
+****************************************
+base = 769 cwnd = 1
+resnd	data	#769	winSize = 1
+recv	ack	#769
+****************************************
+base = 770 cwnd = 2
+send	data	#770	winSize = 2
+send	data	#771	winSize = 2
+recv	ack	#770
+recv	ack	#771
+****************************************
+base = 772 cwnd = 3
+send	data	#772	winSize = 3
+send	data	#773	winSize = 3
+send	data	#774	winSize = 3
+recv	ack	#772
+recv	ack	#773
+recv	ack	#774
+****************************************
+base = 775 cwnd = 4
+send	data	#775	winSize = 4
+send	data	#776	winSize = 4
+send	data	#777	winSize = 4
+send	data	#778	winSize = 4
+recv	ack	#775
+recv	ack	#776
+recv	ack	#777
+recv	ack	#778
+****************************************
+base = 779 cwnd = 5
+send	data	#779	winSize = 5
+send	data	#780	winSize = 5
+send	data	#781	winSize = 5
+send	data	#782	winSize = 5
+send	data	#783	winSize = 5
+recv	ack	#779
+recv	ack	#780
+recv	ack	#781
+recv	ack	#782
+recv	ack	#783
+****************************************
+base = 784 cwnd = 6
+send	data	#784	winSize = 6
+send	data	#785	winSize = 6
+send	data	#786	winSize = 6
+send	data	#787	winSize = 6
+send	data	#788	winSize = 6
+send	data	#789	winSize = 6
+recv	ack	#784
+recv	ack	#785
+recv	ack	#786
+recv	ack	#787
+recv	ack	#788
+recv	ack	#789
+****************************************
+base = 790 cwnd = 7
+send	data	#790	winSize = 7
+send	data	#791	winSize = 7
+send	data	#792	winSize = 7
+send	data	#793	winSize = 7
+send	data	#794	winSize = 7
+send	data	#795	winSize = 7
+send	data	#796	winSize = 7
+recv	ack	#790
+recv	ack	#791
+recv	ack	#792
+recv	ack	#793
+recv	ack	#794
+recv	ack	#795
+time out	threshold = 3
+****************************************
+base = 796 cwnd = 1
+resnd	data	#796	winSize = 1
+recv	ack	#796
+****************************************
+base = 797 cwnd = 2
+send	data	#797	winSize = 2
+send	data	#798	winSize = 2
+recv	ack	#798
+time out	threshold = 1
+****************************************
+base = 797 cwnd = 1
+resnd	data	#797	winSize = 1
+recv	ack	#797
+****************************************
+base = 798 cwnd = 2
+resnd	data	#798	winSize = 2
+send	data	#799	winSize = 2
+recv	ack	#798
+time out	threshold = 1
+****************************************
+base = 799 cwnd = 1
+resnd	data	#799	winSize = 1
+time out	threshold = 1
+****************************************
+base = 799 cwnd = 1
+resnd	data	#799	winSize = 1
+recv	ack	#799
+****************************************
+base = 800 cwnd = 2
+send	data	#800	winSize = 2
+send	data	#801	winSize = 2
+recv	ack	#800
+time out	threshold = 1
+****************************************
+base = 801 cwnd = 1
+resnd	data	#801	winSize = 1
+recv	ack	#801
+****************************************
+base = 802 cwnd = 2
+send	data	#802	winSize = 2
+send	data	#803	winSize = 2
+recv	ack	#802
+recv	ack	#803
+****************************************
+base = 804 cwnd = 3
+send	data	#804	winSize = 3
+send	data	#805	winSize = 3
+send	data	#806	winSize = 3
+recv	ack	#804
+recv	ack	#805
+recv	ack	#806
+****************************************
+base = 807 cwnd = 4
+send	data	#807	winSize = 4
+send	data	#808	winSize = 4
+send	data	#809	winSize = 4
+send	data	#810	winSize = 4
+recv	ack	#807
+recv	ack	#808
+recv	ack	#809
+recv	ack	#810
+****************************************
+base = 811 cwnd = 5
+send	data	#811	winSize = 5
+send	data	#812	winSize = 5
+send	data	#813	winSize = 5
+send	data	#814	winSize = 5
+send	data	#815	winSize = 5
+recv	ack	#811
+recv	ack	#812
+recv	ack	#813
+recv	ack	#814
+recv	ack	#815
+****************************************
+base = 816 cwnd = 6
+send	data	#816	winSize = 6
+send	data	#817	winSize = 6
+send	data	#818	winSize = 6
+send	data	#819	winSize = 6
+send	data	#820	winSize = 6
+send	data	#821	winSize = 6
+recv	ack	#816
+recv	ack	#817
+recv	ack	#818
+recv	ack	#820
+recv	ack	#821
+time out	threshold = 3
+****************************************
+base = 819 cwnd = 1
+resnd	data	#819	winSize = 1
+recv	ack	#819
+****************************************
+base = 820 cwnd = 2
+resnd	data	#820	winSize = 2
+resnd	data	#821	winSize = 2
+recv	ack	#820
+recv	ack	#821
+****************************************
+base = 822 cwnd = 4
+send	data	#822	winSize = 4
+send	data	#823	winSize = 4
+send	data	#824	winSize = 4
+send	data	#825	winSize = 4
+recv	ack	#822
+recv	ack	#823
+recv	ack	#824
+recv	ack	#825
+****************************************
+base = 826 cwnd = 5
+send	data	#826	winSize = 5
+send	data	#827	winSize = 5
+send	data	#828	winSize = 5
+send	data	#829	winSize = 5
+send	data	#830	winSize = 5
+recv	ack	#826
+recv	ack	#827
+recv	ack	#829
+recv	ack	#830
+time out	threshold = 2
+****************************************
+base = 828 cwnd = 1
+resnd	data	#828	winSize = 1
+recv	ack	#828
+****************************************
+base = 829 cwnd = 2
+resnd	data	#829	winSize = 2
+resnd	data	#830	winSize = 2
+recv	ack	#829
+time out	threshold = 1
+****************************************
+base = 830 cwnd = 1
+resnd	data	#830	winSize = 1
+recv	ack	#830
+****************************************
+base = 831 cwnd = 2
+send	data	#831	winSize = 2
+send	data	#832	winSize = 2
+recv	ack	#831
+recv	ack	#832
+****************************************
+base = 833 cwnd = 3
+send	data	#833	winSize = 3
+send	data	#834	winSize = 3
+send	data	#835	winSize = 3
+recv	ack	#834
+recv	ack	#835
+time out	threshold = 1
+****************************************
+base = 833 cwnd = 1
+resnd	data	#833	winSize = 1
+recv	ack	#833
+****************************************
+base = 834 cwnd = 2
+resnd	data	#834	winSize = 2
+resnd	data	#835	winSize = 2
+recv	ack	#834
+recv	ack	#835
+****************************************
+base = 836 cwnd = 3
+send	data	#836	winSize = 3
+send	data	#837	winSize = 3
+send	data	#838	winSize = 3
+recv	ack	#836
+recv	ack	#837
+recv	ack	#838
+****************************************
+base = 839 cwnd = 4
+send	data	#839	winSize = 4
+send	data	#840	winSize = 4
+send	data	#841	winSize = 4
+send	data	#842	winSize = 4
+recv	ack	#839
+recv	ack	#840
+recv	ack	#841
+recv	ack	#842
+****************************************
+base = 843 cwnd = 5
+send	data	#843	winSize = 5
+send	data	#844	winSize = 5
+send	data	#845	winSize = 5
+send	data	#846	winSize = 5
+send	data	#847	winSize = 5
+recv	ack	#844
+recv	ack	#845
+recv	ack	#846
+recv	ack	#847
+time out	threshold = 2
+****************************************
+base = 843 cwnd = 1
+resnd	data	#843	winSize = 1
+recv	ack	#843
+****************************************
+base = 844 cwnd = 2
+resnd	data	#844	winSize = 2
+resnd	data	#845	winSize = 2
+recv	ack	#845
+time out	threshold = 1
+****************************************
+base = 844 cwnd = 1
+resnd	data	#844	winSize = 1
+recv	ack	#844
+****************************************
+base = 845 cwnd = 2
+resnd	data	#845	winSize = 2
+resnd	data	#846	winSize = 2
+recv	ack	#845
+recv	ack	#846
+****************************************
+base = 847 cwnd = 3
+resnd	data	#847	winSize = 3
+send	data	#848	winSize = 3
+send	data	#849	winSize = 3
+recv	ack	#847
+recv	ack	#848
+recv	ack	#849
+****************************************
+base = 850 cwnd = 4
+send	data	#850	winSize = 4
+send	data	#851	winSize = 4
+send	data	#852	winSize = 4
+send	data	#853	winSize = 4
+recv	ack	#850
+recv	ack	#851
+recv	ack	#852
+recv	ack	#853
+****************************************
+base = 854 cwnd = 5
+send	data	#854	winSize = 5
+send	data	#855	winSize = 5
+send	data	#856	winSize = 5
+send	data	#857	winSize = 5
+send	data	#858	winSize = 5
+recv	ack	#854
+recv	ack	#855
+recv	ack	#856
+recv	ack	#858
+time out	threshold = 2
+****************************************
+base = 857 cwnd = 1
+resnd	data	#857	winSize = 1
+time out	threshold = 1
+****************************************
+base = 857 cwnd = 1
+resnd	data	#857	winSize = 1
+recv	ack	#857
+****************************************
+base = 858 cwnd = 2
+resnd	data	#858	winSize = 2
+send	data	#859	winSize = 2
+recv	ack	#858
+recv	ack	#859
+****************************************
+base = 860 cwnd = 3
+send	data	#860	winSize = 3
+send	data	#861	winSize = 3
+send	data	#862	winSize = 3
+recv	ack	#860
+recv	ack	#861
+time out	threshold = 1
+****************************************
+base = 862 cwnd = 1
+resnd	data	#862	winSize = 1
+time out	threshold = 1
+****************************************
+base = 862 cwnd = 1
+resnd	data	#862	winSize = 1
+recv	ack	#862
+****************************************
+base = 863 cwnd = 2
+send	data	#863	winSize = 2
+send	data	#864	winSize = 2
+recv	ack	#863
+recv	ack	#864
+****************************************
+base = 865 cwnd = 3
+send	data	#865	winSize = 3
+send	data	#866	winSize = 3
+send	data	#867	winSize = 3
+recv	ack	#866
+recv	ack	#867
+time out	threshold = 1
+****************************************
+base = 865 cwnd = 1
+resnd	data	#865	winSize = 1
+time out	threshold = 1
+****************************************
+base = 865 cwnd = 1
+resnd	data	#865	winSize = 1
+recv	ack	#865
+****************************************
+base = 866 cwnd = 2
+resnd	data	#866	winSize = 2
+resnd	data	#867	winSize = 2
+recv	ack	#866
+recv	ack	#867
+****************************************
+base = 868 cwnd = 3
+send	data	#868	winSize = 3
+send	data	#869	winSize = 3
+send	data	#870	winSize = 3
+recv	ack	#868
+recv	ack	#869
+recv	ack	#870
+****************************************
+base = 871 cwnd = 4
+send	data	#871	winSize = 4
+send	data	#872	winSize = 4
+send	data	#873	winSize = 4
+send	data	#874	winSize = 4
+recv	ack	#871
+recv	ack	#872
+recv	ack	#873
+time out	threshold = 2
+****************************************
+base = 874 cwnd = 1
+resnd	data	#874	winSize = 1
+recv	ack	#874
+****************************************
+base = 875 cwnd = 2
+send	data	#875	winSize = 2
+send	data	#876	winSize = 2
+recv	ack	#875
+time out	threshold = 1
+****************************************
+base = 876 cwnd = 1
+resnd	data	#876	winSize = 1
+time out	threshold = 1
+****************************************
+base = 876 cwnd = 1
+resnd	data	#876	winSize = 1
+recv	ack	#876
+****************************************
+base = 877 cwnd = 2
+send	data	#877	winSize = 2
+send	data	#878	winSize = 2
+recv	ack	#877
+recv	ack	#878
+****************************************
+base = 879 cwnd = 3
+send	data	#879	winSize = 3
+send	data	#880	winSize = 3
+send	data	#881	winSize = 3
+recv	ack	#880
+recv	ack	#881
+time out	threshold = 1
+****************************************
+base = 879 cwnd = 1
+resnd	data	#879	winSize = 1
+time out	threshold = 1
+****************************************
+base = 879 cwnd = 1
+resnd	data	#879	winSize = 1
+recv	ack	#879
+****************************************
+base = 880 cwnd = 2
+resnd	data	#880	winSize = 2
+resnd	data	#881	winSize = 2
+recv	ack	#880
+recv	ack	#881
+****************************************
+base = 882 cwnd = 3
+send	data	#882	winSize = 3
+send	data	#883	winSize = 3
+send	data	#884	winSize = 3
+recv	ack	#882
+recv	ack	#884
+time out	threshold = 1
+****************************************
+base = 883 cwnd = 1
+resnd	data	#883	winSize = 1
+recv	ack	#883
+****************************************
+base = 884 cwnd = 2
+resnd	data	#884	winSize = 2
+send	data	#885	winSize = 2
+recv	ack	#884
+time out	threshold = 1
+****************************************
+base = 885 cwnd = 1
+resnd	data	#885	winSize = 1
+recv	ack	#885
+****************************************
+base = 886 cwnd = 2
+send	data	#886	winSize = 2
+send	data	#887	winSize = 2
+recv	ack	#886
+recv	ack	#887
+****************************************
+base = 888 cwnd = 3
+send	data	#888	winSize = 3
+send	data	#889	winSize = 3
+send	data	#890	winSize = 3
+recv	ack	#888
+recv	ack	#889
+time out	threshold = 1
+****************************************
+base = 890 cwnd = 1
+resnd	data	#890	winSize = 1
+time out	threshold = 1
+****************************************
+base = 890 cwnd = 1
+resnd	data	#890	winSize = 1
+recv	ack	#890
+****************************************
+base = 891 cwnd = 2
+send	data	#891	winSize = 2
+send	data	#892	winSize = 2
+recv	ack	#891
+recv	ack	#892
+****************************************
+base = 893 cwnd = 3
+send	data	#893	winSize = 3
+send	data	#894	winSize = 3
+send	data	#895	winSize = 3
+recv	ack	#893
+recv	ack	#894
+time out	threshold = 1
+****************************************
+base = 895 cwnd = 1
+resnd	data	#895	winSize = 1
+recv	ack	#895
+****************************************
+base = 896 cwnd = 2
+send	data	#896	winSize = 2
+send	data	#897	winSize = 2
+recv	ack	#896
+time out	threshold = 1
+****************************************
+base = 897 cwnd = 1
+resnd	data	#897	winSize = 1
+recv	ack	#897
+****************************************
+base = 898 cwnd = 2
+send	data	#898	winSize = 2
+send	data	#899	winSize = 2
+recv	ack	#898
+recv	ack	#899
+****************************************
+base = 900 cwnd = 3
+send	data	#900	winSize = 3
+send	data	#901	winSize = 3
+send	data	#902	winSize = 3
+recv	ack	#901
+time out	threshold = 1
+****************************************
+base = 900 cwnd = 1
+resnd	data	#900	winSize = 1
+recv	ack	#900
+****************************************
+base = 901 cwnd = 2
+resnd	data	#901	winSize = 2
+resnd	data	#902	winSize = 2
+recv	ack	#901
+recv	ack	#902
+****************************************
+base = 903 cwnd = 3
+send	data	#903	winSize = 3
+send	data	#904	winSize = 3
+send	data	#905	winSize = 3
+recv	ack	#903
+recv	ack	#904
+recv	ack	#905
+****************************************
+base = 906 cwnd = 4
+send	data	#906	winSize = 4
+send	data	#907	winSize = 4
+send	data	#908	winSize = 4
+send	data	#909	winSize = 4
+recv	ack	#906
+recv	ack	#908
+recv	ack	#909
+time out	threshold = 2
+****************************************
+base = 907 cwnd = 1
+resnd	data	#907	winSize = 1
+recv	ack	#907
+****************************************
+base = 908 cwnd = 2
+resnd	data	#908	winSize = 2
+resnd	data	#909	winSize = 2
+recv	ack	#908
+recv	ack	#909
+****************************************
+base = 910 cwnd = 3
+send	data	#910	winSize = 3
+send	data	#911	winSize = 3
+send	data	#912	winSize = 3
+recv	ack	#910
+recv	ack	#911
+time out	threshold = 1
+****************************************
+base = 912 cwnd = 1
+resnd	data	#912	winSize = 1
+recv	ack	#912
+****************************************
+base = 913 cwnd = 2
+send	data	#913	winSize = 2
+send	data	#914	winSize = 2
+recv	ack	#913
+recv	ack	#914
+****************************************
+base = 915 cwnd = 3
+send	data	#915	winSize = 3
+send	data	#916	winSize = 3
+send	data	#917	winSize = 3
+recv	ack	#915
+recv	ack	#916
+time out	threshold = 1
+****************************************
+base = 917 cwnd = 1
+resnd	data	#917	winSize = 1
+recv	ack	#917
+****************************************
+base = 918 cwnd = 2
+send	data	#918	winSize = 2
+send	data	#919	winSize = 2
+recv	ack	#918
+recv	ack	#919
+****************************************
+base = 920 cwnd = 3
+send	data	#920	winSize = 3
+send	data	#921	winSize = 3
+send	data	#922	winSize = 3
+recv	ack	#920
+recv	ack	#921
+recv	ack	#922
+****************************************
+base = 923 cwnd = 4
+send	data	#923	winSize = 4
+send	data	#924	winSize = 4
+send	data	#925	winSize = 4
+send	data	#926	winSize = 4
+recv	ack	#923
+recv	ack	#924
+recv	ack	#925
+recv	ack	#926
+****************************************
+base = 927 cwnd = 5
+send	data	#927	winSize = 5
+send	data	#928	winSize = 5
+send	data	#929	winSize = 5
+send	data	#930	winSize = 5
+send	data	#931	winSize = 5
+recv	ack	#927
+recv	ack	#928
+recv	ack	#930
+recv	ack	#931
+time out	threshold = 2
+****************************************
+base = 929 cwnd = 1
+resnd	data	#929	winSize = 1
+recv	ack	#929
+****************************************
+base = 930 cwnd = 2
+resnd	data	#930	winSize = 2
+resnd	data	#931	winSize = 2
+recv	ack	#930
+recv	ack	#931
+****************************************
+base = 932 cwnd = 3
+send	data	#932	winSize = 3
+send	data	#933	winSize = 3
+send	data	#934	winSize = 3
+recv	ack	#932
+recv	ack	#933
+recv	ack	#934
+****************************************
+base = 935 cwnd = 4
+send	data	#935	winSize = 4
+send	data	#936	winSize = 4
+send	data	#937	winSize = 4
+send	data	#938	winSize = 4
+recv	ack	#935
+recv	ack	#937
+recv	ack	#938
+time out	threshold = 2
+****************************************
+base = 936 cwnd = 1
+resnd	data	#936	winSize = 1
+recv	ack	#936
+****************************************
+base = 937 cwnd = 2
+resnd	data	#937	winSize = 2
+resnd	data	#938	winSize = 2
+recv	ack	#937
+recv	ack	#938
+****************************************
+base = 939 cwnd = 3
+send	data	#939	winSize = 3
+send	data	#940	winSize = 3
+send	data	#941	winSize = 3
+recv	ack	#939
+recv	ack	#940
+time out	threshold = 1
+****************************************
+base = 941 cwnd = 1
+resnd	data	#941	winSize = 1
+recv	ack	#941
+****************************************
+base = 942 cwnd = 2
+send	data	#942	winSize = 2
+send	data	#943	winSize = 2
+time out	threshold = 1
+****************************************
+base = 942 cwnd = 1
+resnd	data	#942	winSize = 1
+time out	threshold = 1
+****************************************
+base = 942 cwnd = 1
+resnd	data	#942	winSize = 1
+recv	ack	#942
+****************************************
+base = 943 cwnd = 2
+resnd	data	#943	winSize = 2
+send	data	#944	winSize = 2
+recv	ack	#944
+time out	threshold = 1
+****************************************
+base = 943 cwnd = 1
+resnd	data	#943	winSize = 1
+time out	threshold = 1
+****************************************
+base = 943 cwnd = 1
+resnd	data	#943	winSize = 1
+recv	ack	#943
+****************************************
+base = 944 cwnd = 2
+resnd	data	#944	winSize = 2
+send	data	#945	winSize = 2
+recv	ack	#945
+time out	threshold = 1
+****************************************
+base = 944 cwnd = 1
+resnd	data	#944	winSize = 1
+recv	ack	#944
+****************************************
+base = 945 cwnd = 2
+resnd	data	#945	winSize = 2
+send	data	#946	winSize = 2
+recv	ack	#945
+recv	ack	#946
+****************************************
+base = 947 cwnd = 3
+send	data	#947	winSize = 3
+send	data	#948	winSize = 3
+send	data	#949	winSize = 3
+recv	ack	#947
+recv	ack	#948
+recv	ack	#949
+****************************************
+base = 950 cwnd = 4
+send	data	#950	winSize = 4
+send	data	#951	winSize = 4
+send	data	#952	winSize = 4
+send	data	#953	winSize = 4
+recv	ack	#950
+recv	ack	#951
+recv	ack	#952
+recv	ack	#953
+****************************************
+base = 954 cwnd = 5
+send	data	#954	winSize = 5
+send	data	#955	winSize = 5
+send	data	#956	winSize = 5
+send	data	#957	winSize = 5
+send	data	#958	winSize = 5
+recv	ack	#954
+recv	ack	#955
+recv	ack	#956
+recv	ack	#957
+recv	ack	#958
+****************************************
+base = 959 cwnd = 6
+send	data	#959	winSize = 6
+send	data	#960	winSize = 6
+send	data	#961	winSize = 6
+send	data	#962	winSize = 6
+send	data	#963	winSize = 6
+send	data	#964	winSize = 6
+recv	ack	#959
+recv	ack	#960
+recv	ack	#963
+recv	ack	#964
+time out	threshold = 3
+****************************************
+base = 961 cwnd = 1
+resnd	data	#961	winSize = 1
+time out	threshold = 1
+****************************************
+base = 961 cwnd = 1
+resnd	data	#961	winSize = 1
+recv	ack	#961
+****************************************
+base = 962 cwnd = 2
+resnd	data	#962	winSize = 2
+resnd	data	#963	winSize = 2
+recv	ack	#962
+recv	ack	#963
+****************************************
+base = 964 cwnd = 3
+resnd	data	#964	winSize = 3
+send	data	#965	winSize = 3
+send	data	#966	winSize = 3
+recv	ack	#964
+recv	ack	#965
+recv	ack	#966
+****************************************
+base = 967 cwnd = 4
+send	data	#967	winSize = 4
+send	data	#968	winSize = 4
+send	data	#969	winSize = 4
+send	data	#970	winSize = 4
+recv	ack	#967
+recv	ack	#968
+recv	ack	#969
+time out	threshold = 2
+****************************************
+base = 970 cwnd = 1
+resnd	data	#970	winSize = 1
+recv	ack	#970
+****************************************
+base = 971 cwnd = 2
+send	data	#971	winSize = 2
+send	data	#972	winSize = 2
+recv	ack	#971
+recv	ack	#972
+****************************************
+base = 973 cwnd = 3
+send	data	#973	winSize = 3
+send	data	#974	winSize = 3
+send	data	#975	winSize = 3
+recv	ack	#973
+time out	threshold = 1
+****************************************
+base = 974 cwnd = 1
+resnd	data	#974	winSize = 1
+recv	ack	#974
+****************************************
+base = 975 cwnd = 2
+resnd	data	#975	winSize = 2
+send	data	#976	winSize = 2
+recv	ack	#975
+time out	threshold = 1
+****************************************
+base = 976 cwnd = 1
+resnd	data	#976	winSize = 1
+recv	ack	#976
+****************************************
+base = 977 cwnd = 2
+send	data	#977	winSize = 2
+send	data	#978	winSize = 2
+recv	ack	#977
+recv	ack	#978
+****************************************
+base = 979 cwnd = 3
+send	data	#979	winSize = 3
+send	data	#980	winSize = 3
+send	data	#981	winSize = 3
+recv	ack	#979
+recv	ack	#980
+recv	ack	#981
+****************************************
+base = 982 cwnd = 4
+send	data	#982	winSize = 4
+send	data	#983	winSize = 4
+send	data	#984	winSize = 4
+send	data	#985	winSize = 4
+recv	ack	#982
+recv	ack	#983
+recv	ack	#984
+recv	ack	#985
+****************************************
+base = 986 cwnd = 5
+send	data	#986	winSize = 5
+send	data	#987	winSize = 5
+send	data	#988	winSize = 5
+send	data	#989	winSize = 5
+send	data	#990	winSize = 5
+recv	ack	#986
+recv	ack	#987
+recv	ack	#988
+recv	ack	#989
+recv	ack	#990
+****************************************
+base = 991 cwnd = 6
+send	data	#991	winSize = 6
+send	data	#992	winSize = 6
+send	data	#993	winSize = 6
+send	data	#994	winSize = 6
+send	data	#995	winSize = 6
+send	data	#996	winSize = 6
+recv	ack	#991
+recv	ack	#992
+recv	ack	#994
+recv	ack	#995
+recv	ack	#996
+time out	threshold = 3
+****************************************
+base = 993 cwnd = 1
+resnd	data	#993	winSize = 1
+recv	ack	#993
+****************************************
+base = 994 cwnd = 2
+resnd	data	#994	winSize = 2
+resnd	data	#995	winSize = 2
+recv	ack	#994
+recv	ack	#995
+****************************************
+base = 996 cwnd = 4
+resnd	data	#996	winSize = 4
+send	data	#997	winSize = 4
+send	data	#998	winSize = 4
+send	data	#999	winSize = 4
+recv	ack	#996
+recv	ack	#997
+time out	threshold = 2
+****************************************
+base = 998 cwnd = 1
+resnd	data	#998	winSize = 1
+recv	ack	#998
+****************************************
+base = 999 cwnd = 2
+resnd	data	#999	winSize = 2
+send	data	#1000	winSize = 2
+recv	ack	#1000
+time out	threshold = 1
+****************************************
+base = 999 cwnd = 1
+resnd	data	#999	winSize = 1
+recv	ack	#999
+****************************************
+base = 1000 cwnd = 2
+resnd	data	#1000	winSize = 2
+send	data	#1001	winSize = 2
+recv	ack	#1000
+recv	ack	#1001
+****************************************
+base = 1002 cwnd = 3
+send	data	#1002	winSize = 3
+send	data	#1003	winSize = 3
+send	data	#1004	winSize = 3
+recv	ack	#1002
+recv	ack	#1003
+recv	ack	#1004
+****************************************
+base = 1005 cwnd = 4
+send	data	#1005	winSize = 4
+send	data	#1006	winSize = 4
+send	data	#1007	winSize = 4
+send	data	#1008	winSize = 4
+recv	ack	#1005
+recv	ack	#1006
+recv	ack	#1007
+recv	ack	#1008
+****************************************
+base = 1009 cwnd = 5
+send	data	#1009	winSize = 5
+send	data	#1010	winSize = 5
+send	data	#1011	winSize = 5
+send	data	#1012	winSize = 5
+send	data	#1013	winSize = 5
+recv	ack	#1009
+recv	ack	#1010
+recv	ack	#1012
+recv	ack	#1013
+time out	threshold = 2
+****************************************
+base = 1011 cwnd = 1
+resnd	data	#1011	winSize = 1
+recv	ack	#1011
+****************************************
+base = 1012 cwnd = 2
+resnd	data	#1012	winSize = 2
+resnd	data	#1013	winSize = 2
+recv	ack	#1012
+recv	ack	#1013
+****************************************
+base = 1014 cwnd = 3
+send	data	#1014	winSize = 3
+send	data	#1015	winSize = 3
+send	data	#1016	winSize = 3
+recv	ack	#1014
+recv	ack	#1015
+recv	ack	#1016
+****************************************
+base = 1017 cwnd = 4
+send	data	#1017	winSize = 4
+send	data	#1018	winSize = 4
+send	data	#1019	winSize = 4
+send	data	#1020	winSize = 4
+recv	ack	#1017
+recv	ack	#1018
+recv	ack	#1019
+recv	ack	#1020
+****************************************
+base = 1021 cwnd = 5
+send	data	#1021	winSize = 5
+send	data	#1022	winSize = 5
+send	data	#1023	winSize = 5
+send	data	#1024	winSize = 5
+recv	ack	#1021
+recv	ack	#1022
+recv	ack	#1023
+recv	ack	#1024
+send	fin
+recv	finack

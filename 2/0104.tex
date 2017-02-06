@@ -1,0 +1,61 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{hyperref}
+\setCJKmainfont{微軟正黑體}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\usepackage{enumerate}
+\usepackage{graphicx}
+\date{}
+\title{\vspace{-3.0cm} Computer Networks HW2 Report \\ \vspace{0.5cm}}
+\author{\normalsize B03902062 資工三 \hspace{0cm} 董文捷}
+\begin{document}
+\maketitle
+\begin{enumerate}
+
+\item
+\textbf{Flow of my program}
+\begin{enumerate}[(a)] 
+\item Preparation
+\begin{itemize}
+\item Use \scalebox{0.9}{\texttt{./agent <AGENT\_SENDER\_PORT> <AGENT\_RECEIVER\_PORT> <drop rate>}} to execute agent
+\item Agent will bind a sockfd and start to wait for \texttt{SYN} from receiver
+\item Use \scalebox{0.9}{\texttt{./receiver <AGENT\_IP> <AGENT\_RECEIVER\_PORT> <destination file>}} to execute receiver
+\item Receiver sends \texttt{SYN} to agent, and receive \texttt{SYNACK} from agent. 
+\item Agent will bind another sockfd and start to wait for \texttt{SYN} from sender
+\item Use \scalebox{0.9}{\texttt{./sender <AGENT\_IP> <AGENT\_SENDER\_PORT> <source file>}} to execute sender
+\item Sender sends \texttt{SYN} to agent, and receive \texttt{SYNACK} from agent. 
+\end{itemize}
+$\longrightarrow$ Both agent, receiver, sender are ready for data transmission.
+\item Data transmission
+\begin{itemize}
+\item \textbf{Sender} \\
+To deal with the need for data retransimission, a segment should be kept until it is \texttt{ACKed} in order. Instead of declare a large array, I use \texttt{malloc} to allocate memory dynamically for a new segment, and store it into an array of pointer of segment. An array is used to record status of each segment. There are five defined status,\mbox{ }\texttt{EMPTY}, \texttt{WAITING}, \texttt{ACKED}, \texttt{OUT\_OF\_ORDER}, and \texttt{TIMEOUT}. For each batch of segments, sender checks whether the status of a segment is \texttt{EMPTY} to see if it is already made. After a segment is sent, its status becomes \texttt{WAITING}. Since sender does not know how many \texttt{ACK} it will receive, to avoid being blocked by \texttt{recvfrom}, \texttt{select} is used to monitor \texttt{sockfd}, examining if any \texttt{ACK} segment is ready. When the corresponding \texttt{ACK} is received, the status of a segment temporarily becomes \texttt{ACKED}. If some \texttt{ACK} are not received in the timeout interval, segments with status \texttt{WAITING} become \texttt{TIMEOUT}. Sender will check if there is a gap between $base$ and $base + cwnd - 1$, those \texttt{ACKED} segments after the gap are actually \texttt{OUT\_OF\_ORDER} and should be resent. \texttt{ACKED} segments before the gap is received in order by the receiver, use \texttt{free} to release allocated memory for the segment.
+\item \textbf{Agent} \\
+In the agent part, sender and receiver have their respective \texttt{PORT} and \texttt{sockfd}. Since agent can not predict the transmission time and order of sender and receiver, \texttt{select} is used to monitor both \texttt{sockfd}. When the sender agent get a data, it uses \texttt{rand} to decide whether to drop the segment or not. The receiver agent simply forwards every \texttt{ACK} segment.
+\item \textbf{Receiver} \\
+Similar to the sender part, receiver uses \texttt{malloc} to allocate memory for the newly received segment and store it into a buffer array of pointer of segment. When buffer is flushed, \texttt{free}.
+\end{itemize}
+\item Finish
+\begin{itemize}
+\item When the input file ends, sender waits until all segments are \texttt{ACKed}, then it sends \texttt{FIN} to agent. 
+\item Receiver receives \texttt{FIN} from agent, it sends \texttt{FINACK} to agent and \texttt{flush} to ensure no data is remained in the buffer. 
+\item Agent forward \texttt{FINACK}
+\item Sender receive \texttt{FINACK}
+\end{itemize}
+\end{enumerate}
+
+\item \textbf{structure of a segment} \\
+\texttt{struct segment} is defined in \texttt{protocol.h}, a segment contains \texttt{struct header} and \texttt{data}.
+\texttt{struct header} contains \texttt{source\_port}, \texttt{dest\_port}, \texttt{Seq}, \texttt{ACK}, \texttt{SYN}, \texttt{FIN}, and \texttt{data\_length}.
+
+\item \textbf{Multipath transmission} \\
+To increase throughput, I use \texttt{pthread} in sender and agent to send and receive data simultaneously on multiple path. Different \texttt{PORT} are assigned as arguments in \texttt{pthread\_create}. \texttt{pthread\_mutex\_t} is used to avoid race conditions on modification of global variables.
+
+\item \textbf{Test} \\
+The program is tested to send a 1MB test data on the same computer (\texttt{Ubuntu 16.04 LTS}) with IP \texttt{127.0.0.1}, and to the workstation with IP got by \texttt{ifconfig}, then I use \texttt{diff} to check the correctness of the output. Something noteworthy is that in the case to transmit data to the workstation, a 50ms timeout interval may result in a premature timeout, a 100ms timeout interval seems to be more appropriate to avoid unecessary resource waste. 
+\end{enumerate}
+\end{document}
+
+ 

@@ -1,0 +1,39 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{hyperref}
+\setCJKmainfont{微軟正黑體}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\usepackage{enumerate}
+\usepackage{graphicx}
+\date{}
+\title{\vspace{-3.0cm} Computer Networks HW1 Report \\ \vspace{0.5cm}}
+\author{\normalsize B03902062 資工三 \hspace{0cm} 董文捷}
+\begin{document}
+\maketitle
+In this homework, I choose \texttt{C} as programming language. Although coding in \texttt{C} takes me about 800 lines in total, which seems to be much more time-consuming compared to the convenient \textit{string} functions and \textit{try and except} of \texttt{Python}, \texttt{C} is generally 10 times faster during run time. To make code easier to manage, I seperate different function into four \texttt{.c} files, \texttt{irc.c}, \texttt{cal.c}, \texttt{weather.c}, and \texttt{main.c}. Those \texttt{.c} files can be compiled together to get \texttt{irc\_robot} with \texttt{make}. For better modifiability, different parameters are defined in corresponding \texttt{.h} file, which can be easily adjusted according to various situations. The following are some noteworthy parts of my code.
+
+\begin{enumerate}[1.]
+
+\item
+{\bf @cal} \\
+To implement calculator, I modify my code written for \textit{Data Structures and Algorithms, Spring 2015}. Nevertheless, the original code is implemented in \texttt{C++} with \textit{stack}, which is not available in \texttt{C}, I use \textit{array} to simulate \textit{stack} instead. The most tricky part is error handling for calculator, calculation of wrong format of expression may cause core dumped and stop the program. To avoid this situation, 
+four kind of errors are taken into consideration, \texttt{UNMATCHED\_PARENTHESES}, \texttt{UNEXPECTED\_CHARACTER}, \\ \texttt{DIVIDE\_ZERO}, and \texttt{ILLEGAL\_EXPRESSION}. The program will check possible errors before actually doing the calculation, once an error is found, the calculation will stop, and error type is set properly.
+ 
+\item
+{\bf Bonus} \\
+For the bonus \textit{HTML Parser} part, {\bf @weather} is implemented by creating a socket for the TCP protocol, then get request to Central Weather Bureau, finally find out weather information in the HTML content of the reply. 
+
+\item
+{\bf References}
+\begin{itemize}
+\item \href{http://www.the-tech-tutorial.com/simple-c-irc-bot-template/}{Simple C++ IRC Bot Template}
+\item \href{https://github.com/Themaister/simple-irc-bot}{Themaister/simple-irc-bot}
+\item \href{http://coding.debuntu.org/c-linux-socket-programming-tcp-simple-http-client}{C: Linux Socket Programming, TCP, a simple HTTP client}
+\end{itemize}
+
+\end{enumerate}
+\end{document}
+
+ 

@@ -1,0 +1,5655 @@
+path 2	sender port = 6668	receiver port = 8890
+path 1	sender port = 6667	receiver port = 8889
+path 0	sender port = 6666	receiver port = 8888
+path 0	receive SYN from receiver
+path 0	send SYNACK to receiver
+path 1	receive SYN from receiver
+path 1	send SYNACK to receiver
+path 2	receive SYN from receiver
+path 2	send SYNACK to receiver
+path 1	receive SYN from sender
+path 1	send SYNACK to sender
+path 2	receive SYN from sender
+path 2	send SYNACK to sender
+path 0	receive SYN from sender
+path 0	send SYNACK to sender
+path 1	get	data	#1
+path 1	fwd	data	#1	loss rate = 0.000000
+path 1	get	ack	#1
+path 1	fwd	ack	#1
+path 2	get	data	#2
+path 2	fwd	data	#2	loss rate = 0.000000
+path 0	get	data	#3
+path 0	fwd	data	#3	loss rate = 0.000000
+path 0	get	ack	#3
+path 0	fwd	ack	#3
+path 2	get	ack	#2
+path 2	fwd	ack	#2
+path 1	get	data	#7
+path 1	drop	data	#7	loss rate = 0.250000
+path 0	get	data	#6
+path 0	drop	data	#6	loss rate = 0.400000
+path 1	get	data	#4
+path 1	fwd	data	#4	loss rate = 0.333333
+path 1	get	ack	#4
+path 1	fwd	ack	#4
+path 2	get	data	#5
+path 2	fwd	data	#5	loss rate = 0.285714
+path 2	get	ack	#5
+path 2	fwd	ack	#5
+path 1	get	data	#6
+path 1	fwd	data	#6	loss rate = 0.250000
+path 1	get	ack	#6
+path 1	fwd	ack	#6
+path 1	get	data	#8
+path 1	drop	data	#8	loss rate = 0.333333
+path 2	get	data	#7
+path 2	fwd	data	#7	loss rate = 0.300000
+path 2	get	ack	#7
+path 2	fwd	ack	#7
+path 2	get	data	#8
+path 2	fwd	data	#8	loss rate = 0.272727
+path 2	get	ack	#8
+path 2	fwd	ack	#8
+path 1	get	data	#9
+path 1	fwd	data	#9	loss rate = 0.250000
+path 0	get	data	#10
+path 0	fwd	data	#10	loss rate = 0.230769
+path 1	get	ack	#9
+path 1	fwd	ack	#9
+path 0	get	ack	#10
+path 0	fwd	ack	#10
+path 1	get	data	#13
+path 1	fwd	data	#13	loss rate = 0.214286
+path 2	get	data	#12
+path 2	fwd	data	#12	loss rate = 0.200000
+path 2	get	ack	#12
+path 2	fwd	ack	#12
+path 1	get	ack	#13
+path 1	fwd	ack	#13
+path 0	get	data	#11
+path 0	fwd	data	#11	loss rate = 0.187500
+path 0	get	ack	#11
+path 0	fwd	ack	#11
+path 1	get	data	#17
+path 1	fwd	data	#17	loss rate = 0.176471
+path 2	get	data	#16
+path 2	drop	data	#16	loss rate = 0.222222
+path 1	get	ack	#17
+path 1	fwd	ack	#17
+path 0	get	data	#15
+path 0	fwd	data	#15	loss rate = 0.210526
+path 0	get	ack	#15
+path 0	fwd	ack	#15
+path 0	get	data	#14
+path 0	fwd	data	#14	loss rate = 0.200000
+path 0	get	ack	#14
+path 0	fwd	ack	#14
+path 0	get	data	#16
+path 0	fwd	data	#16	loss rate = 0.190476
+path 0	get	ack	#16
+path 0	fwd	ack	#16
+path 1	get	data	#18
+path 1	fwd	data	#18	loss rate = 0.181818
+path 2	get	data	#17
+path 2	fwd	data	#17	loss rate = 0.173913
+path 2	get	ack	#17
+path 2	fwd	ack	#17
+path 1	get	ack	#18
+path 1	fwd	ack	#18
+path 0	get	data	#20
+path 0	fwd	data	#20	loss rate = 0.166667
+path 2	get	data	#21
+path 2	fwd	data	#21	loss rate = 0.160000
+path 2	get	ack	#21
+path 2	fwd	ack	#21
+path 1	get	data	#19
+path 1	drop	data	#19	loss rate = 0.192308
+path 0	get	ack	#20
+path 0	fwd	ack	#20
+path 0	get	data	#19
+path 0	fwd	data	#19	loss rate = 0.185185
+path 0	get	ack	#19
+path 0	fwd	ack	#19
+path 1	get	data	#21
+path 1	drop	data	#21	loss rate = 0.214286
+path 2	get	data	#20
+path 2	fwd	data	#20	loss rate = 0.206897
+path 2	get	ack	#20
+path 2	fwd	ack	#20
+path 2	get	data	#21
+path 2	drop	data	#21	loss rate = 0.233333
+path 0	get	data	#21
+path 0	fwd	data	#21	loss rate = 0.225806
+path 0	get	ack	#21
+path 0	fwd	ack	#21
+path 1	get	data	#23
+path 1	fwd	data	#23	loss rate = 0.218750
+path 2	get	data	#22
+path 2	fwd	data	#22	loss rate = 0.212121
+path 2	get	ack	#22
+path 2	fwd	ack	#22
+path 1	get	ack	#23
+path 1	fwd	ack	#23
+path 0	get	data	#26
+path 0	fwd	data	#26	loss rate = 0.205882
+path 2	get	data	#25
+path 2	fwd	data	#25	loss rate = 0.200000
+path 0	get	ack	#26
+path 0	fwd	ack	#26
+path 2	get	ack	#25
+path 2	fwd	ack	#25
+path 1	get	data	#24
+path 1	fwd	data	#24	loss rate = 0.194444
+path 1	get	ack	#24
+path 1	fwd	ack	#24
+path 0	get	data	#30
+path 0	drop	data	#30	loss rate = 0.216216
+path 2	get	data	#29
+path 2	fwd	data	#29	loss rate = 0.210526
+path 2	get	ack	#29
+path 2	fwd	ack	#29
+path 1	get	data	#28
+path 1	fwd	data	#28	loss rate = 0.205128
+path 1	get	ack	#28
+path 1	fwd	ack	#28
+path 0	get	data	#27
+path 0	fwd	data	#27	loss rate = 0.200000
+path 0	get	ack	#27
+path 0	fwd	ack	#27
+path 0	get	data	#30
+path 0	fwd	data	#30	loss rate = 0.195122
+path 0	get	ack	#30
+path 0	fwd	ack	#30
+path 1	get	data	#32
+path 1	fwd	data	#32	loss rate = 0.190476
+path 1	get	ack	#32
+path 1	fwd	ack	#32
+path 2	get	data	#31
+path 2	fwd	data	#31	loss rate = 0.186047
+path 2	get	ack	#31
+path 2	fwd	ack	#31
+path 1	get	data	#34
+path 1	fwd	data	#34	loss rate = 0.181818
+path 0	get	data	#35
+path 0	fwd	data	#35	loss rate = 0.177778
+path 1	get	ack	#34
+path 1	fwd	ack	#34
+path 2	get	data	#33
+path 2	fwd	data	#33	loss rate = 0.173913
+path 2	get	ack	#33
+path 2	fwd	ack	#33
+path 2	get	data	#35
+path 2	fwd	data	#35	loss rate = 0.170213
+path 2	get	ack	#35
+path 2	fwd	ack	#35
+path 0	get	data	#36
+path 0	fwd	data	#36	loss rate = 0.166667
+path 2	get	data	#37
+path 2	drop	data	#37	loss rate = 0.183673
+path 0	get	ack	#36
+path 0	fwd	ack	#36
+path 1	get	data	#37
+path 1	fwd	data	#37	loss rate = 0.180000
+path 1	get	ack	#37
+path 1	fwd	ack	#37
+path 0	get	data	#39
+path 0	fwd	data	#39	loss rate = 0.176471
+path 2	get	data	#38
+path 2	fwd	data	#38	loss rate = 0.173077
+path 2	get	ack	#38
+path 2	fwd	ack	#38
+path 0	get	ack	#39
+path 0	fwd	ack	#39
+path 2	get	data	#42
+path 2	fwd	data	#42	loss rate = 0.169811
+path 1	get	data	#41
+path 1	fwd	data	#41	loss rate = 0.166667
+path 0	get	data	#40
+path 0	drop	data	#40	loss rate = 0.181818
+path 1	get	ack	#41
+path 1	fwd	ack	#41
+path 2	get	ack	#42
+path 2	fwd	ack	#42
+path 1	get	data	#40
+path 1	fwd	data	#40	loss rate = 0.178571
+path 1	get	ack	#40
+path 1	fwd	ack	#40
+path 2	get	data	#42
+path 2	fwd	data	#42	loss rate = 0.175439
+path 0	get	data	#41
+path 0	drop	data	#41	loss rate = 0.189655
+path 2	get	ack	#42
+path 2	fwd	ack	#42
+path 2	get	data	#41
+path 2	fwd	data	#41	loss rate = 0.186441
+path 2	get	ack	#41
+path 2	fwd	ack	#41
+path 1	get	data	#42
+path 1	fwd	data	#42	loss rate = 0.183333
+path 0	get	data	#43
+path 0	drop	data	#43	loss rate = 0.196721
+path 1	get	ack	#42
+path 1	fwd	ack	#42
+path 2	get	data	#43
+path 2	fwd	data	#43	loss rate = 0.193548
+path 2	get	ack	#43
+path 2	fwd	ack	#43
+path 1	get	data	#44
+path 1	fwd	data	#44	loss rate = 0.190476
+path 0	get	data	#45
+path 0	fwd	data	#45	loss rate = 0.187500
+path 0	get	ack	#45
+path 0	fwd	ack	#45
+path 1	get	ack	#44
+path 1	fwd	ack	#44
+path 1	get	data	#48
+path 1	fwd	data	#48	loss rate = 0.184615
+path 0	get	data	#47
+path 0	drop	data	#47	loss rate = 0.196970
+path 2	get	data	#46
+path 2	fwd	data	#46	loss rate = 0.194030
+path 2	get	ack	#46
+path 2	fwd	ack	#46
+path 1	get	ack	#48
+path 1	fwd	ack	#48
+path 2	get	data	#47
+path 2	fwd	data	#47	loss rate = 0.191176
+path 2	get	ack	#47
+path 2	fwd	ack	#47
+path 1	get	data	#48
+path 1	fwd	data	#48	loss rate = 0.188406
+path 0	get	data	#49
+path 1	get	ack	#48
+path 0	fwd	data	#49	loss rate = 0.185714
+path 1	fwd	ack	#48
+path 0	get	ack	#49
+path 0	fwd	ack	#49
+path 2	get	data	#52
+path 2	fwd	data	#52	loss rate = 0.183099
+path 0	get	data	#50
+path 0	drop	data	#50	loss rate = 0.194444
+path 1	get	data	#51
+path 1	fwd	data	#51	loss rate = 0.191781
+path 2	get	ack	#52
+path 2	fwd	ack	#52
+path 1	get	ack	#51
+path 1	fwd	ack	#51
+path 0	get	data	#50
+path 0	drop	data	#50	loss rate = 0.202703
+path 0	get	data	#50
+path 0	fwd	data	#50	loss rate = 0.200000
+path 0	get	ack	#50
+path 0	fwd	ack	#50
+path 1	get	data	#51
+path 1	fwd	data	#51	loss rate = 0.197368
+path 2	get	data	#52
+path 2	fwd	data	#52	loss rate = 0.194805
+path 1	get	ack	#51
+path 1	fwd	ack	#51
+path 2	get	ack	#52
+path 2	fwd	ack	#52
+path 0	get	data	#55
+path 0	drop	data	#55	loss rate = 0.205128
+path 1	get	data	#54
+path 1	fwd	data	#54	loss rate = 0.202532
+path 1	get	ack	#54
+path 1	fwd	ack	#54
+path 2	get	data	#53
+path 2	drop	data	#53	loss rate = 0.212500
+path 0	get	data	#53
+path 0	drop	data	#53	loss rate = 0.222222
+path 0	get	data	#53
+path 0	drop	data	#53	loss rate = 0.231707
+path 1	get	data	#53
+path 1	fwd	data	#53	loss rate = 0.228916
+path 1	get	ack	#53
+path 1	fwd	ack	#53
+path 0	get	data	#55
+path 0	fwd	data	#55	loss rate = 0.226190
+path 2	get	data	#54
+path 2	fwd	data	#54	loss rate = 0.223529
+path 2	get	ack	#54
+path 2	fwd	ack	#54
+path 0	get	ack	#55
+path 0	fwd	ack	#55
+path 2	get	data	#57
+path 2	fwd	data	#57	loss rate = 0.220930
+path 1	get	data	#58
+path 1	drop	data	#58	loss rate = 0.229885
+path 2	get	ack	#57
+path 2	fwd	ack	#57
+path 0	get	data	#56
+path 0	fwd	data	#56	loss rate = 0.227273
+path 0	get	ack	#56
+path 0	fwd	ack	#56
+path 1	get	data	#58
+path 1	fwd	data	#58	loss rate = 0.224719
+path 1	get	ack	#58
+path 1	fwd	ack	#58
+path 0	get	data	#60
+path 0	fwd	data	#60	loss rate = 0.222222
+path 0	get	ack	#60
+path 0	fwd	ack	#60
+path 2	get	data	#59
+path 2	fwd	data	#59	loss rate = 0.219780
+path 2	get	ack	#59
+path 2	fwd	ack	#59
+path 1	get	data	#62
+path 1	fwd	data	#62	loss rate = 0.217391
+path 2	get	data	#63
+path 2	fwd	data	#63	loss rate = 0.215054
+path 2	get	ack	#63
+path 2	fwd	ack	#63
+path 1	get	ack	#62
+path 1	fwd	ack	#62
+path 0	get	data	#61
+path 0	fwd	data	#61	loss rate = 0.212766
+path 0	get	ack	#61
+path 0	fwd	ack	#61
+path 2	get	data	#67
+path 2	fwd	data	#67	loss rate = 0.210526
+path 1	get	data	#66
+path 1	fwd	data	#66	loss rate = 0.208333
+path 0	get	data	#65
+path 0	fwd	data	#65	loss rate = 0.206186
+path 2	get	data	#64
+path 2	drop	data	#64	loss rate = 0.214286
+path 2	get	data	#64
+path 2	fwd	data	#64	loss rate = 0.212121
+path 2	get	ack	#64
+path 2	fwd	ack	#64
+path 0	get	data	#66
+path 0	fwd	data	#66	loss rate = 0.210000
+path 1	get	data	#65
+path 1	fwd	data	#65	loss rate = 0.207921
+path 1	get	ack	#65
+path 1	fwd	ack	#65
+path 1	get	data	#66
+path 1	fwd	data	#66	loss rate = 0.205882
+path 1	get	ack	#66
+path 1	fwd	ack	#66
+path 2	get	data	#67
+path 2	fwd	data	#67	loss rate = 0.203883
+path 0	get	data	#68
+path 0	fwd	data	#68	loss rate = 0.201923
+path 0	get	ack	#68
+path 0	fwd	ack	#68
+path 2	get	ack	#67
+path 2	fwd	ack	#67
+path 1	get	data	#71
+path 1	drop	data	#71	loss rate = 0.209524
+path 2	get	data	#69
+path 2	fwd	data	#69	loss rate = 0.207547
+path 0	get	data	#70
+path 0	fwd	data	#70	loss rate = 0.205607
+path 0	get	ack	#70
+path 0	fwd	ack	#70
+path 2	get	ack	#69
+path 2	fwd	ack	#69
+path 0	get	data	#71
+path 0	drop	data	#71	loss rate = 0.212963
+path 2	get	data	#71
+path 2	drop	data	#71	loss rate = 0.220183
+path 2	get	data	#71
+path 2	fwd	data	#71	loss rate = 0.218182
+path 2	get	ack	#71
+path 2	fwd	ack	#71
+path 1	get	data	#73
+path 1	drop	data	#73	loss rate = 0.225225
+path 0	get	data	#72
+path 0	drop	data	#72	loss rate = 0.232143
+path 2	get	data	#72
+path 2	fwd	data	#72	loss rate = 0.230088
+path 2	get	ack	#72
+path 2	fwd	ack	#72
+path 2	get	data	#74
+path 2	fwd	data	#74	loss rate = 0.228070
+path 2	get	ack	#74
+path 2	fwd	ack	#74
+path 1	get	data	#73
+path 1	fwd	data	#73	loss rate = 0.226087
+path 1	get	ack	#73
+path 1	fwd	ack	#73
+path 0	get	data	#77
+path 0	fwd	data	#77	loss rate = 0.224138
+path 0	get	ack	#77
+path 0	fwd	ack	#77
+path 1	get	data	#76
+path 1	fwd	data	#76	loss rate = 0.222222
+path 1	get	ack	#76
+path 1	fwd	ack	#76
+path 2	get	data	#75
+path 2	drop	data	#75	loss rate = 0.228814
+path 0	get	data	#75
+path 0	fwd	data	#75	loss rate = 0.226891
+path 0	get	ack	#75
+path 0	fwd	ack	#75
+path 2	get	data	#77
+path 2	fwd	data	#77	loss rate = 0.225000
+path 2	get	ack	#77
+path 2	fwd	ack	#77
+path 1	get	data	#76
+path 1	drop	data	#76	loss rate = 0.231405
+path 2	get	data	#76
+path 2	fwd	data	#76	loss rate = 0.229508
+path 2	get	ack	#76
+path 2	fwd	ack	#76
+path 1	get	data	#78
+path 1	fwd	data	#78	loss rate = 0.227642
+path 0	get	data	#77
+path 0	drop	data	#77	loss rate = 0.233871
+path 1	get	ack	#78
+path 1	fwd	ack	#78
+path 0	get	data	#77
+path 0	drop	data	#77	loss rate = 0.240000
+path 1	get	data	#77
+path 1	fwd	data	#77	loss rate = 0.238095
+path 1	get	ack	#77
+path 1	fwd	ack	#77
+path 0	get	data	#78
+path 0	fwd	data	#78	loss rate = 0.236220
+path 2	get	data	#79
+path 2	fwd	data	#79	loss rate = 0.234375
+path 0	get	ack	#78
+path 0	fwd	ack	#78
+path 2	get	ack	#79
+path 2	fwd	ack	#79
+path 0	get	data	#81
+path 0	fwd	data	#81	loss rate = 0.232558
+path 1	get	data	#82
+path 1	fwd	data	#82	loss rate = 0.230769
+path 2	get	data	#80
+path 2	fwd	data	#80	loss rate = 0.229008
+path 0	get	ack	#81
+path 0	fwd	ack	#81
+path 1	get	ack	#82
+path 1	fwd	ack	#82
+path 2	get	ack	#80
+path 2	fwd	ack	#80
+path 2	get	data	#85
+path 2	fwd	data	#85	loss rate = 0.227273
+path 1	get	data	#86
+path 1	fwd	data	#86	loss rate = 0.225564
+path 0	get	data	#84
+path 0	fwd	data	#84	loss rate = 0.223881
+path 2	get	ack	#85
+path 2	fwd	ack	#85
+path 1	get	ack	#86
+path 1	fwd	ack	#86
+path 0	get	ack	#84
+path 0	fwd	ack	#84
+path 0	get	data	#83
+path 0	fwd	data	#83	loss rate = 0.222222
+path 0	get	ack	#83
+path 0	fwd	ack	#83
+path 0	get	data	#87
+path 0	fwd	data	#87	loss rate = 0.220588
+path 1	get	data	#91
+path 1	fwd	data	#91	loss rate = 0.218978
+path 2	get	data	#90
+path 2	fwd	data	#90	loss rate = 0.217391
+path 1	get	ack	#91
+path 1	fwd	ack	#91
+path 0	get	ack	#87
+path 0	fwd	ack	#87
+path 2	get	ack	#90
+path 2	fwd	ack	#90
+path 1	get	data	#89
+path 1	fwd	data	#89	loss rate = 0.215827
+path 2	get	data	#88
+path 2	fwd	data	#88	loss rate = 0.214286
+path 2	get	ack	#88
+path 2	fwd	ack	#88
+path 1	get	ack	#89
+path 1	fwd	ack	#89
+path 0	get	data	#92
+path 0	fwd	data	#92	loss rate = 0.212766
+path 0	get	ack	#92
+path 0	fwd	ack	#92
+path 1	get	data	#97
+path 1	fwd	data	#97	loss rate = 0.211268
+path 2	get	data	#96
+path 2	fwd	data	#96	loss rate = 0.209790
+path 0	get	data	#95
+path 0	fwd	data	#95	loss rate = 0.208333
+path 2	get	ack	#96
+path 2	fwd	ack	#96
+path 0	get	ack	#95
+path 0	fwd	ack	#95
+path 1	get	data	#94
+path 1	drop	data	#94	loss rate = 0.213793
+path 2	get	data	#93
+path 2	fwd	data	#93	loss rate = 0.212329
+path 2	get	ack	#93
+path 2	fwd	ack	#93
+path 0	get	data	#94
+path 0	fwd	data	#94	loss rate = 0.210884
+path 0	get	ack	#94
+path 0	fwd	ack	#94
+path 1	get	data	#96
+path 1	fwd	data	#96	loss rate = 0.209459
+path 2	get	data	#95
+path 2	fwd	data	#95	loss rate = 0.208054
+path 1	get	ack	#96
+path 1	fwd	ack	#96
+path 2	get	ack	#95
+path 2	fwd	ack	#95
+path 1	get	data	#99
+path 1	fwd	data	#99	loss rate = 0.206667
+path 2	get	data	#100
+path 2	fwd	data	#100	loss rate = 0.205298
+path 2	get	ack	#100
+path 2	fwd	ack	#100
+path 0	get	data	#98
+path 0	fwd	data	#98	loss rate = 0.203947
+path 0	get	ack	#98
+path 0	fwd	ack	#98
+path 2	get	data	#97
+path 2	drop	data	#97	loss rate = 0.209150
+path 1	get	data	#97
+path 1	drop	data	#97	loss rate = 0.214286
+path 0	get	data	#97
+path 0	drop	data	#97	loss rate = 0.219355
+path 0	get	data	#97
+path 0	fwd	data	#97	loss rate = 0.217949
+path 0	get	ack	#97
+path 0	fwd	ack	#97
+path 2	get	data	#99
+path 2	fwd	data	#99	loss rate = 0.216561
+path 1	get	data	#98
+path 1	fwd	data	#98	loss rate = 0.215190
+path 1	get	ack	#98
+path 1	fwd	ack	#98
+path 2	get	ack	#99
+path 2	fwd	ack	#99
+path 1	get	data	#102
+path 1	fwd	data	#102	loss rate = 0.213836
+path 1	get	ack	#102
+path 1	fwd	ack	#102
+path 0	get	data	#101
+path 0	fwd	data	#101	loss rate = 0.212500
+path 0	get	ack	#101
+path 0	fwd	ack	#101
+path 2	get	data	#100
+path 2	drop	data	#100	loss rate = 0.217391
+path 1	get	data	#100
+path 1	drop	data	#100	loss rate = 0.222222
+path 0	get	data	#100
+path 0	fwd	data	#100	loss rate = 0.220859
+path 0	get	ack	#100
+path 0	fwd	ack	#100
+path 2	get	data	#102
+path 2	fwd	data	#102	loss rate = 0.219512
+path 1	get	data	#101
+path 1	fwd	data	#101	loss rate = 0.218182
+path 1	get	ack	#101
+path 1	fwd	ack	#101
+path 2	get	ack	#102
+path 2	fwd	ack	#102
+path 0	get	data	#105
+path 0	fwd	data	#105	loss rate = 0.216867
+path 0	get	ack	#105
+path 0	fwd	ack	#105
+path 1	get	data	#104
+path 1	fwd	data	#104	loss rate = 0.215569
+path 2	get	data	#103
+path 2	drop	data	#103	loss rate = 0.220238
+path 1	get	ack	#104
+path 1	fwd	ack	#104
+path 1	get	data	#103
+path 1	fwd	data	#103	loss rate = 0.218935
+path 1	get	ack	#103
+path 1	fwd	ack	#103
+path 2	get	data	#104
+path 2	fwd	data	#104	loss rate = 0.217647
+path 0	get	data	#105
+path 0	fwd	data	#105	loss rate = 0.216374
+path 0	get	ack	#105
+path 0	fwd	ack	#105
+path 2	get	ack	#104
+path 2	fwd	ack	#104
+path 0	get	data	#107
+path 0	fwd	data	#107	loss rate = 0.215116
+path 1	get	data	#108
+path 1	fwd	data	#108	loss rate = 0.213873
+path 2	get	data	#106
+path 2	fwd	data	#106	loss rate = 0.212644
+path 2	get	ack	#106
+path 2	fwd	ack	#106
+path 1	get	ack	#108
+path 1	fwd	ack	#108
+path 0	get	ack	#107
+path 0	fwd	ack	#107
+path 2	get	data	#111
+path 2	fwd	data	#111	loss rate = 0.211429
+path 0	get	data	#110
+path 0	fwd	data	#110	loss rate = 0.210227
+path 1	get	data	#112
+path 1	fwd	data	#112	loss rate = 0.209040
+path 0	get	ack	#110
+path 0	fwd	ack	#110
+path 2	get	ack	#111
+path 2	fwd	ack	#111
+path 1	get	ack	#112
+path 1	fwd	ack	#112
+path 1	get	data	#109
+path 1	fwd	data	#109	loss rate = 0.207865
+path 1	get	ack	#109
+path 1	fwd	ack	#109
+path 2	get	data	#113
+path 2	fwd	data	#113	loss rate = 0.206704
+path 0	get	data	#117
+path 0	fwd	data	#117	loss rate = 0.205556
+path 2	get	ack	#113
+path 2	fwd	ack	#113
+path 0	get	ack	#117
+path 0	fwd	ack	#117
+path 2	get	data	#116
+path 2	fwd	data	#116	loss rate = 0.204420
+path 0	get	data	#114
+path 0	drop	data	#114	loss rate = 0.208791
+path 1	get	data	#115
+path 1	fwd	data	#115	loss rate = 0.207650
+path 2	get	ack	#116
+path 2	fwd	ack	#116
+path 1	get	ack	#115
+path 1	fwd	ack	#115
+path 2	get	data	#114
+path 2	fwd	data	#114	loss rate = 0.206522
+path 2	get	ack	#114
+path 2	fwd	ack	#114
+path 0	get	data	#116
+path 0	fwd	data	#116	loss rate = 0.205405
+path 1	get	data	#115
+path 1	fwd	data	#115	loss rate = 0.204301
+path 1	get	ack	#115
+path 1	fwd	ack	#115
+path 0	get	ack	#116
+path 0	fwd	ack	#116
+path 2	get	data	#119
+path 2	fwd	data	#119	loss rate = 0.203209
+path 0	get	data	#118
+path 0	drop	data	#118	loss rate = 0.207447
+path 2	get	ack	#119
+path 2	fwd	ack	#119
+path 1	get	data	#117
+path 1	fwd	data	#117	loss rate = 0.206349
+path 1	get	ack	#117
+path 1	fwd	ack	#117
+path 1	get	data	#118
+path 1	fwd	data	#118	loss rate = 0.205263
+path 1	get	ack	#118
+path 1	fwd	ack	#118
+path 2	get	data	#120
+path 2	drop	data	#120	loss rate = 0.209424
+path 0	get	data	#119
+path 0	fwd	data	#119	loss rate = 0.208333
+path 0	get	ack	#119
+path 0	fwd	ack	#119
+path 1	get	data	#120
+path 1	fwd	data	#120	loss rate = 0.207254
+path 1	get	ack	#120
+path 1	fwd	ack	#120
+path 2	get	data	#121
+path 2	fwd	data	#121	loss rate = 0.206186
+path 2	get	ack	#121
+path 2	fwd	ack	#121
+path 0	get	data	#122
+path 0	fwd	data	#122	loss rate = 0.205128
+path 0	get	ack	#122
+path 0	fwd	ack	#122
+path 1	get	data	#125
+path 1	fwd	data	#125	loss rate = 0.204082
+path 1	get	ack	#125
+path 1	fwd	ack	#125
+path 2	get	data	#124
+path 2	fwd	data	#124	loss rate = 0.203046
+path 2	get	ack	#124
+path 2	fwd	ack	#124
+path 0	get	data	#123
+path 0	drop	data	#123	loss rate = 0.207071
+path 0	get	data	#123
+path 0	fwd	data	#123	loss rate = 0.206030
+path 0	get	ack	#123
+path 0	fwd	ack	#123
+path 1	get	data	#125
+path 1	fwd	data	#125	loss rate = 0.205000
+path 2	get	data	#124
+path 2	fwd	data	#124	loss rate = 0.203980
+path 2	get	ack	#124
+path 2	fwd	ack	#124
+path 1	get	ack	#125
+path 1	fwd	ack	#125
+path 1	get	data	#127
+path 1	fwd	data	#127	loss rate = 0.202970
+path 2	get	data	#126
+path 2	drop	data	#126	loss rate = 0.206897
+path 0	get	data	#128
+path 0	drop	data	#128	loss rate = 0.210784
+path 1	get	ack	#127
+path 1	fwd	ack	#127
+path 0	get	data	#126
+path 0	drop	data	#126	loss rate = 0.214634
+path 1	get	data	#126
+path 1	fwd	data	#126	loss rate = 0.213592
+path 1	get	ack	#126
+path 1	fwd	ack	#126
+path 0	get	data	#128
+path 0	fwd	data	#128	loss rate = 0.212560
+path 0	get	ack	#128
+path 0	fwd	ack	#128
+path 2	get	data	#127
+path 2	fwd	data	#127	loss rate = 0.211538
+path 2	get	ack	#127
+path 2	fwd	ack	#127
+path 1	get	data	#131
+path 1	fwd	data	#131	loss rate = 0.210526
+path 0	get	data	#130
+path 0	fwd	data	#130	loss rate = 0.209524
+path 0	get	ack	#130
+path 0	fwd	ack	#130
+path 2	get	data	#129
+path 2	fwd	data	#129	loss rate = 0.208531
+path 2	get	ack	#129
+path 2	fwd	ack	#129
+path 2	get	data	#131
+path 2	fwd	data	#131	loss rate = 0.207547
+path 2	get	ack	#131
+path 2	fwd	ack	#131
+path 1	get	data	#132
+path 1	fwd	data	#132	loss rate = 0.206573
+path 0	get	data	#133
+path 0	fwd	data	#133	loss rate = 0.205607
+path 0	get	ack	#133
+path 0	fwd	ack	#133
+path 1	get	ack	#132
+path 1	fwd	ack	#132
+path 2	get	data	#135
+path 2	fwd	data	#135	loss rate = 0.204651
+path 0	get	data	#136
+path 0	fwd	data	#136	loss rate = 0.203704
+path 2	get	ack	#135
+path 2	fwd	ack	#135
+path 0	get	ack	#136
+path 0	fwd	ack	#136
+path 1	get	data	#134
+path 1	drop	data	#134	loss rate = 0.207373
+path 0	get	data	#134
+path 0	fwd	data	#134	loss rate = 0.206422
+path 0	get	ack	#134
+path 0	fwd	ack	#134
+path 1	get	data	#136
+path 1	fwd	data	#136	loss rate = 0.205479
+path 2	get	data	#135
+path 2	fwd	data	#135	loss rate = 0.204545
+path 1	get	ack	#136
+path 1	fwd	ack	#136
+path 2	get	ack	#135
+path 2	fwd	ack	#135
+path 0	get	data	#137
+path 0	fwd	data	#137	loss rate = 0.203620
+path 1	get	data	#138
+path 1	drop	data	#138	loss rate = 0.207207
+path 2	get	data	#139
+path 2	drop	data	#139	loss rate = 0.210762
+path 0	get	ack	#137
+path 0	fwd	ack	#137
+path 0	get	data	#138
+path 0	fwd	data	#138	loss rate = 0.209821
+path 0	get	ack	#138
+path 0	fwd	ack	#138
+path 2	get	data	#140
+path 2	fwd	data	#140	loss rate = 0.208889
+path 2	get	ack	#140
+path 2	fwd	ack	#140
+path 1	get	data	#139
+path 1	drop	data	#139	loss rate = 0.212389
+path 2	get	data	#139
+path 2	drop	data	#139	loss rate = 0.215859
+path 1	get	data	#139
+path 1	fwd	data	#139	loss rate = 0.214912
+path 1	get	ack	#139
+path 1	fwd	ack	#139
+path 2	get	data	#141
+path 2	drop	data	#141	loss rate = 0.218341
+path 0	get	data	#140
+path 0	fwd	data	#140	loss rate = 0.217391
+path 0	get	ack	#140
+path 0	fwd	ack	#140
+path 0	get	data	#141
+path 0	fwd	data	#141	loss rate = 0.216450
+path 0	get	ack	#141
+path 0	fwd	ack	#141
+path 1	get	data	#143
+path 1	fwd	data	#143	loss rate = 0.215517
+path 2	get	data	#142
+path 2	fwd	data	#142	loss rate = 0.214592
+path 2	get	ack	#142
+path 2	fwd	ack	#142
+path 1	get	ack	#143
+path 1	fwd	ack	#143
+path 2	get	data	#146
+path 2	fwd	data	#146	loss rate = 0.213675
+path 1	get	data	#145
+path 1	fwd	data	#145	loss rate = 0.212766
+path 0	get	data	#144
+path 0	fwd	data	#144	loss rate = 0.211864
+path 1	get	ack	#145
+path 1	fwd	ack	#145
+path 0	get	ack	#144
+path 0	fwd	ack	#144
+path 2	get	ack	#146
+path 2	fwd	ack	#146
+path 2	get	data	#150
+path 2	fwd	data	#150	loss rate = 0.210970
+path 1	get	data	#149
+path 1	fwd	data	#149	loss rate = 0.210084
+path 0	get	data	#148
+path 0	fwd	data	#148	loss rate = 0.209205
+path 0	get	ack	#148
+path 0	fwd	ack	#148
+path 1	get	ack	#149
+path 1	fwd	ack	#149
+path 2	get	ack	#150
+path 2	fwd	ack	#150
+path 2	get	data	#147
+path 2	fwd	data	#147	loss rate = 0.208333
+path 2	get	ack	#147
+path 2	fwd	ack	#147
+path 1	get	data	#155
+path 1	fwd	data	#155	loss rate = 0.207469
+path 0	get	data	#154
+path 0	fwd	data	#154	loss rate = 0.206612
+path 1	get	ack	#155
+path 1	fwd	ack	#155
+path 0	get	ack	#154
+path 0	fwd	ack	#154
+path 2	get	data	#153
+path 2	fwd	data	#153	loss rate = 0.205761
+path 1	get	data	#152
+path 1	fwd	data	#152	loss rate = 0.204918
+path 0	get	data	#151
+path 0	fwd	data	#151	loss rate = 0.204082
+path 1	get	ack	#152
+path 1	fwd	ack	#152
+path 0	get	ack	#151
+path 0	fwd	ack	#151
+path 2	get	ack	#153
+path 2	fwd	ack	#153
+path 2	get	data	#161
+path 2	fwd	data	#161	loss rate = 0.203252
+path 0	get	data	#160
+path 0	fwd	data	#160	loss rate = 0.202429
+path 1	get	data	#159
+path 1	fwd	data	#159	loss rate = 0.201613
+path 1	get	ack	#159
+path 1	fwd	ack	#159
+path 0	get	ack	#160
+path 0	fwd	ack	#160
+path 1	get	data	#158
+path 1	fwd	data	#158	loss rate = 0.200803
+path 0	get	data	#156
+path 0	fwd	data	#156	loss rate = 0.200000
+path 2	get	data	#157
+path 2	fwd	data	#157	loss rate = 0.199203
+path 0	get	ack	#156
+path 0	fwd	ack	#156
+path 1	get	ack	#158
+path 1	fwd	ack	#158
+path 2	get	ack	#157
+path 2	fwd	ack	#157
+path 1	get	data	#161
+path 1	fwd	data	#161	loss rate = 0.198413
+path 1	get	data	#161
+path 1	fwd	data	#161	loss rate = 0.197628
+path 1	get	ack	#161
+path 1	fwd	ack	#161
+path 2	get	data	#163
+path 2	fwd	data	#163	loss rate = 0.196850
+path 0	get	data	#162
+path 0	fwd	data	#162	loss rate = 0.196078
+path 2	get	ack	#163
+path 2	fwd	ack	#163
+path 0	get	ack	#162
+path 0	fwd	ack	#162
+path 1	get	data	#166
+path 1	fwd	data	#166	loss rate = 0.195312
+path 1	get	ack	#166
+path 1	fwd	ack	#166
+path 2	get	data	#165
+path 2	fwd	data	#165	loss rate = 0.194553
+path 0	get	data	#164
+path 0	fwd	data	#164	loss rate = 0.193798
+path 0	get	ack	#164
+path 0	fwd	ack	#164
+path 2	get	ack	#165
+path 2	fwd	ack	#165
+path 2	get	data	#170
+path 2	fwd	data	#170	loss rate = 0.193050
+path 0	get	data	#169
+path 0	drop	data	#169	loss rate = 0.196154
+path 2	get	ack	#170
+path 2	fwd	ack	#170
+path 0	get	data	#167
+path 0	fwd	data	#167	loss rate = 0.195402
+path 2	get	data	#168
+path 2	drop	data	#168	loss rate = 0.198473
+path 0	get	ack	#167
+path 0	fwd	ack	#167
+path 1	get	data	#168
+path 1	drop	data	#168	loss rate = 0.201521
+path 0	get	data	#168
+path 0	drop	data	#168	loss rate = 0.204545
+path 1	get	data	#168
+path 1	fwd	data	#168	loss rate = 0.203774
+path 1	get	ack	#168
+path 1	fwd	ack	#168
+path 0	get	data	#170
+path 0	drop	data	#170	loss rate = 0.206767
+path 2	get	data	#169
+path 2	fwd	data	#169	loss rate = 0.205993
+path 2	get	ack	#169
+path 2	fwd	ack	#169
+path 2	get	data	#170
+path 2	fwd	data	#170	loss rate = 0.205224
+path 2	get	ack	#170
+path 2	fwd	ack	#170
+path 0	get	data	#172
+path 0	fwd	data	#172	loss rate = 0.204461
+path 0	get	ack	#172
+path 0	fwd	ack	#172
+path 1	get	data	#171
+path 1	fwd	data	#171	loss rate = 0.203704
+path 1	get	ack	#171
+path 1	fwd	ack	#171
+path 2	get	data	#175
+path 2	fwd	data	#175	loss rate = 0.202952
+path 2	get	ack	#175
+path 2	fwd	ack	#175
+path 0	get	data	#174
+path 0	fwd	data	#174	loss rate = 0.202206
+path 0	get	ack	#174
+path 0	fwd	ack	#174
+path 2	get	data	#173
+path 2	fwd	data	#173	loss rate = 0.201465
+path 2	get	ack	#173
+path 2	fwd	ack	#173
+path 0	get	data	#179
+path 0	fwd	data	#179	loss rate = 0.200730
+path 0	get	ack	#179
+path 0	fwd	ack	#179
+path 2	get	data	#178
+path 2	fwd	data	#178	loss rate = 0.200000
+path 0	get	data	#177
+path 0	fwd	data	#177	loss rate = 0.199275
+path 0	get	ack	#177
+path 0	fwd	ack	#177
+path 2	get	ack	#178
+path 2	fwd	ack	#178
+path 1	get	data	#176
+path 1	fwd	data	#176	loss rate = 0.198556
+path 1	get	ack	#176
+path 1	fwd	ack	#176
+path 0	get	data	#183
+path 0	fwd	data	#183	loss rate = 0.197842
+path 2	get	data	#184
+path 2	fwd	data	#184	loss rate = 0.197133
+path 0	get	ack	#183
+path 0	fwd	ack	#183
+path 2	get	ack	#184
+path 2	fwd	ack	#184
+path 1	get	data	#182
+path 1	fwd	data	#182	loss rate = 0.196429
+path 1	get	ack	#182
+path 1	fwd	ack	#182
+path 0	get	data	#180
+path 0	fwd	data	#180	loss rate = 0.195730
+path 2	get	data	#181
+path 2	fwd	data	#181	loss rate = 0.195035
+path 2	get	ack	#181
+path 2	fwd	ack	#181
+path 0	get	ack	#180
+path 0	fwd	ack	#180
+path 1	get	data	#185
+path 1	drop	data	#185	loss rate = 0.197880
+path 2	get	data	#190
+path 2	fwd	data	#190	loss rate = 0.197183
+path 1	get	data	#189
+path 1	fwd	data	#189	loss rate = 0.196491
+path 0	get	data	#188
+path 0	fwd	data	#188	loss rate = 0.195804
+path 0	get	ack	#188
+path 0	fwd	ack	#188
+path 2	get	ack	#190
+path 2	fwd	ack	#190
+path 1	get	ack	#189
+path 1	fwd	ack	#189
+path 0	get	data	#186
+path 0	drop	data	#186	loss rate = 0.198606
+path 2	get	data	#187
+path 2	fwd	data	#187	loss rate = 0.197917
+path 2	get	ack	#187
+path 2	fwd	ack	#187
+path 0	get	data	#185
+path 0	drop	data	#185	loss rate = 0.200692
+path 2	get	data	#185
+path 2	fwd	data	#185	loss rate = 0.200000
+path 2	get	ack	#185
+path 2	fwd	ack	#185
+path 1	get	data	#187
+path 1	drop	data	#187	loss rate = 0.202749
+path 0	get	data	#186
+path 0	fwd	data	#186	loss rate = 0.202055
+path 0	get	ack	#186
+path 0	fwd	ack	#186
+path 1	get	data	#187
+path 1	drop	data	#187	loss rate = 0.204778
+path 0	get	data	#187
+path 0	drop	data	#187	loss rate = 0.207483
+path 0	get	data	#187
+path 0	fwd	data	#187	loss rate = 0.206780
+path 0	get	ack	#187
+path 0	fwd	ack	#187
+path 2	get	data	#189
+path 2	fwd	data	#189	loss rate = 0.206081
+path 1	get	data	#188
+path 1	drop	data	#188	loss rate = 0.208754
+path 2	get	ack	#189
+path 2	fwd	ack	#189
+path 2	get	data	#188
+path 2	fwd	data	#188	loss rate = 0.208054
+path 2	get	ack	#188
+path 2	fwd	ack	#188
+path 1	get	data	#190
+path 1	fwd	data	#190	loss rate = 0.207358
+path 0	get	data	#189
+path 0	fwd	data	#189	loss rate = 0.206667
+path 1	get	ack	#190
+path 1	fwd	ack	#190
+path 0	get	ack	#189
+path 0	fwd	ack	#189
+path 2	get	data	#193
+path 2	drop	data	#193	loss rate = 0.209302
+path 1	get	data	#192
+path 1	fwd	data	#192	loss rate = 0.208609
+path 1	get	ack	#192
+path 1	fwd	ack	#192
+path 0	get	data	#191
+path 0	fwd	data	#191	loss rate = 0.207921
+path 0	get	ack	#191
+path 0	fwd	ack	#191
+path 1	get	data	#193
+path 1	fwd	data	#193	loss rate = 0.207237
+path 1	get	data	#193
+path 1	fwd	data	#193	loss rate = 0.206557
+path 1	get	ack	#193
+path 1	fwd	ack	#193
+path 0	get	data	#194
+path 0	fwd	data	#194	loss rate = 0.205882
+path 0	get	ack	#194
+path 0	fwd	ack	#194
+path 2	get	data	#195
+path 2	fwd	data	#195	loss rate = 0.205212
+path 2	get	ack	#195
+path 2	fwd	ack	#195
+path 1	get	data	#198
+path 1	fwd	data	#198	loss rate = 0.204545
+path 1	get	ack	#198
+path 1	fwd	ack	#198
+path 2	get	data	#197
+path 2	drop	data	#197	loss rate = 0.207120
+path 0	get	data	#196
+path 0	fwd	data	#196	loss rate = 0.206452
+path 0	get	ack	#196
+path 0	fwd	ack	#196
+path 2	get	data	#197
+path 2	fwd	data	#197	loss rate = 0.205788
+path 2	get	ack	#197
+path 2	fwd	ack	#197
+path 1	get	data	#198
+path 1	fwd	data	#198	loss rate = 0.205128
+path 1	get	ack	#198
+path 1	fwd	ack	#198
+path 0	get	data	#199
+path 0	fwd	data	#199	loss rate = 0.204473
+path 0	get	ack	#199
+path 0	fwd	ack	#199
+path 0	get	data	#202
+path 0	fwd	data	#202	loss rate = 0.203822
+path 0	get	ack	#202
+path 0	fwd	ack	#202
+path 1	get	data	#201
+path 1	drop	data	#201	loss rate = 0.206349
+path 2	get	data	#200
+path 2	fwd	data	#200	loss rate = 0.205696
+path 2	get	ack	#200
+path 2	fwd	ack	#200
+path 1	get	data	#201
+path 1	fwd	data	#201	loss rate = 0.205047
+path 1	get	ack	#201
+path 1	fwd	ack	#201
+path 0	get	data	#203
+path 0	drop	data	#203	loss rate = 0.207547
+path 2	get	data	#202
+path 2	fwd	data	#202	loss rate = 0.206897
+path 2	get	ack	#202
+path 2	fwd	ack	#202
+path 2	get	data	#203
+path 2	fwd	data	#203	loss rate = 0.206250
+path 2	get	ack	#203
+path 2	fwd	ack	#203
+path 0	get	data	#205
+path 0	drop	data	#205	loss rate = 0.208723
+path 1	get	data	#204
+path 1	fwd	data	#204	loss rate = 0.208075
+path 1	get	ack	#204
+path 1	fwd	ack	#204
+path 2	get	data	#205
+path 2	fwd	data	#205	loss rate = 0.207430
+path 2	get	ack	#205
+path 2	fwd	ack	#205
+path 0	get	data	#206
+path 0	fwd	data	#206	loss rate = 0.206790
+path 1	get	data	#207
+path 1	fwd	data	#207	loss rate = 0.206154
+path 1	get	ack	#207
+path 1	fwd	ack	#207
+path 0	get	ack	#206
+path 0	fwd	ack	#206
+path 2	get	data	#210
+path 2	fwd	data	#210	loss rate = 0.205521
+path 2	get	ack	#210
+path 2	fwd	ack	#210
+path 0	get	data	#208
+path 0	fwd	data	#208	loss rate = 0.204893
+path 1	get	data	#209
+path 1	fwd	data	#209	loss rate = 0.204268
+path 1	get	ack	#209
+path 1	fwd	ack	#209
+path 0	get	ack	#208
+path 0	fwd	ack	#208
+path 2	get	data	#211
+path 2	drop	data	#211	loss rate = 0.206687
+path 2	get	data	#214
+path 2	fwd	data	#214	loss rate = 0.206061
+path 1	get	data	#213
+path 1	fwd	data	#213	loss rate = 0.205438
+path 1	get	ack	#213
+path 1	fwd	ack	#213
+path 0	get	data	#212
+path 0	drop	data	#212	loss rate = 0.207831
+path 2	get	ack	#214
+path 2	fwd	ack	#214
+path 1	get	data	#211
+path 1	fwd	data	#211	loss rate = 0.207207
+path 1	get	ack	#211
+path 1	fwd	ack	#211
+path 0	get	data	#213
+path 0	fwd	data	#213	loss rate = 0.206587
+path 2	get	data	#212
+path 2	drop	data	#212	loss rate = 0.208955
+path 0	get	ack	#213
+path 0	fwd	ack	#213
+path 1	get	data	#212
+path 1	fwd	data	#212	loss rate = 0.208333
+path 1	get	ack	#212
+path 1	fwd	ack	#212
+path 0	get	data	#213
+path 0	drop	data	#213	loss rate = 0.210682
+path 2	get	data	#214
+path 2	fwd	data	#214	loss rate = 0.210059
+path 2	get	ack	#214
+path 2	fwd	ack	#214
+path 1	get	data	#213
+path 1	fwd	data	#213	loss rate = 0.209440
+path 1	get	ack	#213
+path 1	fwd	ack	#213
+path 0	get	data	#214
+path 0	drop	data	#214	loss rate = 0.211765
+path 2	get	data	#215
+path 2	fwd	data	#215	loss rate = 0.211144
+path 2	get	ack	#215
+path 2	fwd	ack	#215
+path 2	get	data	#214
+path 2	fwd	data	#214	loss rate = 0.210526
+path 2	get	ack	#214
+path 2	fwd	ack	#214
+path 1	get	data	#215
+path 1	fwd	data	#215	loss rate = 0.209913
+path 1	get	ack	#215
+path 1	fwd	ack	#215
+path 0	get	data	#216
+path 0	drop	data	#216	loss rate = 0.212209
+path 0	get	data	#216
+path 0	fwd	data	#216	loss rate = 0.211594
+path 0	get	ack	#216
+path 0	fwd	ack	#216
+path 1	get	data	#218
+path 1	fwd	data	#218	loss rate = 0.210983
+path 1	get	ack	#218
+path 1	fwd	ack	#218
+path 2	get	data	#217
+path 2	fwd	data	#217	loss rate = 0.210375
+path 2	get	ack	#217
+path 2	fwd	ack	#217
+path 0	get	data	#221
+path 0	fwd	data	#221	loss rate = 0.209770
+path 0	get	ack	#221
+path 0	fwd	ack	#221
+path 1	get	data	#220
+path 1	fwd	data	#220	loss rate = 0.209169
+path 1	get	ack	#220
+path 1	fwd	ack	#220
+path 2	get	data	#219
+path 2	fwd	data	#219	loss rate = 0.208571
+path 2	get	ack	#219
+path 2	fwd	ack	#219
+path 0	get	data	#225
+path 0	drop	data	#225	loss rate = 0.210826
+path 1	get	data	#224
+path 1	fwd	data	#224	loss rate = 0.210227
+path 1	get	ack	#224
+path 1	fwd	ack	#224
+path 2	get	data	#222
+path 2	fwd	data	#222	loss rate = 0.209632
+path 0	get	data	#223
+path 0	fwd	data	#223	loss rate = 0.209040
+path 2	get	ack	#222
+path 2	fwd	ack	#222
+path 0	get	ack	#223
+path 0	fwd	ack	#223
+path 1	get	data	#225
+path 1	fwd	data	#225	loss rate = 0.208451
+path 1	get	data	#225
+path 1	drop	data	#225	loss rate = 0.210674
+path 0	get	data	#225
+path 0	fwd	data	#225	loss rate = 0.210084
+path 0	get	ack	#225
+path 0	fwd	ack	#225
+path 1	get	data	#227
+path 1	fwd	data	#227	loss rate = 0.209497
+path 2	get	data	#226
+path 2	fwd	data	#226	loss rate = 0.208914
+path 2	get	ack	#226
+path 2	fwd	ack	#226
+path 1	get	ack	#227
+path 1	fwd	ack	#227
+path 0	get	data	#230
+path 0	fwd	data	#230	loss rate = 0.208333
+path 2	get	data	#229
+path 2	fwd	data	#229	loss rate = 0.207756
+path 1	get	data	#228
+path 1	fwd	data	#228	loss rate = 0.207182
+path 2	get	ack	#229
+path 2	fwd	ack	#229
+path 1	get	ack	#228
+path 1	fwd	ack	#228
+path 0	get	ack	#230
+path 0	fwd	ack	#230
+path 2	get	data	#232
+path 2	fwd	data	#232	loss rate = 0.206612
+path 1	get	data	#233
+path 1	fwd	data	#233	loss rate = 0.206044
+path 0	get	data	#234
+path 0	fwd	data	#234	loss rate = 0.205479
+path 1	get	ack	#233
+path 1	fwd	ack	#233
+path 2	get	ack	#232
+path 2	fwd	ack	#232
+path 0	get	ack	#234
+path 0	fwd	ack	#234
+path 0	get	data	#231
+path 0	fwd	data	#231	loss rate = 0.204918
+path 0	get	ack	#231
+path 0	fwd	ack	#231
+path 1	get	data	#239
+path 1	fwd	data	#239	loss rate = 0.204360
+path 2	get	data	#235
+path 2	drop	data	#235	loss rate = 0.206522
+path 1	get	ack	#239
+path 1	fwd	ack	#239
+path 0	get	data	#238
+path 0	drop	data	#238	loss rate = 0.208672
+path 1	get	data	#236
+path 1	fwd	data	#236	loss rate = 0.208108
+path 2	get	data	#237
+path 2	fwd	data	#237	loss rate = 0.207547
+path 2	get	ack	#237
+path 2	fwd	ack	#237
+path 1	get	ack	#236
+path 1	fwd	ack	#236
+path 1	get	data	#235
+path 1	fwd	data	#235	loss rate = 0.206989
+path 1	get	ack	#235
+path 1	fwd	ack	#235
+path 0	get	data	#237
+path 0	fwd	data	#237	loss rate = 0.206434
+path 2	get	data	#236
+path 2	fwd	data	#236	loss rate = 0.205882
+path 2	get	ack	#236
+path 2	fwd	ack	#236
+path 0	get	ack	#237
+path 0	fwd	ack	#237
+path 0	get	data	#239
+path 0	fwd	data	#239	loss rate = 0.205333
+path 2	get	data	#240
+path 2	fwd	data	#240	loss rate = 0.204787
+path 1	get	data	#238
+path 1	fwd	data	#238	loss rate = 0.204244
+path 1	get	ack	#238
+path 1	fwd	ack	#238
+path 2	get	ack	#240
+path 2	fwd	ack	#240
+path 0	get	ack	#239
+path 0	fwd	ack	#239
+path 2	get	data	#244
+path 2	fwd	data	#244	loss rate = 0.203704
+path 0	get	data	#243
+path 0	fwd	data	#243	loss rate = 0.203166
+path 1	get	data	#242
+path 1	drop	data	#242	loss rate = 0.205263
+path 2	get	ack	#244
+path 2	fwd	ack	#244
+path 0	get	ack	#243
+path 0	fwd	ack	#243
+path 2	get	data	#241
+path 2	fwd	data	#241	loss rate = 0.204724
+path 2	get	ack	#241
+path 2	fwd	ack	#241
+path 2	get	data	#242
+path 2	drop	data	#242	loss rate = 0.206806
+path 2	get	data	#242
+path 2	fwd	data	#242	loss rate = 0.206266
+path 2	get	ack	#242
+path 2	fwd	ack	#242
+path 1	get	data	#244
+path 1	fwd	data	#244	loss rate = 0.205729
+path 1	get	ack	#244
+path 1	fwd	ack	#244
+path 0	get	data	#243
+path 0	fwd	data	#243	loss rate = 0.205195
+path 0	get	ack	#243
+path 0	fwd	ack	#243
+path 2	get	data	#247
+path 2	fwd	data	#247	loss rate = 0.204663
+path 0	get	data	#246
+path 0	fwd	data	#246	loss rate = 0.204134
+path 2	get	ack	#247
+path 2	fwd	ack	#247
+path 0	get	ack	#246
+path 0	fwd	ack	#246
+path 1	get	data	#245
+path 1	fwd	data	#245	loss rate = 0.203608
+path 1	get	ack	#245
+path 1	fwd	ack	#245
+path 2	get	data	#251
+path 2	drop	data	#251	loss rate = 0.205656
+path 0	get	data	#250
+path 0	fwd	data	#250	loss rate = 0.205128
+path 0	get	ack	#250
+path 0	fwd	ack	#250
+path 1	get	data	#249
+path 1	drop	data	#249	loss rate = 0.207161
+path 1	get	data	#248
+path 1	drop	data	#248	loss rate = 0.209184
+path 2	get	data	#248
+path 2	drop	data	#248	loss rate = 0.211196
+path 2	get	data	#248
+path 2	fwd	data	#248	loss rate = 0.210660
+path 2	get	ack	#248
+path 2	fwd	ack	#248
+path 1	get	data	#250
+path 1	fwd	data	#250	loss rate = 0.210127
+path 0	get	data	#249
+path 0	drop	data	#249	loss rate = 0.212121
+path 1	get	ack	#250
+path 1	fwd	ack	#250
+path 1	get	data	#249
+path 1	fwd	data	#249	loss rate = 0.211587
+path 1	get	ack	#249
+path 1	fwd	ack	#249
+path 2	get	data	#251
+path 2	fwd	data	#251	loss rate = 0.211055
+path 0	get	data	#250
+path 0	drop	data	#250	loss rate = 0.213033
+path 2	get	ack	#251
+path 2	fwd	ack	#251
+path 0	get	data	#250
+path 0	fwd	data	#250	loss rate = 0.212500
+path 0	get	ack	#250
+path 0	fwd	ack	#250
+path 1	get	data	#251
+path 1	fwd	data	#251	loss rate = 0.211970
+path 2	get	data	#252
+path 2	fwd	data	#252	loss rate = 0.211443
+path 1	get	ack	#251
+path 1	fwd	ack	#251
+path 2	get	ack	#252
+path 2	fwd	ack	#252
+path 0	get	data	#255
+path 0	fwd	data	#255	loss rate = 0.210918
+path 2	get	data	#254
+path 2	drop	data	#254	loss rate = 0.212871
+path 0	get	ack	#255
+path 0	fwd	ack	#255
+path 1	get	data	#253
+path 1	fwd	data	#253	loss rate = 0.212346
+path 1	get	ack	#253
+path 1	fwd	ack	#253
+path 2	get	data	#254
+path 2	drop	data	#254	loss rate = 0.214286
+path 0	get	data	#254
+path 0	fwd	data	#254	loss rate = 0.213759
+path 0	get	ack	#254
+path 0	fwd	ack	#254
+path 2	get	data	#256
+path 2	fwd	data	#256	loss rate = 0.213235
+path 1	get	data	#255
+path 1	fwd	data	#255	loss rate = 0.212714
+path 2	get	ack	#256
+path 2	fwd	ack	#256
+path 1	get	ack	#255
+path 1	fwd	ack	#255
+path 0	get	data	#259
+path 0	fwd	data	#259	loss rate = 0.212195
+path 1	get	data	#258
+path 1	drop	data	#258	loss rate = 0.214112
+path 2	get	data	#257
+path 2	fwd	data	#257	loss rate = 0.213592
+path 2	get	ack	#257
+path 2	fwd	ack	#257
+path 2	get	data	#258
+path 2	drop	data	#258	loss rate = 0.215496
+path 1	get	data	#258
+path 1	fwd	data	#258	loss rate = 0.214976
+path 1	get	ack	#258
+path 1	fwd	ack	#258
+path 2	get	data	#259
+path 2	fwd	data	#259	loss rate = 0.214458
+path 0	get	data	#260
+path 0	drop	data	#260	loss rate = 0.216346
+path 2	get	ack	#259
+path 2	fwd	ack	#259
+path 2	get	data	#260
+path 2	fwd	data	#260	loss rate = 0.215827
+path 2	get	ack	#260
+path 2	fwd	ack	#260
+path 1	get	data	#262
+path 1	fwd	data	#262	loss rate = 0.215311
+path 0	get	data	#261
+path 0	fwd	data	#261	loss rate = 0.214797
+path 0	get	ack	#261
+path 0	fwd	ack	#261
+path 1	get	ack	#262
+path 1	fwd	ack	#262
+path 2	get	data	#264
+path 2	fwd	data	#264	loss rate = 0.214286
+path 0	get	data	#265
+path 0	fwd	data	#265	loss rate = 0.213777
+path 0	get	ack	#265
+path 0	fwd	ack	#265
+path 2	get	ack	#264
+path 2	fwd	ack	#264
+path 1	get	data	#263
+path 1	drop	data	#263	loss rate = 0.215640
+path 2	get	data	#263
+path 2	fwd	data	#263	loss rate = 0.215130
+path 2	get	ack	#263
+path 2	fwd	ack	#263
+path 1	get	data	#265
+path 1	fwd	data	#265	loss rate = 0.214623
+path 0	get	data	#264
+path 0	fwd	data	#264	loss rate = 0.214118
+path 0	get	ack	#264
+path 0	fwd	ack	#264
+path 1	get	ack	#265
+path 1	fwd	ack	#265
+path 2	get	data	#268
+path 2	fwd	data	#268	loss rate = 0.213615
+path 0	get	data	#267
+path 0	drop	data	#267	loss rate = 0.215457
+path 2	get	ack	#268
+path 2	fwd	ack	#268
+path 1	get	data	#266
+path 1	fwd	data	#266	loss rate = 0.214953
+path 1	get	ack	#266
+path 1	fwd	ack	#266
+path 2	get	data	#267
+path 2	fwd	data	#267	loss rate = 0.214452
+path 2	get	ack	#267
+path 2	fwd	ack	#267
+path 1	get	data	#268
+path 1	fwd	data	#268	loss rate = 0.213953
+path 0	get	data	#269
+path 0	fwd	data	#269	loss rate = 0.213457
+path 0	get	ack	#269
+path 0	fwd	ack	#269
+path 1	get	ack	#268
+path 1	fwd	ack	#268
+path 2	get	data	#271
+path 2	fwd	data	#271	loss rate = 0.212963
+path 1	get	data	#272
+path 1	fwd	data	#272	loss rate = 0.212471
+path 2	get	ack	#271
+path 2	fwd	ack	#271
+path 0	get	data	#270
+path 0	drop	data	#270	loss rate = 0.214286
+path 1	get	ack	#272
+path 1	fwd	ack	#272
+path 1	get	data	#270
+path 1	fwd	data	#270	loss rate = 0.213793
+path 1	get	ack	#270
+path 1	fwd	ack	#270
+path 0	get	data	#272
+path 0	fwd	data	#272	loss rate = 0.213303
+path 0	get	ack	#272
+path 0	fwd	ack	#272
+path 2	get	data	#271
+path 2	fwd	data	#271	loss rate = 0.212815
+path 2	get	ack	#271
+path 2	fwd	ack	#271
+path 0	get	data	#274
+path 0	drop	data	#274	loss rate = 0.214612
+path 1	get	data	#275
+path 1	fwd	data	#275	loss rate = 0.214123
+path 1	get	ack	#275
+path 1	fwd	ack	#275
+path 2	get	data	#273
+path 2	drop	data	#273	loss rate = 0.215909
+path 1	get	data	#273
+path 1	fwd	data	#273	loss rate = 0.215420
+path 1	get	ack	#273
+path 1	fwd	ack	#273
+path 2	get	data	#275
+path 2	fwd	data	#275	loss rate = 0.214932
+path 2	get	ack	#275
+path 2	fwd	ack	#275
+path 0	get	data	#274
+path 0	fwd	data	#274	loss rate = 0.214447
+path 0	get	ack	#274
+path 0	fwd	ack	#274
+path 1	get	data	#276
+path 1	fwd	data	#276	loss rate = 0.213964
+path 1	get	ack	#276
+path 1	fwd	ack	#276
+path 2	get	data	#278
+path 2	fwd	data	#278	loss rate = 0.213483
+path 2	get	ack	#278
+path 2	fwd	ack	#278
+path 2	get	data	#277
+path 2	fwd	data	#277	loss rate = 0.213004
+path 2	get	ack	#277
+path 2	fwd	ack	#277
+path 1	get	data	#281
+path 1	drop	data	#281	loss rate = 0.214765
+path 2	get	data	#282
+path 2	fwd	data	#282	loss rate = 0.214286
+path 2	get	ack	#282
+path 2	fwd	ack	#282
+path 0	get	data	#280
+path 0	fwd	data	#280	loss rate = 0.213808
+path 0	get	ack	#280
+path 0	fwd	ack	#280
+path 1	get	data	#279
+path 1	fwd	data	#279	loss rate = 0.213333
+path 1	get	ack	#279
+path 1	fwd	ack	#279
+path 0	get	data	#281
+path 0	fwd	data	#281	loss rate = 0.212860
+path 0	get	ack	#281
+path 0	fwd	ack	#281
+path 1	get	data	#283
+path 1	drop	data	#283	loss rate = 0.214602
+path 2	get	data	#282
+path 2	fwd	data	#282	loss rate = 0.214128
+path 2	get	ack	#282
+path 2	fwd	ack	#282
+path 2	get	data	#283
+path 2	fwd	data	#283	loss rate = 0.213656
+path 2	get	ack	#283
+path 2	fwd	ack	#283
+path 1	get	data	#284
+path 1	fwd	data	#284	loss rate = 0.213187
+path 0	get	data	#285
+path 0	fwd	data	#285	loss rate = 0.212719
+path 0	get	ack	#285
+path 0	fwd	ack	#285
+path 1	get	ack	#284
+path 1	fwd	ack	#284
+path 2	get	data	#288
+path 2	fwd	data	#288	loss rate = 0.212254
+path 2	get	ack	#288
+path 2	fwd	ack	#288
+path 0	get	data	#287
+path 0	fwd	data	#287	loss rate = 0.211790
+path 1	get	data	#286
+path 1	drop	data	#286	loss rate = 0.213508
+path 0	get	ack	#287
+path 0	fwd	ack	#287
+path 1	get	data	#286
+path 1	fwd	data	#286	loss rate = 0.213043
+path 1	get	ack	#286
+path 1	fwd	ack	#286
+path 0	get	data	#287
+path 0	drop	data	#287	loss rate = 0.214751
+path 2	get	data	#288
+path 2	fwd	data	#288	loss rate = 0.214286
+path 2	get	ack	#288
+path 2	fwd	ack	#288
+path 0	get	data	#287
+path 0	fwd	data	#287	loss rate = 0.213823
+path 0	get	ack	#287
+path 0	fwd	ack	#287
+path 1	get	data	#289
+path 1	fwd	data	#289	loss rate = 0.213362
+path 2	get	data	#288
+path 2	fwd	data	#288	loss rate = 0.212903
+path 2	get	ack	#288
+path 2	fwd	ack	#288
+path 0	get	data	#289
+path 0	fwd	data	#289	loss rate = 0.212446
+path 0	get	ack	#289
+path 0	fwd	ack	#289
+path 1	get	data	#290
+path 1	fwd	data	#290	loss rate = 0.211991
+path 1	get	ack	#290
+path 1	fwd	ack	#290
+path 2	get	data	#291
+path 2	fwd	data	#291	loss rate = 0.211538
+path 2	get	ack	#291
+path 2	fwd	ack	#291
+path 0	get	data	#293
+path 0	fwd	data	#293	loss rate = 0.211087
+path 1	get	data	#294
+path 1	fwd	data	#294	loss rate = 0.210638
+path 1	get	ack	#294
+path 1	fwd	ack	#294
+path 0	get	ack	#293
+path 0	fwd	ack	#293
+path 2	get	data	#292
+path 2	fwd	data	#292	loss rate = 0.210191
+path 2	get	ack	#292
+path 2	fwd	ack	#292
+path 0	get	data	#296
+path 0	fwd	data	#296	loss rate = 0.209746
+path 1	get	data	#298
+path 1	drop	data	#298	loss rate = 0.211416
+path 2	get	data	#297
+path 2	fwd	data	#297	loss rate = 0.210970
+path 0	get	ack	#296
+path 0	fwd	ack	#296
+path 2	get	ack	#297
+path 2	fwd	ack	#297
+path 1	get	data	#295
+path 1	fwd	data	#295	loss rate = 0.210526
+path 1	get	ack	#295
+path 1	fwd	ack	#295
+path 1	get	data	#298
+path 1	fwd	data	#298	loss rate = 0.210084
+path 1	get	ack	#298
+path 1	fwd	ack	#298
+path 2	get	data	#300
+path 2	fwd	data	#300	loss rate = 0.209644
+path 0	get	data	#299
+path 0	fwd	data	#299	loss rate = 0.209205
+path 0	get	ack	#299
+path 0	fwd	ack	#299
+path 2	get	ack	#300
+path 2	fwd	ack	#300
+path 2	get	data	#303
+path 2	fwd	data	#303	loss rate = 0.208768
+path 1	get	data	#302
+path 1	fwd	data	#302	loss rate = 0.208333
+path 0	get	data	#301
+path 0	fwd	data	#301	loss rate = 0.207900
+path 0	get	ack	#301
+path 0	fwd	ack	#301
+path 2	get	ack	#303
+path 2	fwd	ack	#303
+path 1	get	ack	#302
+path 1	fwd	ack	#302
+path 2	get	data	#307
+path 2	fwd	data	#307	loss rate = 0.207469
+path 1	get	data	#306
+path 1	fwd	data	#306	loss rate = 0.207039
+path 0	get	data	#305
+path 0	fwd	data	#305	loss rate = 0.206612
+path 0	get	ack	#305
+path 0	fwd	ack	#305
+path 2	get	ack	#307
+path 1	get	ack	#306
+path 2	fwd	ack	#307
+path 1	fwd	ack	#306
+path 2	get	data	#304
+path 2	fwd	data	#304	loss rate = 0.206186
+path 2	get	ack	#304
+path 2	fwd	ack	#304
+path 1	get	data	#308
+path 1	fwd	data	#308	loss rate = 0.205761
+path 0	get	data	#312
+path 0	drop	data	#312	loss rate = 0.207392
+path 1	get	ack	#308
+path 1	fwd	ack	#308
+path 2	get	data	#311
+path 2	fwd	data	#311	loss rate = 0.206967
+path 0	get	data	#310
+path 0	fwd	data	#310	loss rate = 0.206544
+path 2	get	ack	#311
+path 2	fwd	ack	#311
+path 0	get	ack	#310
+path 0	fwd	ack	#310
+path 1	get	data	#309
+path 1	drop	data	#309	loss rate = 0.208163
+path 1	get	data	#309
+path 1	fwd	data	#309	loss rate = 0.207739
+path 1	get	ack	#309
+path 1	fwd	ack	#309
+path 2	get	data	#311
+path 2	fwd	data	#311	loss rate = 0.207317
+path 2	get	ack	#311
+path 2	fwd	ack	#311
+path 1	get	data	#310
+path 1	fwd	data	#310	loss rate = 0.206897
+path 1	get	ack	#310
+path 1	fwd	ack	#310
+path 0	get	data	#314
+path 0	fwd	data	#314	loss rate = 0.206478
+path 0	get	ack	#314
+path 0	fwd	ack	#314
+path 1	get	data	#313
+path 1	fwd	data	#313	loss rate = 0.206061
+path 1	get	ack	#313
+path 1	fwd	ack	#313
+path 0	get	data	#312
+path 0	drop	data	#312	loss rate = 0.207661
+path 0	get	data	#312
+path 0	fwd	data	#312	loss rate = 0.207243
+path 0	get	ack	#312
+path 0	fwd	ack	#312
+path 2	get	data	#313
+path 2	fwd	data	#313	loss rate = 0.206827
+path 1	get	data	#314
+path 1	fwd	data	#314	loss rate = 0.206413
+path 1	get	ack	#314
+path 1	fwd	ack	#314
+path 2	get	ack	#313
+path 2	fwd	ack	#313
+path 0	get	data	#317
+path 0	fwd	data	#317	loss rate = 0.206000
+path 0	get	ack	#317
+path 0	fwd	ack	#317
+path 2	get	data	#316
+path 2	fwd	data	#316	loss rate = 0.205589
+path 1	get	data	#315
+path 1	fwd	data	#315	loss rate = 0.205179
+path 1	get	ack	#315
+path 1	fwd	ack	#315
+path 2	get	ack	#316
+path 2	fwd	ack	#316
+path 0	get	data	#321
+path 0	drop	data	#321	loss rate = 0.206759
+path 2	get	data	#320
+path 2	drop	data	#320	loss rate = 0.208333
+path 1	get	data	#319
+path 1	fwd	data	#319	loss rate = 0.207921
+path 1	get	ack	#319
+path 1	fwd	ack	#319
+path 0	get	data	#318
+path 0	fwd	data	#318	loss rate = 0.207510
+path 0	get	ack	#318
+path 0	fwd	ack	#318
+path 1	get	data	#320
+path 1	fwd	data	#320	loss rate = 0.207101
+path 1	get	ack	#320
+path 1	fwd	ack	#320
+path 2	get	data	#321
+path 2	fwd	data	#321	loss rate = 0.206693
+path 0	get	data	#322
+path 0	drop	data	#322	loss rate = 0.208251
+path 2	get	data	#321
+path 2	fwd	data	#321	loss rate = 0.207843
+path 2	get	ack	#321
+path 2	fwd	ack	#321
+path 1	get	data	#322
+path 1	fwd	data	#322	loss rate = 0.207436
+path 0	get	data	#323
+path 0	fwd	data	#323	loss rate = 0.207031
+path 1	get	ack	#322
+path 1	fwd	ack	#322
+path 0	get	ack	#323
+path 0	fwd	ack	#323
+path 2	get	data	#324
+path 2	fwd	data	#324	loss rate = 0.206628
+path 0	get	data	#326
+path 0	fwd	data	#326	loss rate = 0.206226
+path 2	get	ack	#324
+path 2	fwd	ack	#324
+path 1	get	data	#325
+path 1	drop	data	#325	loss rate = 0.207767
+path 0	get	ack	#326
+path 0	fwd	ack	#326
+path 1	get	data	#325
+path 1	drop	data	#325	loss rate = 0.209302
+path 2	get	data	#325
+path 2	fwd	data	#325	loss rate = 0.208897
+path 2	get	ack	#325
+path 2	fwd	ack	#325
+path 1	get	data	#326
+path 1	drop	data	#326	loss rate = 0.210425
+path 0	get	data	#327
+path 0	fwd	data	#327	loss rate = 0.210019
+path 0	get	ack	#327
+path 0	fwd	ack	#327
+path 1	get	data	#326
+path 1	drop	data	#326	loss rate = 0.211538
+path 2	get	data	#326
+path 2	drop	data	#326	loss rate = 0.213052
+path 1	get	data	#326
+path 1	fwd	data	#326	loss rate = 0.212644
+path 1	get	ack	#326
+path 1	fwd	ack	#326
+path 2	get	data	#327
+path 2	fwd	data	#327	loss rate = 0.212237
+path 0	get	data	#328
+path 0	drop	data	#328	loss rate = 0.213740
+path 2	get	ack	#327
+path 2	fwd	ack	#327
+path 1	get	data	#328
+path 1	fwd	data	#328	loss rate = 0.213333
+path 1	get	ack	#328
+path 1	fwd	ack	#328
+path 2	get	data	#330
+path 2	fwd	data	#330	loss rate = 0.212928
+path 2	get	ack	#330
+path 2	fwd	ack	#330
+path 0	get	data	#329
+path 0	drop	data	#329	loss rate = 0.214421
+path 2	get	data	#329
+path 2	fwd	data	#329	loss rate = 0.214015
+path 2	get	ack	#329
+path 2	fwd	ack	#329
+path 0	get	data	#331
+path 0	drop	data	#331	loss rate = 0.215501
+path 1	get	data	#330
+path 1	fwd	data	#330	loss rate = 0.215094
+path 1	get	ack	#330
+path 1	fwd	ack	#330
+path 2	get	data	#331
+path 2	fwd	data	#331	loss rate = 0.214689
+path 2	get	ack	#331
+path 2	fwd	ack	#331
+path 1	get	data	#333
+path 1	fwd	data	#333	loss rate = 0.214286
+path 0	get	data	#332
+path 0	drop	data	#332	loss rate = 0.215760
+path 1	get	ack	#333
+path 1	fwd	ack	#333
+path 2	get	data	#332
+path 2	drop	data	#332	loss rate = 0.217228
+path 1	get	data	#332
+path 1	fwd	data	#332	loss rate = 0.216822
+path 1	get	ack	#332
+path 1	fwd	ack	#332
+path 0	get	data	#333
+path 0	fwd	data	#333	loss rate = 0.216418
+path 0	get	ack	#333
+path 0	fwd	ack	#333
+path 2	get	data	#334
+path 2	fwd	data	#334	loss rate = 0.216015
+path 2	get	ack	#334
+path 2	fwd	ack	#334
+path 1	get	data	#337
+path 1	fwd	data	#337	loss rate = 0.215613
+path 1	get	ack	#337
+path 1	fwd	ack	#337
+path 0	get	data	#335
+path 0	fwd	data	#335	loss rate = 0.215213
+path 2	get	data	#336
+path 2	drop	data	#336	loss rate = 0.216667
+path 0	get	ack	#335
+path 0	fwd	ack	#335
+path 2	get	data	#336
+path 2	fwd	data	#336	loss rate = 0.216266
+path 2	get	ack	#336
+path 2	fwd	ack	#336
+path 0	get	data	#338
+path 0	fwd	data	#338	loss rate = 0.215867
+path 1	get	data	#337
+path 1	drop	data	#337	loss rate = 0.217311
+path 0	get	ack	#338
+path 0	fwd	ack	#338
+path 2	get	data	#337
+path 2	fwd	data	#337	loss rate = 0.216912
+path 2	get	ack	#337
+path 2	fwd	ack	#337
+path 0	get	data	#339
+path 0	fwd	data	#339	loss rate = 0.216514
+path 1	get	data	#338
+path 1	drop	data	#338	loss rate = 0.217949
+path 0	get	ack	#339
+path 0	fwd	ack	#339
+path 0	get	data	#338
+path 0	fwd	data	#338	loss rate = 0.217550
+path 0	get	ack	#338
+path 0	fwd	ack	#338
+path 1	get	data	#340
+path 1	fwd	data	#340	loss rate = 0.217153
+path 2	get	data	#339
+path 2	fwd	data	#339	loss rate = 0.216758
+path 2	get	ack	#339
+path 2	fwd	ack	#339
+path 1	get	ack	#340
+path 1	fwd	ack	#340
+path 0	get	data	#343
+path 0	fwd	data	#343	loss rate = 0.216364
+path 2	get	data	#342
+path 2	fwd	data	#342	loss rate = 0.215971
+path 0	get	ack	#343
+path 0	fwd	ack	#343
+path 1	get	data	#341
+path 1	fwd	data	#341	loss rate = 0.215580
+path 1	get	ack	#341
+path 1	fwd	ack	#341
+path 2	get	ack	#342
+path 2	fwd	ack	#342
+path 0	get	data	#346
+path 0	fwd	data	#346	loss rate = 0.215190
+path 2	get	data	#347
+path 2	drop	data	#347	loss rate = 0.216606
+path 1	get	data	#345
+path 1	fwd	data	#345	loss rate = 0.216216
+path 1	get	ack	#345
+path 1	fwd	ack	#345
+path 0	get	ack	#346
+path 0	fwd	ack	#346
+path 2	get	data	#344
+path 2	drop	data	#344	loss rate = 0.217626
+path 0	get	data	#344
+path 0	fwd	data	#344	loss rate = 0.217235
+path 0	get	ack	#344
+path 0	fwd	ack	#344
+path 2	get	data	#346
+path 2	fwd	data	#346	loss rate = 0.216846
+path 1	get	data	#345
+path 1	fwd	data	#345	loss rate = 0.216458
+path 1	get	ack	#345
+path 1	fwd	ack	#345
+path 2	get	ack	#346
+path 2	fwd	ack	#346
+path 0	get	data	#349
+path 0	fwd	data	#349	loss rate = 0.216071
+path 2	get	data	#348
+path 2	drop	data	#348	loss rate = 0.217469
+path 1	get	data	#347
+path 1	fwd	data	#347	loss rate = 0.217082
+path 1	get	ack	#347
+path 1	fwd	ack	#347
+path 0	get	ack	#349
+path 0	fwd	ack	#349
+path 1	get	data	#348
+path 1	fwd	data	#348	loss rate = 0.216696
+path 1	get	ack	#348
+path 1	fwd	ack	#348
+path 0	get	data	#350
+path 0	fwd	data	#350	loss rate = 0.216312
+path 2	get	data	#349
+path 2	fwd	data	#349	loss rate = 0.215929
+path 2	get	ack	#349
+path 2	fwd	ack	#349
+path 0	get	ack	#350
+path 0	fwd	ack	#350
+path 2	get	data	#353
+path 2	fwd	data	#353	loss rate = 0.215548
+path 1	get	data	#352
+path 1	fwd	data	#352	loss rate = 0.215168
+path 0	get	data	#351
+path 0	fwd	data	#351	loss rate = 0.214789
+path 0	get	ack	#351
+path 0	fwd	ack	#351
+path 1	get	ack	#352
+path 1	fwd	ack	#352
+path 1	get	data	#353
+path 1	fwd	data	#353	loss rate = 0.214411
+path 1	get	data	#353
+path 1	drop	data	#353	loss rate = 0.215789
+path 2	get	data	#353
+path 2	fwd	data	#353	loss rate = 0.215412
+path 2	get	ack	#353
+path 2	fwd	ack	#353
+path 1	get	data	#354
+path 1	fwd	data	#354	loss rate = 0.215035
+path 0	get	data	#355
+path 0	fwd	data	#355	loss rate = 0.214660
+path 0	get	ack	#355
+path 0	fwd	ack	#355
+path 1	get	ack	#354
+path 1	fwd	ack	#354
+path 0	get	data	#356
+path 0	fwd	data	#356	loss rate = 0.214286
+path 2	get	data	#358
+path 2	drop	data	#358	loss rate = 0.215652
+path 1	get	data	#357
+path 1	drop	data	#357	loss rate = 0.217014
+path 0	get	ack	#356
+path 0	fwd	ack	#356
+path 0	get	data	#357
+path 0	drop	data	#357	loss rate = 0.218371
+path 0	get	data	#357
+path 0	fwd	data	#357	loss rate = 0.217993
+path 0	get	ack	#357
+path 0	fwd	ack	#357
+path 1	get	data	#358
+path 1	fwd	data	#358	loss rate = 0.217617
+path 2	get	data	#359
+path 2	fwd	data	#359	loss rate = 0.217241
+path 2	get	ack	#359
+path 2	fwd	ack	#359
+path 1	get	ack	#358
+path 1	fwd	ack	#358
+path 0	get	data	#362
+path 0	fwd	data	#362	loss rate = 0.216867
+path 2	get	data	#361
+path 2	fwd	data	#361	loss rate = 0.216495
+path 1	get	data	#360
+path 1	fwd	data	#360	loss rate = 0.216123
+path 0	get	ack	#362
+path 0	fwd	ack	#362
+path 2	get	ack	#361
+path 2	fwd	ack	#361
+path 1	get	ack	#360
+path 1	fwd	ack	#360
+path 0	get	data	#366
+path 0	fwd	data	#366	loss rate = 0.215753
+path 2	get	data	#365
+path 2	drop	data	#365	loss rate = 0.217094
+path 1	get	data	#364
+path 1	fwd	data	#364	loss rate = 0.216724
+path 0	get	ack	#366
+path 0	fwd	ack	#366
+path 1	get	ack	#364
+path 1	fwd	ack	#364
+path 2	get	data	#363
+path 2	drop	data	#363	loss rate = 0.218058
+path 2	get	data	#363
+path 2	fwd	data	#363	loss rate = 0.217687
+path 2	get	ack	#363
+path 2	fwd	ack	#363
+path 0	get	data	#365
+path 0	fwd	data	#365	loss rate = 0.217317
+path 1	get	data	#364
+path 1	fwd	data	#364	loss rate = 0.216949
+path 1	get	ack	#364
+path 1	fwd	ack	#364
+path 0	get	ack	#365
+path 0	fwd	ack	#365
+path 2	get	data	#368
+path 2	fwd	data	#368	loss rate = 0.216582
+path 1	get	data	#367
+path 1	fwd	data	#367	loss rate = 0.216216
+path 0	get	data	#366
+path 0	fwd	data	#366	loss rate = 0.215852
+path 1	get	ack	#367
+path 1	fwd	ack	#367
+path 2	get	ack	#368
+path 2	fwd	ack	#368
+path 0	get	ack	#366
+path 0	fwd	ack	#366
+path 0	get	data	#371
+path 0	fwd	data	#371	loss rate = 0.215488
+path 1	get	data	#372
+path 1	fwd	data	#372	loss rate = 0.215126
+path 0	get	ack	#371
+path 0	fwd	ack	#371
+path 1	get	ack	#372
+path 1	fwd	ack	#372
+path 2	get	data	#370
+path 2	fwd	data	#370	loss rate = 0.214765
+path 2	get	ack	#370
+path 2	fwd	ack	#370
+path 1	get	data	#369
+path 1	fwd	data	#369	loss rate = 0.214405
+path 1	get	ack	#369
+path 1	fwd	ack	#369
+path 0	get	data	#373
+path 0	fwd	data	#373	loss rate = 0.214047
+path 2	get	data	#377
+path 2	fwd	data	#377	loss rate = 0.213689
+path 0	get	ack	#373
+path 0	fwd	ack	#373
+path 2	get	ack	#377
+path 2	fwd	ack	#377
+path 1	get	data	#376
+path 1	drop	data	#376	loss rate = 0.215000
+path 0	get	data	#375
+path 0	fwd	data	#375	loss rate = 0.214642
+path 0	get	ack	#375
+path 0	fwd	ack	#375
+path 2	get	data	#374
+path 2	fwd	data	#374	loss rate = 0.214286
+path 2	get	ack	#374
+path 2	fwd	ack	#374
+path 1	get	data	#376
+path 1	fwd	data	#376	loss rate = 0.213930
+path 1	get	ack	#376
+path 1	fwd	ack	#376
+path 0	get	data	#377
+path 0	fwd	data	#377	loss rate = 0.213576
+path 0	get	ack	#377
+path 0	fwd	ack	#377
+path 2	get	data	#378
+path 2	drop	data	#378	loss rate = 0.214876
+path 2	get	data	#378
+path 2	fwd	data	#378	loss rate = 0.214521
+path 2	get	ack	#378
+path 2	fwd	ack	#378
+path 0	get	data	#380
+path 0	fwd	data	#380	loss rate = 0.214168
+path 1	get	data	#379
+path 1	drop	data	#379	loss rate = 0.215461
+path 0	get	ack	#380
+path 0	fwd	ack	#380
+path 0	get	data	#379
+path 0	fwd	data	#379	loss rate = 0.215107
+path 0	get	ack	#379
+path 0	fwd	ack	#379
+path 2	get	data	#380
+path 2	fwd	data	#380	loss rate = 0.214754
+path 2	get	ack	#380
+path 2	fwd	ack	#380
+path 1	get	data	#381
+path 1	fwd	data	#381	loss rate = 0.214403
+path 1	get	ack	#381
+path 1	fwd	ack	#381
+path 1	get	data	#384
+path 1	fwd	data	#384	loss rate = 0.214052
+path 2	get	data	#383
+path 2	fwd	data	#383	loss rate = 0.213703
+path 0	get	data	#382
+path 0	fwd	data	#382	loss rate = 0.213355
+path 0	get	ack	#382
+path 0	fwd	ack	#382
+path 2	get	ack	#383
+path 2	fwd	ack	#383
+path 1	get	ack	#384
+path 1	fwd	ack	#384
+path 1	get	data	#388
+path 1	fwd	data	#388	loss rate = 0.213008
+path 0	get	data	#386
+path 0	fwd	data	#386	loss rate = 0.212662
+path 2	get	data	#387
+path 2	fwd	data	#387	loss rate = 0.212318
+path 0	get	ack	#386
+path 0	fwd	ack	#386
+path 2	get	ack	#387
+path 2	fwd	ack	#387
+path 1	get	data	#385
+path 1	fwd	data	#385	loss rate = 0.211974
+path 1	get	ack	#385
+path 1	fwd	ack	#385
+path 0	get	data	#388
+path 0	fwd	data	#388	loss rate = 0.211632
+path 0	get	ack	#388
+path 0	fwd	ack	#388
+path 1	get	data	#390
+path 1	drop	data	#390	loss rate = 0.212903
+path 2	get	data	#389
+path 2	fwd	data	#389	loss rate = 0.212560
+path 2	get	ack	#389
+path 2	fwd	ack	#389
+path 0	get	data	#390
+path 0	fwd	data	#390	loss rate = 0.212219
+path 0	get	ack	#390
+path 0	fwd	ack	#390
+path 1	get	data	#392
+path 1	fwd	data	#392	loss rate = 0.211878
+path 2	get	data	#391
+path 2	drop	data	#391	loss rate = 0.213141
+path 1	get	ack	#392
+path 1	fwd	ack	#392
+path 0	get	data	#391
+path 0	drop	data	#391	loss rate = 0.214400
+path 0	get	data	#391
+path 0	fwd	data	#391	loss rate = 0.214058
+path 0	get	ack	#391
+path 0	fwd	ack	#391
+path 2	get	data	#393
+path 2	fwd	data	#393	loss rate = 0.213716
+path 1	get	data	#392
+path 2	get	ack	#393
+path 1	fwd	data	#392	loss rate = 0.213376
+path 2	fwd	ack	#393
+path 1	get	ack	#392
+path 1	fwd	ack	#392
+path 0	get	data	#396
+path 0	fwd	data	#396	loss rate = 0.213037
+path 0	get	ack	#396
+path 0	fwd	ack	#396
+path 2	get	data	#395
+path 2	fwd	data	#395	loss rate = 0.212698
+path 2	get	ack	#395
+path 2	fwd	ack	#395
+path 1	get	data	#394
+path 1	fwd	data	#394	loss rate = 0.212361
+path 1	get	ack	#394
+path 1	fwd	ack	#394
+path 1	get	data	#400
+path 1	fwd	data	#400	loss rate = 0.212025
+path 0	get	data	#399
+path 0	fwd	data	#399	loss rate = 0.211690
+path 0	get	ack	#399
+path 0	fwd	ack	#399
+path 2	get	data	#398
+path 1	get	ack	#400
+path 1	fwd	ack	#400
+path 2	fwd	data	#398	loss rate = 0.211356
+path 2	get	ack	#398
+path 2	fwd	ack	#398
+path 0	get	data	#397
+path 0	drop	data	#397	loss rate = 0.212598
+path 0	get	data	#397
+path 0	fwd	data	#397	loss rate = 0.212264
+path 0	get	ack	#397
+path 0	fwd	ack	#397
+path 2	get	data	#399
+path 2	fwd	data	#399	loss rate = 0.211931
+path 2	get	ack	#399
+path 2	fwd	ack	#399
+path 1	get	data	#398
+path 1	drop	data	#398	loss rate = 0.213166
+path 1	get	data	#398
+path 1	fwd	data	#398	loss rate = 0.212833
+path 1	get	ack	#398
+path 1	fwd	ack	#398
+path 2	get	data	#400
+path 2	fwd	data	#400	loss rate = 0.212500
+path 0	get	data	#399
+path 0	fwd	data	#399	loss rate = 0.212168
+path 0	get	ack	#399
+path 0	fwd	ack	#399
+path 2	get	ack	#400
+path 2	fwd	ack	#400
+path 1	get	data	#403
+path 1	fwd	data	#403	loss rate = 0.211838
+path 2	get	data	#402
+path 2	fwd	data	#402	loss rate = 0.211509
+path 0	get	data	#401
+path 0	fwd	data	#401	loss rate = 0.211180
+path 2	get	ack	#402
+path 2	fwd	ack	#402
+path 0	get	ack	#401
+path 0	fwd	ack	#401
+path 1	get	ack	#403
+path 1	fwd	ack	#403
+path 1	get	data	#407
+path 1	fwd	data	#407	loss rate = 0.210853
+path 2	get	data	#406
+path 2	fwd	data	#406	loss rate = 0.210526
+path 0	get	data	#405
+path 0	fwd	data	#405	loss rate = 0.210201
+path 2	get	ack	#406
+path 2	fwd	ack	#406
+path 0	get	ack	#405
+path 0	fwd	ack	#405
+path 1	get	ack	#407
+path 1	fwd	ack	#407
+path 1	get	data	#404
+path 1	fwd	data	#404	loss rate = 0.209877
+path 1	get	ack	#404
+path 1	fwd	ack	#404
+path 2	get	data	#412
+path 2	fwd	data	#412	loss rate = 0.209553
+path 0	get	data	#411
+path 0	fwd	data	#411	loss rate = 0.209231
+path 0	get	ack	#411
+path 0	fwd	ack	#411
+path 2	get	ack	#412
+path 2	fwd	ack	#412
+path 1	get	data	#410
+path 1	drop	data	#410	loss rate = 0.210445
+path 2	get	data	#409
+path 2	fwd	data	#409	loss rate = 0.210123
+path 0	get	data	#408
+path 0	fwd	data	#408	loss rate = 0.209801
+path 0	get	ack	#408
+path 0	fwd	ack	#408
+path 2	get	ack	#409
+path 2	fwd	ack	#409
+path 0	get	data	#410
+path 0	fwd	data	#410	loss rate = 0.209480
+path 0	get	ack	#410
+path 0	fwd	ack	#410
+path 2	get	data	#412
+path 2	fwd	data	#412	loss rate = 0.209160
+path 1	get	data	#411
+path 1	fwd	data	#411	loss rate = 0.208841
+path 1	get	ack	#411
+path 1	fwd	ack	#411
+path 2	get	ack	#412
+path 2	fwd	ack	#412
+path 0	get	data	#415
+path 0	fwd	data	#415	loss rate = 0.208524
+path 1	get	data	#414
+path 1	fwd	data	#414	loss rate = 0.208207
+path 0	get	ack	#415
+path 0	fwd	ack	#415
+path 2	get	data	#413
+path 2	fwd	data	#413	loss rate = 0.207891
+path 2	get	ack	#413
+path 2	fwd	ack	#413
+path 1	get	ack	#414
+path 1	fwd	ack	#414
+path 0	get	data	#418
+path 0	fwd	data	#418	loss rate = 0.207576
+path 1	get	data	#419
+path 1	drop	data	#419	loss rate = 0.208775
+path 2	get	data	#417
+path 2	fwd	data	#417	loss rate = 0.208459
+path 1	get	data	#416
+path 1	fwd	data	#416	loss rate = 0.208145
+path 1	get	ack	#416
+path 1	fwd	ack	#416
+path 1	get	data	#417
+path 1	fwd	data	#417	loss rate = 0.207831
+path 0	get	data	#417
+path 0	drop	data	#417	loss rate = 0.209023
+path 1	get	data	#417
+path 1	fwd	data	#417	loss rate = 0.208709
+path 1	get	ack	#417
+path 1	fwd	ack	#417
+path 2	get	data	#419
+path 2	fwd	data	#419	loss rate = 0.208396
+path 2	get	ack	#419
+path 2	fwd	ack	#419
+path 0	get	data	#418
+path 0	fwd	data	#418	loss rate = 0.208084
+path 0	get	ack	#418
+path 0	fwd	ack	#418
+path 1	get	data	#422
+path 1	fwd	data	#422	loss rate = 0.207773
+path 1	get	ack	#422
+path 1	fwd	ack	#422
+path 2	get	data	#421
+path 2	fwd	data	#421	loss rate = 0.207463
+path 2	get	ack	#421
+path 2	fwd	ack	#421
+path 0	get	data	#420
+path 0	drop	data	#420	loss rate = 0.208644
+path 2	get	data	#420
+path 2	drop	data	#420	loss rate = 0.209821
+path 0	get	data	#420
+path 0	drop	data	#420	loss rate = 0.210996
+path 1	get	data	#420
+path 1	fwd	data	#420	loss rate = 0.210682
+path 1	get	ack	#420
+path 1	fwd	ack	#420
+path 2	get	data	#422
+path 2	fwd	data	#422	loss rate = 0.210370
+path 0	get	data	#421
+path 0	drop	data	#421	loss rate = 0.211538
+path 2	get	ack	#422
+path 2	fwd	ack	#422
+path 0	get	data	#421
+path 0	fwd	data	#421	loss rate = 0.211226
+path 0	get	ack	#421
+path 0	fwd	ack	#421
+path 2	get	data	#422
+path 2	fwd	data	#422	loss rate = 0.210914
+path 1	get	data	#423
+path 1	fwd	data	#423	loss rate = 0.210604
+path 1	get	ack	#423
+path 1	fwd	ack	#423
+path 2	get	ack	#422
+path 2	fwd	ack	#422
+path 0	get	data	#425
+path 0	fwd	data	#425	loss rate = 0.210294
+path 2	get	data	#426
+path 2	fwd	data	#426	loss rate = 0.209985
+path 0	get	ack	#425
+path 0	fwd	ack	#425
+path 2	get	ack	#426
+path 2	fwd	ack	#426
+path 1	get	data	#424
+path 1	fwd	data	#424	loss rate = 0.209677
+path 1	get	ack	#424
+path 1	fwd	ack	#424
+path 2	get	data	#430
+path 2	drop	data	#430	loss rate = 0.210835
+path 0	get	data	#429
+path 0	fwd	data	#429	loss rate = 0.210526
+path 1	get	data	#428
+path 1	drop	data	#428	loss rate = 0.211679
+path 0	get	ack	#429
+path 0	fwd	ack	#429
+path 2	get	data	#427
+path 2	fwd	data	#427	loss rate = 0.211370
+path 2	get	ack	#427
+path 2	fwd	ack	#427
+path 0	get	data	#428
+path 0	fwd	data	#428	loss rate = 0.211063
+path 0	get	ack	#428
+path 0	fwd	ack	#428
+path 2	get	data	#430
+path 2	fwd	data	#430	loss rate = 0.210756
+path 2	get	ack	#430
+path 2	fwd	ack	#430
+path 1	get	data	#429
+path 1	fwd	data	#429	loss rate = 0.210450
+path 1	get	ack	#429
+path 1	fwd	ack	#429
+path 0	get	data	#433
+path 0	fwd	data	#433	loss rate = 0.210145
+path 0	get	ack	#433
+path 0	fwd	ack	#433
+path 2	get	data	#432
+path 2	fwd	data	#432	loss rate = 0.209841
+path 2	get	ack	#432
+path 2	fwd	ack	#432
+path 1	get	data	#431
+path 1	fwd	data	#431	loss rate = 0.209538
+path 1	get	ack	#431
+path 1	fwd	ack	#431
+path 0	get	data	#437
+path 0	drop	data	#437	loss rate = 0.210678
+path 2	get	data	#436
+path 2	drop	data	#436	loss rate = 0.211816
+path 1	get	data	#435
+path 1	drop	data	#435	loss rate = 0.212950
+path 0	get	data	#434
+path 0	fwd	data	#434	loss rate = 0.212644
+path 0	get	ack	#434
+path 0	fwd	ack	#434
+path 0	get	data	#435
+path 0	fwd	data	#435	loss rate = 0.212339
+path 0	get	ack	#435
+path 0	fwd	ack	#435
+path 1	get	data	#437
+path 1	fwd	data	#437	loss rate = 0.212034
+path 1	get	ack	#437
+path 1	fwd	ack	#437
+path 2	get	data	#436
+path 2	fwd	data	#436	loss rate = 0.211731
+path 2	get	ack	#436
+path 2	fwd	ack	#436
+path 0	get	data	#440
+path 0	drop	data	#440	loss rate = 0.212857
+path 1	get	data	#439
+path 1	fwd	data	#439	loss rate = 0.212553
+path 1	get	ack	#439
+path 1	fwd	ack	#439
+path 2	get	data	#438
+path 2	fwd	data	#438	loss rate = 0.212251
+path 2	get	ack	#438
+path 2	fwd	ack	#438
+path 1	get	data	#440
+path 1	fwd	data	#440	loss rate = 0.211949
+path 1	get	ack	#440
+path 1	fwd	ack	#440
+path 2	get	data	#441
+path 2	fwd	data	#441	loss rate = 0.211648
+path 0	get	data	#442
+path 0	drop	data	#442	loss rate = 0.212766
+path 2	get	ack	#441
+path 2	fwd	ack	#441
+path 1	get	data	#442
+path 1	fwd	data	#442	loss rate = 0.212465
+path 1	get	ack	#442
+path 1	fwd	ack	#442
+path 2	get	data	#444
+path 2	fwd	data	#444	loss rate = 0.212164
+path 0	get	data	#443
+path 0	drop	data	#443	loss rate = 0.213277
+path 2	get	ack	#444
+path 2	fwd	ack	#444
+path 0	get	data	#443
+path 0	fwd	data	#443	loss rate = 0.212976
+path 0	get	ack	#443
+path 0	fwd	ack	#443
+path 1	get	data	#444
+path 1	fwd	data	#444	loss rate = 0.212676
+path 2	get	data	#445
+path 2	fwd	data	#445	loss rate = 0.212377
+path 2	get	ack	#445
+path 2	fwd	ack	#445
+path 1	get	ack	#444
+path 1	fwd	ack	#444
+path 2	get	data	#448
+path 2	fwd	data	#448	loss rate = 0.212079
+path 2	get	ack	#448
+path 2	fwd	ack	#448
+path 0	get	data	#447
+path 0	fwd	data	#447	loss rate = 0.211781
+path 1	get	data	#446
+path 1	drop	data	#446	loss rate = 0.212885
+path 0	get	ack	#447
+path 0	fwd	ack	#447
+path 0	get	data	#446
+path 0	drop	data	#446	loss rate = 0.213986
+path 1	get	data	#446
+path 1	fwd	data	#446	loss rate = 0.213687
+path 1	get	ack	#446
+path 1	fwd	ack	#446
+path 0	get	data	#448
+path 0	drop	data	#448	loss rate = 0.214784
+path 2	get	data	#447
+path 2	fwd	data	#447	loss rate = 0.214485
+path 2	get	ack	#447
+path 2	fwd	ack	#447
+path 2	get	data	#448
+path 2	fwd	data	#448	loss rate = 0.214186
+path 2	get	ack	#448
+path 2	fwd	ack	#448
+path 1	get	data	#450
+path 1	fwd	data	#450	loss rate = 0.213889
+path 0	get	data	#449
+path 0	fwd	data	#449	loss rate = 0.213592
+path 0	get	ack	#449
+path 0	fwd	ack	#449
+path 0	get	data	#450
+path 0	fwd	data	#450	loss rate = 0.213296
+path 0	get	ack	#450
+path 0	fwd	ack	#450
+path 2	get	data	#452
+path 2	fwd	data	#452	loss rate = 0.213001
+path 1	get	data	#451
+path 1	drop	data	#451	loss rate = 0.214088
+path 2	get	ack	#452
+path 2	fwd	ack	#452
+path 1	get	data	#451
+path 1	fwd	data	#451	loss rate = 0.213793
+path 1	get	ack	#451
+path 1	fwd	ack	#451
+path 2	get	data	#453
+path 2	fwd	data	#453	loss rate = 0.213499
+path 2	get	ack	#453
+path 2	fwd	ack	#453
+path 0	get	data	#452
+path 0	fwd	data	#452	loss rate = 0.213205
+path 0	get	ack	#452
+path 0	fwd	ack	#452
+path 1	get	data	#456
+path 1	fwd	data	#456	loss rate = 0.212912
+path 1	get	ack	#456
+path 1	fwd	ack	#456
+path 2	get	data	#455
+path 2	fwd	data	#455	loss rate = 0.212620
+path 2	get	ack	#455
+path 2	fwd	ack	#455
+path 0	get	data	#454
+path 0	drop	data	#454	loss rate = 0.213699
+path 1	get	data	#454
+path 1	fwd	data	#454	loss rate = 0.213406
+path 1	get	ack	#454
+path 1	fwd	ack	#454
+path 2	get	data	#456
+path 2	fwd	data	#456	loss rate = 0.213115
+path 2	get	ack	#456
+path 2	fwd	ack	#456
+path 0	get	data	#455
+path 0	fwd	data	#455	loss rate = 0.212824
+path 0	get	ack	#455
+path 0	fwd	ack	#455
+path 1	get	data	#459
+path 1	fwd	data	#459	loss rate = 0.212534
+path 1	get	ack	#459
+path 1	fwd	ack	#459
+path 0	get	data	#457
+path 0	fwd	data	#457	loss rate = 0.212245
+path 2	get	data	#458
+path 2	fwd	data	#458	loss rate = 0.211957
+path 2	get	ack	#458
+path 2	fwd	ack	#458
+path 0	get	ack	#457
+path 0	fwd	ack	#457
+path 1	get	data	#463
+path 1	fwd	data	#463	loss rate = 0.211669
+path 1	get	ack	#463
+path 1	fwd	ack	#463
+path 2	get	data	#462
+path 2	fwd	data	#462	loss rate = 0.211382
+path 0	get	data	#461
+path 0	fwd	data	#461	loss rate = 0.211096
+path 0	get	ack	#461
+path 0	fwd	ack	#461
+path 2	get	ack	#462
+path 2	fwd	ack	#462
+path 2	get	data	#460
+path 2	fwd	data	#460	loss rate = 0.210811
+path 2	get	ack	#460
+path 2	fwd	ack	#460
+path 0	get	data	#468
+path 0	fwd	data	#468	loss rate = 0.210526
+path 0	get	ack	#468
+path 0	fwd	ack	#468
+path 1	get	data	#467
+path 1	fwd	data	#467	loss rate = 0.210243
+path 2	get	data	#466
+path 2	fwd	data	#466	loss rate = 0.209960
+path 2	get	ack	#466
+path 2	fwd	ack	#466
+path 0	get	data	#465
+path 0	fwd	data	#465	loss rate = 0.209677
+path 0	get	ack	#465
+path 0	fwd	ack	#465
+path 2	get	data	#464
+path 2	fwd	data	#464	loss rate = 0.209396
+path 2	get	ack	#464
+path 2	fwd	ack	#464
+path 1	get	ack	#467
+path 1	fwd	ack	#467
+path 1	get	data	#469
+path 1	fwd	data	#469	loss rate = 0.209115
+path 2	get	data	#474
+path 2	fwd	data	#474	loss rate = 0.208835
+path 2	get	ack	#474
+path 2	fwd	ack	#474
+path 1	get	ack	#469
+path 1	fwd	ack	#469
+path 0	get	data	#473
+path 0	fwd	data	#473	loss rate = 0.208556
+path 0	get	ack	#473
+path 0	fwd	ack	#473
+path 1	get	data	#472
+path 1	fwd	data	#472	loss rate = 0.208278
+path 2	get	data	#471
+path 2	fwd	data	#471	loss rate = 0.208000
+path 1	get	ack	#472
+path 1	fwd	ack	#472
+path 2	get	ack	#471
+path 2	fwd	ack	#471
+path 0	get	data	#470
+path 0	fwd	data	#470	loss rate = 0.207723
+path 0	get	ack	#470
+path 0	fwd	ack	#470
+path 1	get	data	#481
+path 1	fwd	data	#481	loss rate = 0.207447
+path 2	get	data	#480
+path 2	fwd	data	#480	loss rate = 0.207171
+path 2	get	ack	#480
+path 2	fwd	ack	#480
+path 0	get	data	#479
+path 0	fwd	data	#479	loss rate = 0.206897
+path 0	get	ack	#479
+path 0	fwd	ack	#479
+path 1	get	data	#478
+path 1	fwd	data	#478	loss rate = 0.206623
+path 0	get	data	#476
+path 0	fwd	data	#476	loss rate = 0.206349
+path 2	get	data	#477
+path 2	fwd	data	#477	loss rate = 0.206077
+path 1	get	data	#475
+path 1	fwd	data	#475	loss rate = 0.205805
+path 0	get	ack	#476
+path 0	fwd	ack	#476
+path 2	get	ack	#477
+path 2	fwd	ack	#477
+path 1	get	ack	#478
+path 1	fwd	ack	#478
+path 1	get	ack	#475
+path 1	fwd	ack	#475
+path 1	get	data	#481
+path 1	drop	data	#481	loss rate = 0.206851
+path 0	get	data	#481
+path 0	fwd	data	#481	loss rate = 0.206579
+path 0	get	data	#481
+path 0	drop	data	#481	loss rate = 0.207622
+path 1	get	data	#481
+path 1	fwd	data	#481	loss rate = 0.207349
+path 1	get	ack	#481
+path 1	fwd	ack	#481
+path 0	get	data	#483
+path 0	drop	data	#483	loss rate = 0.208388
+path 2	get	data	#482
+path 2	fwd	data	#482	loss rate = 0.208115
+path 2	get	ack	#482
+path 2	fwd	ack	#482
+path 0	get	data	#483
+path 0	fwd	data	#483	loss rate = 0.207843
+path 0	get	ack	#483
+path 0	fwd	ack	#483
+path 2	get	data	#484
+path 2	fwd	data	#484	loss rate = 0.207572
+path 1	get	data	#485
+path 1	fwd	data	#485	loss rate = 0.207301
+path 2	get	ack	#484
+path 2	fwd	ack	#484
+path 1	get	ack	#485
+path 1	fwd	ack	#485
+path 2	get	data	#488
+path 2	fwd	data	#488	loss rate = 0.207031
+path 0	get	data	#487
+path 0	fwd	data	#487	loss rate = 0.206762
+path 1	get	data	#486
+path 1	fwd	data	#486	loss rate = 0.206494
+path 2	get	ack	#488
+path 2	fwd	ack	#488
+path 1	get	ack	#486
+path 1	fwd	ack	#486
+path 0	get	ack	#487
+path 0	fwd	ack	#487
+path 1	get	data	#492
+path 1	fwd	data	#492	loss rate = 0.206226
+path 2	get	data	#491
+path 2	fwd	data	#491	loss rate = 0.205959
+path 1	get	ack	#492
+path 1	fwd	ack	#492
+path 2	get	ack	#491
+path 2	fwd	ack	#491
+path 0	get	data	#490
+path 0	fwd	data	#490	loss rate = 0.205692
+path 0	get	ack	#490
+path 0	fwd	ack	#490
+path 2	get	data	#489
+path 2	fwd	data	#489	loss rate = 0.205426
+path 2	get	ack	#489
+path 2	fwd	ack	#489
+path 0	get	data	#493
+path 0	fwd	data	#493	loss rate = 0.205161
+path 1	get	data	#497
+path 1	drop	data	#497	loss rate = 0.206186
+path 0	get	ack	#493
+path 0	fwd	ack	#493
+path 2	get	data	#496
+path 2	fwd	data	#496	loss rate = 0.205920
+path 0	get	data	#495
+path 0	drop	data	#495	loss rate = 0.206941
+path 1	get	data	#494
+path 1	fwd	data	#494	loss rate = 0.206675
+path 2	get	ack	#496
+path 2	fwd	ack	#496
+path 1	get	ack	#494
+path 1	fwd	ack	#494
+path 1	get	data	#495
+path 1	drop	data	#495	loss rate = 0.207692
+path 0	get	data	#495
+path 0	fwd	data	#495	loss rate = 0.207426
+path 0	get	ack	#495
+path 0	fwd	ack	#495
+path 2	get	data	#496
+path 2	fwd	data	#496	loss rate = 0.207161
+path 1	get	data	#497
+path 1	fwd	data	#497	loss rate = 0.206897
+path 1	get	ack	#497
+path 1	fwd	ack	#497
+path 2	get	ack	#496
+path 2	fwd	ack	#496
+path 1	get	data	#500
+path 1	fwd	data	#500	loss rate = 0.206633
+path 1	get	ack	#500
+path 1	fwd	ack	#500
+path 0	get	data	#499
+path 0	drop	data	#499	loss rate = 0.207643
+path 2	get	data	#498
+path 2	fwd	data	#498	loss rate = 0.207379
+path 2	get	ack	#498
+path 2	fwd	ack	#498
+path 1	get	data	#499
+path 1	drop	data	#499	loss rate = 0.208386
+path 1	get	data	#499
+path 1	fwd	data	#499	loss rate = 0.208122
+path 1	get	ack	#499
+path 1	fwd	ack	#499
+path 0	get	data	#501
+path 0	fwd	data	#501	loss rate = 0.207858
+path 2	get	data	#500
+path 2	drop	data	#500	loss rate = 0.208861
+path 0	get	ack	#501
+path 0	fwd	ack	#501
+path 0	get	data	#500
+path 0	fwd	data	#500	loss rate = 0.208597
+path 0	get	ack	#500
+path 0	fwd	ack	#500
+path 1	get	data	#501
+path 1	fwd	data	#501	loss rate = 0.208333
+path 2	get	data	#502
+path 2	fwd	data	#502	loss rate = 0.208071
+path 1	get	ack	#501
+path 1	fwd	ack	#501
+path 2	get	ack	#502
+path 2	fwd	ack	#502
+path 0	get	data	#505
+path 0	fwd	data	#505	loss rate = 0.207809
+path 0	get	ack	#505
+path 0	fwd	ack	#505
+path 2	get	data	#504
+path 2	drop	data	#504	loss rate = 0.208805
+path 1	get	data	#503
+path 1	fwd	data	#503	loss rate = 0.208543
+path 1	get	ack	#503
+path 1	fwd	ack	#503
+path 1	get	data	#504
+path 1	fwd	data	#504	loss rate = 0.208281
+path 1	get	ack	#504
+path 1	fwd	ack	#504
+path 2	get	data	#505
+path 2	fwd	data	#505	loss rate = 0.208020
+path 0	get	data	#506
+path 0	fwd	data	#506	loss rate = 0.207760
+path 2	get	ack	#505
+path 2	fwd	ack	#505
+path 0	get	ack	#506
+path 0	fwd	ack	#506
+path 2	get	data	#509
+path 2	fwd	data	#509	loss rate = 0.207500
+path 1	get	data	#507
+path 1	fwd	data	#507	loss rate = 0.207241
+path 0	get	data	#508
+path 0	fwd	data	#508	loss rate = 0.206983
+path 2	get	ack	#509
+path 2	fwd	ack	#509
+path 0	get	ack	#508
+path 0	fwd	ack	#508
+path 1	get	ack	#507
+path 1	fwd	ack	#507
+path 2	get	data	#513
+path 2	fwd	data	#513	loss rate = 0.206725
+path 1	get	data	#511
+path 1	fwd	data	#511	loss rate = 0.206468
+path 0	get	data	#512
+path 0	fwd	data	#512	loss rate = 0.206211
+path 0	get	ack	#512
+path 0	fwd	ack	#512
+path 1	get	ack	#511
+path 1	fwd	ack	#511
+path 0	get	data	#510
+path 0	drop	data	#510	loss rate = 0.207196
+path 0	get	data	#510
+path 0	fwd	data	#510	loss rate = 0.206939
+path 0	get	ack	#510
+path 0	fwd	ack	#510
+path 2	get	data	#511
+path 2	fwd	data	#511	loss rate = 0.206683
+path 1	get	data	#512
+path 1	fwd	data	#512	loss rate = 0.206428
+path 2	get	ack	#511
+path 2	fwd	ack	#511
+path 1	get	ack	#512
+path 1	fwd	ack	#512
+path 0	get	data	#515
+path 0	drop	data	#515	loss rate = 0.207407
+path 2	get	data	#513
+path 2	fwd	data	#513	loss rate = 0.207152
+path 1	get	data	#514
+path 1	fwd	data	#514	loss rate = 0.206897
+path 1	get	ack	#514
+path 1	fwd	ack	#514
+path 2	get	data	#513
+path 2	fwd	data	#513	loss rate = 0.206642
+path 2	get	ack	#513
+path 2	fwd	ack	#513
+path 1	get	data	#514
+path 1	fwd	data	#514	loss rate = 0.206388
+path 0	get	data	#515
+path 0	fwd	data	#515	loss rate = 0.206135
+path 0	get	ack	#515
+path 0	fwd	ack	#515
+path 1	get	ack	#514
+path 1	fwd	ack	#514
+path 0	get	data	#516
+path 0	fwd	data	#516	loss rate = 0.205882
+path 1	get	data	#518
+path 1	fwd	data	#518	loss rate = 0.205630
+path 2	get	data	#517
+path 2	fwd	data	#517	loss rate = 0.205379
+path 0	get	ack	#516
+path 0	fwd	ack	#516
+path 1	get	ack	#518
+path 1	fwd	ack	#518
+path 2	get	ack	#517
+path 2	fwd	ack	#517
+path 0	get	data	#520
+path 0	fwd	data	#520	loss rate = 0.205128
+path 2	get	data	#521
+path 2	fwd	data	#521	loss rate = 0.204878
+path 1	get	data	#522
+path 1	fwd	data	#522	loss rate = 0.204629
+path 0	get	ack	#520
+path 0	fwd	ack	#520
+path 1	get	ack	#522
+path 1	fwd	ack	#522
+path 2	get	ack	#521
+path 2	fwd	ack	#521
+path 1	get	data	#519
+path 1	fwd	data	#519	loss rate = 0.204380
+path 1	get	ack	#519
+path 1	fwd	ack	#519
+path 0	get	data	#523
+path 0	drop	data	#523	loss rate = 0.205346
+path 2	get	data	#527
+path 2	fwd	data	#527	loss rate = 0.205097
+path 2	get	ack	#527
+path 2	fwd	ack	#527
+path 0	get	data	#524
+path 0	fwd	data	#524	loss rate = 0.204848
+path 1	get	data	#526
+path 1	fwd	data	#526	loss rate = 0.204600
+path 2	get	data	#525
+path 2	drop	data	#525	loss rate = 0.205562
+path 0	get	ack	#524
+path 0	fwd	ack	#524
+path 1	get	ack	#526
+path 1	fwd	ack	#526
+path 0	get	data	#523
+path 0	fwd	data	#523	loss rate = 0.205314
+path 0	get	ack	#523
+path 0	fwd	ack	#523
+path 1	get	data	#524
+path 1	fwd	data	#524	loss rate = 0.205066
+path 2	get	data	#525
+path 2	drop	data	#525	loss rate = 0.206024
+path 1	get	ack	#524
+path 1	fwd	ack	#524
+path 2	get	data	#525
+path 2	fwd	data	#525	loss rate = 0.205776
+path 2	get	ack	#525
+path 2	fwd	ack	#525
+path 0	get	data	#526
+path 0	fwd	data	#526	loss rate = 0.205529
+path 1	get	data	#527
+path 1	fwd	data	#527	loss rate = 0.205282
+path 0	get	ack	#526
+path 1	get	ack	#527
+path 0	fwd	ack	#526
+path 1	fwd	ack	#527
+path 2	get	data	#530
+path 2	drop	data	#530	loss rate = 0.206235
+path 0	get	data	#529
+path 0	fwd	data	#529	loss rate = 0.205988
+path 1	get	data	#528
+path 0	get	ack	#529
+path 1	fwd	data	#528	loss rate = 0.205742
+path 0	fwd	ack	#529
+path 1	get	ack	#528
+path 1	fwd	ack	#528
+path 1	get	data	#530
+path 1	fwd	data	#530	loss rate = 0.205496
+path 1	get	ack	#530
+path 1	fwd	ack	#530
+path 2	get	data	#532
+path 2	fwd	data	#532	loss rate = 0.205251
+path 2	get	ack	#532
+path 2	fwd	ack	#532
+path 0	get	data	#531
+path 0	fwd	data	#531	loss rate = 0.205006
+path 0	get	ack	#531
+path 0	fwd	ack	#531
+path 1	get	data	#535
+path 1	fwd	data	#535	loss rate = 0.204762
+path 1	get	ack	#535
+path 1	fwd	ack	#535
+path 2	get	data	#534
+path 2	fwd	data	#534	loss rate = 0.204518
+path 2	get	ack	#534
+path 2	fwd	ack	#534
+path 0	get	data	#533
+path 0	drop	data	#533	loss rate = 0.205463
+path 1	get	data	#533
+path 1	fwd	data	#533	loss rate = 0.205219
+path 1	get	ack	#533
+path 1	fwd	ack	#533
+path 0	get	data	#535
+path 0	fwd	data	#535	loss rate = 0.204976
+path 2	get	data	#534
+path 2	fwd	data	#534	loss rate = 0.204734
+path 0	get	ack	#535
+path 0	fwd	ack	#535
+path 2	get	ack	#534
+path 2	fwd	ack	#534
+path 1	get	data	#538
+path 1	fwd	data	#538	loss rate = 0.204492
+path 2	get	data	#537
+path 2	fwd	data	#537	loss rate = 0.204250
+path 1	get	ack	#538
+path 1	fwd	ack	#538
+path 2	get	ack	#537
+path 2	fwd	ack	#537
+path 0	get	data	#536
+path 0	drop	data	#536	loss rate = 0.205189
+path 0	get	data	#536
+path 0	fwd	data	#536	loss rate = 0.204947
+path 0	get	ack	#536
+path 0	fwd	ack	#536
+path 2	get	data	#538
+path 2	drop	data	#538	loss rate = 0.205882
+path 1	get	data	#537
+path 1	fwd	data	#537	loss rate = 0.205640
+path 1	get	ack	#537
+path 1	fwd	ack	#537
+path 0	get	data	#538
+path 0	fwd	data	#538	loss rate = 0.205399
+path 0	get	ack	#538
+path 0	fwd	ack	#538
+path 1	get	data	#539
+path 1	fwd	data	#539	loss rate = 0.205158
+path 1	get	ack	#539
+path 1	fwd	ack	#539
+path 2	get	data	#540
+path 2	fwd	data	#540	loss rate = 0.204918
+path 2	get	ack	#540
+path 2	fwd	ack	#540
+path 0	get	data	#543
+path 0	fwd	data	#543	loss rate = 0.204678
+path 0	get	ack	#543
+path 0	fwd	ack	#543
+path 2	get	data	#542
+path 2	drop	data	#542	loss rate = 0.205607
+path 1	get	data	#541
+path 1	fwd	data	#541	loss rate = 0.205368
+path 1	get	ack	#541
+path 1	fwd	ack	#541
+path 1	get	data	#542
+path 1	fwd	data	#542	loss rate = 0.205128
+path 1	get	ack	#542
+path 1	fwd	ack	#542
+path 0	get	data	#543
+path 0	fwd	data	#543	loss rate = 0.204889
+path 0	get	ack	#543
+path 0	fwd	ack	#543
+path 2	get	data	#544
+path 2	fwd	data	#544	loss rate = 0.204651
+path 2	get	ack	#544
+path 2	fwd	ack	#544
+path 0	get	data	#547
+path 0	drop	data	#547	loss rate = 0.205575
+path 1	get	data	#545
+path 1	drop	data	#545	loss rate = 0.206497
+path 2	get	data	#546
+path 2	fwd	data	#546	loss rate = 0.206257
+path 0	get	data	#545
+path 0	fwd	data	#545	loss rate = 0.206019
+path 0	get	ack	#545
+path 0	fwd	ack	#545
+path 2	get	data	#547
+path 2	drop	data	#547	loss rate = 0.206936
+path 1	get	data	#546
+path 1	fwd	data	#546	loss rate = 0.206697
+path 1	get	ack	#546
+path 1	fwd	ack	#546
+path 1	get	data	#547
+path 1	fwd	data	#547	loss rate = 0.206459
+path 1	get	ack	#547
+path 1	fwd	ack	#547
+path 0	get	data	#549
+path 0	fwd	data	#549	loss rate = 0.206221
+path 0	get	ack	#549
+path 0	fwd	ack	#549
+path 2	get	data	#548
+path 2	fwd	data	#548	loss rate = 0.205984
+path 2	get	ack	#548
+path 2	fwd	ack	#548
+path 1	get	data	#552
+path 1	fwd	data	#552	loss rate = 0.205747
+path 1	get	ack	#552
+path 1	fwd	ack	#552
+path 0	get	data	#551
+path 0	fwd	data	#551	loss rate = 0.205511
+path 0	get	ack	#551
+path 0	fwd	ack	#551
+path 2	get	data	#550
+path 2	fwd	data	#550	loss rate = 0.205275
+path 2	get	ack	#550
+path 2	fwd	ack	#550
+path 1	get	data	#556
+path 1	fwd	data	#556	loss rate = 0.205040
+path 1	get	ack	#556
+path 1	fwd	ack	#556
+path 0	get	data	#555
+path 0	fwd	data	#555	loss rate = 0.204805
+path 0	get	ack	#555
+path 0	fwd	ack	#555
+path 1	get	data	#554
+path 1	drop	data	#554	loss rate = 0.205714
+path 2	get	data	#553
+path 2	fwd	data	#553	loss rate = 0.205479
+path 2	get	ack	#553
+path 2	fwd	ack	#553
+path 2	get	data	#554
+path 2	fwd	data	#554	loss rate = 0.205245
+path 2	get	ack	#554
+path 2	fwd	ack	#554
+path 0	get	data	#555
+path 0	fwd	data	#555	loss rate = 0.205011
+path 1	get	data	#556
+path 1	drop	data	#556	loss rate = 0.205916
+path 0	get	ack	#555
+path 0	fwd	ack	#555
+path 1	get	data	#556
+path 1	fwd	data	#556	loss rate = 0.205682
+path 1	get	ack	#556
+path 1	fwd	ack	#556
+path 0	get	data	#558
+path 0	fwd	data	#558	loss rate = 0.205448
+path 2	get	data	#557
+path 2	fwd	data	#557	loss rate = 0.205215
+path 0	get	ack	#558
+path 0	fwd	ack	#558
+path 2	get	ack	#557
+path 2	fwd	ack	#557
+path 1	get	data	#561
+path 1	drop	data	#561	loss rate = 0.206116
+path 2	get	data	#560
+path 2	fwd	data	#560	loss rate = 0.205882
+path 2	get	ack	#560
+path 2	fwd	ack	#560
+path 0	get	data	#559
+path 0	fwd	data	#559	loss rate = 0.205650
+path 0	get	ack	#559
+path 0	fwd	ack	#559
+path 1	get	data	#561
+path 1	fwd	data	#561	loss rate = 0.205418
+path 1	get	ack	#561
+path 1	fwd	ack	#561
+path 2	get	data	#563
+path 2	fwd	data	#563	loss rate = 0.205186
+path 2	get	ack	#563
+path 2	fwd	ack	#563
+path 0	get	data	#562
+path 0	fwd	data	#562	loss rate = 0.204955
+path 0	get	ack	#562
+path 0	fwd	ack	#562
+path 1	get	data	#566
+path 1	drop	data	#566	loss rate = 0.205849
+path 2	get	data	#565
+path 2	fwd	data	#565	loss rate = 0.205618
+path 2	get	ack	#565
+path 2	fwd	ack	#565
+path 0	get	data	#564
+path 0	fwd	data	#564	loss rate = 0.205387
+path 0	get	ack	#564
+path 0	fwd	ack	#564
+path 0	get	data	#566
+path 0	fwd	data	#566	loss rate = 0.205157
+path 0	get	ack	#566
+path 0	fwd	ack	#566
+path 1	get	data	#568
+path 1	fwd	data	#568	loss rate = 0.204927
+path 1	get	ack	#568
+path 1	fwd	ack	#568
+path 2	get	data	#567
+path 2	drop	data	#567	loss rate = 0.205817
+path 0	get	data	#567
+path 0	fwd	data	#567	loss rate = 0.205587
+path 0	get	ack	#567
+path 0	fwd	ack	#567
+path 2	get	data	#568
+path 2	fwd	data	#568	loss rate = 0.205357
+path 1	get	data	#569
+path 1	fwd	data	#569	loss rate = 0.205128
+path 1	get	ack	#569
+path 1	fwd	ack	#569
+path 2	get	ack	#568
+path 2	fwd	ack	#568
+path 2	get	data	#572
+path 2	drop	data	#572	loss rate = 0.206013
+path 1	get	data	#571
+path 1	fwd	data	#571	loss rate = 0.205784
+path 0	get	data	#570
+path 0	fwd	data	#570	loss rate = 0.205556
+path 0	get	ack	#570
+path 0	fwd	ack	#570
+path 1	get	ack	#571
+path 1	fwd	ack	#571
+path 1	get	data	#572
+path 1	fwd	data	#572	loss rate = 0.205327
+path 1	get	ack	#572
+path 1	fwd	ack	#572
+path 2	get	data	#574
+path 2	fwd	data	#574	loss rate = 0.205100
+path 0	get	data	#573
+path 0	fwd	data	#573	loss rate = 0.204873
+path 2	get	ack	#574
+path 2	fwd	ack	#574
+path 0	get	ack	#573
+path 0	fwd	ack	#573
+path 0	get	data	#577
+path 0	fwd	data	#577	loss rate = 0.204646
+path 1	get	data	#576
+path 1	fwd	data	#576	loss rate = 0.204420
+path 1	get	ack	#576
+path 1	fwd	ack	#576
+path 2	get	data	#575
+path 2	drop	data	#575	loss rate = 0.205298
+path 2	get	data	#575
+path 2	fwd	data	#575	loss rate = 0.205072
+path 2	get	ack	#575
+path 2	fwd	ack	#575
+path 1	get	data	#577
+path 1	fwd	data	#577	loss rate = 0.204846
+path 0	get	data	#576
+path 0	fwd	data	#576	loss rate = 0.204620
+path 0	get	ack	#576
+path 0	fwd	ack	#576
+path 2	get	data	#577
+path 2	fwd	data	#577	loss rate = 0.204396
+path 2	get	ack	#577
+path 2	fwd	ack	#577
+path 0	get	data	#579
+path 0	drop	data	#579	loss rate = 0.205269
+path 1	get	data	#578
+path 1	fwd	data	#578	loss rate = 0.205044
+path 1	get	ack	#578
+path 1	fwd	ack	#578
+path 0	get	data	#579
+path 0	fwd	data	#579	loss rate = 0.204819
+path 0	get	ack	#579
+path 0	fwd	ack	#579
+path 1	get	data	#581
+path 1	fwd	data	#581	loss rate = 0.204595
+path 2	get	data	#580
+path 2	fwd	data	#580	loss rate = 0.204372
+path 2	get	ack	#580
+path 2	fwd	ack	#580
+path 1	get	ack	#581
+path 1	fwd	ack	#581
+path 1	get	data	#583
+path 1	fwd	data	#583	loss rate = 0.204148
+path 2	get	data	#584
+path 2	fwd	data	#584	loss rate = 0.203926
+path 0	get	data	#582
+path 0	drop	data	#582	loss rate = 0.204793
+path 2	get	ack	#584
+path 2	fwd	ack	#584
+path 1	get	ack	#583
+path 1	fwd	ack	#583
+path 1	get	data	#582
+path 1	fwd	data	#582	loss rate = 0.204570
+path 1	get	ack	#582
+path 1	fwd	ack	#582
+path 2	get	data	#584
+path 2	fwd	data	#584	loss rate = 0.204348
+path 0	get	data	#583
+path 0	fwd	data	#583	loss rate = 0.204126
+path 0	get	ack	#583
+path 0	fwd	ack	#583
+path 2	get	ack	#584
+path 2	fwd	ack	#584
+path 1	get	data	#587
+path 1	fwd	data	#587	loss rate = 0.203905
+path 1	get	ack	#587
+path 1	fwd	ack	#587
+path 0	get	data	#586
+path 0	fwd	data	#586	loss rate = 0.203684
+path 0	get	ack	#586
+path 0	fwd	ack	#586
+path 2	get	data	#585
+path 2	fwd	data	#585	loss rate = 0.203463
+path 2	get	ack	#585
+path 2	fwd	ack	#585
+path 1	get	data	#591
+path 1	fwd	data	#591	loss rate = 0.203243
+path 2	get	data	#590
+path 2	fwd	data	#590	loss rate = 0.203024
+path 0	get	data	#589
+path 0	fwd	data	#589	loss rate = 0.202805
+path 0	get	ack	#589
+path 0	fwd	ack	#589
+path 2	get	ack	#590
+path 2	fwd	ack	#590
+path 1	get	ack	#591
+path 1	fwd	ack	#591
+path 1	get	data	#588
+path 1	fwd	data	#588	loss rate = 0.202586
+path 1	get	ack	#588
+path 1	fwd	ack	#588
+path 0	get	data	#592
+path 0	fwd	data	#592	loss rate = 0.202368
+path 0	get	ack	#592
+path 0	fwd	ack	#592
+path 2	get	data	#596
+path 2	fwd	data	#596	loss rate = 0.202151
+path 2	get	ack	#596
+path 2	fwd	ack	#596
+path 1	get	data	#595
+path 1	fwd	data	#595	loss rate = 0.201933
+path 2	get	data	#594
+path 2	fwd	data	#594	loss rate = 0.201717
+path 0	get	data	#593
+path 0	fwd	data	#593	loss rate = 0.201501
+path 2	get	ack	#594
+path 2	fwd	ack	#594
+path 1	get	ack	#595
+path 1	fwd	ack	#595
+path 0	get	ack	#593
+path 0	fwd	ack	#593
+path 2	get	data	#602
+path 2	fwd	data	#602	loss rate = 0.201285
+path 2	get	ack	#602
+path 2	fwd	ack	#602
+path 1	get	data	#601
+path 1	fwd	data	#601	loss rate = 0.201070
+path 0	get	data	#600
+path 0	fwd	data	#600	loss rate = 0.200855
+path 1	get	ack	#601
+path 1	fwd	ack	#601
+path 0	get	ack	#600
+path 0	fwd	ack	#600
+path 2	get	data	#599
+path 2	fwd	data	#599	loss rate = 0.200640
+path 2	get	ack	#599
+path 2	fwd	ack	#599
+path 1	get	data	#598
+path 1	fwd	data	#598	loss rate = 0.200426
+path 0	get	data	#597
+path 0	fwd	data	#597	loss rate = 0.200213
+path 1	get	ack	#598
+path 1	fwd	ack	#598
+path 0	get	ack	#597
+path 0	fwd	ack	#597
+path 2	get	data	#608
+path 2	fwd	data	#608	loss rate = 0.200000
+path 1	get	data	#609
+path 1	drop	data	#609	loss rate = 0.200850
+path 2	get	ack	#608
+path 2	fwd	ack	#608
+path 0	get	data	#607
+path 0	fwd	data	#607	loss rate = 0.200637
+path 0	get	ack	#607
+path 0	fwd	ack	#607
+path 2	get	data	#606
+path 2	fwd	data	#606	loss rate = 0.200424
+path 1	get	data	#605
+path 1	fwd	data	#605	loss rate = 0.200212
+path 2	get	ack	#606
+path 2	fwd	ack	#606
+path 0	get	data	#604
+path 0	drop	data	#604	loss rate = 0.201058
+path 1	get	ack	#605
+path 1	fwd	ack	#605
+path 2	get	data	#603
+path 2	drop	data	#603	loss rate = 0.201903
+path 0	get	data	#603
+path 0	fwd	data	#603	loss rate = 0.201690
+path 0	get	ack	#603
+path 0	fwd	ack	#603
+path 2	get	data	#605
+path 2	fwd	data	#605	loss rate = 0.201477
+path 1	get	data	#604
+path 1	drop	data	#604	loss rate = 0.202318
+path 2	get	ack	#605
+path 2	fwd	ack	#605
+path 0	get	data	#604
+path 0	fwd	data	#604	loss rate = 0.202105
+path 0	get	ack	#604
+path 0	fwd	ack	#604
+path 2	get	data	#606
+path 2	fwd	data	#606	loss rate = 0.201893
+path 1	get	data	#605
+path 1	fwd	data	#605	loss rate = 0.201681
+path 1	get	ack	#605
+path 1	fwd	ack	#605
+path 2	get	ack	#606
+path 2	fwd	ack	#606
+path 2	get	data	#608
+path 2	fwd	data	#608	loss rate = 0.201469
+path 0	get	data	#609
+path 0	fwd	data	#609	loss rate = 0.201258
+path 1	get	data	#607
+path 1	fwd	data	#607	loss rate = 0.201047
+path 2	get	ack	#608
+path 2	fwd	ack	#608
+path 1	get	ack	#607
+path 1	fwd	ack	#607
+path 2	get	data	#609
+path 2	fwd	data	#609	loss rate = 0.200837
+path 2	get	ack	#609
+path 2	fwd	ack	#609
+path 0	get	data	#610
+path 0	fwd	data	#610	loss rate = 0.200627
+path 1	get	data	#611
+path 1	drop	data	#611	loss rate = 0.201461
+path 0	get	ack	#610
+path 0	fwd	ack	#610
+path 2	get	data	#611
+path 2	fwd	data	#611	loss rate = 0.201251
+path 2	get	ack	#611
+path 2	fwd	ack	#611
+path 1	get	data	#613
+path 1	drop	data	#613	loss rate = 0.202083
+path 0	get	data	#612
+path 0	fwd	data	#612	loss rate = 0.201873
+path 0	get	ack	#612
+path 0	fwd	ack	#612
+path 2	get	data	#613
+path 2	fwd	data	#613	loss rate = 0.201663
+path 2	get	ack	#613
+path 2	fwd	ack	#613
+path 1	get	data	#614
+path 1	fwd	data	#614	loss rate = 0.201454
+path 0	get	data	#615
+path 0	fwd	data	#615	loss rate = 0.201245
+path 0	get	ack	#615
+path 0	fwd	ack	#615
+path 1	get	ack	#614
+path 1	fwd	ack	#614
+path 1	get	data	#618
+path 1	drop	data	#618	loss rate = 0.202073
+path 2	get	data	#617
+path 2	fwd	data	#617	loss rate = 0.201863
+path 0	get	data	#616
+path 0	drop	data	#616	loss rate = 0.202689
+path 2	get	ack	#617
+path 2	fwd	ack	#617
+path 0	get	data	#616
+path 0	fwd	data	#616	loss rate = 0.202479
+path 0	get	ack	#616
+path 0	fwd	ack	#616
+path 1	get	data	#618
+path 1	fwd	data	#618	loss rate = 0.202270
+path 2	get	data	#617
+path 2	fwd	data	#617	loss rate = 0.202062
+path 2	get	ack	#617
+path 2	fwd	ack	#617
+path 1	get	ack	#618
+path 1	fwd	ack	#618
+path 0	get	data	#621
+path 0	fwd	data	#621	loss rate = 0.201854
+path 0	get	ack	#621
+path 0	fwd	ack	#621
+path 1	get	data	#620
+path 1	fwd	data	#620	loss rate = 0.201646
+path 2	get	data	#619
+path 2	fwd	data	#619	loss rate = 0.201439
+path 1	get	ack	#620
+path 1	fwd	ack	#620
+path 2	get	ack	#619
+path 2	fwd	ack	#619
+path 0	get	data	#625
+path 0	drop	data	#625	loss rate = 0.202259
+path 1	get	data	#624
+path 1	fwd	data	#624	loss rate = 0.202051
+path 2	get	data	#623
+path 2	fwd	data	#623	loss rate = 0.201844
+path 1	get	ack	#624
+path 1	fwd	ack	#624
+path 2	get	ack	#623
+path 2	fwd	ack	#623
+path 0	get	data	#622
+path 0	drop	data	#622	loss rate = 0.202661
+path 2	get	data	#622
+path 2	fwd	data	#622	loss rate = 0.202454
+path 2	get	ack	#622
+path 2	fwd	ack	#622
+path 1	get	data	#623
+path 1	fwd	data	#623	loss rate = 0.202247
+path 0	get	data	#624
+path 0	fwd	data	#624	loss rate = 0.202041
+path 0	get	ack	#624
+path 1	get	ack	#623
+path 0	fwd	ack	#624
+path 1	fwd	ack	#623
+path 0	get	data	#627
+path 0	drop	data	#627	loss rate = 0.202854
+path 1	get	data	#626
+path 1	fwd	data	#626	loss rate = 0.202648
+path 1	get	ack	#626
+path 1	fwd	ack	#626
+path 2	get	data	#625
+path 2	drop	data	#625	loss rate = 0.203459
+path 1	get	data	#625
+path 1	fwd	data	#625	loss rate = 0.203252
+path 1	get	ack	#625
+path 1	fwd	ack	#625
+path 0	get	data	#626
+path 0	fwd	data	#626	loss rate = 0.203046
+path 2	get	data	#627
+path 2	drop	data	#627	loss rate = 0.203854
+path 0	get	ack	#626
+path 0	fwd	ack	#626
+path 1	get	data	#627
+path 1	drop	data	#627	loss rate = 0.204661
+path 2	get	data	#627
+path 2	fwd	data	#627	loss rate = 0.204453
+path 2	get	ack	#627
+path 2	fwd	ack	#627
+path 0	get	data	#628
+path 0	fwd	data	#628	loss rate = 0.204247
+path 1	get	data	#629
+path 1	fwd	data	#629	loss rate = 0.204040
+path 0	get	ack	#628
+path 0	fwd	ack	#628
+path 1	get	ack	#629
+path 1	fwd	ack	#629
+path 2	get	data	#632
+path 2	drop	data	#632	loss rate = 0.204844
+path 0	get	data	#631
+path 0	fwd	data	#631	loss rate = 0.204637
+path 1	get	data	#630
+path 1	fwd	data	#630	loss rate = 0.204431
+path 1	get	ack	#630
+path 1	fwd	ack	#630
+path 0	get	ack	#631
+path 0	fwd	ack	#631
+path 2	get	data	#632
+path 2	fwd	data	#632	loss rate = 0.204225
+path 2	get	ack	#632
+path 2	fwd	ack	#632
+path 1	get	data	#633
+path 1	fwd	data	#633	loss rate = 0.204020
+path 0	get	data	#634
+path 0	drop	data	#634	loss rate = 0.204819
+path 1	get	ack	#633
+path 1	fwd	ack	#633
+path 0	get	data	#634
+path 0	fwd	data	#634	loss rate = 0.204614
+path 0	get	ack	#634
+path 0	fwd	ack	#634
+path 2	get	data	#636
+path 2	fwd	data	#636	loss rate = 0.204409
+path 1	get	data	#635
+path 1	fwd	data	#635	loss rate = 0.204204
+path 1	get	ack	#635
+path 1	fwd	ack	#635
+path 2	get	ack	#636
+path 2	fwd	ack	#636
+path 0	get	data	#639
+path 0	fwd	data	#639	loss rate = 0.204000
+path 1	get	data	#638
+path 1	drop	data	#638	loss rate = 0.204795
+path 0	get	ack	#639
+path 0	fwd	ack	#639
+path 2	get	data	#637
+path 2	fwd	data	#637	loss rate = 0.204591
+path 2	get	ack	#637
+path 2	fwd	ack	#637
+path 2	get	data	#638
+path 2	fwd	data	#638	loss rate = 0.204387
+path 2	get	ack	#638
+path 2	fwd	ack	#638
+path 1	get	data	#640
+path 1	fwd	data	#640	loss rate = 0.204183
+path 1	get	ack	#640
+path 1	fwd	ack	#640
+path 0	get	data	#639
+path 0	fwd	data	#639	loss rate = 0.203980
+path 0	get	ack	#639
+path 0	fwd	ack	#639
+path 2	get	data	#643
+path 2	fwd	data	#643	loss rate = 0.203777
+path 1	get	data	#642
+path 1	fwd	data	#642	loss rate = 0.203575
+path 0	get	data	#641
+path 0	fwd	data	#641	loss rate = 0.203373
+path 2	get	ack	#643
+path 2	fwd	ack	#643
+path 0	get	ack	#641
+path 0	fwd	ack	#641
+path 2	get	data	#642
+path 2	fwd	data	#642	loss rate = 0.203171
+path 2	get	ack	#642
+path 2	fwd	ack	#642
+path 0	get	data	#644
+path 0	drop	data	#644	loss rate = 0.203960
+path 1	get	data	#643
+path 1	fwd	data	#643	loss rate = 0.203759
+path 1	get	ack	#643
+path 1	fwd	ack	#643
+path 0	get	data	#644
+path 0	fwd	data	#644	loss rate = 0.203557
+path 0	get	ack	#644
+path 0	fwd	ack	#644
+path 1	get	data	#646
+path 1	fwd	data	#646	loss rate = 0.203356
+path 2	get	data	#645
+path 2	drop	data	#645	loss rate = 0.204142
+path 1	get	ack	#646
+path 1	fwd	ack	#646
+path 1	get	data	#645
+path 1	fwd	data	#645	loss rate = 0.203941
+path 1	get	ack	#645
+path 1	fwd	ack	#645
+path 0	get	data	#647
+path 0	fwd	data	#647	loss rate = 0.203740
+path 2	get	data	#646
+path 2	fwd	data	#646	loss rate = 0.203540
+path 2	get	ack	#646
+path 2	fwd	ack	#646
+path 0	get	ack	#647
+path 0	fwd	ack	#647
+path 0	get	data	#650
+path 0	fwd	data	#650	loss rate = 0.203340
+path 2	get	data	#649
+path 2	drop	data	#649	loss rate = 0.204122
+path 1	get	data	#648
+path 1	drop	data	#648	loss rate = 0.204902
+path 0	get	ack	#650
+path 0	fwd	ack	#650
+path 2	get	data	#648
+path 2	fwd	data	#648	loss rate = 0.204701
+path 2	get	ack	#648
+path 2	fwd	ack	#648
+path 0	get	data	#650
+path 0	fwd	data	#650	loss rate = 0.204501
+path 1	get	data	#649
+path 1	fwd	data	#649	loss rate = 0.204301
+path 1	get	ack	#649
+path 1	fwd	ack	#649
+path 0	get	ack	#650
+path 0	fwd	ack	#650
+path 1	get	data	#652
+path 1	fwd	data	#652	loss rate = 0.204102
+path 2	get	data	#653
+path 2	drop	data	#653	loss rate = 0.204878
+path 0	get	data	#651
+path 0	fwd	data	#651	loss rate = 0.204678
+path 1	get	ack	#652
+path 1	fwd	ack	#652
+path 0	get	ack	#651
+path 0	fwd	ack	#651
+path 0	get	data	#653
+path 0	fwd	data	#653	loss rate = 0.204479
+path 0	get	ack	#653
+path 0	fwd	ack	#653
+path 1	get	data	#654
+path 1	fwd	data	#654	loss rate = 0.204280
+path 2	get	data	#655
+path 2	fwd	data	#655	loss rate = 0.204082
+path 2	get	ack	#655
+path 2	fwd	ack	#655
+path 1	get	ack	#654
+path 1	fwd	ack	#654
+path 0	get	data	#658
+path 0	fwd	data	#658	loss rate = 0.203883
+path 1	get	data	#657
+path 1	fwd	data	#657	loss rate = 0.203686
+path 0	get	ack	#658
+path 0	fwd	ack	#658
+path 1	get	ack	#657
+path 1	fwd	ack	#657
+path 2	get	data	#656
+path 2	fwd	data	#656	loss rate = 0.203488
+path 2	get	ack	#656
+path 2	fwd	ack	#656
+path 0	get	data	#662
+path 0	drop	data	#662	loss rate = 0.204259
+path 1	get	data	#660
+path 1	fwd	data	#660	loss rate = 0.204062
+path 2	get	data	#661
+path 2	fwd	data	#661	loss rate = 0.203865
+path 2	get	ack	#661
+path 2	fwd	ack	#661
+path 1	get	ack	#660
+path 1	fwd	ack	#660
+path 0	get	data	#659
+path 0	fwd	data	#659	loss rate = 0.203668
+path 0	get	ack	#659
+path 0	fwd	ack	#659
+path 2	get	data	#662
+path 2	fwd	data	#662	loss rate = 0.203472
+path 2	get	ack	#662
+path 2	fwd	ack	#662
+path 0	get	data	#664
+path 0	drop	data	#664	loss rate = 0.204239
+path 1	get	data	#663
+path 1	drop	data	#663	loss rate = 0.205005
+path 0	get	data	#663
+path 0	fwd	data	#663	loss rate = 0.204808
+path 0	get	ack	#663
+path 0	fwd	ack	#663
+path 1	get	data	#664
+path 1	fwd	data	#664	loss rate = 0.204611
+path 2	get	data	#665
+path 2	drop	data	#665	loss rate = 0.205374
+path 1	get	ack	#664
+path 1	fwd	ack	#664
+path 1	get	data	#665
+path 1	fwd	data	#665	loss rate = 0.205177
+path 1	get	ack	#665
+path 1	fwd	ack	#665
+path 0	get	data	#667
+path 0	fwd	data	#667	loss rate = 0.204981
+path 2	get	data	#666
+path 2	drop	data	#666	loss rate = 0.205742
+path 0	get	ack	#667
+path 0	fwd	ack	#667
+path 2	get	data	#666
+path 2	drop	data	#666	loss rate = 0.206501
+path 0	get	data	#666
+path 0	fwd	data	#666	loss rate = 0.206304
+path 0	get	ack	#666
+path 0	fwd	ack	#666
+path 1	get	data	#668
+path 1	fwd	data	#668	loss rate = 0.206107
+path 2	get	data	#667
+path 2	fwd	data	#667	loss rate = 0.205910
+path 2	get	ack	#667
+path 2	fwd	ack	#667
+path 1	get	ack	#668
+path 1	fwd	ack	#668
+path 1	get	data	#670
+path 1	fwd	data	#670	loss rate = 0.205714
+path 0	get	data	#671
+path 0	fwd	data	#671	loss rate = 0.205519
+path 0	get	ack	#671
+path 0	fwd	ack	#671
+path 2	get	data	#669
+path 2	fwd	data	#669	loss rate = 0.205323
+path 1	get	ack	#670
+path 1	fwd	ack	#670
+path 2	get	ack	#669
+path 2	fwd	ack	#669
+path 2	get	data	#675
+path 2	drop	data	#675	loss rate = 0.206078
+path 1	get	data	#673
+path 1	fwd	data	#673	loss rate = 0.205882
+path 0	get	data	#674
+path 0	fwd	data	#674	loss rate = 0.205687
+path 2	get	data	#672
+path 2	fwd	data	#672	loss rate = 0.205492
+path 2	get	ack	#672
+path 2	fwd	ack	#672
+path 1	get	data	#673
+path 1	fwd	data	#673	loss rate = 0.205298
+path 1	get	data	#673
+path 1	fwd	data	#673	loss rate = 0.205104
+path 1	get	ack	#673
+path 1	fwd	ack	#673
+path 0	get	data	#674
+path 0	drop	data	#674	loss rate = 0.205855
+path 2	get	data	#675
+path 2	fwd	data	#675	loss rate = 0.205660
+path 2	get	ack	#675
+path 2	fwd	ack	#675
+path 2	get	data	#674
+path 2	fwd	data	#674	loss rate = 0.205467
+path 2	get	ack	#674
+path 2	fwd	ack	#674
+path 1	get	data	#676
+path 1	fwd	data	#676	loss rate = 0.205273
+path 0	get	data	#675
+path 0	fwd	data	#675	loss rate = 0.205080
+path 1	get	ack	#676
+path 0	get	ack	#675
+path 0	fwd	ack	#675
+path 1	fwd	ack	#676
+path 1	get	data	#679
+path 1	fwd	data	#679	loss rate = 0.204887
+path 1	get	ack	#679
+path 1	fwd	ack	#679
+path 2	get	data	#678
+path 2	fwd	data	#678	loss rate = 0.204695
+path 2	get	ack	#678
+path 2	fwd	ack	#678
+path 0	get	data	#677
+path 0	fwd	data	#677	loss rate = 0.204503
+path 0	get	ack	#677
+path 0	fwd	ack	#677
+path 0	get	data	#683
+path 2	get	data	#681
+path 1	get	data	#682
+path 0	fwd	data	#683	loss rate = 0.204311
+path 2	fwd	data	#681	loss rate = 0.204120
+path 1	fwd	data	#682	loss rate = 0.203929
+path 0	get	ack	#683
+path 0	fwd	ack	#683
+path 1	get	ack	#682
+path 1	fwd	ack	#682
+path 2	get	ack	#681
+path 2	fwd	ack	#681
+path 0	get	data	#680
+path 0	fwd	data	#680	loss rate = 0.203738
+path 0	get	ack	#680
+path 0	fwd	ack	#680
+path 1	get	data	#688
+path 1	fwd	data	#688	loss rate = 0.203548
+path 1	get	ack	#688
+path 1	fwd	ack	#688
+path 2	get	data	#687
+path 2	fwd	data	#687	loss rate = 0.203358
+path 2	get	ack	#687
+path 2	fwd	ack	#687
+path 0	get	data	#686
+path 0	fwd	data	#686	loss rate = 0.203169
+path 0	get	ack	#686
+path 0	fwd	ack	#686
+path 1	get	data	#685
+path 1	fwd	data	#685	loss rate = 0.202980
+path 1	get	ack	#685
+path 1	fwd	ack	#685
+path 2	get	data	#684
+path 2	fwd	data	#684	loss rate = 0.202791
+path 2	get	ack	#684
+path 2	fwd	ack	#684
+path 0	get	data	#694
+path 0	fwd	data	#694	loss rate = 0.202602
+path 1	get	data	#693
+path 1	fwd	data	#693	loss rate = 0.202414
+path 0	get	ack	#694
+path 0	fwd	ack	#694
+path 1	get	ack	#693
+path 1	fwd	ack	#693
+path 2	get	data	#692
+path 2	fwd	data	#692	loss rate = 0.202226
+path 2	get	ack	#692
+path 2	fwd	ack	#692
+path 0	get	data	#691
+path 0	fwd	data	#691	loss rate = 0.202039
+path 1	get	data	#690
+path 1	fwd	data	#690	loss rate = 0.201852
+path 1	get	ack	#690
+path 1	fwd	ack	#690
+path 0	get	ack	#691
+path 0	fwd	ack	#691
+path 2	get	data	#689
+path 2	fwd	data	#689	loss rate = 0.201665
+path 2	get	ack	#689
+path 2	fwd	ack	#689
+path 0	get	data	#701
+path 0	fwd	data	#701	loss rate = 0.201479
+path 1	get	data	#700
+path 1	fwd	data	#700	loss rate = 0.201293
+path 1	get	ack	#700
+path 1	fwd	ack	#700
+path 2	get	data	#699
+path 2	fwd	data	#699	loss rate = 0.201107
+path 0	get	ack	#701
+path 0	fwd	ack	#701
+path 2	get	ack	#699
+path 2	fwd	ack	#699
+path 0	get	data	#698
+path 0	drop	data	#698	loss rate = 0.201843
+path 1	get	data	#697
+path 1	fwd	data	#697	loss rate = 0.201657
+path 1	get	ack	#697
+path 1	fwd	ack	#697
+path 2	get	data	#696
+path 2	fwd	data	#696	loss rate = 0.201472
+path 2	get	ack	#696
+path 2	fwd	ack	#696
+path 0	get	data	#695
+path 0	drop	data	#695	loss rate = 0.202206
+path 0	get	data	#695
+path 0	fwd	data	#695	loss rate = 0.202020
+path 0	get	ack	#695
+path 0	fwd	ack	#695
+path 2	get	data	#697
+path 2	fwd	data	#697	loss rate = 0.201835
+path 1	get	data	#696
+path 1	drop	data	#696	loss rate = 0.202566
+path 2	get	ack	#697
+path 2	fwd	ack	#697
+path 1	get	data	#696
+path 1	fwd	data	#696	loss rate = 0.202381
+path 1	get	ack	#696
+path 1	fwd	ack	#696
+path 0	get	data	#697
+path 0	fwd	data	#697	loss rate = 0.202196
+path 2	get	data	#698
+path 2	drop	data	#698	loss rate = 0.202925
+path 0	get	ack	#697
+path 0	fwd	ack	#697
+path 1	get	data	#698
+path 1	fwd	data	#698	loss rate = 0.202740
+path 1	get	ack	#698
+path 1	fwd	ack	#698
+path 0	get	data	#700
+path 0	fwd	data	#700	loss rate = 0.202555
+path 0	get	ack	#700
+path 0	fwd	ack	#700
+path 2	get	data	#699
+path 2	fwd	data	#699	loss rate = 0.202370
+path 2	get	ack	#699
+path 2	fwd	ack	#699
+path 1	get	data	#703
+path 1	fwd	data	#703	loss rate = 0.202186
+path 0	get	data	#702
+path 0	fwd	data	#702	loss rate = 0.202002
+path 0	get	ack	#702
+path 0	fwd	ack	#702
+path 1	get	ack	#703
+path 1	fwd	ack	#703
+path 2	get	data	#701
+path 2	fwd	data	#701	loss rate = 0.201818
+path 2	get	ack	#701
+path 2	fwd	ack	#701
+path 1	get	data	#707
+path 1	fwd	data	#707	loss rate = 0.201635
+path 0	get	data	#706
+path 0	fwd	data	#706	loss rate = 0.201452
+path 2	get	data	#705
+path 2	fwd	data	#705	loss rate = 0.201269
+path 1	get	data	#704
+path 1	fwd	data	#704	loss rate = 0.201087
+path 1	get	ack	#704
+path 1	fwd	ack	#704
+path 0	get	data	#705
+path 0	drop	data	#705	loss rate = 0.201810
+path 1	get	data	#705
+path 1	fwd	data	#705	loss rate = 0.201627
+path 0	get	data	#705
+path 0	fwd	data	#705	loss rate = 0.201445
+path 0	get	ack	#705
+path 0	fwd	ack	#705
+path 2	get	data	#706
+path 2	fwd	data	#706	loss rate = 0.201264
+path 1	get	data	#707
+path 1	drop	data	#707	loss rate = 0.201984
+path 2	get	ack	#706
+path 2	fwd	ack	#706
+path 0	get	data	#707
+path 0	fwd	data	#707	loss rate = 0.201802
+path 0	get	ack	#707
+path 0	fwd	ack	#707
+path 1	get	data	#709
+path 1	fwd	data	#709	loss rate = 0.201620
+path 2	get	data	#708
+path 2	fwd	data	#708	loss rate = 0.201439
+path 2	get	ack	#708
+path 2	fwd	ack	#708
+path 1	get	ack	#709
+path 1	fwd	ack	#709
+path 0	get	data	#712
+path 0	fwd	data	#712	loss rate = 0.201258
+path 0	get	ack	#712
+path 0	fwd	ack	#712
+path 1	get	data	#711
+path 1	fwd	data	#711	loss rate = 0.201077
+path 2	get	data	#710
+path 2	drop	data	#710	loss rate = 0.201794
+path 1	get	ack	#711
+path 1	fwd	ack	#711
+path 2	get	data	#710
+path 2	fwd	data	#710	loss rate = 0.201613
+path 2	get	ack	#710
+path 2	fwd	ack	#710
+path 1	get	data	#711
+path 1	fwd	data	#711	loss rate = 0.201432
+path 0	get	data	#712
+path 0	fwd	data	#712	loss rate = 0.201252
+path 1	get	ack	#711
+path 1	fwd	ack	#711
+path 0	get	ack	#712
+path 0	fwd	ack	#712
+path 2	get	data	#714
+path 2	fwd	data	#714	loss rate = 0.201072
+path 1	get	data	#715
+path 1	drop	data	#715	loss rate = 0.201786
+path 2	get	ack	#714
+path 2	fwd	ack	#714
+path 0	get	data	#713
+path 0	drop	data	#713	loss rate = 0.202498
+path 1	get	data	#713
+path 1	fwd	data	#713	loss rate = 0.202317
+path 1	get	ack	#713
+path 1	fwd	ack	#713
+path 0	get	data	#715
+path 0	fwd	data	#715	loss rate = 0.202137
+path 2	get	data	#714
+path 2	fwd	data	#714	loss rate = 0.201957
+path 2	get	ack	#714
+path 2	fwd	ack	#714
+path 0	get	ack	#715
+path 0	fwd	ack	#715
+path 2	get	data	#717
+path 2	drop	data	#717	loss rate = 0.202667
+path 1	get	data	#718
+path 1	fwd	data	#718	loss rate = 0.202487
+path 0	get	data	#716
+path 0	fwd	data	#716	loss rate = 0.202307
+path 1	get	ack	#718
+path 1	fwd	ack	#718
+path 0	get	ack	#716
+path 0	fwd	ack	#716
+path 1	get	data	#717
+path 1	fwd	data	#717	loss rate = 0.202128
+path 1	get	ack	#717
+path 1	fwd	ack	#717
+path 0	get	data	#719
+path 0	fwd	data	#719	loss rate = 0.201949
+path 2	get	data	#718
+path 2	drop	data	#718	loss rate = 0.202655
+path 0	get	ack	#719
+path 0	fwd	ack	#719
+path 1	get	data	#718
+path 1	fwd	data	#718	loss rate = 0.202476
+path 1	get	ack	#718
+path 1	fwd	ack	#718
+path 2	get	data	#720
+path 2	fwd	data	#720	loss rate = 0.202297
+path 0	get	data	#719
+path 0	fwd	data	#719	loss rate = 0.202118
+path 0	get	ack	#719
+path 0	fwd	ack	#719
+path 2	get	ack	#720
+path 2	fwd	ack	#720
+path 0	get	data	#722
+path 0	fwd	data	#722	loss rate = 0.201940
+path 1	get	data	#723
+path 1	fwd	data	#723	loss rate = 0.201762
+path 2	get	data	#721
+path 2	drop	data	#721	loss rate = 0.202465
+path 0	get	ack	#722
+path 0	fwd	ack	#722
+path 1	get	ack	#723
+path 1	fwd	ack	#723
+path 0	get	data	#721
+path 0	fwd	data	#721	loss rate = 0.202287
+path 0	get	ack	#721
+path 0	fwd	ack	#721
+path 1	get	data	#723
+path 1	fwd	data	#723	loss rate = 0.202109
+path 2	get	data	#722
+path 2	fwd	data	#722	loss rate = 0.201932
+path 1	get	ack	#723
+path 1	fwd	ack	#723
+path 2	get	ack	#722
+path 2	fwd	ack	#722
+path 0	get	data	#726
+path 0	drop	data	#726	loss rate = 0.202632
+path 1	get	data	#725
+path 1	fwd	data	#725	loss rate = 0.202454
+path 2	get	data	#724
+path 2	fwd	data	#724	loss rate = 0.202277
+path 2	get	ack	#724
+path 2	fwd	ack	#724
+path 1	get	ack	#725
+path 1	fwd	ack	#725
+path 0	get	data	#726
+path 0	fwd	data	#726	loss rate = 0.202100
+path 0	get	ack	#726
+path 0	fwd	ack	#726
+path 1	get	data	#728
+path 1	fwd	data	#728	loss rate = 0.201923
+path 2	get	data	#727
+path 2	drop	data	#727	loss rate = 0.202620
+path 1	get	ack	#728
+path 1	fwd	ack	#728
+path 0	get	data	#727
+path 0	fwd	data	#727	loss rate = 0.202443
+path 0	get	ack	#727
+path 0	fwd	ack	#727
+path 2	get	data	#728
+path 2	fwd	data	#728	loss rate = 0.202267
+path 2	get	ack	#728
+path 2	fwd	ack	#728
+path 1	get	data	#729
+path 1	fwd	data	#729	loss rate = 0.202091
+path 1	get	ack	#729
+path 1	fwd	ack	#729
+path 2	get	data	#732
+path 2	fwd	data	#732	loss rate = 0.201915
+path 0	get	data	#731
+path 0	fwd	data	#731	loss rate = 0.201739
+path 2	get	ack	#732
+path 2	fwd	ack	#732
+path 0	get	ack	#731
+path 0	fwd	ack	#731
+path 1	get	data	#730
+path 1	fwd	data	#730	loss rate = 0.201564
+path 1	get	ack	#730
+path 1	fwd	ack	#730
+path 2	get	data	#736
+path 2	fwd	data	#736	loss rate = 0.201389
+path 0	get	data	#735
+path 0	fwd	data	#735	loss rate = 0.201214
+path 2	get	ack	#736
+path 2	fwd	ack	#736
+path 1	get	data	#734
+path 1	fwd	data	#734	loss rate = 0.201040
+path 1	get	ack	#734
+path 1	fwd	ack	#734
+path 0	get	ack	#735
+path 0	fwd	ack	#735
+path 2	get	data	#733
+path 2	fwd	data	#733	loss rate = 0.200866
+path 2	get	ack	#733
+path 2	fwd	ack	#733
+path 0	get	data	#741
+path 0	fwd	data	#741	loss rate = 0.200692
+path 1	get	data	#740
+path 1	fwd	data	#740	loss rate = 0.200519
+path 1	get	ack	#740
+path 1	fwd	ack	#740
+path 2	get	data	#739
+path 2	fwd	data	#739	loss rate = 0.200345
+path 0	get	data	#738
+path 0	drop	data	#738	loss rate = 0.201035
+path 2	get	ack	#739
+path 2	fwd	ack	#739
+path 1	get	data	#737
+path 1	fwd	data	#737	loss rate = 0.200862
+path 1	get	ack	#737
+path 1	fwd	ack	#737
+path 1	get	data	#738
+path 1	fwd	data	#738	loss rate = 0.200689
+path 1	get	ack	#738
+path 1	fwd	ack	#738
+path 0	get	data	#740
+path 0	fwd	data	#740	loss rate = 0.200516
+path 0	get	ack	#740
+path 0	fwd	ack	#740
+path 2	get	data	#739
+path 2	fwd	data	#739	loss rate = 0.200344
+path 2	get	ack	#739
+path 2	fwd	ack	#739
+path 1	get	data	#743
+path 1	fwd	data	#743	loss rate = 0.200172
+path 1	get	ack	#743
+path 1	fwd	ack	#743
+path 0	get	data	#742
+path 0	fwd	data	#742	loss rate = 0.200000
+path 0	get	ack	#742
+path 0	fwd	ack	#742
+path 2	get	data	#741
+path 2	fwd	data	#741	loss rate = 0.199828
+path 2	get	ack	#741
+path 2	fwd	ack	#741
+path 1	get	data	#747
+path 1	fwd	data	#747	loss rate = 0.199657
+path 1	get	ack	#747
+path 1	fwd	ack	#747
+path 0	get	data	#746
+path 0	drop	data	#746	loss rate = 0.200342
+path 2	get	data	#745
+path 2	fwd	data	#745	loss rate = 0.200171
+path 2	get	ack	#745
+path 2	fwd	ack	#745
+path 1	get	data	#744
+path 1	fwd	data	#744	loss rate = 0.200000
+path 1	get	ack	#744
+path 1	fwd	ack	#744
+path 1	get	data	#746
+path 1	fwd	data	#746	loss rate = 0.199829
+path 1	get	ack	#746
+path 1	fwd	ack	#746
+path 2	get	data	#747
+path 2	fwd	data	#747	loss rate = 0.199659
+path 1	get	data	#748
+path 1	fwd	data	#748	loss rate = 0.199488
+path 2	get	ack	#747
+path 2	fwd	ack	#747
+path 1	get	ack	#748
+path 1	fwd	ack	#748
+path 0	get	data	#751
+path 0	fwd	data	#751	loss rate = 0.199319
+path 0	get	ack	#751
+path 0	fwd	ack	#751
+path 0	get	data	#749
+path 0	fwd	data	#749	loss rate = 0.199149
+path 0	get	ack	#749
+path 0	fwd	ack	#749
+path 1	get	data	#750
+path 1	fwd	data	#750	loss rate = 0.198980
+path 1	get	ack	#750
+path 1	fwd	ack	#750
+path 0	get	data	#754
+path 0	fwd	data	#754	loss rate = 0.198811
+path 1	get	data	#755
+path 1	fwd	data	#755	loss rate = 0.198642
+path 0	get	ack	#754
+path 0	fwd	ack	#754
+path 1	get	ack	#755
+path 1	fwd	ack	#755
+path 1	get	data	#753
+path 1	drop	data	#753	loss rate = 0.199321
+path 0	get	data	#752
+path 0	drop	data	#752	loss rate = 0.200000
+path 2	get	data	#752
+path 2	fwd	data	#752	loss rate = 0.199831
+path 2	get	ack	#752
+path 2	fwd	ack	#752
+path 1	get	data	#754
+path 1	fwd	data	#754	loss rate = 0.199662
+path 0	get	data	#753
+path 0	fwd	data	#753	loss rate = 0.199493
+path 0	get	ack	#753
+path 0	fwd	ack	#753
+path 1	get	ack	#754
+path 1	fwd	ack	#754
+path 2	get	data	#757
+path 2	fwd	data	#757	loss rate = 0.199324
+path 2	get	ack	#757
+path 2	fwd	ack	#757
+path 0	get	data	#755
+path 0	fwd	data	#755	loss rate = 0.199156
+path 1	get	data	#756
+path 1	fwd	data	#756	loss rate = 0.198988
+path 0	get	ack	#755
+path 0	fwd	ack	#755
+path 1	get	ack	#756
+path 1	fwd	ack	#756
+path 2	get	data	#761
+path 2	fwd	data	#761	loss rate = 0.198821
+path 2	get	ack	#761
+path 2	fwd	ack	#761
+path 0	get	data	#759
+path 0	fwd	data	#759	loss rate = 0.198653
+path 1	get	data	#760
+path 1	fwd	data	#760	loss rate = 0.198486
+path 0	get	ack	#759
+path 0	fwd	ack	#759
+path 1	get	ack	#760
+path 1	fwd	ack	#760
+path 2	get	data	#758
+path 2	fwd	data	#758	loss rate = 0.198319
+path 2	get	ack	#758
+path 2	fwd	ack	#758
+path 1	get	data	#766
+path 1	fwd	data	#766	loss rate = 0.198153
+path 0	get	data	#765
+path 0	fwd	data	#765	loss rate = 0.197987
+path 0	get	ack	#765
+path 0	fwd	ack	#765
+path 1	get	ack	#766
+path 1	fwd	ack	#766
+path 2	get	data	#764
+path 2	fwd	data	#764	loss rate = 0.197821
+path 2	get	ack	#764
+path 2	fwd	ack	#764
+path 0	get	data	#762
+path 0	fwd	data	#762	loss rate = 0.197655
+path 1	get	data	#763
+path 1	drop	data	#763	loss rate = 0.198326
+path 0	get	ack	#762
+path 0	fwd	ack	#762
+path 2	get	data	#763
+path 2	drop	data	#763	loss rate = 0.198997
+path 2	get	data	#763
+path 2	fwd	data	#763	loss rate = 0.198830
+path 2	get	ack	#763
+path 2	fwd	ack	#763
+path 2	get	data	#765
+path 2	fwd	data	#765	loss rate = 0.198664
+path 1	get	data	#764
+path 1	fwd	data	#764	loss rate = 0.198499
+path 1	get	ack	#764
+path 1	fwd	ack	#764
+path 2	get	ack	#765
+path 2	fwd	ack	#765
+path 0	get	data	#768
+path 0	fwd	data	#768	loss rate = 0.198333
+path 0	get	ack	#768
+path 0	fwd	ack	#768
+path 1	get	data	#767
+path 1	fwd	data	#767	loss rate = 0.198168
+path 2	get	data	#766
+path 2	fwd	data	#766	loss rate = 0.198003
+path 1	get	ack	#767
+path 1	fwd	ack	#767
+path 2	get	ack	#766
+path 2	fwd	ack	#766
+path 0	get	data	#772
+path 0	fwd	data	#772	loss rate = 0.197839
+path 0	get	data	#769
+path 0	fwd	data	#769	loss rate = 0.197674
+path 2	get	data	#771
+path 2	fwd	data	#771	loss rate = 0.197510
+path 1	get	data	#770
+path 1	fwd	data	#770	loss rate = 0.197347
+path 2	get	ack	#771
+path 2	fwd	ack	#771
+path 1	get	ack	#770
+path 1	fwd	ack	#770
+path 0	get	ack	#769
+path 0	fwd	ack	#769
+path 2	get	data	#772
+path 2	fwd	data	#772	loss rate = 0.197183
+path 2	get	ack	#772
+path 2	fwd	ack	#772
+path 0	get	data	#773
+path 0	fwd	data	#773	loss rate = 0.197020
+path 1	get	data	#774
+path 1	fwd	data	#774	loss rate = 0.196857
+path 1	get	ack	#774
+path 1	fwd	ack	#774
+path 0	get	ack	#773
+path 0	fwd	ack	#773
+path 2	get	data	#777
+path 2	drop	data	#777	loss rate = 0.197521
+path 1	get	data	#776
+path 1	fwd	data	#776	loss rate = 0.197358
+path 0	get	data	#775
+path 0	fwd	data	#775	loss rate = 0.197195
+path 0	get	ack	#775
+path 0	fwd	ack	#775
+path 1	get	ack	#776
+path 1	fwd	ack	#776
+path 2	get	data	#777
+path 2	fwd	data	#777	loss rate = 0.197032
+path 2	get	ack	#777
+path 2	fwd	ack	#777
+path 0	get	data	#779
+path 0	fwd	data	#779	loss rate = 0.196870
+path 1	get	data	#778
+path 1	fwd	data	#778	loss rate = 0.196708
+path 1	get	ack	#778
+path 1	fwd	ack	#778
+path 0	get	ack	#779
+path 0	fwd	ack	#779
+path 2	get	data	#782
+path 2	fwd	data	#782	loss rate = 0.196546
+path 1	get	data	#781
+path 1	fwd	data	#781	loss rate = 0.196385
+path 2	get	ack	#782
+path 2	fwd	ack	#782
+path 1	get	ack	#781
+path 1	fwd	ack	#781
+path 0	get	data	#780
+path 0	fwd	data	#780	loss rate = 0.196223
+path 0	get	ack	#780
+path 0	fwd	ack	#780
+path 2	get	data	#786
+path 2	fwd	data	#786	loss rate = 0.196062
+path 0	get	data	#785
+path 0	fwd	data	#785	loss rate = 0.195902
+path 1	get	data	#784
+path 1	fwd	data	#784	loss rate = 0.195741
+path 1	get	ack	#784
+path 1	fwd	ack	#784
+path 0	get	ack	#785
+path 0	fwd	ack	#785
+path 2	get	ack	#786
+path 2	fwd	ack	#786
+path 2	get	data	#783
+path 2	fwd	data	#783	loss rate = 0.195581
+path 2	get	ack	#783
+path 2	fwd	ack	#783
+path 1	get	data	#787
+path 1	drop	data	#787	loss rate = 0.196239
+path 0	get	data	#791
+path 0	drop	data	#791	loss rate = 0.196895
+path 2	get	data	#790
+path 2	fwd	data	#790	loss rate = 0.196735
+path 0	get	data	#789
+path 0	fwd	data	#789	loss rate = 0.196574
+path 1	get	data	#788
+path 1	drop	data	#788	loss rate = 0.197229
+path 0	get	ack	#789
+path 0	fwd	ack	#789
+path 2	get	ack	#790
+path 2	fwd	ack	#790
+path 1	get	data	#787
+path 1	fwd	data	#787	loss rate = 0.197068
+path 1	get	ack	#787
+path 1	fwd	ack	#787
+path 0	get	data	#788
+path 0	fwd	data	#788	loss rate = 0.196908
+path 2	get	data	#789
+path 2	fwd	data	#789	loss rate = 0.196748
+path 2	get	ack	#789
+path 2	fwd	ack	#789
+path 0	get	ack	#788
+path 0	fwd	ack	#788
+path 1	get	data	#792
+path 1	fwd	data	#792	loss rate = 0.196588
+path 2	get	data	#790
+path 2	fwd	data	#790	loss rate = 0.196429
+path 0	get	data	#791
+path 0	fwd	data	#791	loss rate = 0.196269
+path 0	get	ack	#791
+path 0	fwd	ack	#791
+path 2	get	ack	#790
+path 2	fwd	ack	#790
+path 1	get	ack	#792
+path 1	fwd	ack	#792
+path 0	get	data	#796
+path 0	fwd	data	#796	loss rate = 0.196110
+path 1	get	data	#795
+path 1	drop	data	#795	loss rate = 0.196761
+path 0	get	ack	#796
+path 0	fwd	ack	#796
+path 2	get	data	#794
+path 2	drop	data	#794	loss rate = 0.197411
+path 0	get	data	#793
+path 0	drop	data	#793	loss rate = 0.198060
+path 0	get	data	#793
+path 0	drop	data	#793	loss rate = 0.198708
+path 1	get	data	#793
+path 1	fwd	data	#793	loss rate = 0.198547
+path 1	get	ack	#793
+path 1	fwd	ack	#793
+path 0	get	data	#795
+path 0	fwd	data	#795	loss rate = 0.198387
+path 2	get	data	#794
+path 2	fwd	data	#794	loss rate = 0.198227
+path 2	get	ack	#794
+path 2	fwd	ack	#794
+path 0	get	ack	#795
+path 0	fwd	ack	#795
+path 1	get	data	#798
+path 1	fwd	data	#798	loss rate = 0.198068
+path 2	get	data	#797
+path 2	fwd	data	#797	loss rate = 0.197908
+path 2	get	ack	#797
+path 2	fwd	ack	#797
+path 1	get	ack	#798
+path 1	fwd	ack	#798
+path 0	get	data	#796
+path 0	fwd	data	#796	loss rate = 0.197749
+path 0	get	ack	#796
+path 0	fwd	ack	#796
+path 2	get	data	#801
+path 2	fwd	data	#801	loss rate = 0.197590
+path 1	get	data	#802
+path 1	fwd	data	#802	loss rate = 0.197432
+path 0	get	data	#800
+path 0	fwd	data	#800	loss rate = 0.197273
+path 0	get	ack	#800
+path 0	fwd	ack	#800
+path 1	get	data	#799
+path 1	fwd	data	#799	loss rate = 0.197115
+path 1	get	ack	#799
+path 1	fwd	ack	#799
+path 0	get	data	#801
+path 0	fwd	data	#801	loss rate = 0.196958
+path 1	get	data	#801
+path 1	drop	data	#801	loss rate = 0.197600
+path 0	get	data	#801
+path 0	fwd	data	#801	loss rate = 0.197442
+path 0	get	ack	#801
+path 0	fwd	ack	#801
+path 1	get	data	#802
+path 1	fwd	data	#802	loss rate = 0.197284
+path 1	get	ack	#802
+path 1	fwd	ack	#802
+path 1	get	data	#803
+path 1	fwd	data	#803	loss rate = 0.197127
+path 1	get	ack	#803
+path 1	fwd	ack	#803
+path 2	get	data	#806
+path 2	fwd	data	#806	loss rate = 0.196970
+path 2	get	ack	#806
+path 2	fwd	ack	#806
+path 1	get	data	#805
+path 1	fwd	data	#805	loss rate = 0.196813
+path 1	get	ack	#805
+path 1	fwd	ack	#805
+path 2	get	data	#804
+path 2	fwd	data	#804	loss rate = 0.196656
+path 2	get	ack	#804
+path 2	fwd	ack	#804
+path 0	get	data	#810
+path 0	fwd	data	#810	loss rate = 0.196500
+path 0	get	ack	#810
+path 0	fwd	ack	#810
+path 2	get	data	#809
+path 2	drop	data	#809	loss rate = 0.197138
+path 0	get	data	#808
+path 0	drop	data	#808	loss rate = 0.197776
+path 2	get	data	#807
+path 2	drop	data	#807	loss rate = 0.198413
+path 1	get	data	#807
+path 1	fwd	data	#807	loss rate = 0.198255
+path 1	get	ack	#807
+path 1	fwd	ack	#807
+path 0	get	data	#808
+path 0	fwd	data	#808	loss rate = 0.198098
+path 2	get	data	#809
+path 2	fwd	data	#809	loss rate = 0.197941
+path 0	get	ack	#808
+path 0	fwd	ack	#808
+path 2	get	ack	#809
+path 2	fwd	ack	#809
+path 1	get	data	#811
+path 1	fwd	data	#811	loss rate = 0.197785
+path 1	get	ack	#811
+path 1	fwd	ack	#811
+path 2	get	data	#812
+path 2	fwd	data	#812	loss rate = 0.197628
+path 0	get	data	#810
+path 0	fwd	data	#810	loss rate = 0.197472
+path 0	get	ack	#810
+path 0	fwd	ack	#810
+path 2	get	ack	#812
+path 2	fwd	ack	#812
+path 2	get	data	#816
+path 2	fwd	data	#816	loss rate = 0.197316
+path 1	get	data	#815
+path 1	fwd	data	#815	loss rate = 0.197161
+path 2	get	ack	#816
+path 2	fwd	ack	#816
+path 1	get	ack	#815
+path 1	fwd	ack	#815
+path 0	get	data	#814
+path 0	fwd	data	#814	loss rate = 0.197006
+path 0	get	ack	#814
+path 0	fwd	ack	#814
+path 2	get	data	#813
+path 2	drop	data	#813	loss rate = 0.197638
+path 1	get	data	#813
+path 1	fwd	data	#813	loss rate = 0.197482
+path 1	get	ack	#813
+path 1	fwd	ack	#813
+path 2	get	data	#815
+path 2	fwd	data	#815	loss rate = 0.197327
+path 0	get	data	#814
+path 0	fwd	data	#814	loss rate = 0.197172
+path 2	get	ack	#815
+path 2	fwd	ack	#815
+path 0	get	ack	#814
+path 0	fwd	ack	#814
+path 1	get	data	#818
+path 1	fwd	data	#818	loss rate = 0.197017
+path 1	get	ack	#818
+path 1	fwd	ack	#818
+path 2	get	data	#817
+path 2	fwd	data	#817	loss rate = 0.196863
+path 2	get	ack	#817
+path 2	fwd	ack	#817
+path 0	get	data	#816
+path 0	drop	data	#816	loss rate = 0.197492
+path 2	get	data	#816
+path 2	fwd	data	#816	loss rate = 0.197338
+path 2	get	ack	#816
+path 2	fwd	ack	#816
+path 2	get	data	#817
+path 2	fwd	data	#817	loss rate = 0.197183
+path 2	get	ack	#817
+path 2	fwd	ack	#817
+path 0	get	data	#818
+path 0	fwd	data	#818	loss rate = 0.197029
+path 0	get	ack	#818
+path 0	fwd	ack	#818
+path 1	get	data	#819
+path 1	fwd	data	#819	loss rate = 0.196875
+path 1	get	ack	#819
+path 1	fwd	ack	#819
+path 2	get	data	#821
+path 2	drop	data	#821	loss rate = 0.197502
+path 0	get	data	#820
+path 0	fwd	data	#820	loss rate = 0.197348
+path 0	get	ack	#820
+path 0	fwd	ack	#820
+path 1	get	data	#821
+path 1	fwd	data	#821	loss rate = 0.197194
+path 1	get	ack	#821
+path 1	fwd	ack	#821
+path 0	get	data	#822
+path 0	fwd	data	#822	loss rate = 0.197040
+path 2	get	data	#823
+path 2	drop	data	#823	loss rate = 0.197665
+path 0	get	ack	#822
+path 0	fwd	ack	#822
+path 0	get	data	#823
+path 0	fwd	data	#823	loss rate = 0.197512
+path 0	get	ack	#823
+path 0	fwd	ack	#823
+path 2	get	data	#824
+path 2	fwd	data	#824	loss rate = 0.197358
+path 2	get	ack	#824
+path 2	fwd	ack	#824
+path 1	get	data	#825
+path 1	fwd	data	#825	loss rate = 0.197205
+path 1	get	ack	#825
+path 1	fwd	ack	#825
+path 0	get	data	#828
+path 0	fwd	data	#828	loss rate = 0.197052
+path 1	get	data	#827
+path 1	fwd	data	#827	loss rate = 0.196899
+path 0	get	ack	#828
+path 0	fwd	ack	#828
+path 1	get	ack	#827
+path 1	fwd	ack	#827
+path 2	get	data	#826
+path 2	fwd	data	#826	loss rate = 0.196747
+path 2	get	ack	#826
+path 2	fwd	ack	#826
+path 1	get	data	#832
+path 1	fwd	data	#832	loss rate = 0.196594
+path 1	get	ack	#832
+path 1	fwd	ack	#832
+path 0	get	data	#831
+path 0	fwd	data	#831	loss rate = 0.196442
+path 0	get	ack	#831
+path 0	fwd	ack	#831
+path 2	get	data	#830
+path 2	fwd	data	#830	loss rate = 0.196291
+path 2	get	ack	#830
+path 2	fwd	ack	#830
+path 1	get	data	#829
+path 1	fwd	data	#829	loss rate = 0.196139
+path 1	get	ack	#829
+path 1	fwd	ack	#829
+path 0	get	data	#833
+path 0	fwd	data	#833	loss rate = 0.195988
+path 2	get	data	#837
+path 2	fwd	data	#837	loss rate = 0.195837
+path 2	get	ack	#837
+path 2	fwd	ack	#837
+path 1	get	data	#836
+path 1	fwd	data	#836	loss rate = 0.195686
+path 1	get	ack	#836
+path 1	fwd	ack	#836
+path 2	get	data	#835
+path 2	fwd	data	#835	loss rate = 0.195535
+path 2	get	ack	#835
+path 2	fwd	ack	#835
+path 0	get	data	#834
+path 0	fwd	data	#834	loss rate = 0.195385
+path 0	get	ack	#834
+path 0	fwd	ack	#834
+path 1	get	data	#833
+path 1	fwd	data	#833	loss rate = 0.195234
+path 1	get	ack	#833
+path 1	fwd	ack	#833
+path 2	get	data	#835
+path 2	fwd	data	#835	loss rate = 0.195084
+path 0	get	data	#834
+path 0	drop	data	#834	loss rate = 0.195702
+path 2	get	ack	#835
+path 2	fwd	ack	#835
+path 0	get	data	#834
+path 0	fwd	data	#834	loss rate = 0.195552
+path 0	get	ack	#834
+path 0	fwd	ack	#834
+path 1	get	data	#836
+path 1	fwd	data	#836	loss rate = 0.195402
+path 1	get	ack	#836
+path 1	fwd	ack	#836
+path 2	get	data	#835
+path 2	drop	data	#835	loss rate = 0.196018
+path 1	get	data	#835
+path 1	fwd	data	#835	loss rate = 0.195868
+path 1	get	ack	#835
+path 1	fwd	ack	#835
+path 2	get	data	#836
+path 2	fwd	data	#836	loss rate = 0.195719
+path 2	get	ack	#836
+path 2	fwd	ack	#836
+path 0	get	data	#837
+path 0	fwd	data	#837	loss rate = 0.195569
+path 0	get	ack	#837
+path 0	fwd	ack	#837
+path 1	get	data	#840
+path 1	fwd	data	#840	loss rate = 0.195420
+path 1	get	ack	#840
+path 1	fwd	ack	#840
+path 2	get	data	#839
+path 2	fwd	data	#839	loss rate = 0.195271
+path 2	get	ack	#839
+path 2	fwd	ack	#839
+path 0	get	data	#838
+path 0	fwd	data	#838	loss rate = 0.195122
+path 0	get	ack	#838
+path 0	fwd	ack	#838
+path 1	get	data	#844
+path 1	fwd	data	#844	loss rate = 0.194973
+path 1	get	ack	#844
+path 1	fwd	ack	#844
+path 2	get	data	#843
+path 2	fwd	data	#843	loss rate = 0.194825
+path 2	get	ack	#843
+path 2	fwd	ack	#843
+path 0	get	data	#842
+path 0	fwd	data	#842	loss rate = 0.194677
+path 0	get	ack	#842
+path 0	fwd	ack	#842
+path 1	get	data	#841
+path 1	fwd	data	#841	loss rate = 0.194529
+path 1	get	ack	#841
+path 1	fwd	ack	#841
+path 2	get	data	#845
+path 2	fwd	data	#845	loss rate = 0.194381
+path 2	get	ack	#845
+path 2	fwd	ack	#845
+path 0	get	data	#849
+path 0	fwd	data	#849	loss rate = 0.194234
+path 0	get	ack	#849
+path 0	fwd	ack	#849
+path 1	get	data	#848
+path 1	fwd	data	#848	loss rate = 0.194086
+path 1	get	ack	#848
+path 1	fwd	ack	#848
+path 2	get	data	#847
+path 2	fwd	data	#847	loss rate = 0.193939
+path 2	get	ack	#847
+path 2	fwd	ack	#847
+path 0	get	data	#846
+path 0	drop	data	#846	loss rate = 0.194550
+path 2	get	data	#846
+path 2	fwd	data	#846	loss rate = 0.194402
+path 2	get	ack	#846
+path 2	fwd	ack	#846
+path 1	get	data	#848
+path 1	drop	data	#848	loss rate = 0.195011
+path 0	get	data	#847
+path 0	fwd	data	#847	loss rate = 0.194864
+path 0	get	ack	#847
+path 0	fwd	ack	#847
+path 2	get	data	#848
+path 2	fwd	data	#848	loss rate = 0.194717
+path 2	get	ack	#848
+path 2	fwd	ack	#848
+path 0	get	data	#849
+path 0	fwd	data	#849	loss rate = 0.194570
+path 2	get	data	#850
+path 2	fwd	data	#850	loss rate = 0.194424
+path 2	get	ack	#850
+path 2	fwd	ack	#850
+path 0	get	ack	#849
+path 0	fwd	ack	#849
+path 1	get	data	#853
+path 1	fwd	data	#853	loss rate = 0.194277
+path 1	get	ack	#853
+path 1	fwd	ack	#853
+path 1	get	data	#851
+path 1	fwd	data	#851	loss rate = 0.194131
+path 2	get	data	#852
+path 2	drop	data	#852	loss rate = 0.194737
+path 1	get	ack	#851
+path 1	fwd	ack	#851
+path 0	get	data	#852
+path 0	fwd	data	#852	loss rate = 0.194591
+path 0	get	ack	#852
+path 0	fwd	ack	#852
+path 2	get	data	#853
+path 2	fwd	data	#853	loss rate = 0.194444
+path 1	get	data	#854
+path 1	fwd	data	#854	loss rate = 0.194299
+path 1	get	ack	#854
+path 1	fwd	ack	#854
+path 2	get	ack	#853
+path 2	fwd	ack	#853
+path 0	get	data	#856
+path 0	fwd	data	#856	loss rate = 0.194153
+path 1	get	data	#857
+path 1	fwd	data	#857	loss rate = 0.194007
+path 2	get	data	#855
+path 2	fwd	data	#855	loss rate = 0.193862
+path 1	get	ack	#857
+path 1	fwd	ack	#857
+path 0	get	ack	#856
+path 0	fwd	ack	#856
+path 2	get	ack	#855
+path 2	fwd	ack	#855
+path 0	get	data	#861
+path 0	drop	data	#861	loss rate = 0.194465
+path 1	get	data	#860
+path 1	fwd	data	#860	loss rate = 0.194320
+path 2	get	data	#859
+path 2	fwd	data	#859	loss rate = 0.194175
+path 1	get	ack	#860
+path 1	fwd	ack	#860
+path 2	get	ack	#859
+path 2	fwd	ack	#859
+path 0	get	data	#858
+path 0	drop	data	#858	loss rate = 0.194776
+path 0	get	data	#858
+path 0	drop	data	#858	loss rate = 0.195377
+path 0	get	data	#858
+path 0	fwd	data	#858	loss rate = 0.195231
+path 0	get	ack	#858
+path 0	fwd	ack	#858
+path 2	get	data	#860
+path 2	fwd	data	#860	loss rate = 0.195086
+path 1	get	data	#859
+path 1	fwd	data	#859	loss rate = 0.194940
+path 1	get	ack	#859
+path 1	fwd	ack	#859
+path 2	get	ack	#860
+path 2	fwd	ack	#860
+path 0	get	data	#863
+path 0	fwd	data	#863	loss rate = 0.194796
+path 1	get	data	#862
+path 1	fwd	data	#862	loss rate = 0.194651
+path 2	get	data	#861
+path 2	fwd	data	#861	loss rate = 0.194506
+path 1	get	ack	#862
+path 1	fwd	ack	#862
+path 2	get	ack	#861
+path 2	fwd	ack	#861
+path 0	get	ack	#863
+path 0	fwd	ack	#863
+path 2	get	data	#867
+path 2	fwd	data	#867	loss rate = 0.194362
+path 2	get	data	#866
+path 2	drop	data	#866	loss rate = 0.194959
+path 2	get	data	#865
+path 2	drop	data	#865	loss rate = 0.195556
+path 0	get	data	#864
+path 0	fwd	data	#864	loss rate = 0.195411
+path 0	get	ack	#864
+path 0	fwd	ack	#864
+path 2	get	data	#865
+path 2	fwd	data	#865	loss rate = 0.195266
+path 0	get	data	#865
+path 0	fwd	data	#865	loss rate = 0.195122
+path 0	get	ack	#865
+path 0	fwd	ack	#865
+path 1	get	data	#866
+path 1	fwd	data	#866	loss rate = 0.194978
+path 2	get	data	#867
+path 2	fwd	data	#867	loss rate = 0.194834
+path 1	get	ack	#866
+path 1	fwd	ack	#866
+path 2	get	ack	#867
+path 2	fwd	ack	#867
+path 0	get	data	#870
+path 0	fwd	data	#870	loss rate = 0.194690
+path 0	get	ack	#870
+path 0	fwd	ack	#870
+path 1	get	data	#869
+path 1	fwd	data	#869	loss rate = 0.194547
+path 1	get	ack	#869
+path 1	fwd	ack	#869
+path 2	get	data	#868
+path 2	fwd	data	#868	loss rate = 0.194404
+path 2	get	ack	#868
+path 2	fwd	ack	#868
+path 1	get	data	#874
+path 1	fwd	data	#874	loss rate = 0.194260
+path 2	get	data	#873
+path 2	fwd	data	#873	loss rate = 0.194118
+path 1	get	ack	#874
+path 1	fwd	ack	#874
+path 0	get	data	#872
+path 0	fwd	data	#872	loss rate = 0.193975
+path 2	get	ack	#873
+path 2	fwd	ack	#873
+path 0	get	ack	#872
+path 0	fwd	ack	#872
+path 1	get	data	#871
+path 1	fwd	data	#871	loss rate = 0.193833
+path 1	get	ack	#871
+path 1	fwd	ack	#871
+path 0	get	data	#875
+path 0	fwd	data	#875	loss rate = 0.193690
+path 2	get	data	#879
+path 2	fwd	data	#879	loss rate = 0.193548
+path 0	get	ack	#875
+path 0	fwd	ack	#875
+path 2	get	ack	#879
+path 2	fwd	ack	#879
+path 1	get	data	#878
+path 1	fwd	data	#878	loss rate = 0.193407
+path 0	get	data	#876
+path 0	fwd	data	#876	loss rate = 0.193265
+path 2	get	data	#877
+path 2	fwd	data	#877	loss rate = 0.193124
+path 1	get	ack	#878
+path 1	fwd	ack	#878
+path 0	get	ack	#876
+path 0	fwd	ack	#876
+path 2	get	ack	#877
+path 2	fwd	ack	#877
+path 1	get	data	#885
+path 1	fwd	data	#885	loss rate = 0.192982
+path 2	get	data	#884
+path 2	fwd	data	#884	loss rate = 0.192841
+path 1	get	ack	#885
+path 1	fwd	ack	#885
+path 0	get	data	#883
+path 0	drop	data	#883	loss rate = 0.193431
+path 2	get	ack	#884
+path 2	fwd	ack	#884
+path 1	get	data	#882
+path 1	fwd	data	#882	loss rate = 0.193290
+path 2	get	data	#881
+path 2	fwd	data	#881	loss rate = 0.193149
+path 1	get	ack	#882
+path 1	fwd	ack	#882
+path 0	get	data	#880
+path 0	fwd	data	#880	loss rate = 0.193008
+path 0	get	ack	#880
+path 0	fwd	ack	#880
+path 2	get	ack	#881
+path 2	fwd	ack	#881
+path 2	get	data	#883
+path 2	fwd	data	#883	loss rate = 0.192868
+path 2	get	ack	#883
+path 2	fwd	ack	#883
+path 0	get	data	#884
+path 0	fwd	data	#884	loss rate = 0.192727
+path 0	get	ack	#884
+path 0	fwd	ack	#884
+path 1	get	data	#885
+path 1	fwd	data	#885	loss rate = 0.192587
+path 1	get	ack	#885
+path 1	fwd	ack	#885
+path 2	get	data	#888
+path 2	fwd	data	#888	loss rate = 0.192447
+path 0	get	data	#889
+path 0	fwd	data	#889	loss rate = 0.192308
+path 2	get	ack	#888
+path 2	fwd	ack	#888
+path 0	get	ack	#889
+path 0	fwd	ack	#889
+path 1	get	data	#887
+path 1	fwd	data	#887	loss rate = 0.192168
+path 1	get	ack	#887
+path 1	fwd	ack	#887
+path 1	get	data	#886
+path 1	fwd	data	#886	loss rate = 0.192029
+path 1	get	ack	#886
+path 1	fwd	ack	#886
+path 2	get	data	#894
+path 2	fwd	data	#894	loss rate = 0.191890
+path 0	get	data	#890
+path 0	drop	data	#890	loss rate = 0.192475
+path 2	get	ack	#894
+path 2	fwd	ack	#894
+path 1	get	data	#893
+path 1	fwd	data	#893	loss rate = 0.192336
+path 1	get	ack	#893
+path 1	fwd	ack	#893
+path 2	get	data	#892
+path 2	drop	data	#892	loss rate = 0.192919
+path 0	get	data	#891
+path 0	fwd	data	#891	loss rate = 0.192780
+path 0	get	ack	#891
+path 0	fwd	ack	#891
+path 2	get	data	#890
+path 2	drop	data	#890	loss rate = 0.193362
+path 0	get	data	#890
+path 0	fwd	data	#890	loss rate = 0.193223
+path 0	get	ack	#890
+path 0	fwd	ack	#890
+path 2	get	data	#891
+path 2	drop	data	#891	loss rate = 0.193804
+path 1	get	data	#892
+path 1	fwd	data	#892	loss rate = 0.193665
+path 1	get	ack	#892
+path 1	fwd	ack	#892
+path 2	get	data	#891
+path 2	fwd	data	#891	loss rate = 0.193525
+path 2	get	ack	#891
+path 2	fwd	ack	#891
+path 1	get	data	#892
+path 1	fwd	data	#892	loss rate = 0.193386
+path 0	get	data	#893
+path 0	fwd	data	#893	loss rate = 0.193247
+path 0	get	ack	#893
+path 0	fwd	ack	#893
+path 1	get	ack	#892
+path 1	fwd	ack	#892
+path 2	get	data	#896
+path 2	drop	data	#896	loss rate = 0.193826
+path 1	get	data	#895
+path 1	fwd	data	#895	loss rate = 0.193687
+path 0	get	data	#894
+path 0	fwd	data	#894	loss rate = 0.193548
+path 0	get	ack	#894
+path 0	fwd	ack	#894
+path 1	get	ack	#895
+path 1	fwd	ack	#895
+path 2	get	data	#896
+path 2	fwd	data	#896	loss rate = 0.193410
+path 2	get	ack	#896
+path 2	fwd	ack	#896
+path 1	get	data	#897
+path 1	drop	data	#897	loss rate = 0.193987
+path 0	get	data	#898
+path 0	drop	data	#898	loss rate = 0.194564
+path 1	get	data	#897
+path 1	drop	data	#897	loss rate = 0.195139
+path 1	get	data	#897
+path 1	fwd	data	#897	loss rate = 0.195000
+path 1	get	data	#897
+path 1	fwd	data	#897	loss rate = 0.194861
+path 1	get	ack	#897
+path 1	fwd	ack	#897
+path 2	get	data	#899
+path 2	fwd	data	#899	loss rate = 0.194722
+path 2	get	ack	#899
+path 2	fwd	ack	#899
+path 0	get	data	#898
+path 0	fwd	data	#898	loss rate = 0.194583
+path 0	get	ack	#898
+path 0	fwd	ack	#898
+path 2	get	data	#901
+path 2	fwd	data	#901	loss rate = 0.194444
+path 1	get	data	#902
+path 1	drop	data	#902	loss rate = 0.195018
+path 2	get	ack	#901
+path 2	fwd	ack	#901
+path 0	get	data	#900
+path 0	fwd	data	#900	loss rate = 0.194879
+path 0	get	ack	#900
+path 0	fwd	ack	#900
+path 1	get	data	#902
+path 1	drop	data	#902	loss rate = 0.195451
+path 2	get	data	#902
+path 2	fwd	data	#902	loss rate = 0.195312
+path 2	get	ack	#902
+path 2	fwd	ack	#902
+path 0	get	data	#903
+path 0	drop	data	#903	loss rate = 0.195884
+path 1	get	data	#904
+path 1	fwd	data	#904	loss rate = 0.195745
+path 1	get	ack	#904
+path 1	fwd	ack	#904
+path 2	get	data	#903
+path 2	fwd	data	#903	loss rate = 0.195606
+path 2	get	ack	#903
+path 2	fwd	ack	#903
+path 0	get	data	#904
+path 0	fwd	data	#904	loss rate = 0.195467
+path 1	get	data	#905
+path 1	drop	data	#905	loss rate = 0.196037
+path 0	get	ack	#904
+path 0	fwd	ack	#904
+path 2	get	data	#905
+path 2	fwd	data	#905	loss rate = 0.195898
+path 2	get	ack	#905
+path 2	fwd	ack	#905
+path 1	get	data	#906
+path 1	fwd	data	#906	loss rate = 0.195760
+path 0	get	data	#907
+path 0	fwd	data	#907	loss rate = 0.195621
+path 1	get	ack	#906
+path 1	fwd	ack	#906
+path 0	get	ack	#907
+path 0	fwd	ack	#907
+path 2	get	data	#909
+path 2	fwd	data	#909	loss rate = 0.195483
+path 1	get	data	#908
+path 1	fwd	data	#908	loss rate = 0.195346
+path 0	get	data	#910
+path 0	fwd	data	#910	loss rate = 0.195208
+path 1	get	ack	#908
+path 1	fwd	ack	#908
+path 0	get	ack	#910
+path 0	fwd	ack	#910
+path 2	get	ack	#909
+path 2	fwd	ack	#909
+path 2	get	data	#913
+path 2	fwd	data	#913	loss rate = 0.195070
+path 1	get	data	#912
+path 1	fwd	data	#912	loss rate = 0.194933
+path 0	get	data	#914
+path 0	fwd	data	#914	loss rate = 0.194796
+path 2	get	ack	#913
+path 2	fwd	ack	#913
+path 1	get	ack	#912
+path 1	fwd	ack	#912
+path 0	get	ack	#914
+path 0	fwd	ack	#914
+path 0	get	data	#911
+path 0	drop	data	#911	loss rate = 0.195362
+path 0	get	data	#911
+path 0	fwd	data	#911	loss rate = 0.195225
+path 0	get	ack	#911
+path 0	fwd	ack	#911
+path 1	get	data	#912
+path 1	fwd	data	#912	loss rate = 0.195088
+path 2	get	data	#913
+path 2	fwd	data	#913	loss rate = 0.194951
+path 1	get	ack	#912
+path 1	fwd	ack	#912
+path 2	get	ack	#913
+path 2	fwd	ack	#913
+path 2	get	data	#915
+path 2	fwd	data	#915	loss rate = 0.194814
+path 0	get	data	#916
+path 0	fwd	data	#916	loss rate = 0.194678
+path 2	get	ack	#915
+path 2	fwd	ack	#915
+path 0	get	ack	#916
+path 0	fwd	ack	#916
+path 1	get	data	#914
+path 1	fwd	data	#914	loss rate = 0.194542
+path 1	get	ack	#914
+path 1	fwd	ack	#914
+path 1	get	data	#919
+path 1	fwd	data	#919	loss rate = 0.194406
+path 0	get	data	#920
+path 0	fwd	data	#920	loss rate = 0.194270
+path 2	get	data	#918
+path 2	fwd	data	#918	loss rate = 0.194134
+path 0	get	ack	#920
+path 0	fwd	ack	#920
+path 2	get	ack	#918
+path 2	fwd	ack	#918
+path 1	get	ack	#919
+path 1	fwd	ack	#919
+path 0	get	data	#917
+path 0	drop	data	#917	loss rate = 0.194696
+path 1	get	data	#917
+path 1	fwd	data	#917	loss rate = 0.194561
+path 1	get	ack	#917
+path 1	fwd	ack	#917
+path 2	get	data	#919
+path 2	fwd	data	#919	loss rate = 0.194425
+path 2	get	ack	#919
+path 2	fwd	ack	#919
+path 0	get	data	#918
+path 0	fwd	data	#918	loss rate = 0.194290
+path 0	get	ack	#918
+path 0	fwd	ack	#918
+path 2	get	data	#922
+path 2	fwd	data	#922	loss rate = 0.194154
+path 0	get	data	#921
+path 0	fwd	data	#921	loss rate = 0.194019
+path 2	get	ack	#922
+path 2	fwd	ack	#922
+path 1	get	data	#920
+path 1	drop	data	#920	loss rate = 0.194580
+path 0	get	ack	#921
+path 0	fwd	ack	#921
+path 2	get	data	#920
+path 2	fwd	data	#920	loss rate = 0.194444
+path 2	get	ack	#920
+path 2	fwd	ack	#920
+path 0	get	data	#922
+path 0	fwd	data	#922	loss rate = 0.194310
+path 1	get	data	#921
+path 1	fwd	data	#921	loss rate = 0.194175
+path 1	get	ack	#921
+path 1	fwd	ack	#921
+path 0	get	ack	#922
+path 0	fwd	ack	#922
+path 2	get	data	#925
+path 2	drop	data	#925	loss rate = 0.194733
+path 0	get	data	#924
+path 0	fwd	data	#924	loss rate = 0.194598
+path 1	get	data	#923
+path 1	drop	data	#923	loss rate = 0.195156
+path 0	get	ack	#924
+path 0	fwd	ack	#924
+path 1	get	data	#923
+path 1	fwd	data	#923	loss rate = 0.195021
+path 1	get	ack	#923
+path 1	fwd	ack	#923
+path 0	get	data	#925
+path 0	fwd	data	#925	loss rate = 0.194886
+path 2	get	data	#924
+path 2	fwd	data	#924	loss rate = 0.194751
+path 0	get	ack	#925
+path 0	fwd	ack	#925
+path 2	get	ack	#924
+path 2	fwd	ack	#924
+path 0	get	data	#927
+path 0	fwd	data	#927	loss rate = 0.194617
+path 2	get	data	#926
+path 2	fwd	data	#926	loss rate = 0.194483
+path 1	get	data	#928
+path 1	fwd	data	#928	loss rate = 0.194349
+path 2	get	ack	#926
+path 2	fwd	ack	#926
+path 1	get	ack	#928
+path 1	fwd	ack	#928
+path 0	get	ack	#927
+path 0	fwd	ack	#927
+path 2	get	data	#931
+path 2	fwd	data	#931	loss rate = 0.194215
+path 1	get	data	#932
+path 1	fwd	data	#932	loss rate = 0.194081
+path 0	get	data	#930
+path 0	fwd	data	#930	loss rate = 0.193948
+path 2	get	ack	#931
+path 2	fwd	ack	#931
+path 0	get	ack	#930
+path 0	fwd	ack	#930
+path 1	get	data	#929
+path 1	fwd	data	#929	loss rate = 0.193814
+path 1	get	ack	#929
+path 1	fwd	ack	#929
+path 0	get	data	#932
+path 0	fwd	data	#932	loss rate = 0.193681
+path 0	get	ack	#932
+path 0	fwd	ack	#932
+path 2	get	data	#933
+path 2	fwd	data	#933	loss rate = 0.193548
+path 2	get	ack	#933
+path 1	get	data	#934
+path 1	fwd	data	#934	loss rate = 0.193416
+path 2	fwd	ack	#933
+path 1	get	ack	#934
+path 1	fwd	ack	#934
+path 0	get	data	#937
+path 0	fwd	data	#937	loss rate = 0.193283
+path 0	get	ack	#937
+path 0	fwd	ack	#937
+path 1	get	data	#936
+path 1	fwd	data	#936	loss rate = 0.193151
+path 2	get	data	#935
+path 2	fwd	data	#935	loss rate = 0.193018
+path 2	get	ack	#935
+path 2	fwd	ack	#935
+path 1	get	ack	#936
+path 1	fwd	ack	#936
+path 0	get	data	#941
+path 0	fwd	data	#941	loss rate = 0.192886
+path 0	get	ack	#941
+path 0	fwd	ack	#941
+path 1	get	data	#940
+path 1	fwd	data	#940	loss rate = 0.192755
+path 0	get	data	#938
+path 0	fwd	data	#938	loss rate = 0.192623
+path 0	get	ack	#938
+path 0	fwd	ack	#938
+path 2	get	data	#939
+path 2	fwd	data	#939	loss rate = 0.192491
+path 1	get	ack	#940
+path 1	fwd	ack	#940
+path 2	get	ack	#939
+path 2	fwd	ack	#939
+path 1	get	data	#946
+path 1	fwd	data	#946	loss rate = 0.192360
+path 2	get	data	#945
+path 2	fwd	data	#945	loss rate = 0.192229
+path 0	get	data	#944
+path 0	fwd	data	#944	loss rate = 0.192098
+path 0	get	ack	#944
+path 0	fwd	ack	#944
+path 2	get	ack	#945
+path 2	fwd	ack	#945
+path 1	get	ack	#946
+path 1	fwd	ack	#946
+path 2	get	data	#942
+path 2	fwd	data	#942	loss rate = 0.191967
+path 1	get	data	#943
+path 1	drop	data	#943	loss rate = 0.192517
+path 2	get	ack	#942
+path 2	fwd	ack	#942
+path 1	get	data	#943
+path 1	fwd	data	#943	loss rate = 0.192386
+path 1	get	ack	#943
+path 1	fwd	ack	#943
+path 2	get	data	#945
+path 2	drop	data	#945	loss rate = 0.192935
+path 0	get	data	#944
+path 0	fwd	data	#944	loss rate = 0.192804
+path 0	get	ack	#944
+path 0	fwd	ack	#944
+path 1	get	data	#945
+path 1	fwd	data	#945	loss rate = 0.192673
+path 1	get	ack	#945
+path 1	fwd	ack	#945
+path 2	get	data	#947
+path 2	fwd	data	#947	loss rate = 0.192542
+path 0	get	data	#946
+path 0	fwd	data	#946	loss rate = 0.192412
+path 0	get	ack	#946
+path 0	fwd	ack	#946
+path 2	get	ack	#947
+path 2	fwd	ack	#947
+path 1	get	data	#949
+path 1	fwd	data	#949	loss rate = 0.192282
+path 0	get	data	#950
+path 0	fwd	data	#950	loss rate = 0.192152
+path 1	get	ack	#949
+path 0	get	ack	#950
+path 1	fwd	ack	#949
+path 2	get	data	#948
+path 2	fwd	data	#948	loss rate = 0.192022
+path 0	fwd	ack	#950
+path 2	get	ack	#948
+path 2	fwd	ack	#948
+path 0	get	data	#954
+path 0	drop	data	#954	loss rate = 0.192568
+path 1	get	data	#953
+path 1	fwd	data	#953	loss rate = 0.192438
+path 2	get	data	#952
+path 2	fwd	data	#952	loss rate = 0.192308
+path 2	get	ack	#952
+path 2	fwd	ack	#952
+path 1	get	ack	#953
+path 1	fwd	ack	#953
+path 0	get	data	#951
+path 0	drop	data	#951	loss rate = 0.192852
+path 0	get	data	#951
+path 0	fwd	data	#951	loss rate = 0.192722
+path 0	get	ack	#951
+path 0	fwd	ack	#951
+path 1	get	data	#953
+path 1	fwd	data	#953	loss rate = 0.192593
+path 1	get	ack	#953
+path 1	fwd	ack	#953
+path 2	get	data	#952
+path 2	drop	data	#952	loss rate = 0.193136
+path 2	get	data	#952
+path 2	fwd	data	#952	loss rate = 0.193006
+path 2	get	ack	#952
+path 2	fwd	ack	#952
+path 0	get	data	#953
+path 0	fwd	data	#953	loss rate = 0.192876
+path 1	get	data	#954
+path 1	drop	data	#954	loss rate = 0.193418
+path 0	get	ack	#953
+path 0	fwd	ack	#953
+path 1	get	data	#954
+path 1	fwd	data	#954	loss rate = 0.193289
+path 1	get	ack	#954
+path 1	fwd	ack	#954
+path 0	get	data	#956
+path 0	fwd	data	#956	loss rate = 0.193159
+path 2	get	data	#955
+path 2	fwd	data	#955	loss rate = 0.193029
+path 2	get	ack	#955
+path 2	fwd	ack	#955
+path 0	get	ack	#956
+path 0	fwd	ack	#956
+path 1	get	data	#959
+path 1	fwd	data	#959	loss rate = 0.192900
+path 1	get	ack	#959
+path 1	fwd	ack	#959
+path 0	get	data	#958
+path 0	fwd	data	#958	loss rate = 0.192771
+path 2	get	data	#957
+path 2	fwd	data	#957	loss rate = 0.192642
+path 0	get	ack	#958
+path 0	fwd	ack	#958
+path 2	get	ack	#957
+path 2	fwd	ack	#957
+path 0	get	data	#962
+path 1	get	data	#963
+path 0	fwd	data	#962	loss rate = 0.192513
+path 1	fwd	data	#963	loss rate = 0.192385
+path 2	get	data	#961
+path 2	fwd	data	#961	loss rate = 0.192256
+path 1	get	data	#960
+path 1	drop	data	#960	loss rate = 0.192795
+path 2	get	data	#960
+path 2	fwd	data	#960	loss rate = 0.192667
+path 2	get	ack	#960
+path 2	fwd	ack	#960
+path 0	get	data	#962
+path 0	fwd	data	#962	loss rate = 0.192538
+path 1	get	data	#961
+path 1	fwd	data	#961	loss rate = 0.192410
+path 1	get	ack	#961
+path 1	fwd	ack	#961
+path 1	get	data	#962
+path 1	fwd	data	#962	loss rate = 0.192282
+path 1	get	ack	#962
+path 1	fwd	ack	#962
+path 0	get	data	#964
+path 0	fwd	data	#964	loss rate = 0.192154
+path 2	get	data	#963
+path 2	fwd	data	#963	loss rate = 0.192027
+path 2	get	ack	#963
+path 2	fwd	ack	#963
+path 0	get	ack	#964
+path 0	fwd	ack	#964
+path 1	get	data	#967
+path 1	fwd	data	#967	loss rate = 0.191899
+path 1	get	ack	#967
+path 1	fwd	ack	#967
+path 2	get	data	#966
+path 2	fwd	data	#966	loss rate = 0.191772
+path 2	get	ack	#966
+path 2	fwd	ack	#966
+path 0	get	data	#965
+path 0	fwd	data	#965	loss rate = 0.191645
+path 0	get	ack	#965
+path 0	fwd	ack	#965
+path 2	get	data	#971
+path 2	drop	data	#971	loss rate = 0.192180
+path 1	get	data	#970
+path 1	fwd	data	#970	loss rate = 0.192053
+path 0	get	data	#969
+path 0	fwd	data	#969	loss rate = 0.191926
+path 1	get	ack	#970
+path 1	fwd	ack	#970
+path 0	get	ack	#969
+path 0	fwd	ack	#969
+path 2	get	data	#968
+path 2	drop	data	#968	loss rate = 0.192460
+path 1	get	data	#968
+path 1	fwd	data	#968	loss rate = 0.192333
+path 1	get	ack	#968
+path 1	fwd	ack	#968
+path 2	get	data	#969
+path 2	fwd	data	#969	loss rate = 0.192206
+path 0	get	data	#970
+path 0	fwd	data	#970	loss rate = 0.192079
+path 2	get	ack	#969
+path 2	fwd	ack	#969
+path 0	get	ack	#970
+path 0	fwd	ack	#970
+path 2	get	data	#971
+path 2	fwd	data	#971	loss rate = 0.191953
+path 0	get	data	#973
+path 0	drop	data	#973	loss rate = 0.192485
+path 2	get	ack	#971
+path 2	fwd	ack	#971
+path 1	get	data	#972
+path 1	fwd	data	#972	loss rate = 0.192358
+path 1	get	ack	#972
+path 1	fwd	ack	#972
+path 1	get	data	#973
+path 1	fwd	data	#973	loss rate = 0.192232
+path 1	get	ack	#973
+path 1	fwd	ack	#973
+path 0	get	data	#975
+path 0	fwd	data	#975	loss rate = 0.192105
+path 0	get	ack	#975
+path 0	fwd	ack	#975
+path 2	get	data	#974
+path 2	drop	data	#974	loss rate = 0.192636
+path 1	get	data	#974
+path 1	fwd	data	#974	loss rate = 0.192510
+path 1	get	ack	#974
+path 1	fwd	ack	#974
+path 2	get	data	#975
+path 2	fwd	data	#975	loss rate = 0.192383
+path 2	get	ack	#975
+path 2	fwd	ack	#975
+path 0	get	data	#976
+path 0	fwd	data	#976	loss rate = 0.192257
+path 0	get	ack	#976
+path 0	fwd	ack	#976
+path 0	get	data	#979
+path 0	fwd	data	#979	loss rate = 0.192131
+path 1	get	data	#978
+path 1	fwd	data	#978	loss rate = 0.192005
+path 1	get	ack	#978
+path 1	fwd	ack	#978
+path 0	get	ack	#979
+path 0	fwd	ack	#979
+path 2	get	data	#977
+path 2	fwd	data	#977	loss rate = 0.191880
+path 2	get	ack	#977
+path 2	fwd	ack	#977
+path 1	get	data	#982
+path 1	fwd	data	#982	loss rate = 0.191754
+path 0	get	data	#983
+path 0	fwd	data	#983	loss rate = 0.191629
+path 0	get	ack	#983
+path 0	fwd	ack	#983
+path 1	get	ack	#982
+path 1	fwd	ack	#982
+path 2	get	data	#981
+path 2	fwd	data	#981	loss rate = 0.191503
+path 2	get	ack	#981
+path 2	fwd	ack	#981
+path 0	get	data	#980
+path 0	fwd	data	#980	loss rate = 0.191378
+path 0	get	ack	#980
+path 0	fwd	ack	#980
+path 1	get	data	#988
+path 1	fwd	data	#988	loss rate = 0.191253
+path 1	get	ack	#988
+path 1	fwd	ack	#988
+path 2	get	data	#987
+path 2	fwd	data	#987	loss rate = 0.191129
+path 2	get	ack	#987
+path 2	fwd	ack	#987
+path 2	get	data	#985
+path 2	fwd	data	#985	loss rate = 0.191004
+path 0	get	data	#986
+path 0	fwd	data	#986	loss rate = 0.190879
+path 1	get	data	#984
+path 1	fwd	data	#984	loss rate = 0.190755
+path 0	get	ack	#986
+path 0	fwd	ack	#986
+path 2	get	ack	#985
+path 2	fwd	ack	#985
+path 1	get	ack	#984
+path 1	fwd	ack	#984
+path 2	get	data	#993
+path 2	fwd	data	#993	loss rate = 0.190631
+path 1	get	data	#992
+path 1	fwd	data	#992	loss rate = 0.190507
+path 0	get	data	#994
+path 0	fwd	data	#994	loss rate = 0.190383
+path 1	get	ack	#992
+path 1	fwd	ack	#992
+path 2	get	data	#991
+path 2	fwd	data	#991	loss rate = 0.190260
+path 0	get	data	#990
+path 0	fwd	data	#990	loss rate = 0.190136
+path 1	get	data	#989
+path 1	fwd	data	#989	loss rate = 0.190013
+path 2	get	ack	#991
+path 2	fwd	ack	#991
+path 1	get	ack	#989
+path 1	fwd	ack	#989
+path 0	get	ack	#990
+path 0	fwd	ack	#990
+path 0	get	data	#993
+path 0	fwd	data	#993	loss rate = 0.189890
+path 0	get	data	#993
+path 0	fwd	data	#993	loss rate = 0.189767
+path 0	get	ack	#993
+path 0	fwd	ack	#993
+path 0	get	data	#995
+path 0	fwd	data	#995	loss rate = 0.189644
+path 1	get	data	#994
+path 1	fwd	data	#994	loss rate = 0.189521
+path 0	get	ack	#995
+path 0	fwd	ack	#995
+path 1	get	ack	#994
+path 1	fwd	ack	#994
+path 2	get	data	#996
+path 2	fwd	data	#996	loss rate = 0.189399
+path 2	get	ack	#996
+path 2	fwd	ack	#996
+path 1	get	data	#998
+path 1	fwd	data	#998	loss rate = 0.189276
+path 1	get	ack	#998
+path 1	fwd	ack	#998
+path 0	get	data	#997
+path 0	fwd	data	#997	loss rate = 0.189154
+path 0	get	ack	#997
+path 0	fwd	ack	#997
+path 2	get	data	#999
+path 2	fwd	data	#999	loss rate = 0.189032
+path 2	get	ack	#999
+path 2	fwd	ack	#999
+path 1	get	data	#1002
+path 1	drop	data	#1002	loss rate = 0.189555
+path 0	get	data	#1001
+path 0	fwd	data	#1001	loss rate = 0.189433
+path 0	get	ack	#1001
+path 0	fwd	ack	#1001
+path 2	get	data	#1000
+path 2	fwd	data	#1000	loss rate = 0.189311
+path 2	get	ack	#1000
+path 2	fwd	ack	#1000
+path 0	get	data	#1002
+path 0	fwd	data	#1002	loss rate = 0.189189
+path 0	get	ack	#1002
+path 0	fwd	ack	#1002
+path 1	get	data	#1003
+path 1	fwd	data	#1003	loss rate = 0.189068
+path 2	get	data	#1004
+path 2	drop	data	#1004	loss rate = 0.189589
+path 1	get	ack	#1003
+path 1	fwd	ack	#1003
+path 0	get	data	#1004
+path 0	drop	data	#1004	loss rate = 0.190109
+path 1	get	data	#1004
+path 1	drop	data	#1004	loss rate = 0.190629
+path 2	get	data	#1004
+path 2	fwd	data	#1004	loss rate = 0.190507
+path 2	get	ack	#1004
+path 2	fwd	ack	#1004
+path 1	get	data	#1005
+path 1	fwd	data	#1005	loss rate = 0.190385
+path 0	get	data	#1006
+path 0	drop	data	#1006	loss rate = 0.190903
+path 1	get	ack	#1005
+path 1	fwd	ack	#1005
+path 0	get	data	#1006
+path 0	fwd	data	#1006	loss rate = 0.190781
+path 0	get	ack	#1006
+path 0	fwd	ack	#1006
+path 2	get	data	#1007
+path 2	fwd	data	#1007	loss rate = 0.190659
+path 1	get	data	#1008
+path 1	fwd	data	#1008	loss rate = 0.190537
+path 1	get	ack	#1008
+path 1	fwd	ack	#1008
+path 2	get	ack	#1007
+path 2	fwd	ack	#1007
+path 1	get	data	#1010
+path 1	drop	data	#1010	loss rate = 0.191054
+path 0	get	data	#1011
+path 0	drop	data	#1011	loss rate = 0.191571
+path 2	get	data	#1009
+path 2	fwd	data	#1009	loss rate = 0.191449
+path 2	get	ack	#1009
+path 2	fwd	ack	#1009
+path 0	get	data	#1010
+path 0	fwd	data	#1010	loss rate = 0.191327
+path 0	get	ack	#1010
+path 0	fwd	ack	#1010
+path 2	get	data	#1012
+path 2	fwd	data	#1012	loss rate = 0.191205
+path 2	get	ack	#1012
+path 2	fwd	ack	#1012
+path 1	get	data	#1011
+path 1	fwd	data	#1011	loss rate = 0.191083
+path 1	get	ack	#1011
+path 1	fwd	ack	#1011
+path 0	get	data	#1015
+path 0	fwd	data	#1015	loss rate = 0.190961
+path 0	get	ack	#1015
+path 0	fwd	ack	#1015
+path 2	get	data	#1014
+path 2	fwd	data	#1014	loss rate = 0.190840
+path 2	get	ack	#1014
+path 2	fwd	ack	#1014
+path 1	get	data	#1013
+path 1	drop	data	#1013	loss rate = 0.191354
+path 0	get	data	#1013
+path 0	fwd	data	#1013	loss rate = 0.191233
+path 0	get	ack	#1013
+path 0	fwd	ack	#1013
+path 1	get	data	#1015
+path 1	fwd	data	#1015	loss rate = 0.191111
+path 1	get	ack	#1015
+path 1	fwd	ack	#1015
+path 2	get	data	#1014
+path 2	fwd	data	#1014	loss rate = 0.190990
+path 2	get	ack	#1014
+path 2	fwd	ack	#1014
+path 0	get	data	#1018
+path 0	drop	data	#1018	loss rate = 0.191503
+path 2	get	data	#1017
+path 2	fwd	data	#1017	loss rate = 0.191381
+path 2	get	ack	#1017
+path 2	fwd	ack	#1017
+path 1	get	data	#1016
+path 1	fwd	data	#1016	loss rate = 0.191260
+path 1	get	ack	#1016
+path 1	fwd	ack	#1016
+path 2	get	data	#1018
+path 2	fwd	data	#1018	loss rate = 0.191139
+path 2	get	ack	#1018
+path 2	fwd	ack	#1018
+path 1	get	data	#1020
+path 1	fwd	data	#1020	loss rate = 0.191018
+path 0	get	data	#1019
+path 0	fwd	data	#1019	loss rate = 0.190898
+path 1	get	ack	#1020
+path 1	fwd	ack	#1020
+path 0	get	ack	#1019
+path 0	fwd	ack	#1019
+path 1	get	data	#1023
+path 1	fwd	data	#1023	loss rate = 0.190777
+path 0	get	data	#1021
+path 0	fwd	data	#1021	loss rate = 0.190657
+path 2	get	data	#1022
+path 2	drop	data	#1022	loss rate = 0.191167
+path 1	get	ack	#1023
+path 1	fwd	ack	#1023
+path 0	get	ack	#1021
+path 0	fwd	ack	#1021
+path 2	get	data	#1022
+path 2	fwd	data	#1022	loss rate = 0.191047
+path 2	get	ack	#1022
+path 2	fwd	ack	#1022
+path 0	get	data	#1023
+path 0	fwd	data	#1023	loss rate = 0.190926
+path 0	get	ack	#1023
+path 0	fwd	ack	#1023
+path 1	get	data	#1024
+path 1	fwd	data	#1024	loss rate = 0.190806
+path 1	get	ack	#1024
+path 1	fwd	ack	#1024
+path 0	get	fin
+path 0	fwd	fin
+path 0	get	finack
+path 0	fwd	finack

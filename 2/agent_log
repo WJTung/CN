@@ -1,0 +1,5336 @@
+receive SYN from receiver
+send SYNACK to receiver
+receive SYN from sender
+send SYNACK to sender
+get	data	#1
+fwd	data	#1	loss rate = 0.000000
+get	ack	#1
+fwd	ack	#1
+get	data	#2
+fwd	data	#2	loss rate = 0.000000
+get	data	#3
+fwd	data	#3	loss rate = 0.000000
+get	ack	#2
+fwd	ack	#2
+get	ack	#3
+fwd	ack	#3
+get	data	#4
+drop	data	#4	loss rate = 0.250000
+get	data	#5
+fwd	data	#5	loss rate = 0.200000
+get	data	#6
+fwd	data	#6	loss rate = 0.166667
+get	data	#7
+fwd	data	#7	loss rate = 0.142857
+get	ack	#5
+fwd	ack	#5
+get	ack	#6
+fwd	ack	#6
+get	ack	#7
+fwd	ack	#7
+get	data	#4
+fwd	data	#4	loss rate = 0.125000
+get	ack	#4
+fwd	ack	#4
+get	data	#5
+fwd	data	#5	loss rate = 0.111111
+get	data	#6
+drop	data	#6	loss rate = 0.200000
+get	ack	#5
+fwd	ack	#5
+get	data	#6
+fwd	data	#6	loss rate = 0.181818
+get	ack	#6
+fwd	ack	#6
+get	data	#7
+fwd	data	#7	loss rate = 0.166667
+get	data	#8
+fwd	data	#8	loss rate = 0.153846
+get	ack	#7
+fwd	ack	#7
+get	ack	#8
+fwd	ack	#8
+get	data	#9
+fwd	data	#9	loss rate = 0.142857
+get	data	#10
+drop	data	#10	loss rate = 0.200000
+get	data	#11
+fwd	data	#11	loss rate = 0.187500
+get	ack	#9
+fwd	ack	#9
+get	ack	#11
+fwd	ack	#11
+get	data	#10
+drop	data	#10	loss rate = 0.235294
+get	data	#10
+fwd	data	#10	loss rate = 0.222222
+get	ack	#10
+fwd	ack	#10
+get	data	#11
+fwd	data	#11	loss rate = 0.210526
+get	data	#12
+drop	data	#12	loss rate = 0.250000
+get	ack	#11
+fwd	ack	#11
+get	data	#12
+drop	data	#12	loss rate = 0.285714
+get	data	#12
+fwd	data	#12	loss rate = 0.272727
+get	ack	#12
+fwd	ack	#12
+get	data	#13
+fwd	data	#13	loss rate = 0.260870
+get	data	#14
+drop	data	#14	loss rate = 0.291667
+get	ack	#13
+fwd	ack	#13
+get	data	#14
+fwd	data	#14	loss rate = 0.280000
+get	ack	#14
+fwd	ack	#14
+get	data	#15
+fwd	data	#15	loss rate = 0.269231
+get	data	#16
+fwd	data	#16	loss rate = 0.259259
+get	ack	#15
+fwd	ack	#15
+get	ack	#16
+fwd	ack	#16
+get	data	#17
+fwd	data	#17	loss rate = 0.250000
+get	data	#18
+fwd	data	#18	loss rate = 0.241379
+get	data	#19
+fwd	data	#19	loss rate = 0.233333
+get	ack	#17
+fwd	ack	#17
+get	ack	#18
+fwd	ack	#18
+get	ack	#19
+fwd	ack	#19
+get	data	#20
+fwd	data	#20	loss rate = 0.225806
+get	data	#21
+drop	data	#21	loss rate = 0.250000
+get	data	#22
+fwd	data	#22	loss rate = 0.242424
+get	data	#23
+fwd	data	#23	loss rate = 0.235294
+get	ack	#20
+fwd	ack	#20
+get	ack	#22
+fwd	ack	#22
+get	ack	#23
+fwd	ack	#23
+get	data	#21
+fwd	data	#21	loss rate = 0.228571
+get	ack	#21
+fwd	ack	#21
+get	data	#22
+fwd	data	#22	loss rate = 0.222222
+get	data	#23
+fwd	data	#23	loss rate = 0.216216
+get	ack	#22
+fwd	ack	#22
+get	ack	#23
+fwd	ack	#23
+get	data	#24
+fwd	data	#24	loss rate = 0.210526
+get	data	#25
+fwd	data	#25	loss rate = 0.205128
+get	data	#26
+fwd	data	#26	loss rate = 0.200000
+get	ack	#24
+fwd	ack	#24
+get	ack	#25
+fwd	ack	#25
+get	ack	#26
+fwd	ack	#26
+get	data	#27
+fwd	data	#27	loss rate = 0.195122
+get	data	#28
+fwd	data	#28	loss rate = 0.190476
+get	data	#29
+drop	data	#29	loss rate = 0.209302
+get	data	#30
+fwd	data	#30	loss rate = 0.204545
+get	ack	#27
+fwd	ack	#27
+get	ack	#28
+fwd	ack	#28
+get	ack	#30
+fwd	ack	#30
+get	data	#29
+fwd	data	#29	loss rate = 0.200000
+get	ack	#29
+fwd	ack	#29
+get	data	#30
+fwd	data	#30	loss rate = 0.195652
+get	data	#31
+fwd	data	#31	loss rate = 0.191489
+get	ack	#30
+fwd	ack	#30
+get	ack	#31
+fwd	ack	#31
+get	data	#32
+fwd	data	#32	loss rate = 0.187500
+get	data	#33
+fwd	data	#33	loss rate = 0.183673
+get	data	#34
+fwd	data	#34	loss rate = 0.180000
+get	ack	#32
+fwd	ack	#32
+get	ack	#34
+fwd	ack	#34
+get	data	#33
+fwd	data	#33	loss rate = 0.176471
+get	ack	#33
+fwd	ack	#33
+get	data	#34
+fwd	data	#34	loss rate = 0.173077
+get	data	#35
+drop	data	#35	loss rate = 0.188679
+get	ack	#34
+fwd	ack	#34
+get	data	#35
+drop	data	#35	loss rate = 0.203704
+get	data	#35
+fwd	data	#35	loss rate = 0.200000
+get	ack	#35
+fwd	ack	#35
+get	data	#36
+fwd	data	#36	loss rate = 0.196429
+get	data	#37
+fwd	data	#37	loss rate = 0.192982
+get	ack	#36
+fwd	ack	#36
+get	ack	#37
+fwd	ack	#37
+get	data	#38
+fwd	data	#38	loss rate = 0.189655
+get	data	#39
+fwd	data	#39	loss rate = 0.186441
+get	data	#40
+fwd	data	#40	loss rate = 0.183333
+get	ack	#38
+fwd	ack	#38
+get	ack	#39
+fwd	ack	#39
+get	ack	#40
+fwd	ack	#40
+get	data	#41
+fwd	data	#41	loss rate = 0.180328
+get	data	#42
+fwd	data	#42	loss rate = 0.177419
+get	ack	#41
+fwd	ack	#41
+get	ack	#42
+fwd	ack	#42
+get	data	#43
+fwd	data	#43	loss rate = 0.174603
+get	data	#44
+fwd	data	#44	loss rate = 0.171875
+get	ack	#43
+fwd	ack	#43
+get	ack	#44
+fwd	ack	#44
+get	data	#45
+fwd	data	#45	loss rate = 0.169231
+get	data	#46
+drop	data	#46	loss rate = 0.181818
+get	data	#47
+fwd	data	#47	loss rate = 0.179104
+get	data	#48
+drop	data	#48	loss rate = 0.191176
+get	ack	#45
+fwd	ack	#45
+get	ack	#47
+fwd	ack	#47
+get	data	#49
+fwd	data	#49	loss rate = 0.188406
+get	ack	#49
+fwd	ack	#49
+get	data	#46
+fwd	data	#46	loss rate = 0.185714
+get	ack	#46
+fwd	ack	#46
+get	data	#47
+fwd	data	#47	loss rate = 0.183099
+get	data	#48
+fwd	data	#48	loss rate = 0.180556
+get	ack	#47
+fwd	ack	#47
+get	ack	#48
+fwd	ack	#48
+get	data	#49
+fwd	data	#49	loss rate = 0.178082
+get	data	#50
+fwd	data	#50	loss rate = 0.175676
+get	data	#51
+fwd	data	#51	loss rate = 0.173333
+get	ack	#49
+fwd	ack	#49
+get	ack	#50
+fwd	ack	#50
+get	ack	#51
+fwd	ack	#51
+get	data	#52
+fwd	data	#52	loss rate = 0.171053
+get	data	#53
+fwd	data	#53	loss rate = 0.168831
+get	data	#54
+fwd	data	#54	loss rate = 0.166667
+get	ack	#52
+fwd	ack	#52
+get	ack	#53
+fwd	ack	#53
+get	ack	#54
+fwd	ack	#54
+get	data	#55
+fwd	data	#55	loss rate = 0.164557
+get	ack	#55
+fwd	ack	#55
+get	data	#56
+fwd	data	#56	loss rate = 0.162500
+get	data	#57
+fwd	data	#57	loss rate = 0.160494
+get	data	#58
+fwd	data	#58	loss rate = 0.158537
+get	data	#59
+fwd	data	#59	loss rate = 0.156627
+get	ack	#56
+fwd	ack	#56
+get	ack	#57
+fwd	ack	#57
+get	ack	#58
+fwd	ack	#58
+get	data	#60
+fwd	data	#60	loss rate = 0.154762
+get	ack	#59
+fwd	ack	#59
+get	ack	#60
+fwd	ack	#60
+get	data	#61
+fwd	data	#61	loss rate = 0.152941
+get	data	#62
+fwd	data	#62	loss rate = 0.151163
+get	data	#63
+fwd	data	#63	loss rate = 0.149425
+get	data	#64
+fwd	data	#64	loss rate = 0.147727
+get	ack	#61
+fwd	ack	#61
+get	ack	#62
+fwd	ack	#62
+get	ack	#63
+fwd	ack	#63
+get	data	#65
+drop	data	#65	loss rate = 0.157303
+get	ack	#64
+fwd	ack	#64
+get	data	#66
+fwd	data	#66	loss rate = 0.155556
+get	data	#65
+drop	data	#65	loss rate = 0.164835
+get	data	#65
+fwd	data	#65	loss rate = 0.163043
+get	ack	#65
+fwd	ack	#65
+get	data	#66
+fwd	data	#66	loss rate = 0.161290
+get	data	#67
+drop	data	#67	loss rate = 0.170213
+get	ack	#66
+fwd	ack	#66
+get	data	#67
+fwd	data	#67	loss rate = 0.168421
+get	ack	#67
+fwd	ack	#67
+get	data	#68
+fwd	data	#68	loss rate = 0.166667
+get	data	#69
+fwd	data	#69	loss rate = 0.164948
+get	ack	#68
+fwd	ack	#68
+get	ack	#69
+fwd	ack	#69
+get	data	#70
+drop	data	#70	loss rate = 0.173469
+get	data	#71
+fwd	data	#71	loss rate = 0.171717
+get	data	#72
+drop	data	#72	loss rate = 0.180000
+get	ack	#71
+fwd	ack	#71
+get	data	#70
+fwd	data	#70	loss rate = 0.178218
+get	ack	#70
+fwd	ack	#70
+get	data	#71
+drop	data	#71	loss rate = 0.186275
+get	data	#72
+fwd	data	#72	loss rate = 0.184466
+get	ack	#72
+fwd	ack	#72
+get	data	#71
+fwd	data	#71	loss rate = 0.182692
+get	ack	#71
+fwd	ack	#71
+get	data	#72
+fwd	data	#72	loss rate = 0.180952
+get	data	#73
+fwd	data	#73	loss rate = 0.179245
+get	ack	#72
+fwd	ack	#72
+get	ack	#73
+fwd	ack	#73
+get	data	#74
+fwd	data	#74	loss rate = 0.177570
+get	data	#75
+drop	data	#75	loss rate = 0.185185
+get	data	#76
+fwd	data	#76	loss rate = 0.183486
+get	ack	#74
+fwd	ack	#74
+get	ack	#76
+fwd	ack	#76
+get	data	#75
+fwd	data	#75	loss rate = 0.181818
+get	ack	#75
+fwd	ack	#75
+get	data	#76
+fwd	data	#76	loss rate = 0.180180
+get	data	#77
+fwd	data	#77	loss rate = 0.178571
+get	ack	#76
+fwd	ack	#76
+get	ack	#77
+fwd	ack	#77
+get	data	#78
+fwd	data	#78	loss rate = 0.176991
+get	data	#79
+fwd	data	#79	loss rate = 0.175439
+get	data	#80
+drop	data	#80	loss rate = 0.182609
+get	ack	#78
+fwd	ack	#78
+get	ack	#79
+fwd	ack	#79
+get	data	#80
+fwd	data	#80	loss rate = 0.181034
+get	ack	#80
+fwd	ack	#80
+get	data	#81
+fwd	data	#81	loss rate = 0.179487
+get	data	#82
+fwd	data	#82	loss rate = 0.177966
+get	ack	#81
+fwd	ack	#81
+get	ack	#82
+fwd	ack	#82
+get	data	#83
+fwd	data	#83	loss rate = 0.176471
+get	data	#84
+fwd	data	#84	loss rate = 0.175000
+get	data	#85
+fwd	data	#85	loss rate = 0.173554
+get	ack	#83
+fwd	ack	#83
+get	ack	#84
+fwd	ack	#84
+get	ack	#85
+fwd	ack	#85
+get	data	#86
+fwd	data	#86	loss rate = 0.172131
+get	data	#87
+fwd	data	#87	loss rate = 0.170732
+get	data	#88
+fwd	data	#88	loss rate = 0.169355
+get	data	#89
+fwd	data	#89	loss rate = 0.168000
+get	ack	#86
+fwd	ack	#86
+get	ack	#87
+fwd	ack	#87
+get	ack	#88
+fwd	ack	#88
+get	ack	#89
+fwd	ack	#89
+get	data	#90
+fwd	data	#90	loss rate = 0.166667
+get	data	#91
+fwd	data	#91	loss rate = 0.165354
+get	data	#92
+fwd	data	#92	loss rate = 0.164062
+get	data	#93
+fwd	data	#93	loss rate = 0.162791
+get	data	#94
+fwd	data	#94	loss rate = 0.161538
+get	ack	#90
+fwd	ack	#90
+get	ack	#91
+fwd	ack	#91
+get	ack	#92
+fwd	ack	#92
+get	ack	#93
+fwd	ack	#93
+get	ack	#94
+fwd	ack	#94
+get	data	#95
+fwd	data	#95	loss rate = 0.160305
+get	data	#96
+fwd	data	#96	loss rate = 0.159091
+get	data	#97
+fwd	data	#97	loss rate = 0.157895
+get	data	#98
+fwd	data	#98	loss rate = 0.156716
+get	data	#99
+fwd	data	#99	loss rate = 0.155556
+get	data	#100
+fwd	data	#100	loss rate = 0.154412
+get	ack	#95
+fwd	ack	#95
+get	ack	#96
+fwd	ack	#96
+get	ack	#98
+fwd	ack	#98
+get	ack	#99
+fwd	ack	#99
+get	ack	#100
+fwd	ack	#100
+get	data	#97
+drop	data	#97	loss rate = 0.160584
+get	data	#97
+fwd	data	#97	loss rate = 0.159420
+get	ack	#97
+fwd	ack	#97
+get	data	#98
+fwd	data	#98	loss rate = 0.158273
+get	data	#99
+fwd	data	#99	loss rate = 0.157143
+get	ack	#98
+fwd	ack	#98
+get	ack	#99
+fwd	ack	#99
+get	data	#100
+fwd	data	#100	loss rate = 0.156028
+get	data	#101
+drop	data	#101	loss rate = 0.161972
+get	data	#102
+fwd	data	#102	loss rate = 0.160839
+get	ack	#100
+fwd	ack	#100
+get	ack	#102
+fwd	ack	#102
+get	data	#101
+fwd	data	#101	loss rate = 0.159722
+get	ack	#101
+fwd	ack	#101
+get	data	#102
+fwd	data	#102	loss rate = 0.158621
+get	data	#103
+fwd	data	#103	loss rate = 0.157534
+get	ack	#102
+fwd	ack	#102
+get	ack	#103
+fwd	ack	#103
+get	data	#104
+fwd	data	#104	loss rate = 0.156463
+get	data	#105
+fwd	data	#105	loss rate = 0.155405
+get	data	#106
+fwd	data	#106	loss rate = 0.154362
+get	ack	#104
+fwd	ack	#104
+get	ack	#105
+fwd	ack	#105
+get	ack	#106
+fwd	ack	#106
+get	data	#107
+fwd	data	#107	loss rate = 0.153333
+get	data	#108
+fwd	data	#108	loss rate = 0.152318
+get	data	#109
+fwd	data	#109	loss rate = 0.151316
+get	data	#110
+fwd	data	#110	loss rate = 0.150327
+get	ack	#107
+fwd	ack	#107
+get	ack	#108
+fwd	ack	#108
+get	ack	#109
+fwd	ack	#109
+get	ack	#110
+fwd	ack	#110
+get	data	#111
+fwd	data	#111	loss rate = 0.149351
+get	data	#112
+drop	data	#112	loss rate = 0.154839
+get	data	#113
+drop	data	#113	loss rate = 0.160256
+get	data	#114
+drop	data	#114	loss rate = 0.165605
+get	data	#115
+drop	data	#115	loss rate = 0.170886
+get	ack	#111
+fwd	ack	#111
+get	data	#112
+fwd	data	#112	loss rate = 0.169811
+get	ack	#112
+fwd	ack	#112
+get	data	#113
+fwd	data	#113	loss rate = 0.168750
+get	data	#114
+fwd	data	#114	loss rate = 0.167702
+get	ack	#113
+fwd	ack	#113
+get	ack	#114
+fwd	ack	#114
+get	data	#115
+fwd	data	#115	loss rate = 0.166667
+get	data	#116
+drop	data	#116	loss rate = 0.171779
+get	data	#117
+fwd	data	#117	loss rate = 0.170732
+get	ack	#115
+fwd	ack	#115
+get	ack	#117
+fwd	ack	#117
+get	data	#116
+fwd	data	#116	loss rate = 0.169697
+get	ack	#116
+fwd	ack	#116
+get	data	#117
+fwd	data	#117	loss rate = 0.168675
+get	data	#118
+fwd	data	#118	loss rate = 0.167665
+get	ack	#117
+fwd	ack	#117
+get	ack	#118
+fwd	ack	#118
+get	data	#119
+drop	data	#119	loss rate = 0.172619
+get	data	#120
+drop	data	#120	loss rate = 0.177515
+get	data	#121
+fwd	data	#121	loss rate = 0.176471
+get	ack	#121
+fwd	ack	#121
+get	data	#119
+fwd	data	#119	loss rate = 0.175439
+get	ack	#119
+fwd	ack	#119
+get	data	#120
+fwd	data	#120	loss rate = 0.174419
+get	data	#121
+fwd	data	#121	loss rate = 0.173410
+get	ack	#120
+fwd	ack	#120
+get	ack	#121
+fwd	ack	#121
+get	data	#122
+drop	data	#122	loss rate = 0.178161
+get	data	#123
+fwd	data	#123	loss rate = 0.177143
+get	data	#124
+fwd	data	#124	loss rate = 0.176136
+get	ack	#123
+fwd	ack	#123
+get	ack	#124
+fwd	ack	#124
+get	data	#122
+fwd	data	#122	loss rate = 0.175141
+get	ack	#122
+fwd	ack	#122
+get	data	#123
+fwd	data	#123	loss rate = 0.174157
+get	data	#124
+fwd	data	#124	loss rate = 0.173184
+get	ack	#123
+fwd	ack	#123
+get	ack	#124
+fwd	ack	#124
+get	data	#125
+fwd	data	#125	loss rate = 0.172222
+get	data	#126
+fwd	data	#126	loss rate = 0.171271
+get	data	#127
+fwd	data	#127	loss rate = 0.170330
+get	ack	#125
+fwd	ack	#125
+get	ack	#126
+fwd	ack	#126
+get	ack	#127
+fwd	ack	#127
+get	data	#128
+fwd	data	#128	loss rate = 0.169399
+get	data	#129
+fwd	data	#129	loss rate = 0.168478
+get	data	#130
+fwd	data	#130	loss rate = 0.167568
+get	data	#131
+fwd	data	#131	loss rate = 0.166667
+get	ack	#128
+fwd	ack	#128
+get	ack	#130
+fwd	ack	#130
+get	ack	#131
+fwd	ack	#131
+get	data	#129
+drop	data	#129	loss rate = 0.171123
+get	data	#129
+fwd	data	#129	loss rate = 0.170213
+get	ack	#129
+fwd	ack	#129
+get	data	#130
+fwd	data	#130	loss rate = 0.169312
+get	data	#131
+fwd	data	#131	loss rate = 0.168421
+get	ack	#130
+fwd	ack	#130
+get	ack	#131
+fwd	ack	#131
+get	data	#132
+fwd	data	#132	loss rate = 0.167539
+get	data	#133
+fwd	data	#133	loss rate = 0.166667
+get	data	#134
+drop	data	#134	loss rate = 0.170984
+get	ack	#132
+fwd	ack	#132
+get	ack	#133
+fwd	ack	#133
+get	data	#134
+fwd	data	#134	loss rate = 0.170103
+get	ack	#134
+fwd	ack	#134
+get	data	#135
+fwd	data	#135	loss rate = 0.169231
+get	data	#136
+fwd	data	#136	loss rate = 0.168367
+get	ack	#135
+fwd	ack	#135
+get	ack	#136
+fwd	ack	#136
+get	data	#137
+fwd	data	#137	loss rate = 0.167513
+get	data	#138
+fwd	data	#138	loss rate = 0.166667
+get	data	#139
+fwd	data	#139	loss rate = 0.165829
+get	ack	#137
+fwd	ack	#137
+get	ack	#138
+fwd	ack	#138
+get	ack	#139
+fwd	ack	#139
+get	data	#140
+fwd	data	#140	loss rate = 0.165000
+get	data	#141
+fwd	data	#141	loss rate = 0.164179
+get	data	#142
+fwd	data	#142	loss rate = 0.163366
+get	data	#143
+fwd	data	#143	loss rate = 0.162562
+get	ack	#140
+fwd	ack	#140
+get	ack	#141
+fwd	ack	#141
+get	ack	#142
+fwd	ack	#142
+get	ack	#143
+fwd	ack	#143
+get	data	#144
+fwd	data	#144	loss rate = 0.161765
+get	data	#145
+fwd	data	#145	loss rate = 0.160976
+get	data	#146
+fwd	data	#146	loss rate = 0.160194
+get	data	#147
+drop	data	#147	loss rate = 0.164251
+get	data	#148
+drop	data	#148	loss rate = 0.168269
+get	ack	#144
+fwd	ack	#144
+get	ack	#145
+fwd	ack	#145
+get	ack	#146
+fwd	ack	#146
+get	data	#147
+fwd	data	#147	loss rate = 0.167464
+get	ack	#147
+fwd	ack	#147
+get	data	#148
+fwd	data	#148	loss rate = 0.166667
+get	data	#149
+fwd	data	#149	loss rate = 0.165877
+get	ack	#148
+fwd	ack	#148
+get	ack	#149
+fwd	ack	#149
+get	data	#150
+fwd	data	#150	loss rate = 0.165094
+get	data	#151
+drop	data	#151	loss rate = 0.169014
+get	data	#152
+fwd	data	#152	loss rate = 0.168224
+get	ack	#150
+fwd	ack	#150
+get	ack	#152
+fwd	ack	#152
+get	data	#151
+fwd	data	#151	loss rate = 0.167442
+get	ack	#151
+fwd	ack	#151
+get	data	#152
+drop	data	#152	loss rate = 0.171296
+get	data	#153
+fwd	data	#153	loss rate = 0.170507
+get	ack	#153
+fwd	ack	#153
+get	data	#152
+drop	data	#152	loss rate = 0.174312
+get	data	#152
+fwd	data	#152	loss rate = 0.173516
+get	ack	#152
+fwd	ack	#152
+get	data	#153
+fwd	data	#153	loss rate = 0.172727
+get	data	#154
+fwd	data	#154	loss rate = 0.171946
+get	ack	#153
+fwd	ack	#153
+get	ack	#154
+fwd	ack	#154
+get	data	#155
+drop	data	#155	loss rate = 0.175676
+get	data	#156
+drop	data	#156	loss rate = 0.179372
+get	data	#157
+fwd	data	#157	loss rate = 0.178571
+get	ack	#157
+fwd	ack	#157
+get	data	#155
+fwd	data	#155	loss rate = 0.177778
+get	ack	#155
+fwd	ack	#155
+get	data	#156
+drop	data	#156	loss rate = 0.181416
+get	data	#157
+fwd	data	#157	loss rate = 0.180617
+get	ack	#157
+fwd	ack	#157
+get	data	#156
+fwd	data	#156	loss rate = 0.179825
+get	ack	#156
+fwd	ack	#156
+get	data	#157
+fwd	data	#157	loss rate = 0.179039
+get	data	#158
+fwd	data	#158	loss rate = 0.178261
+get	ack	#157
+fwd	ack	#157
+get	ack	#158
+fwd	ack	#158
+get	data	#159
+fwd	data	#159	loss rate = 0.177489
+get	data	#160
+fwd	data	#160	loss rate = 0.176724
+get	data	#161
+drop	data	#161	loss rate = 0.180258
+get	ack	#159
+fwd	ack	#159
+get	ack	#160
+fwd	ack	#160
+get	data	#161
+drop	data	#161	loss rate = 0.183761
+get	data	#161
+fwd	data	#161	loss rate = 0.182979
+get	data	#161
+fwd	data	#161	loss rate = 0.182203
+get	ack	#161
+fwd	ack	#161
+get	data	#162
+fwd	data	#162	loss rate = 0.181435
+get	data	#163
+fwd	data	#163	loss rate = 0.180672
+get	ack	#162
+fwd	ack	#162
+get	ack	#163
+fwd	ack	#163
+get	data	#164
+fwd	data	#164	loss rate = 0.179916
+get	data	#165
+fwd	data	#165	loss rate = 0.179167
+get	data	#166
+fwd	data	#166	loss rate = 0.178423
+get	ack	#164
+fwd	ack	#164
+get	ack	#165
+fwd	ack	#165
+get	ack	#166
+fwd	ack	#166
+get	data	#167
+fwd	data	#167	loss rate = 0.177686
+get	data	#168
+fwd	data	#168	loss rate = 0.176955
+get	data	#169
+fwd	data	#169	loss rate = 0.176230
+get	data	#170
+fwd	data	#170	loss rate = 0.175510
+get	ack	#167
+fwd	ack	#167
+get	ack	#168
+fwd	ack	#168
+get	ack	#169
+fwd	ack	#169
+get	ack	#170
+fwd	ack	#170
+get	data	#171
+fwd	data	#171	loss rate = 0.174797
+get	data	#172
+fwd	data	#172	loss rate = 0.174089
+get	data	#173
+drop	data	#173	loss rate = 0.177419
+get	data	#174
+fwd	data	#174	loss rate = 0.176707
+get	data	#175
+fwd	data	#175	loss rate = 0.176000
+get	ack	#171
+fwd	ack	#171
+get	ack	#172
+fwd	ack	#172
+get	ack	#174
+fwd	ack	#174
+get	ack	#175
+fwd	ack	#175
+get	data	#173
+drop	data	#173	loss rate = 0.179283
+get	data	#173
+fwd	data	#173	loss rate = 0.178571
+get	ack	#173
+fwd	ack	#173
+get	data	#174
+fwd	data	#174	loss rate = 0.177866
+get	data	#175
+fwd	data	#175	loss rate = 0.177165
+get	ack	#174
+fwd	ack	#174
+get	ack	#175
+fwd	ack	#175
+get	data	#176
+fwd	data	#176	loss rate = 0.176471
+get	data	#177
+drop	data	#177	loss rate = 0.179688
+get	data	#178
+fwd	data	#178	loss rate = 0.178988
+get	ack	#176
+fwd	ack	#176
+get	ack	#178
+fwd	ack	#178
+get	data	#177
+fwd	data	#177	loss rate = 0.178295
+get	ack	#177
+fwd	ack	#177
+get	data	#178
+fwd	data	#178	loss rate = 0.177606
+get	data	#179
+drop	data	#179	loss rate = 0.180769
+get	ack	#178
+fwd	ack	#178
+get	data	#179
+fwd	data	#179	loss rate = 0.180077
+get	ack	#179
+fwd	ack	#179
+get	data	#180
+fwd	data	#180	loss rate = 0.179389
+get	data	#181
+fwd	data	#181	loss rate = 0.178707
+get	ack	#180
+fwd	ack	#180
+get	ack	#181
+fwd	ack	#181
+get	data	#182
+drop	data	#182	loss rate = 0.181818
+get	data	#183
+drop	data	#183	loss rate = 0.184906
+get	data	#184
+drop	data	#184	loss rate = 0.187970
+get	data	#182
+fwd	data	#182	loss rate = 0.187266
+get	ack	#182
+fwd	ack	#182
+get	data	#183
+fwd	data	#183	loss rate = 0.186567
+get	data	#184
+drop	data	#184	loss rate = 0.189591
+get	ack	#183
+fwd	ack	#183
+get	data	#184
+fwd	data	#184	loss rate = 0.188889
+get	ack	#184
+fwd	ack	#184
+get	data	#185
+drop	data	#185	loss rate = 0.191882
+get	data	#186
+fwd	data	#186	loss rate = 0.191176
+get	ack	#186
+fwd	ack	#186
+get	data	#185
+drop	data	#185	loss rate = 0.194139
+get	data	#185
+fwd	data	#185	loss rate = 0.193431
+get	ack	#185
+fwd	ack	#185
+get	data	#186
+drop	data	#186	loss rate = 0.196364
+get	data	#187
+fwd	data	#187	loss rate = 0.195652
+get	ack	#187
+fwd	ack	#187
+get	data	#186
+fwd	data	#186	loss rate = 0.194946
+get	ack	#186
+fwd	ack	#186
+get	data	#187
+fwd	data	#187	loss rate = 0.194245
+get	data	#188
+drop	data	#188	loss rate = 0.197133
+get	ack	#187
+fwd	ack	#187
+get	data	#188
+fwd	data	#188	loss rate = 0.196429
+get	ack	#188
+fwd	ack	#188
+get	data	#189
+fwd	data	#189	loss rate = 0.195730
+get	data	#190
+drop	data	#190	loss rate = 0.198582
+get	ack	#189
+fwd	ack	#189
+get	data	#190
+fwd	data	#190	loss rate = 0.197880
+get	ack	#190
+fwd	ack	#190
+get	data	#191
+drop	data	#191	loss rate = 0.200704
+get	data	#192
+fwd	data	#192	loss rate = 0.200000
+get	ack	#192
+fwd	ack	#192
+get	data	#191
+fwd	data	#191	loss rate = 0.199301
+get	ack	#191
+fwd	ack	#191
+get	data	#192
+fwd	data	#192	loss rate = 0.198606
+get	data	#193
+drop	data	#193	loss rate = 0.201389
+get	ack	#192
+fwd	ack	#192
+get	data	#193
+fwd	data	#193	loss rate = 0.200692
+get	data	#193
+fwd	data	#193	loss rate = 0.200000
+get	ack	#193
+fwd	ack	#193
+get	data	#194
+fwd	data	#194	loss rate = 0.199313
+get	data	#195
+fwd	data	#195	loss rate = 0.198630
+get	ack	#194
+fwd	ack	#194
+get	ack	#195
+fwd	ack	#195
+get	data	#196
+drop	data	#196	loss rate = 0.201365
+get	data	#197
+fwd	data	#197	loss rate = 0.200680
+get	data	#198
+drop	data	#198	loss rate = 0.203390
+get	ack	#197
+fwd	ack	#197
+get	data	#196
+fwd	data	#196	loss rate = 0.202703
+get	ack	#196
+fwd	ack	#196
+get	data	#197
+fwd	data	#197	loss rate = 0.202020
+get	data	#198
+drop	data	#198	loss rate = 0.204698
+get	ack	#197
+fwd	ack	#197
+get	data	#198
+fwd	data	#198	loss rate = 0.204013
+get	ack	#198
+fwd	ack	#198
+get	data	#199
+fwd	data	#199	loss rate = 0.203333
+get	data	#200
+fwd	data	#200	loss rate = 0.202658
+get	ack	#199
+fwd	ack	#199
+get	ack	#200
+fwd	ack	#200
+get	data	#201
+fwd	data	#201	loss rate = 0.201987
+get	data	#202
+fwd	data	#202	loss rate = 0.201320
+get	data	#203
+fwd	data	#203	loss rate = 0.200658
+get	ack	#201
+fwd	ack	#201
+get	ack	#202
+fwd	ack	#202
+get	ack	#203
+fwd	ack	#203
+get	data	#204
+fwd	data	#204	loss rate = 0.200000
+get	data	#205
+fwd	data	#205	loss rate = 0.199346
+get	data	#206
+fwd	data	#206	loss rate = 0.198697
+get	data	#207
+fwd	data	#207	loss rate = 0.198052
+get	ack	#204
+fwd	ack	#204
+get	ack	#205
+fwd	ack	#205
+get	ack	#206
+fwd	ack	#206
+get	ack	#207
+fwd	ack	#207
+get	data	#208
+drop	data	#208	loss rate = 0.200647
+get	data	#209
+fwd	data	#209	loss rate = 0.200000
+get	data	#210
+fwd	data	#210	loss rate = 0.199357
+get	data	#211
+fwd	data	#211	loss rate = 0.198718
+get	data	#212
+fwd	data	#212	loss rate = 0.198083
+get	ack	#209
+fwd	ack	#209
+get	ack	#210
+fwd	ack	#210
+get	ack	#211
+fwd	ack	#211
+get	ack	#212
+fwd	ack	#212
+get	data	#208
+fwd	data	#208	loss rate = 0.197452
+get	ack	#208
+fwd	ack	#208
+get	data	#209
+fwd	data	#209	loss rate = 0.196825
+get	data	#210
+fwd	data	#210	loss rate = 0.196203
+get	ack	#209
+fwd	ack	#209
+get	ack	#210
+fwd	ack	#210
+get	data	#211
+fwd	data	#211	loss rate = 0.195584
+get	data	#212
+fwd	data	#212	loss rate = 0.194969
+get	data	#213
+fwd	data	#213	loss rate = 0.194357
+get	ack	#211
+fwd	ack	#211
+get	ack	#212
+fwd	ack	#212
+get	ack	#213
+fwd	ack	#213
+get	data	#214
+fwd	data	#214	loss rate = 0.193750
+get	data	#215
+fwd	data	#215	loss rate = 0.193146
+get	data	#216
+fwd	data	#216	loss rate = 0.192547
+get	data	#217
+fwd	data	#217	loss rate = 0.191950
+get	ack	#214
+fwd	ack	#214
+get	ack	#215
+fwd	ack	#215
+get	ack	#216
+fwd	ack	#216
+get	ack	#217
+fwd	ack	#217
+get	data	#218
+fwd	data	#218	loss rate = 0.191358
+get	data	#219
+fwd	data	#219	loss rate = 0.190769
+get	data	#220
+fwd	data	#220	loss rate = 0.190184
+get	data	#221
+fwd	data	#221	loss rate = 0.189602
+get	data	#222
+drop	data	#222	loss rate = 0.192073
+get	ack	#218
+fwd	ack	#218
+get	ack	#219
+fwd	ack	#219
+get	ack	#220
+fwd	ack	#220
+get	ack	#221
+fwd	ack	#221
+get	data	#222
+fwd	data	#222	loss rate = 0.191489
+get	ack	#222
+fwd	ack	#222
+get	data	#223
+fwd	data	#223	loss rate = 0.190909
+get	data	#224
+fwd	data	#224	loss rate = 0.190332
+get	ack	#223
+fwd	ack	#223
+get	ack	#224
+fwd	ack	#224
+get	data	#225
+fwd	data	#225	loss rate = 0.189759
+get	data	#226
+fwd	data	#226	loss rate = 0.189189
+get	data	#227
+fwd	data	#227	loss rate = 0.188623
+get	ack	#226
+fwd	ack	#226
+get	ack	#227
+fwd	ack	#227
+get	data	#225
+fwd	data	#225	loss rate = 0.188060
+get	ack	#225
+fwd	ack	#225
+get	data	#226
+fwd	data	#226	loss rate = 0.187500
+get	data	#227
+fwd	data	#227	loss rate = 0.186944
+get	ack	#226
+fwd	ack	#226
+get	ack	#227
+fwd	ack	#227
+get	data	#228
+fwd	data	#228	loss rate = 0.186391
+get	data	#229
+fwd	data	#229	loss rate = 0.185841
+get	data	#230
+fwd	data	#230	loss rate = 0.185294
+get	ack	#228
+fwd	ack	#228
+get	ack	#229
+fwd	ack	#229
+get	ack	#230
+fwd	ack	#230
+get	data	#231
+fwd	data	#231	loss rate = 0.184751
+get	data	#232
+fwd	data	#232	loss rate = 0.184211
+get	data	#233
+fwd	data	#233	loss rate = 0.183673
+get	data	#234
+fwd	data	#234	loss rate = 0.183140
+get	ack	#231
+fwd	ack	#231
+get	ack	#232
+fwd	ack	#232
+get	ack	#233
+fwd	ack	#233
+get	ack	#234
+fwd	ack	#234
+get	data	#235
+fwd	data	#235	loss rate = 0.182609
+get	data	#236
+fwd	data	#236	loss rate = 0.182081
+get	data	#237
+fwd	data	#237	loss rate = 0.181556
+get	data	#238
+fwd	data	#238	loss rate = 0.181034
+get	data	#239
+fwd	data	#239	loss rate = 0.180516
+get	ack	#235
+fwd	ack	#235
+get	ack	#236
+fwd	ack	#236
+get	ack	#237
+fwd	ack	#237
+get	ack	#238
+fwd	ack	#238
+get	ack	#239
+fwd	ack	#239
+get	data	#240
+fwd	data	#240	loss rate = 0.180000
+get	data	#241
+fwd	data	#241	loss rate = 0.179487
+get	data	#242
+fwd	data	#242	loss rate = 0.178977
+get	data	#243
+fwd	data	#243	loss rate = 0.178470
+get	data	#244
+drop	data	#244	loss rate = 0.180791
+get	data	#245
+fwd	data	#245	loss rate = 0.180282
+get	ack	#240
+fwd	ack	#240
+get	ack	#241
+fwd	ack	#241
+get	ack	#242
+fwd	ack	#242
+get	ack	#243
+fwd	ack	#243
+get	ack	#245
+fwd	ack	#245
+get	data	#244
+fwd	data	#244	loss rate = 0.179775
+get	ack	#244
+fwd	ack	#244
+get	data	#245
+fwd	data	#245	loss rate = 0.179272
+get	data	#246
+fwd	data	#246	loss rate = 0.178771
+get	ack	#245
+fwd	ack	#245
+get	ack	#246
+fwd	ack	#246
+get	data	#247
+fwd	data	#247	loss rate = 0.178273
+get	data	#248
+fwd	data	#248	loss rate = 0.177778
+get	data	#249
+fwd	data	#249	loss rate = 0.177285
+get	data	#250
+fwd	data	#250	loss rate = 0.176796
+get	ack	#247
+fwd	ack	#247
+get	ack	#248
+fwd	ack	#248
+get	ack	#249
+fwd	ack	#249
+get	ack	#250
+fwd	ack	#250
+get	data	#251
+fwd	data	#251	loss rate = 0.176309
+get	data	#252
+drop	data	#252	loss rate = 0.178571
+get	data	#253
+fwd	data	#253	loss rate = 0.178082
+get	data	#254
+drop	data	#254	loss rate = 0.180328
+get	data	#255
+fwd	data	#255	loss rate = 0.179837
+get	ack	#251
+fwd	ack	#251
+get	ack	#253
+fwd	ack	#253
+get	ack	#255
+fwd	ack	#255
+get	data	#252
+fwd	data	#252	loss rate = 0.179348
+get	ack	#252
+fwd	ack	#252
+get	data	#253
+fwd	data	#253	loss rate = 0.178862
+get	data	#254
+drop	data	#254	loss rate = 0.181081
+get	ack	#253
+fwd	ack	#253
+get	data	#254
+fwd	data	#254	loss rate = 0.180593
+get	ack	#254
+fwd	ack	#254
+get	data	#255
+fwd	data	#255	loss rate = 0.180108
+get	data	#256
+fwd	data	#256	loss rate = 0.179625
+get	ack	#255
+fwd	ack	#255
+get	ack	#256
+fwd	ack	#256
+get	data	#257
+drop	data	#257	loss rate = 0.181818
+get	data	#258
+drop	data	#258	loss rate = 0.184000
+get	data	#259
+fwd	data	#259	loss rate = 0.183511
+get	data	#257
+fwd	data	#257	loss rate = 0.183024
+get	ack	#257
+fwd	ack	#257
+get	data	#258
+fwd	data	#258	loss rate = 0.182540
+get	data	#259
+fwd	data	#259	loss rate = 0.182058
+get	ack	#258
+fwd	ack	#258
+get	ack	#259
+fwd	ack	#259
+get	data	#260
+fwd	data	#260	loss rate = 0.181579
+get	data	#261
+fwd	data	#261	loss rate = 0.181102
+get	data	#262
+drop	data	#262	loss rate = 0.183246
+get	ack	#260
+fwd	ack	#260
+get	ack	#261
+fwd	ack	#261
+get	data	#262
+fwd	data	#262	loss rate = 0.182768
+get	ack	#262
+fwd	ack	#262
+get	data	#263
+fwd	data	#263	loss rate = 0.182292
+get	data	#264
+fwd	data	#264	loss rate = 0.181818
+get	ack	#263
+fwd	ack	#263
+get	ack	#264
+fwd	ack	#264
+get	data	#265
+fwd	data	#265	loss rate = 0.181347
+get	data	#266
+fwd	data	#266	loss rate = 0.180879
+get	data	#267
+fwd	data	#267	loss rate = 0.180412
+get	ack	#265
+fwd	ack	#265
+get	ack	#266
+fwd	ack	#266
+get	ack	#267
+fwd	ack	#267
+get	data	#268
+fwd	data	#268	loss rate = 0.179949
+get	data	#269
+fwd	data	#269	loss rate = 0.179487
+get	data	#270
+fwd	data	#270	loss rate = 0.179028
+get	data	#271
+fwd	data	#271	loss rate = 0.178571
+get	ack	#268
+fwd	ack	#268
+get	ack	#269
+fwd	ack	#269
+get	ack	#270
+fwd	ack	#270
+get	ack	#271
+fwd	ack	#271
+get	data	#272
+fwd	data	#272	loss rate = 0.178117
+get	data	#273
+fwd	data	#273	loss rate = 0.177665
+get	data	#274
+fwd	data	#274	loss rate = 0.177215
+get	data	#275
+fwd	data	#275	loss rate = 0.176768
+get	data	#276
+fwd	data	#276	loss rate = 0.176322
+get	ack	#272
+fwd	ack	#272
+get	ack	#273
+fwd	ack	#273
+get	ack	#274
+fwd	ack	#274
+get	ack	#275
+fwd	ack	#275
+get	ack	#276
+fwd	ack	#276
+get	data	#277
+fwd	data	#277	loss rate = 0.175879
+get	data	#278
+fwd	data	#278	loss rate = 0.175439
+get	data	#279
+fwd	data	#279	loss rate = 0.175000
+get	data	#280
+fwd	data	#280	loss rate = 0.174564
+get	data	#281
+fwd	data	#281	loss rate = 0.174129
+get	data	#282
+drop	data	#282	loss rate = 0.176179
+get	ack	#277
+fwd	ack	#277
+get	ack	#278
+fwd	ack	#278
+get	ack	#279
+fwd	ack	#279
+get	ack	#280
+fwd	ack	#280
+get	ack	#281
+fwd	ack	#281
+get	data	#282
+fwd	data	#282	loss rate = 0.175743
+get	ack	#282
+fwd	ack	#282
+get	data	#283
+fwd	data	#283	loss rate = 0.175309
+get	data	#284
+fwd	data	#284	loss rate = 0.174877
+get	ack	#283
+fwd	ack	#283
+get	ack	#284
+fwd	ack	#284
+get	data	#285
+fwd	data	#285	loss rate = 0.174447
+get	data	#286
+fwd	data	#286	loss rate = 0.174020
+get	data	#287
+drop	data	#287	loss rate = 0.176039
+get	data	#288
+fwd	data	#288	loss rate = 0.175610
+get	ack	#285
+fwd	ack	#285
+get	ack	#286
+fwd	ack	#286
+get	ack	#288
+fwd	ack	#288
+get	data	#287
+fwd	data	#287	loss rate = 0.175182
+get	ack	#287
+fwd	ack	#287
+get	data	#288
+fwd	data	#288	loss rate = 0.174757
+get	data	#289
+fwd	data	#289	loss rate = 0.174334
+get	ack	#288
+fwd	ack	#288
+get	data	#289
+fwd	data	#289	loss rate = 0.173913
+get	ack	#289
+fwd	ack	#289
+get	data	#290
+fwd	data	#290	loss rate = 0.173494
+get	data	#291
+fwd	data	#291	loss rate = 0.173077
+get	ack	#290
+fwd	ack	#290
+get	ack	#291
+fwd	ack	#291
+get	data	#292
+fwd	data	#292	loss rate = 0.172662
+get	data	#293
+fwd	data	#293	loss rate = 0.172249
+get	data	#294
+fwd	data	#294	loss rate = 0.171838
+get	ack	#292
+fwd	ack	#292
+get	ack	#293
+fwd	ack	#293
+get	ack	#294
+fwd	ack	#294
+get	data	#295
+fwd	data	#295	loss rate = 0.171429
+get	data	#296
+fwd	data	#296	loss rate = 0.171021
+get	data	#297
+fwd	data	#297	loss rate = 0.170616
+get	data	#298
+drop	data	#298	loss rate = 0.172577
+get	ack	#295
+fwd	ack	#295
+get	ack	#296
+fwd	ack	#296
+get	ack	#297
+fwd	ack	#297
+get	data	#298
+drop	data	#298	loss rate = 0.174528
+get	data	#298
+fwd	data	#298	loss rate = 0.174118
+get	ack	#298
+fwd	ack	#298
+get	data	#299
+drop	data	#299	loss rate = 0.176056
+get	data	#300
+fwd	data	#300	loss rate = 0.175644
+get	ack	#300
+fwd	ack	#300
+get	data	#299
+drop	data	#299	loss rate = 0.177570
+get	data	#299
+fwd	data	#299	loss rate = 0.177156
+get	ack	#299
+fwd	ack	#299
+get	data	#300
+fwd	data	#300	loss rate = 0.176744
+get	data	#301
+fwd	data	#301	loss rate = 0.176334
+get	ack	#300
+fwd	ack	#300
+get	ack	#301
+fwd	ack	#301
+get	data	#302
+fwd	data	#302	loss rate = 0.175926
+get	data	#303
+fwd	data	#303	loss rate = 0.175520
+get	data	#304
+fwd	data	#304	loss rate = 0.175115
+get	ack	#302
+fwd	ack	#302
+get	ack	#303
+fwd	ack	#303
+get	ack	#304
+fwd	ack	#304
+get	data	#305
+fwd	data	#305	loss rate = 0.174713
+get	data	#306
+fwd	data	#306	loss rate = 0.174312
+get	data	#307
+fwd	data	#307	loss rate = 0.173913
+get	data	#308
+fwd	data	#308	loss rate = 0.173516
+get	ack	#305
+fwd	ack	#305
+get	ack	#306
+fwd	ack	#306
+get	ack	#307
+fwd	ack	#307
+get	ack	#308
+fwd	ack	#308
+get	data	#309
+fwd	data	#309	loss rate = 0.173121
+get	data	#310
+fwd	data	#310	loss rate = 0.172727
+get	data	#311
+fwd	data	#311	loss rate = 0.172336
+get	data	#312
+drop	data	#312	loss rate = 0.174208
+get	ack	#309
+fwd	ack	#309
+get	ack	#310
+fwd	ack	#310
+get	ack	#311
+fwd	ack	#311
+get	data	#313
+fwd	data	#313	loss rate = 0.173815
+get	ack	#313
+fwd	ack	#313
+get	data	#312
+drop	data	#312	loss rate = 0.175676
+get	data	#312
+fwd	data	#312	loss rate = 0.175281
+get	ack	#312
+fwd	ack	#312
+get	data	#313
+fwd	data	#313	loss rate = 0.174888
+get	data	#314
+fwd	data	#314	loss rate = 0.174497
+get	ack	#313
+fwd	ack	#313
+get	ack	#314
+fwd	ack	#314
+get	data	#315
+drop	data	#315	loss rate = 0.176339
+get	data	#316
+fwd	data	#316	loss rate = 0.175947
+get	data	#317
+fwd	data	#317	loss rate = 0.175556
+get	ack	#316
+fwd	ack	#316
+get	ack	#317
+fwd	ack	#317
+get	data	#315
+fwd	data	#315	loss rate = 0.175166
+get	ack	#315
+fwd	ack	#315
+get	data	#316
+fwd	data	#316	loss rate = 0.174779
+get	data	#317
+drop	data	#317	loss rate = 0.176600
+get	ack	#316
+fwd	ack	#316
+get	data	#317
+drop	data	#317	loss rate = 0.178414
+get	data	#317
+fwd	data	#317	loss rate = 0.178022
+get	ack	#317
+fwd	ack	#317
+get	data	#318
+fwd	data	#318	loss rate = 0.177632
+get	data	#319
+drop	data	#319	loss rate = 0.179431
+get	ack	#318
+fwd	ack	#318
+get	data	#319
+fwd	data	#319	loss rate = 0.179039
+get	ack	#319
+fwd	ack	#319
+get	data	#320
+drop	data	#320	loss rate = 0.180828
+get	data	#321
+fwd	data	#321	loss rate = 0.180435
+get	data	#320
+fwd	data	#320	loss rate = 0.180043
+get	ack	#320
+fwd	ack	#320
+get	data	#321
+fwd	data	#321	loss rate = 0.179654
+get	data	#322
+fwd	data	#322	loss rate = 0.179266
+get	ack	#322
+fwd	ack	#322
+get	data	#321
+fwd	data	#321	loss rate = 0.178879
+get	ack	#321
+fwd	ack	#321
+get	data	#322
+fwd	data	#322	loss rate = 0.178495
+get	data	#323
+fwd	data	#323	loss rate = 0.178112
+get	ack	#322
+fwd	ack	#322
+get	ack	#323
+fwd	ack	#323
+get	data	#324
+drop	data	#324	loss rate = 0.179872
+get	data	#325
+fwd	data	#325	loss rate = 0.179487
+get	data	#326
+drop	data	#326	loss rate = 0.181237
+get	ack	#325
+fwd	ack	#325
+get	data	#324
+fwd	data	#324	loss rate = 0.180851
+get	ack	#324
+fwd	ack	#324
+get	data	#325
+fwd	data	#325	loss rate = 0.180467
+get	data	#326
+drop	data	#326	loss rate = 0.182203
+get	ack	#325
+fwd	ack	#325
+get	data	#326
+fwd	data	#326	loss rate = 0.181818
+get	ack	#326
+fwd	ack	#326
+get	data	#327
+fwd	data	#327	loss rate = 0.181435
+get	data	#328
+fwd	data	#328	loss rate = 0.181053
+get	ack	#327
+fwd	ack	#327
+get	ack	#328
+fwd	ack	#328
+get	data	#329
+fwd	data	#329	loss rate = 0.180672
+get	data	#330
+fwd	data	#330	loss rate = 0.180294
+get	data	#331
+fwd	data	#331	loss rate = 0.179916
+get	ack	#329
+fwd	ack	#329
+get	ack	#330
+fwd	ack	#330
+get	ack	#331
+fwd	ack	#331
+get	data	#332
+drop	data	#332	loss rate = 0.181628
+get	data	#333
+fwd	data	#333	loss rate = 0.181250
+get	data	#334
+fwd	data	#334	loss rate = 0.180873
+get	data	#335
+drop	data	#335	loss rate = 0.182573
+get	ack	#333
+fwd	ack	#333
+get	ack	#334
+fwd	ack	#334
+get	data	#332
+drop	data	#332	loss rate = 0.184265
+get	data	#332
+fwd	data	#332	loss rate = 0.183884
+get	ack	#332
+fwd	ack	#332
+get	data	#333
+drop	data	#333	loss rate = 0.185567
+get	data	#334
+drop	data	#334	loss rate = 0.187243
+get	data	#333
+fwd	data	#333	loss rate = 0.186858
+get	ack	#333
+fwd	ack	#333
+get	data	#334
+fwd	data	#334	loss rate = 0.186475
+get	data	#335
+fwd	data	#335	loss rate = 0.186094
+get	ack	#334
+fwd	ack	#334
+get	ack	#335
+fwd	ack	#335
+get	data	#336
+fwd	data	#336	loss rate = 0.185714
+get	data	#337
+fwd	data	#337	loss rate = 0.185336
+get	data	#338
+fwd	data	#338	loss rate = 0.184959
+get	ack	#336
+fwd	ack	#336
+get	ack	#337
+fwd	ack	#337
+get	ack	#338
+fwd	ack	#338
+get	data	#339
+fwd	data	#339	loss rate = 0.184584
+get	data	#340
+fwd	data	#340	loss rate = 0.184211
+get	data	#341
+fwd	data	#341	loss rate = 0.183838
+get	data	#342
+drop	data	#342	loss rate = 0.185484
+get	ack	#339
+fwd	ack	#339
+get	ack	#340
+fwd	ack	#340
+get	ack	#341
+fwd	ack	#341
+get	data	#342
+fwd	data	#342	loss rate = 0.185111
+get	ack	#342
+fwd	ack	#342
+get	data	#343
+fwd	data	#343	loss rate = 0.184739
+get	data	#344
+fwd	data	#344	loss rate = 0.184369
+get	ack	#343
+fwd	ack	#343
+get	ack	#344
+fwd	ack	#344
+get	data	#345
+drop	data	#345	loss rate = 0.186000
+get	data	#346
+fwd	data	#346	loss rate = 0.185629
+get	data	#347
+fwd	data	#347	loss rate = 0.185259
+get	ack	#346
+fwd	ack	#346
+get	ack	#347
+fwd	ack	#347
+get	data	#345
+drop	data	#345	loss rate = 0.186879
+get	data	#345
+fwd	data	#345	loss rate = 0.186508
+get	ack	#345
+fwd	ack	#345
+get	data	#346
+fwd	data	#346	loss rate = 0.186139
+get	data	#347
+fwd	data	#347	loss rate = 0.185771
+get	ack	#346
+fwd	ack	#346
+get	ack	#347
+fwd	ack	#347
+get	data	#348
+drop	data	#348	loss rate = 0.187377
+get	data	#349
+fwd	data	#349	loss rate = 0.187008
+get	data	#350
+fwd	data	#350	loss rate = 0.186640
+get	ack	#349
+fwd	ack	#349
+get	ack	#350
+fwd	ack	#350
+get	data	#348
+drop	data	#348	loss rate = 0.188235
+get	data	#348
+fwd	data	#348	loss rate = 0.187867
+get	ack	#348
+fwd	ack	#348
+get	data	#349
+fwd	data	#349	loss rate = 0.187500
+get	data	#350
+drop	data	#350	loss rate = 0.189084
+get	ack	#349
+fwd	ack	#349
+get	data	#350
+drop	data	#350	loss rate = 0.190661
+get	data	#350
+fwd	data	#350	loss rate = 0.190291
+get	ack	#350
+fwd	ack	#350
+get	data	#351
+fwd	data	#351	loss rate = 0.189922
+get	data	#352
+fwd	data	#352	loss rate = 0.189555
+get	ack	#351
+fwd	ack	#351
+get	ack	#352
+fwd	ack	#352
+get	data	#353
+fwd	data	#353	loss rate = 0.189189
+get	data	#354
+fwd	data	#354	loss rate = 0.188825
+get	data	#355
+fwd	data	#355	loss rate = 0.188462
+get	ack	#354
+fwd	ack	#354
+get	ack	#355
+fwd	ack	#355
+get	data	#353
+fwd	data	#353	loss rate = 0.188100
+get	ack	#353
+fwd	ack	#353
+get	data	#354
+fwd	data	#354	loss rate = 0.187739
+get	data	#355
+fwd	data	#355	loss rate = 0.187380
+get	ack	#354
+fwd	ack	#354
+get	ack	#355
+fwd	ack	#355
+get	data	#356
+fwd	data	#356	loss rate = 0.187023
+get	data	#357
+drop	data	#357	loss rate = 0.188571
+get	data	#358
+fwd	data	#358	loss rate = 0.188213
+get	ack	#356
+fwd	ack	#356
+get	ack	#358
+fwd	ack	#358
+get	data	#357
+fwd	data	#357	loss rate = 0.187856
+get	ack	#357
+fwd	ack	#357
+get	data	#358
+fwd	data	#358	loss rate = 0.187500
+get	data	#359
+drop	data	#359	loss rate = 0.189036
+get	ack	#358
+fwd	ack	#358
+get	data	#359
+fwd	data	#359	loss rate = 0.188679
+get	ack	#359
+fwd	ack	#359
+get	data	#360
+fwd	data	#360	loss rate = 0.188324
+get	data	#361
+fwd	data	#361	loss rate = 0.187970
+get	ack	#360
+fwd	ack	#360
+get	ack	#361
+fwd	ack	#361
+get	data	#362
+fwd	data	#362	loss rate = 0.187617
+get	data	#363
+drop	data	#363	loss rate = 0.189139
+get	data	#364
+fwd	data	#364	loss rate = 0.188785
+get	ack	#362
+fwd	ack	#362
+get	ack	#364
+fwd	ack	#364
+get	data	#363
+fwd	data	#363	loss rate = 0.188433
+get	ack	#363
+fwd	ack	#363
+get	data	#364
+fwd	data	#364	loss rate = 0.188082
+get	data	#365
+fwd	data	#365	loss rate = 0.187732
+get	ack	#364
+fwd	ack	#364
+get	ack	#365
+fwd	ack	#365
+get	data	#366
+fwd	data	#366	loss rate = 0.187384
+get	data	#367
+drop	data	#367	loss rate = 0.188889
+get	data	#368
+fwd	data	#368	loss rate = 0.188540
+get	ack	#366
+fwd	ack	#366
+get	ack	#368
+fwd	ack	#368
+get	data	#367
+drop	data	#367	loss rate = 0.190037
+get	data	#367
+fwd	data	#367	loss rate = 0.189687
+get	ack	#367
+fwd	ack	#367
+get	data	#368
+fwd	data	#368	loss rate = 0.189338
+get	data	#369
+fwd	data	#369	loss rate = 0.188991
+get	ack	#368
+fwd	ack	#368
+get	ack	#369
+fwd	ack	#369
+get	data	#370
+drop	data	#370	loss rate = 0.190476
+get	data	#371
+fwd	data	#371	loss rate = 0.190128
+get	data	#372
+drop	data	#372	loss rate = 0.191606
+get	ack	#371
+fwd	ack	#371
+get	data	#370
+fwd	data	#370	loss rate = 0.191257
+get	ack	#370
+fwd	ack	#370
+get	data	#371
+fwd	data	#371	loss rate = 0.190909
+get	data	#372
+fwd	data	#372	loss rate = 0.190563
+get	ack	#371
+fwd	ack	#371
+get	ack	#372
+fwd	ack	#372
+get	data	#373
+fwd	data	#373	loss rate = 0.190217
+get	data	#374
+fwd	data	#374	loss rate = 0.189873
+get	data	#375
+drop	data	#375	loss rate = 0.191336
+get	ack	#373
+fwd	ack	#373
+get	ack	#374
+fwd	ack	#374
+get	data	#375
+fwd	data	#375	loss rate = 0.190991
+get	ack	#375
+fwd	ack	#375
+get	data	#376
+fwd	data	#376	loss rate = 0.190647
+get	data	#377
+fwd	data	#377	loss rate = 0.190305
+get	ack	#376
+fwd	ack	#376
+get	ack	#377
+fwd	ack	#377
+get	data	#378
+fwd	data	#378	loss rate = 0.189964
+get	data	#379
+fwd	data	#379	loss rate = 0.189624
+get	data	#380
+fwd	data	#380	loss rate = 0.189286
+get	ack	#378
+fwd	ack	#378
+get	ack	#379
+fwd	ack	#379
+get	ack	#380
+fwd	ack	#380
+get	data	#381
+fwd	data	#381	loss rate = 0.188948
+get	data	#382
+fwd	data	#382	loss rate = 0.188612
+get	data	#383
+fwd	data	#383	loss rate = 0.188277
+get	data	#384
+fwd	data	#384	loss rate = 0.187943
+get	ack	#381
+fwd	ack	#381
+get	ack	#382
+fwd	ack	#382
+get	ack	#383
+fwd	ack	#383
+get	ack	#384
+fwd	ack	#384
+get	data	#385
+fwd	data	#385	loss rate = 0.187611
+get	data	#386
+fwd	data	#386	loss rate = 0.187279
+get	data	#387
+fwd	data	#387	loss rate = 0.186949
+get	data	#388
+fwd	data	#388	loss rate = 0.186620
+get	data	#389
+drop	data	#389	loss rate = 0.188049
+get	ack	#386
+fwd	ack	#386
+get	ack	#387
+fwd	ack	#387
+get	ack	#388
+fwd	ack	#388
+get	data	#385
+fwd	data	#385	loss rate = 0.187719
+get	ack	#385
+fwd	ack	#385
+get	data	#386
+fwd	data	#386	loss rate = 0.187391
+get	data	#387
+fwd	data	#387	loss rate = 0.187063
+get	ack	#386
+fwd	ack	#386
+get	ack	#387
+fwd	ack	#387
+get	data	#388
+fwd	data	#388	loss rate = 0.186736
+get	data	#389
+drop	data	#389	loss rate = 0.188153
+get	data	#390
+fwd	data	#390	loss rate = 0.187826
+get	ack	#388
+fwd	ack	#388
+get	ack	#390
+fwd	ack	#390
+get	data	#389
+fwd	data	#389	loss rate = 0.187500
+get	ack	#389
+fwd	ack	#389
+get	data	#390
+fwd	data	#390	loss rate = 0.187175
+get	data	#391
+fwd	data	#391	loss rate = 0.186851
+get	ack	#390
+fwd	ack	#390
+get	ack	#391
+fwd	ack	#391
+get	data	#392
+fwd	data	#392	loss rate = 0.186528
+get	data	#393
+fwd	data	#393	loss rate = 0.186207
+get	data	#394
+drop	data	#394	loss rate = 0.187608
+get	ack	#392
+fwd	ack	#392
+get	ack	#393
+fwd	ack	#393
+get	data	#394
+fwd	data	#394	loss rate = 0.187285
+get	ack	#394
+fwd	ack	#394
+get	data	#395
+fwd	data	#395	loss rate = 0.186964
+get	data	#396
+fwd	data	#396	loss rate = 0.186644
+get	ack	#395
+fwd	ack	#395
+get	ack	#396
+fwd	ack	#396
+get	data	#397
+fwd	data	#397	loss rate = 0.186325
+get	data	#398
+fwd	data	#398	loss rate = 0.186007
+get	data	#399
+fwd	data	#399	loss rate = 0.185690
+get	ack	#397
+fwd	ack	#397
+get	ack	#398
+fwd	ack	#398
+get	ack	#399
+fwd	ack	#399
+get	data	#400
+fwd	data	#400	loss rate = 0.185374
+get	data	#401
+drop	data	#401	loss rate = 0.186757
+get	data	#402
+fwd	data	#402	loss rate = 0.186441
+get	data	#403
+fwd	data	#403	loss rate = 0.186125
+get	ack	#400
+fwd	ack	#400
+get	ack	#402
+fwd	ack	#402
+get	ack	#403
+fwd	ack	#403
+get	data	#401
+fwd	data	#401	loss rate = 0.185811
+get	ack	#401
+fwd	ack	#401
+get	data	#402
+fwd	data	#402	loss rate = 0.185497
+get	data	#403
+fwd	data	#403	loss rate = 0.185185
+get	ack	#402
+fwd	ack	#402
+get	ack	#403
+fwd	ack	#403
+get	data	#404
+fwd	data	#404	loss rate = 0.184874
+get	data	#405
+fwd	data	#405	loss rate = 0.184564
+get	data	#406
+drop	data	#406	loss rate = 0.185930
+get	ack	#404
+fwd	ack	#404
+get	ack	#405
+fwd	ack	#405
+get	data	#406
+fwd	data	#406	loss rate = 0.185619
+get	ack	#406
+fwd	ack	#406
+get	data	#407
+fwd	data	#407	loss rate = 0.185309
+get	data	#408
+fwd	data	#408	loss rate = 0.185000
+get	ack	#407
+fwd	ack	#407
+get	ack	#408
+fwd	ack	#408
+get	data	#409
+fwd	data	#409	loss rate = 0.184692
+get	data	#410
+fwd	data	#410	loss rate = 0.184385
+get	data	#411
+fwd	data	#411	loss rate = 0.184080
+get	ack	#409
+fwd	ack	#409
+get	ack	#410
+fwd	ack	#410
+get	ack	#411
+fwd	ack	#411
+get	data	#412
+fwd	data	#412	loss rate = 0.183775
+get	data	#413
+fwd	data	#413	loss rate = 0.183471
+get	data	#414
+drop	data	#414	loss rate = 0.184818
+get	data	#415
+fwd	data	#415	loss rate = 0.184514
+get	ack	#412
+fwd	ack	#412
+get	ack	#413
+fwd	ack	#413
+get	ack	#415
+fwd	ack	#415
+get	data	#414
+fwd	data	#414	loss rate = 0.184211
+get	ack	#414
+fwd	ack	#414
+get	data	#415
+fwd	data	#415	loss rate = 0.183908
+get	data	#416
+fwd	data	#416	loss rate = 0.183607
+get	ack	#415
+fwd	ack	#415
+get	ack	#416
+fwd	ack	#416
+get	data	#417
+drop	data	#417	loss rate = 0.184943
+get	data	#418
+fwd	data	#418	loss rate = 0.184641
+get	data	#419
+fwd	data	#419	loss rate = 0.184339
+get	ack	#419
+fwd	ack	#419
+get	data	#417
+fwd	data	#417	loss rate = 0.184039
+get	ack	#417
+fwd	ack	#417
+get	data	#418
+fwd	data	#418	loss rate = 0.183740
+get	data	#419
+fwd	data	#419	loss rate = 0.183442
+get	ack	#418
+fwd	ack	#418
+get	ack	#419
+fwd	ack	#419
+get	data	#420
+fwd	data	#420	loss rate = 0.183144
+get	data	#421
+drop	data	#421	loss rate = 0.184466
+get	data	#422
+fwd	data	#422	loss rate = 0.184168
+get	ack	#420
+fwd	ack	#420
+get	ack	#422
+fwd	ack	#422
+get	data	#421
+fwd	data	#421	loss rate = 0.183871
+get	ack	#421
+fwd	ack	#421
+get	data	#422
+fwd	data	#422	loss rate = 0.183575
+get	data	#423
+fwd	data	#423	loss rate = 0.183280
+get	ack	#422
+fwd	ack	#422
+get	ack	#423
+fwd	ack	#423
+get	data	#424
+fwd	data	#424	loss rate = 0.182986
+get	data	#425
+fwd	data	#425	loss rate = 0.182692
+get	data	#426
+fwd	data	#426	loss rate = 0.182400
+get	ack	#424
+fwd	ack	#424
+get	ack	#425
+fwd	ack	#425
+get	ack	#426
+fwd	ack	#426
+get	data	#427
+fwd	data	#427	loss rate = 0.182109
+get	data	#428
+drop	data	#428	loss rate = 0.183413
+get	data	#429
+fwd	data	#429	loss rate = 0.183121
+get	ack	#427
+fwd	ack	#427
+get	data	#430
+fwd	data	#430	loss rate = 0.182830
+get	ack	#429
+fwd	ack	#429
+get	ack	#430
+fwd	ack	#430
+get	data	#428
+fwd	data	#428	loss rate = 0.182540
+get	ack	#428
+fwd	ack	#428
+get	data	#429
+drop	data	#429	loss rate = 0.183835
+get	data	#430
+fwd	data	#430	loss rate = 0.183544
+get	ack	#430
+fwd	ack	#430
+get	data	#429
+fwd	data	#429	loss rate = 0.183254
+get	ack	#429
+fwd	ack	#429
+get	data	#430
+fwd	data	#430	loss rate = 0.182965
+get	data	#431
+fwd	data	#431	loss rate = 0.182677
+get	ack	#430
+fwd	ack	#430
+get	ack	#431
+fwd	ack	#431
+get	data	#432
+fwd	data	#432	loss rate = 0.182390
+get	data	#433
+fwd	data	#433	loss rate = 0.182104
+get	data	#434
+fwd	data	#434	loss rate = 0.181818
+get	ack	#432
+fwd	ack	#432
+get	ack	#433
+fwd	ack	#433
+get	ack	#434
+fwd	ack	#434
+get	data	#435
+fwd	data	#435	loss rate = 0.181534
+get	data	#436
+drop	data	#436	loss rate = 0.182812
+get	data	#437
+fwd	data	#437	loss rate = 0.182527
+get	data	#438
+fwd	data	#438	loss rate = 0.182243
+get	ack	#435
+fwd	ack	#435
+get	ack	#437
+fwd	ack	#437
+get	ack	#438
+fwd	ack	#438
+get	data	#436
+fwd	data	#436	loss rate = 0.181960
+get	ack	#436
+fwd	ack	#436
+get	data	#437
+fwd	data	#437	loss rate = 0.181677
+get	data	#438
+fwd	data	#438	loss rate = 0.181395
+get	ack	#437
+fwd	ack	#437
+get	ack	#438
+fwd	ack	#438
+get	data	#439
+drop	data	#439	loss rate = 0.182663
+get	data	#440
+fwd	data	#440	loss rate = 0.182380
+get	data	#441
+fwd	data	#441	loss rate = 0.182099
+get	ack	#440
+fwd	ack	#440
+get	ack	#441
+fwd	ack	#441
+get	data	#439
+fwd	data	#439	loss rate = 0.181818
+get	ack	#439
+fwd	ack	#439
+get	data	#440
+fwd	data	#440	loss rate = 0.181538
+get	data	#441
+drop	data	#441	loss rate = 0.182796
+get	ack	#440
+fwd	ack	#440
+get	data	#441
+drop	data	#441	loss rate = 0.184049
+get	data	#441
+fwd	data	#441	loss rate = 0.183767
+get	ack	#441
+fwd	ack	#441
+get	data	#442
+fwd	data	#442	loss rate = 0.183486
+get	data	#443
+fwd	data	#443	loss rate = 0.183206
+get	ack	#442
+fwd	ack	#442
+get	ack	#443
+fwd	ack	#443
+get	data	#444
+fwd	data	#444	loss rate = 0.182927
+get	data	#445
+fwd	data	#445	loss rate = 0.182648
+get	data	#446
+fwd	data	#446	loss rate = 0.182371
+get	ack	#444
+fwd	ack	#444
+get	ack	#445
+fwd	ack	#445
+get	ack	#446
+fwd	ack	#446
+get	data	#447
+fwd	data	#447	loss rate = 0.182094
+get	data	#448
+fwd	data	#448	loss rate = 0.181818
+get	data	#449
+fwd	data	#449	loss rate = 0.181543
+get	data	#450
+fwd	data	#450	loss rate = 0.181269
+get	ack	#447
+fwd	ack	#447
+get	ack	#448
+fwd	ack	#448
+get	ack	#450
+fwd	ack	#450
+get	data	#449
+fwd	data	#449	loss rate = 0.180995
+get	ack	#449
+fwd	ack	#449
+get	data	#450
+fwd	data	#450	loss rate = 0.180723
+get	data	#451
+fwd	data	#451	loss rate = 0.180451
+get	ack	#450
+fwd	ack	#450
+get	ack	#451
+fwd	ack	#451
+get	data	#452
+fwd	data	#452	loss rate = 0.180180
+get	data	#453
+drop	data	#453	loss rate = 0.181409
+get	data	#454
+fwd	data	#454	loss rate = 0.181138
+get	ack	#452
+fwd	ack	#452
+get	ack	#454
+fwd	ack	#454
+get	data	#453
+drop	data	#453	loss rate = 0.182362
+get	data	#453
+fwd	data	#453	loss rate = 0.182090
+get	ack	#453
+fwd	ack	#453
+get	data	#454
+fwd	data	#454	loss rate = 0.181818
+get	data	#455
+fwd	data	#455	loss rate = 0.181548
+get	ack	#454
+fwd	ack	#454
+get	ack	#455
+fwd	ack	#455
+get	data	#456
+fwd	data	#456	loss rate = 0.181278
+get	data	#457
+fwd	data	#457	loss rate = 0.181009
+get	data	#458
+fwd	data	#458	loss rate = 0.180741
+get	ack	#456
+fwd	ack	#456
+get	ack	#457
+fwd	ack	#457
+get	ack	#458
+fwd	ack	#458
+get	data	#459
+fwd	data	#459	loss rate = 0.180473
+get	data	#460
+fwd	data	#460	loss rate = 0.180207
+get	data	#461
+fwd	data	#461	loss rate = 0.179941
+get	data	#462
+fwd	data	#462	loss rate = 0.179676
+get	ack	#459
+fwd	ack	#459
+get	ack	#460
+fwd	ack	#460
+get	ack	#461
+fwd	ack	#461
+get	ack	#462
+fwd	ack	#462
+get	data	#463
+fwd	data	#463	loss rate = 0.179412
+get	data	#464
+fwd	data	#464	loss rate = 0.179148
+get	data	#465
+fwd	data	#465	loss rate = 0.178886
+get	data	#466
+fwd	data	#466	loss rate = 0.178624
+get	data	#467
+fwd	data	#467	loss rate = 0.178363
+get	ack	#463
+fwd	ack	#463
+get	ack	#464
+fwd	ack	#464
+get	ack	#465
+fwd	ack	#465
+get	ack	#466
+fwd	ack	#466
+get	ack	#467
+fwd	ack	#467
+get	data	#468
+fwd	data	#468	loss rate = 0.178102
+get	data	#469
+fwd	data	#469	loss rate = 0.177843
+get	data	#470
+fwd	data	#470	loss rate = 0.177584
+get	data	#471
+fwd	data	#471	loss rate = 0.177326
+get	data	#472
+fwd	data	#472	loss rate = 0.177068
+get	data	#473
+fwd	data	#473	loss rate = 0.176812
+get	ack	#468
+fwd	ack	#468
+get	ack	#469
+fwd	ack	#469
+get	ack	#470
+fwd	ack	#470
+get	ack	#471
+fwd	ack	#471
+get	ack	#472
+fwd	ack	#472
+get	ack	#473
+fwd	ack	#473
+get	data	#474
+fwd	data	#474	loss rate = 0.176556
+get	data	#475
+fwd	data	#475	loss rate = 0.176301
+get	data	#476
+fwd	data	#476	loss rate = 0.176046
+get	data	#477
+fwd	data	#477	loss rate = 0.175793
+get	data	#478
+fwd	data	#478	loss rate = 0.175540
+get	data	#479
+fwd	data	#479	loss rate = 0.175287
+get	data	#480
+fwd	data	#480	loss rate = 0.175036
+get	ack	#474
+fwd	ack	#474
+get	ack	#475
+fwd	ack	#475
+get	ack	#476
+fwd	ack	#476
+get	ack	#477
+fwd	ack	#477
+get	ack	#478
+fwd	ack	#478
+get	ack	#479
+fwd	ack	#479
+get	ack	#480
+fwd	ack	#480
+get	data	#481
+fwd	data	#481	loss rate = 0.174785
+get	data	#482
+drop	data	#482	loss rate = 0.175966
+get	data	#483
+fwd	data	#483	loss rate = 0.175714
+get	data	#484
+drop	data	#484	loss rate = 0.176890
+get	data	#485
+fwd	data	#485	loss rate = 0.176638
+get	data	#486
+fwd	data	#486	loss rate = 0.176387
+get	data	#487
+fwd	data	#487	loss rate = 0.176136
+get	data	#488
+fwd	data	#488	loss rate = 0.175887
+get	ack	#483
+fwd	ack	#483
+get	ack	#485
+fwd	ack	#485
+get	ack	#486
+fwd	ack	#486
+get	ack	#487
+fwd	ack	#487
+get	ack	#488
+fwd	ack	#488
+get	data	#481
+fwd	data	#481	loss rate = 0.175637
+get	ack	#481
+fwd	ack	#481
+get	data	#482
+fwd	data	#482	loss rate = 0.175389
+get	data	#483
+fwd	data	#483	loss rate = 0.175141
+get	ack	#482
+fwd	ack	#482
+get	ack	#483
+fwd	ack	#483
+get	data	#484
+fwd	data	#484	loss rate = 0.174894
+get	data	#485
+fwd	data	#485	loss rate = 0.174648
+get	data	#486
+fwd	data	#486	loss rate = 0.174402
+get	data	#487
+fwd	data	#487	loss rate = 0.174157
+get	ack	#484
+fwd	ack	#484
+get	ack	#485
+fwd	ack	#485
+get	ack	#486
+fwd	ack	#486
+get	ack	#487
+fwd	ack	#487
+get	data	#488
+fwd	data	#488	loss rate = 0.173913
+get	data	#489
+fwd	data	#489	loss rate = 0.173669
+get	data	#490
+fwd	data	#490	loss rate = 0.173427
+get	data	#491
+fwd	data	#491	loss rate = 0.173184
+get	data	#492
+fwd	data	#492	loss rate = 0.172943
+get	ack	#488
+fwd	ack	#488
+get	ack	#489
+fwd	ack	#489
+get	ack	#490
+fwd	ack	#490
+get	ack	#491
+fwd	ack	#491
+get	ack	#492
+fwd	ack	#492
+get	data	#493
+fwd	data	#493	loss rate = 0.172702
+get	data	#494
+fwd	data	#494	loss rate = 0.172462
+get	data	#495
+drop	data	#495	loss rate = 0.173611
+get	data	#496
+fwd	data	#496	loss rate = 0.173370
+get	data	#497
+drop	data	#497	loss rate = 0.174515
+get	data	#498
+fwd	data	#498	loss rate = 0.174274
+get	ack	#493
+fwd	ack	#493
+get	ack	#494
+fwd	ack	#494
+get	ack	#496
+fwd	ack	#496
+get	ack	#498
+fwd	ack	#498
+get	data	#495
+fwd	data	#495	loss rate = 0.174033
+get	ack	#495
+fwd	ack	#495
+get	data	#496
+drop	data	#496	loss rate = 0.175172
+get	data	#497
+drop	data	#497	loss rate = 0.176309
+get	data	#496
+fwd	data	#496	loss rate = 0.176066
+get	ack	#496
+fwd	ack	#496
+get	data	#497
+fwd	data	#497	loss rate = 0.175824
+get	data	#498
+fwd	data	#498	loss rate = 0.175583
+get	ack	#497
+fwd	ack	#497
+get	ack	#498
+fwd	ack	#498
+get	data	#499
+fwd	data	#499	loss rate = 0.175342
+get	data	#500
+drop	data	#500	loss rate = 0.176471
+get	data	#501
+fwd	data	#501	loss rate = 0.176230
+get	ack	#499
+fwd	ack	#499
+get	ack	#501
+fwd	ack	#501
+get	data	#500
+fwd	data	#500	loss rate = 0.175989
+get	ack	#500
+fwd	ack	#500
+get	data	#501
+fwd	data	#501	loss rate = 0.175749
+get	data	#502
+fwd	data	#502	loss rate = 0.175510
+get	ack	#501
+fwd	ack	#501
+get	ack	#502
+fwd	ack	#502
+get	data	#503
+drop	data	#503	loss rate = 0.176630
+get	data	#504
+fwd	data	#504	loss rate = 0.176391
+get	data	#505
+fwd	data	#505	loss rate = 0.176152
+get	ack	#504
+fwd	ack	#504
+get	ack	#505
+fwd	ack	#505
+get	data	#503
+fwd	data	#503	loss rate = 0.175913
+get	ack	#503
+fwd	ack	#503
+get	data	#504
+drop	data	#504	loss rate = 0.177027
+get	data	#505
+fwd	data	#505	loss rate = 0.176788
+get	ack	#505
+fwd	ack	#505
+get	data	#504
+fwd	data	#504	loss rate = 0.176550
+get	ack	#504
+fwd	ack	#504
+get	data	#505
+fwd	data	#505	loss rate = 0.176312
+get	data	#506
+drop	data	#506	loss rate = 0.177419
+get	ack	#505
+fwd	ack	#505
+get	data	#506
+fwd	data	#506	loss rate = 0.177181
+get	ack	#506
+fwd	ack	#506
+get	data	#507
+drop	data	#507	loss rate = 0.178284
+get	data	#508
+fwd	data	#508	loss rate = 0.178046
+get	ack	#508
+fwd	ack	#508
+get	data	#507
+drop	data	#507	loss rate = 0.179144
+get	data	#507
+fwd	data	#507	loss rate = 0.178905
+get	ack	#507
+fwd	ack	#507
+get	data	#508
+fwd	data	#508	loss rate = 0.178667
+get	data	#509
+fwd	data	#509	loss rate = 0.178429
+get	ack	#508
+fwd	ack	#508
+get	ack	#509
+fwd	ack	#509
+get	data	#510
+drop	data	#510	loss rate = 0.179521
+get	data	#511
+fwd	data	#511	loss rate = 0.179283
+get	data	#512
+fwd	data	#512	loss rate = 0.179045
+get	ack	#511
+fwd	ack	#511
+get	ack	#512
+fwd	ack	#512
+get	data	#510
+fwd	data	#510	loss rate = 0.178808
+get	ack	#510
+fwd	ack	#510
+get	data	#511
+fwd	data	#511	loss rate = 0.178571
+get	data	#512
+fwd	data	#512	loss rate = 0.178336
+get	ack	#511
+fwd	ack	#511
+get	ack	#512
+fwd	ack	#512
+get	data	#513
+fwd	data	#513	loss rate = 0.178100
+get	data	#514
+fwd	data	#514	loss rate = 0.177866
+get	data	#515
+fwd	data	#515	loss rate = 0.177632
+get	ack	#514
+fwd	ack	#514
+get	ack	#515
+fwd	ack	#515
+get	data	#513
+fwd	data	#513	loss rate = 0.177398
+get	ack	#513
+fwd	ack	#513
+get	data	#514
+fwd	data	#514	loss rate = 0.177165
+get	data	#515
+fwd	data	#515	loss rate = 0.176933
+get	ack	#514
+fwd	ack	#514
+get	ack	#515
+fwd	ack	#515
+get	data	#516
+fwd	data	#516	loss rate = 0.176702
+get	data	#517
+drop	data	#517	loss rate = 0.177778
+get	data	#518
+drop	data	#518	loss rate = 0.178851
+get	ack	#516
+fwd	ack	#516
+get	data	#517
+fwd	data	#517	loss rate = 0.178618
+get	ack	#517
+fwd	ack	#517
+get	data	#518
+fwd	data	#518	loss rate = 0.178385
+get	data	#519
+fwd	data	#519	loss rate = 0.178153
+get	ack	#518
+fwd	ack	#518
+get	ack	#519
+fwd	ack	#519
+get	data	#520
+fwd	data	#520	loss rate = 0.177922
+get	data	#521
+drop	data	#521	loss rate = 0.178988
+get	data	#522
+fwd	data	#522	loss rate = 0.178756
+get	ack	#520
+fwd	ack	#520
+get	ack	#522
+fwd	ack	#522
+get	data	#521
+fwd	data	#521	loss rate = 0.178525
+get	ack	#521
+fwd	ack	#521
+get	data	#522
+fwd	data	#522	loss rate = 0.178295
+get	data	#523
+fwd	data	#523	loss rate = 0.178065
+get	ack	#522
+fwd	ack	#522
+get	ack	#523
+fwd	ack	#523
+get	data	#524
+fwd	data	#524	loss rate = 0.177835
+get	data	#525
+fwd	data	#525	loss rate = 0.177606
+get	data	#526
+fwd	data	#526	loss rate = 0.177378
+get	ack	#524
+fwd	ack	#524
+get	ack	#525
+fwd	ack	#525
+get	ack	#526
+fwd	ack	#526
+get	data	#527
+fwd	data	#527	loss rate = 0.177150
+get	data	#528
+fwd	data	#528	loss rate = 0.176923
+get	data	#529
+fwd	data	#529	loss rate = 0.176697
+get	data	#530
+fwd	data	#530	loss rate = 0.176471
+get	ack	#527
+fwd	ack	#527
+get	ack	#528
+fwd	ack	#528
+get	ack	#529
+fwd	ack	#529
+get	ack	#530
+fwd	ack	#530
+get	data	#531
+fwd	data	#531	loss rate = 0.176245
+get	data	#532
+fwd	data	#532	loss rate = 0.176020
+get	data	#533
+fwd	data	#533	loss rate = 0.175796
+get	data	#534
+fwd	data	#534	loss rate = 0.175573
+get	data	#535
+fwd	data	#535	loss rate = 0.175349
+get	ack	#531
+fwd	ack	#531
+get	ack	#532
+fwd	ack	#532
+get	ack	#533
+fwd	ack	#533
+get	ack	#534
+fwd	ack	#534
+get	ack	#535
+fwd	ack	#535
+get	data	#536
+fwd	data	#536	loss rate = 0.175127
+get	data	#537
+fwd	data	#537	loss rate = 0.174905
+get	data	#538
+fwd	data	#538	loss rate = 0.174684
+get	data	#539
+fwd	data	#539	loss rate = 0.174463
+get	data	#540
+fwd	data	#540	loss rate = 0.174242
+get	data	#541
+fwd	data	#541	loss rate = 0.174023
+get	ack	#536
+fwd	ack	#536
+get	ack	#537
+fwd	ack	#537
+get	ack	#538
+fwd	ack	#538
+get	ack	#539
+fwd	ack	#539
+get	ack	#540
+fwd	ack	#540
+get	ack	#541
+fwd	ack	#541
+get	data	#542
+fwd	data	#542	loss rate = 0.173804
+get	data	#543
+fwd	data	#543	loss rate = 0.173585
+get	data	#544
+fwd	data	#544	loss rate = 0.173367
+get	data	#545
+fwd	data	#545	loss rate = 0.173149
+get	data	#546
+fwd	data	#546	loss rate = 0.172932
+get	data	#547
+fwd	data	#547	loss rate = 0.172716
+get	data	#548
+fwd	data	#548	loss rate = 0.172500
+get	ack	#542
+fwd	ack	#542
+get	ack	#543
+fwd	ack	#543
+get	ack	#544
+fwd	ack	#544
+get	ack	#546
+fwd	ack	#546
+get	ack	#547
+fwd	ack	#547
+get	ack	#548
+fwd	ack	#548
+get	data	#545
+fwd	data	#545	loss rate = 0.172285
+get	ack	#545
+fwd	ack	#545
+get	data	#546
+fwd	data	#546	loss rate = 0.172070
+get	data	#547
+fwd	data	#547	loss rate = 0.171856
+get	ack	#546
+fwd	ack	#546
+get	ack	#547
+fwd	ack	#547
+get	data	#548
+fwd	data	#548	loss rate = 0.171642
+get	data	#549
+fwd	data	#549	loss rate = 0.171429
+get	data	#550
+fwd	data	#550	loss rate = 0.171216
+get	data	#551
+drop	data	#551	loss rate = 0.172243
+get	ack	#548
+fwd	ack	#548
+get	ack	#549
+fwd	ack	#549
+get	ack	#550
+fwd	ack	#550
+get	data	#551
+fwd	data	#551	loss rate = 0.172030
+get	ack	#551
+fwd	ack	#551
+get	data	#552
+fwd	data	#552	loss rate = 0.171817
+get	data	#553
+fwd	data	#553	loss rate = 0.171605
+get	ack	#552
+fwd	ack	#552
+get	ack	#553
+fwd	ack	#553
+get	data	#554
+drop	data	#554	loss rate = 0.172626
+get	data	#555
+drop	data	#555	loss rate = 0.173645
+get	data	#556
+fwd	data	#556	loss rate = 0.173432
+get	ack	#556
+fwd	ack	#556
+get	data	#554
+fwd	data	#554	loss rate = 0.173219
+get	ack	#554
+fwd	ack	#554
+get	data	#555
+drop	data	#555	loss rate = 0.174233
+get	data	#556
+fwd	data	#556	loss rate = 0.174020
+get	ack	#556
+fwd	ack	#556
+get	data	#555
+fwd	data	#555	loss rate = 0.173807
+get	ack	#555
+fwd	ack	#555
+get	data	#556
+fwd	data	#556	loss rate = 0.173594
+get	data	#557
+fwd	data	#557	loss rate = 0.173382
+get	ack	#556
+fwd	ack	#556
+get	ack	#557
+fwd	ack	#557
+get	data	#558
+fwd	data	#558	loss rate = 0.173171
+get	data	#559
+fwd	data	#559	loss rate = 0.172960
+get	data	#560
+fwd	data	#560	loss rate = 0.172749
+get	ack	#558
+fwd	ack	#558
+get	ack	#559
+fwd	ack	#559
+get	ack	#560
+fwd	ack	#560
+get	data	#561
+fwd	data	#561	loss rate = 0.172539
+get	data	#562
+fwd	data	#562	loss rate = 0.172330
+get	data	#563
+fwd	data	#563	loss rate = 0.172121
+get	data	#564
+fwd	data	#564	loss rate = 0.171913
+get	ack	#561
+fwd	ack	#561
+get	ack	#562
+fwd	ack	#562
+get	ack	#563
+fwd	ack	#563
+get	ack	#564
+fwd	ack	#564
+get	data	#565
+fwd	data	#565	loss rate = 0.171705
+get	data	#566
+drop	data	#566	loss rate = 0.172705
+get	data	#567
+fwd	data	#567	loss rate = 0.172497
+get	data	#568
+drop	data	#568	loss rate = 0.173494
+get	data	#569
+fwd	data	#569	loss rate = 0.173285
+get	ack	#565
+fwd	ack	#565
+get	ack	#567
+fwd	ack	#567
+get	ack	#569
+fwd	ack	#569
+get	data	#566
+fwd	data	#566	loss rate = 0.173077
+get	ack	#566
+fwd	ack	#566
+get	data	#567
+fwd	data	#567	loss rate = 0.172869
+get	data	#568
+fwd	data	#568	loss rate = 0.172662
+get	ack	#567
+fwd	ack	#567
+get	ack	#568
+fwd	ack	#568
+get	data	#569
+fwd	data	#569	loss rate = 0.172455
+get	data	#570
+fwd	data	#570	loss rate = 0.172249
+get	data	#571
+fwd	data	#571	loss rate = 0.172043
+get	ack	#569
+fwd	ack	#569
+get	ack	#570
+fwd	ack	#570
+get	ack	#571
+fwd	ack	#571
+get	data	#572
+fwd	data	#572	loss rate = 0.171838
+get	data	#573
+fwd	data	#573	loss rate = 0.171633
+get	data	#574
+drop	data	#574	loss rate = 0.172619
+get	data	#575
+fwd	data	#575	loss rate = 0.172414
+get	ack	#572
+fwd	ack	#572
+get	ack	#573
+fwd	ack	#573
+get	ack	#575
+fwd	ack	#575
+get	data	#574
+fwd	data	#574	loss rate = 0.172209
+get	ack	#574
+fwd	ack	#574
+get	data	#575
+fwd	data	#575	loss rate = 0.172005
+get	data	#576
+drop	data	#576	loss rate = 0.172986
+get	ack	#575
+fwd	ack	#575
+get	data	#576
+fwd	data	#576	loss rate = 0.172781
+get	ack	#576
+fwd	ack	#576
+get	data	#577
+drop	data	#577	loss rate = 0.173759
+get	data	#578
+fwd	data	#578	loss rate = 0.173554
+get	data	#577
+fwd	data	#577	loss rate = 0.173349
+get	ack	#577
+fwd	ack	#577
+get	data	#578
+drop	data	#578	loss rate = 0.174323
+get	data	#579
+drop	data	#579	loss rate = 0.175294
+get	data	#578
+fwd	data	#578	loss rate = 0.175088
+get	ack	#578
+fwd	ack	#578
+get	data	#579
+fwd	data	#579	loss rate = 0.174883
+get	data	#580
+fwd	data	#580	loss rate = 0.174678
+get	ack	#579
+fwd	ack	#579
+get	ack	#580
+fwd	ack	#580
+get	data	#581
+fwd	data	#581	loss rate = 0.174473
+get	data	#582
+drop	data	#582	loss rate = 0.175439
+get	data	#583
+fwd	data	#583	loss rate = 0.175234
+get	ack	#581
+fwd	ack	#581
+get	ack	#583
+fwd	ack	#583
+get	data	#582
+fwd	data	#582	loss rate = 0.175029
+get	ack	#582
+fwd	ack	#582
+get	data	#583
+fwd	data	#583	loss rate = 0.174825
+get	data	#584
+fwd	data	#584	loss rate = 0.174622
+get	ack	#583
+fwd	ack	#583
+get	ack	#584
+fwd	ack	#584
+get	data	#585
+fwd	data	#585	loss rate = 0.174419
+get	data	#586
+drop	data	#586	loss rate = 0.175377
+get	data	#587
+fwd	data	#587	loss rate = 0.175174
+get	ack	#585
+fwd	ack	#585
+get	ack	#587
+fwd	ack	#587
+get	data	#586
+fwd	data	#586	loss rate = 0.174971
+get	ack	#586
+fwd	ack	#586
+get	data	#587
+fwd	data	#587	loss rate = 0.174769
+get	data	#588
+fwd	data	#588	loss rate = 0.174566
+get	ack	#587
+fwd	ack	#587
+get	ack	#588
+fwd	ack	#588
+get	data	#589
+drop	data	#589	loss rate = 0.175520
+get	data	#590
+drop	data	#590	loss rate = 0.176471
+get	data	#591
+fwd	data	#591	loss rate = 0.176267
+get	ack	#591
+fwd	ack	#591
+get	data	#589
+fwd	data	#589	loss rate = 0.176064
+get	ack	#589
+fwd	ack	#589
+get	data	#590
+fwd	data	#590	loss rate = 0.175862
+get	data	#591
+fwd	data	#591	loss rate = 0.175660
+get	ack	#590
+fwd	ack	#590
+get	ack	#591
+fwd	ack	#591
+get	data	#592
+fwd	data	#592	loss rate = 0.175459
+get	data	#593
+fwd	data	#593	loss rate = 0.175258
+get	data	#594
+drop	data	#594	loss rate = 0.176201
+get	ack	#592
+fwd	ack	#592
+get	ack	#593
+fwd	ack	#593
+get	data	#594
+fwd	data	#594	loss rate = 0.176000
+get	ack	#594
+fwd	ack	#594
+get	data	#595
+fwd	data	#595	loss rate = 0.175799
+get	data	#596
+fwd	data	#596	loss rate = 0.175599
+get	ack	#595
+fwd	ack	#595
+get	ack	#596
+fwd	ack	#596
+get	data	#597
+drop	data	#597	loss rate = 0.176538
+get	data	#598
+fwd	data	#598	loss rate = 0.176337
+get	data	#599
+fwd	data	#599	loss rate = 0.176136
+get	ack	#598
+fwd	ack	#598
+get	ack	#599
+fwd	ack	#599
+get	data	#597
+fwd	data	#597	loss rate = 0.175936
+get	ack	#597
+fwd	ack	#597
+get	data	#598
+fwd	data	#598	loss rate = 0.175737
+get	data	#599
+fwd	data	#599	loss rate = 0.175538
+get	ack	#598
+fwd	ack	#598
+get	ack	#599
+fwd	ack	#599
+get	data	#600
+fwd	data	#600	loss rate = 0.175339
+get	data	#601
+fwd	data	#601	loss rate = 0.175141
+get	data	#602
+fwd	data	#602	loss rate = 0.174944
+get	ack	#600
+fwd	ack	#600
+get	ack	#601
+fwd	ack	#601
+get	ack	#602
+fwd	ack	#602
+get	data	#603
+fwd	data	#603	loss rate = 0.174746
+get	data	#604
+fwd	data	#604	loss rate = 0.174550
+get	data	#605
+fwd	data	#605	loss rate = 0.174353
+get	data	#606
+fwd	data	#606	loss rate = 0.174157
+get	ack	#603
+fwd	ack	#603
+get	ack	#604
+fwd	ack	#604
+get	ack	#605
+fwd	ack	#605
+get	ack	#606
+fwd	ack	#606
+get	data	#607
+fwd	data	#607	loss rate = 0.173962
+get	data	#608
+fwd	data	#608	loss rate = 0.173767
+get	data	#609
+fwd	data	#609	loss rate = 0.173572
+get	data	#610
+drop	data	#610	loss rate = 0.174497
+get	data	#611
+fwd	data	#611	loss rate = 0.174302
+get	ack	#607
+fwd	ack	#607
+get	ack	#608
+fwd	ack	#608
+get	ack	#611
+fwd	ack	#611
+get	data	#609
+fwd	data	#609	loss rate = 0.174107
+get	ack	#609
+fwd	ack	#609
+get	data	#610
+fwd	data	#610	loss rate = 0.173913
+get	data	#611
+fwd	data	#611	loss rate = 0.173719
+get	ack	#610
+fwd	ack	#610
+get	ack	#611
+fwd	ack	#611
+get	data	#612
+drop	data	#612	loss rate = 0.174638
+get	data	#613
+fwd	data	#613	loss rate = 0.174444
+get	data	#614
+drop	data	#614	loss rate = 0.175361
+get	ack	#613
+fwd	ack	#613
+get	data	#612
+fwd	data	#612	loss rate = 0.175166
+get	ack	#612
+fwd	ack	#612
+get	data	#613
+fwd	data	#613	loss rate = 0.174972
+get	data	#614
+fwd	data	#614	loss rate = 0.174779
+get	ack	#613
+fwd	ack	#613
+get	ack	#614
+fwd	ack	#614
+get	data	#615
+fwd	data	#615	loss rate = 0.174586
+get	data	#616
+fwd	data	#616	loss rate = 0.174393
+get	data	#617
+fwd	data	#617	loss rate = 0.174201
+get	ack	#615
+fwd	ack	#615
+get	ack	#616
+fwd	ack	#616
+get	ack	#617
+fwd	ack	#617
+get	data	#618
+fwd	data	#618	loss rate = 0.174009
+get	data	#619
+fwd	data	#619	loss rate = 0.173817
+get	data	#620
+fwd	data	#620	loss rate = 0.173626
+get	data	#621
+fwd	data	#621	loss rate = 0.173436
+get	ack	#618
+fwd	ack	#618
+get	ack	#619
+fwd	ack	#619
+get	ack	#620
+fwd	ack	#620
+get	ack	#621
+fwd	ack	#621
+get	data	#622
+fwd	data	#622	loss rate = 0.173246
+get	data	#623
+fwd	data	#623	loss rate = 0.173056
+get	data	#624
+fwd	data	#624	loss rate = 0.172867
+get	data	#625
+fwd	data	#625	loss rate = 0.172678
+get	data	#626
+drop	data	#626	loss rate = 0.173581
+get	ack	#622
+fwd	ack	#622
+get	ack	#623
+fwd	ack	#623
+get	ack	#624
+fwd	ack	#624
+get	ack	#625
+fwd	ack	#625
+get	data	#626
+fwd	data	#626	loss rate = 0.173391
+get	ack	#626
+fwd	ack	#626
+get	data	#627
+fwd	data	#627	loss rate = 0.173203
+get	data	#628
+drop	data	#628	loss rate = 0.174102
+get	ack	#627
+fwd	ack	#627
+get	data	#628
+drop	data	#628	loss rate = 0.175000
+get	data	#628
+fwd	data	#628	loss rate = 0.174810
+get	ack	#628
+fwd	ack	#628
+get	data	#629
+fwd	data	#629	loss rate = 0.174620
+get	data	#630
+fwd	data	#630	loss rate = 0.174431
+get	ack	#629
+fwd	ack	#629
+get	ack	#630
+fwd	ack	#630
+get	data	#631
+drop	data	#631	loss rate = 0.175325
+get	data	#632
+drop	data	#632	loss rate = 0.176216
+get	data	#633
+fwd	data	#633	loss rate = 0.176026
+get	ack	#633
+fwd	ack	#633
+get	data	#631
+fwd	data	#631	loss rate = 0.175836
+get	ack	#631
+fwd	ack	#631
+get	data	#632
+fwd	data	#632	loss rate = 0.175647
+get	data	#633
+fwd	data	#633	loss rate = 0.175457
+get	ack	#632
+fwd	ack	#632
+get	ack	#633
+fwd	ack	#633
+get	data	#634
+fwd	data	#634	loss rate = 0.175269
+get	data	#635
+drop	data	#635	loss rate = 0.176155
+get	data	#636
+fwd	data	#636	loss rate = 0.175966
+get	ack	#634
+fwd	ack	#634
+get	ack	#636
+fwd	ack	#636
+get	data	#635
+fwd	data	#635	loss rate = 0.175777
+get	ack	#635
+fwd	ack	#635
+get	data	#636
+fwd	data	#636	loss rate = 0.175589
+get	data	#637
+drop	data	#637	loss rate = 0.176471
+get	ack	#636
+fwd	ack	#636
+get	data	#637
+fwd	data	#637	loss rate = 0.176282
+get	ack	#637
+fwd	ack	#637
+get	data	#638
+drop	data	#638	loss rate = 0.177161
+get	data	#639
+fwd	data	#639	loss rate = 0.176972
+get	ack	#639
+fwd	ack	#639
+get	data	#638
+drop	data	#638	loss rate = 0.177849
+get	data	#638
+fwd	data	#638	loss rate = 0.177660
+get	ack	#638
+fwd	ack	#638
+get	data	#639
+fwd	data	#639	loss rate = 0.177471
+get	data	#640
+fwd	data	#640	loss rate = 0.177282
+get	ack	#639
+fwd	ack	#639
+get	ack	#640
+fwd	ack	#640
+get	data	#641
+fwd	data	#641	loss rate = 0.177094
+get	data	#642
+fwd	data	#642	loss rate = 0.176907
+get	data	#643
+fwd	data	#643	loss rate = 0.176720
+get	ack	#642
+fwd	ack	#642
+get	ack	#643
+fwd	ack	#643
+get	data	#641
+fwd	data	#641	loss rate = 0.176533
+get	ack	#641
+fwd	ack	#641
+get	data	#642
+fwd	data	#642	loss rate = 0.176346
+get	data	#643
+fwd	data	#643	loss rate = 0.176160
+get	ack	#642
+fwd	ack	#642
+get	ack	#643
+fwd	ack	#643
+get	data	#644
+fwd	data	#644	loss rate = 0.175975
+get	data	#645
+fwd	data	#645	loss rate = 0.175789
+get	data	#646
+fwd	data	#646	loss rate = 0.175605
+get	ack	#644
+fwd	ack	#644
+get	ack	#645
+fwd	ack	#645
+get	ack	#646
+fwd	ack	#646
+get	data	#647
+fwd	data	#647	loss rate = 0.175420
+get	data	#648
+fwd	data	#648	loss rate = 0.175236
+get	data	#649
+fwd	data	#649	loss rate = 0.175052
+get	data	#650
+fwd	data	#650	loss rate = 0.174869
+get	ack	#647
+fwd	ack	#647
+get	ack	#648
+fwd	ack	#648
+get	ack	#649
+fwd	ack	#649
+get	ack	#650
+fwd	ack	#650
+get	data	#651
+drop	data	#651	loss rate = 0.175732
+get	data	#652
+fwd	data	#652	loss rate = 0.175549
+get	data	#653
+fwd	data	#653	loss rate = 0.175365
+get	data	#654
+fwd	data	#654	loss rate = 0.175182
+get	data	#655
+fwd	data	#655	loss rate = 0.175000
+get	ack	#652
+fwd	ack	#652
+get	ack	#653
+fwd	ack	#653
+get	ack	#654
+fwd	ack	#654
+get	ack	#655
+fwd	ack	#655
+get	data	#651
+fwd	data	#651	loss rate = 0.174818
+get	ack	#651
+fwd	ack	#651
+get	data	#652
+fwd	data	#652	loss rate = 0.174636
+get	data	#653
+fwd	data	#653	loss rate = 0.174455
+get	ack	#652
+fwd	ack	#652
+get	ack	#653
+fwd	ack	#653
+get	data	#654
+fwd	data	#654	loss rate = 0.174274
+get	data	#655
+fwd	data	#655	loss rate = 0.174093
+get	data	#656
+fwd	data	#656	loss rate = 0.173913
+get	ack	#654
+fwd	ack	#654
+get	ack	#655
+fwd	ack	#655
+get	ack	#656
+fwd	ack	#656
+get	data	#657
+fwd	data	#657	loss rate = 0.173733
+get	data	#658
+fwd	data	#658	loss rate = 0.173554
+get	data	#659
+fwd	data	#659	loss rate = 0.173375
+get	data	#660
+fwd	data	#660	loss rate = 0.173196
+get	ack	#657
+fwd	ack	#657
+get	ack	#658
+fwd	ack	#658
+get	ack	#659
+fwd	ack	#659
+get	ack	#660
+fwd	ack	#660
+get	data	#661
+fwd	data	#661	loss rate = 0.173018
+get	data	#662
+fwd	data	#662	loss rate = 0.172840
+get	data	#663
+fwd	data	#663	loss rate = 0.172662
+get	data	#664
+fwd	data	#664	loss rate = 0.172485
+get	data	#665
+fwd	data	#665	loss rate = 0.172308
+get	ack	#661
+fwd	ack	#661
+get	ack	#662
+fwd	ack	#662
+get	ack	#663
+fwd	ack	#663
+get	ack	#664
+fwd	ack	#664
+get	ack	#665
+fwd	ack	#665
+get	data	#666
+fwd	data	#666	loss rate = 0.172131
+get	data	#667
+fwd	data	#667	loss rate = 0.171955
+get	data	#668
+fwd	data	#668	loss rate = 0.171779
+get	data	#669
+fwd	data	#669	loss rate = 0.171604
+get	data	#670
+fwd	data	#670	loss rate = 0.171429
+get	data	#671
+fwd	data	#671	loss rate = 0.171254
+get	ack	#666
+fwd	ack	#666
+get	ack	#667
+fwd	ack	#667
+get	ack	#668
+fwd	ack	#668
+get	ack	#669
+fwd	ack	#669
+get	ack	#670
+fwd	ack	#670
+get	ack	#671
+fwd	ack	#671
+get	data	#672
+fwd	data	#672	loss rate = 0.171079
+get	data	#673
+fwd	data	#673	loss rate = 0.170905
+get	data	#674
+fwd	data	#674	loss rate = 0.170732
+get	data	#675
+fwd	data	#675	loss rate = 0.170558
+get	data	#676
+fwd	data	#676	loss rate = 0.170385
+get	data	#677
+drop	data	#677	loss rate = 0.171226
+get	data	#678
+drop	data	#678	loss rate = 0.172065
+get	ack	#672
+fwd	ack	#672
+get	ack	#674
+fwd	ack	#674
+get	ack	#675
+fwd	ack	#675
+get	ack	#676
+fwd	ack	#676
+get	data	#673
+drop	data	#673	loss rate = 0.172902
+get	data	#673
+fwd	data	#673	loss rate = 0.172727
+get	ack	#673
+fwd	ack	#673
+get	data	#674
+fwd	data	#674	loss rate = 0.172553
+get	data	#675
+fwd	data	#675	loss rate = 0.172379
+get	ack	#674
+fwd	ack	#674
+get	ack	#675
+fwd	ack	#675
+get	data	#676
+fwd	data	#676	loss rate = 0.172205
+get	data	#677
+drop	data	#677	loss rate = 0.173038
+get	data	#678
+drop	data	#678	loss rate = 0.173869
+get	ack	#676
+fwd	ack	#676
+get	data	#677
+fwd	data	#677	loss rate = 0.173695
+get	ack	#677
+fwd	ack	#677
+get	data	#678
+drop	data	#678	loss rate = 0.174524
+get	data	#679
+fwd	data	#679	loss rate = 0.174349
+get	ack	#679
+fwd	ack	#679
+get	data	#678
+fwd	data	#678	loss rate = 0.174174
+get	ack	#678
+fwd	ack	#678
+get	data	#679
+drop	data	#679	loss rate = 0.175000
+get	data	#680
+fwd	data	#680	loss rate = 0.174825
+get	ack	#680
+fwd	ack	#680
+get	data	#679
+fwd	data	#679	loss rate = 0.174651
+get	ack	#679
+fwd	ack	#679
+get	data	#680
+fwd	data	#680	loss rate = 0.174477
+get	data	#681
+fwd	data	#681	loss rate = 0.174303
+get	ack	#680
+fwd	ack	#680
+get	ack	#681
+fwd	ack	#681
+get	data	#682
+fwd	data	#682	loss rate = 0.174129
+get	data	#683
+fwd	data	#683	loss rate = 0.173956
+get	data	#684
+fwd	data	#684	loss rate = 0.173784
+get	ack	#682
+fwd	ack	#682
+get	ack	#683
+fwd	ack	#683
+get	ack	#684
+fwd	ack	#684
+get	data	#685
+fwd	data	#685	loss rate = 0.173611
+get	data	#686
+fwd	data	#686	loss rate = 0.173439
+get	data	#687
+fwd	data	#687	loss rate = 0.173267
+get	data	#688
+fwd	data	#688	loss rate = 0.173096
+get	ack	#685
+fwd	ack	#685
+get	ack	#686
+fwd	ack	#686
+get	ack	#687
+fwd	ack	#687
+get	ack	#688
+fwd	ack	#688
+get	data	#689
+fwd	data	#689	loss rate = 0.172925
+get	data	#690
+fwd	data	#690	loss rate = 0.172754
+get	data	#691
+fwd	data	#691	loss rate = 0.172584
+get	data	#692
+fwd	data	#692	loss rate = 0.172414
+get	data	#693
+drop	data	#693	loss rate = 0.173228
+get	ack	#689
+fwd	ack	#689
+get	ack	#690
+fwd	ack	#690
+get	ack	#691
+fwd	ack	#691
+get	ack	#692
+fwd	ack	#692
+get	data	#693
+fwd	data	#693	loss rate = 0.173058
+get	ack	#693
+fwd	ack	#693
+get	data	#694
+fwd	data	#694	loss rate = 0.172888
+get	data	#695
+fwd	data	#695	loss rate = 0.172718
+get	ack	#694
+fwd	ack	#694
+get	ack	#695
+fwd	ack	#695
+get	data	#696
+fwd	data	#696	loss rate = 0.172549
+get	data	#697
+fwd	data	#697	loss rate = 0.172380
+get	data	#698
+fwd	data	#698	loss rate = 0.172211
+get	ack	#696
+fwd	ack	#696
+get	ack	#697
+fwd	ack	#697
+get	ack	#698
+fwd	ack	#698
+get	data	#699
+fwd	data	#699	loss rate = 0.172043
+get	data	#700
+fwd	data	#700	loss rate = 0.171875
+get	data	#701
+fwd	data	#701	loss rate = 0.171707
+get	data	#702
+fwd	data	#702	loss rate = 0.171540
+get	ack	#699
+fwd	ack	#699
+get	ack	#700
+fwd	ack	#700
+get	ack	#701
+fwd	ack	#701
+get	ack	#702
+fwd	ack	#702
+get	data	#703
+fwd	data	#703	loss rate = 0.171373
+get	data	#704
+drop	data	#704	loss rate = 0.172179
+get	data	#705
+fwd	data	#705	loss rate = 0.172012
+get	data	#706
+fwd	data	#706	loss rate = 0.171845
+get	data	#707
+fwd	data	#707	loss rate = 0.171678
+get	ack	#703
+fwd	ack	#703
+get	data	#704
+fwd	data	#704	loss rate = 0.171512
+get	ack	#704
+fwd	ack	#704
+get	data	#705
+fwd	data	#705	loss rate = 0.171346
+get	data	#706
+fwd	data	#706	loss rate = 0.171180
+get	ack	#706
+fwd	ack	#706
+get	data	#705
+fwd	data	#705	loss rate = 0.171014
+get	ack	#705
+fwd	ack	#705
+get	data	#706
+fwd	data	#706	loss rate = 0.170849
+get	data	#707
+fwd	data	#707	loss rate = 0.170685
+get	ack	#706
+fwd	ack	#706
+get	ack	#707
+fwd	ack	#707
+get	data	#708
+fwd	data	#708	loss rate = 0.170520
+get	data	#709
+fwd	data	#709	loss rate = 0.170356
+get	data	#710
+fwd	data	#710	loss rate = 0.170192
+get	ack	#708
+fwd	ack	#708
+get	ack	#709
+fwd	ack	#709
+get	ack	#710
+fwd	ack	#710
+get	data	#711
+fwd	data	#711	loss rate = 0.170029
+get	data	#712
+fwd	data	#712	loss rate = 0.169866
+get	data	#713
+fwd	data	#713	loss rate = 0.169703
+get	data	#714
+drop	data	#714	loss rate = 0.170498
+get	ack	#711
+fwd	ack	#711
+get	ack	#712
+fwd	ack	#712
+get	ack	#713
+fwd	ack	#713
+get	data	#714
+fwd	data	#714	loss rate = 0.170335
+get	ack	#714
+fwd	ack	#714
+get	data	#715
+fwd	data	#715	loss rate = 0.170172
+get	data	#716
+fwd	data	#716	loss rate = 0.170010
+get	ack	#715
+fwd	ack	#715
+get	ack	#716
+fwd	ack	#716
+get	data	#717
+fwd	data	#717	loss rate = 0.169847
+get	data	#718
+fwd	data	#718	loss rate = 0.169685
+get	data	#719
+fwd	data	#719	loss rate = 0.169524
+get	ack	#717
+fwd	ack	#717
+get	ack	#718
+fwd	ack	#718
+get	ack	#719
+fwd	ack	#719
+get	data	#720
+fwd	data	#720	loss rate = 0.169363
+get	data	#721
+fwd	data	#721	loss rate = 0.169202
+get	data	#722
+fwd	data	#722	loss rate = 0.169041
+get	data	#723
+fwd	data	#723	loss rate = 0.168880
+get	ack	#720
+fwd	ack	#720
+get	ack	#721
+fwd	ack	#721
+get	ack	#722
+fwd	ack	#722
+get	ack	#723
+fwd	ack	#723
+get	data	#724
+fwd	data	#724	loss rate = 0.168720
+get	data	#725
+fwd	data	#725	loss rate = 0.168561
+get	data	#726
+fwd	data	#726	loss rate = 0.168401
+get	data	#727
+fwd	data	#727	loss rate = 0.168242
+get	data	#728
+fwd	data	#728	loss rate = 0.168083
+get	ack	#724
+fwd	ack	#724
+get	ack	#725
+fwd	ack	#725
+get	ack	#726
+fwd	ack	#726
+get	ack	#727
+fwd	ack	#727
+get	ack	#728
+fwd	ack	#728
+get	data	#729
+fwd	data	#729	loss rate = 0.167925
+get	data	#730
+fwd	data	#730	loss rate = 0.167766
+get	data	#731
+fwd	data	#731	loss rate = 0.167608
+get	data	#732
+fwd	data	#732	loss rate = 0.167451
+get	data	#733
+fwd	data	#733	loss rate = 0.167293
+get	data	#734
+fwd	data	#734	loss rate = 0.167136
+get	ack	#729
+fwd	ack	#729
+get	ack	#730
+fwd	ack	#730
+get	ack	#731
+fwd	ack	#731
+get	ack	#732
+fwd	ack	#732
+get	ack	#733
+fwd	ack	#733
+get	ack	#734
+fwd	ack	#734
+get	data	#735
+fwd	data	#735	loss rate = 0.166979
+get	data	#736
+fwd	data	#736	loss rate = 0.166823
+get	data	#737
+fwd	data	#737	loss rate = 0.166667
+get	data	#738
+fwd	data	#738	loss rate = 0.166511
+get	data	#739
+fwd	data	#739	loss rate = 0.166355
+get	data	#740
+fwd	data	#740	loss rate = 0.166200
+get	data	#741
+fwd	data	#741	loss rate = 0.166045
+get	ack	#735
+fwd	ack	#735
+get	ack	#736
+fwd	ack	#736
+get	ack	#738
+fwd	ack	#738
+get	ack	#739
+fwd	ack	#739
+get	ack	#740
+fwd	ack	#740
+get	ack	#741
+fwd	ack	#741
+get	data	#737
+fwd	data	#737	loss rate = 0.165890
+get	ack	#737
+fwd	ack	#737
+get	data	#738
+fwd	data	#738	loss rate = 0.165736
+get	data	#739
+fwd	data	#739	loss rate = 0.165581
+get	ack	#738
+fwd	ack	#738
+get	ack	#739
+fwd	ack	#739
+get	data	#740
+fwd	data	#740	loss rate = 0.165428
+get	data	#741
+fwd	data	#741	loss rate = 0.165274
+get	data	#742
+fwd	data	#742	loss rate = 0.165121
+get	data	#743
+fwd	data	#743	loss rate = 0.164968
+get	ack	#740
+fwd	ack	#740
+get	ack	#741
+fwd	ack	#741
+get	ack	#742
+fwd	ack	#742
+get	ack	#743
+fwd	ack	#743
+get	data	#744
+fwd	data	#744	loss rate = 0.164815
+get	data	#745
+fwd	data	#745	loss rate = 0.164662
+get	data	#746
+fwd	data	#746	loss rate = 0.164510
+get	data	#747
+fwd	data	#747	loss rate = 0.164358
+get	data	#748
+fwd	data	#748	loss rate = 0.164207
+get	ack	#744
+fwd	ack	#744
+get	ack	#745
+fwd	ack	#745
+get	ack	#746
+fwd	ack	#746
+get	ack	#747
+fwd	ack	#747
+get	ack	#748
+fwd	ack	#748
+get	data	#749
+drop	data	#749	loss rate = 0.164977
+get	data	#750
+drop	data	#750	loss rate = 0.165746
+get	data	#751
+fwd	data	#751	loss rate = 0.165593
+get	data	#752
+fwd	data	#752	loss rate = 0.165441
+get	data	#753
+fwd	data	#753	loss rate = 0.165289
+get	data	#754
+fwd	data	#754	loss rate = 0.165138
+get	ack	#751
+fwd	ack	#751
+get	ack	#752
+fwd	ack	#752
+get	ack	#753
+fwd	ack	#753
+get	ack	#754
+fwd	ack	#754
+get	data	#749
+drop	data	#749	loss rate = 0.165903
+get	data	#749
+drop	data	#749	loss rate = 0.166667
+get	data	#749
+drop	data	#749	loss rate = 0.167429
+get	data	#749
+fwd	data	#749	loss rate = 0.167276
+get	ack	#749
+fwd	ack	#749
+get	data	#750
+fwd	data	#750	loss rate = 0.167123
+get	data	#751
+fwd	data	#751	loss rate = 0.166971
+get	ack	#750
+fwd	ack	#750
+get	ack	#751
+fwd	ack	#751
+get	data	#752
+fwd	data	#752	loss rate = 0.166819
+get	data	#753
+drop	data	#753	loss rate = 0.167577
+get	data	#754
+fwd	data	#754	loss rate = 0.167425
+get	ack	#752
+fwd	ack	#752
+get	ack	#754
+fwd	ack	#754
+get	data	#753
+fwd	data	#753	loss rate = 0.167273
+get	ack	#753
+fwd	ack	#753
+get	data	#754
+fwd	data	#754	loss rate = 0.167121
+get	data	#755
+fwd	data	#755	loss rate = 0.166969
+get	ack	#754
+fwd	ack	#754
+get	ack	#755
+fwd	ack	#755
+get	data	#756
+drop	data	#756	loss rate = 0.167724
+get	data	#757
+fwd	data	#757	loss rate = 0.167572
+get	data	#758
+fwd	data	#758	loss rate = 0.167421
+get	ack	#757
+fwd	ack	#757
+get	ack	#758
+fwd	ack	#758
+get	data	#756
+fwd	data	#756	loss rate = 0.167269
+get	ack	#756
+fwd	ack	#756
+get	data	#757
+fwd	data	#757	loss rate = 0.167118
+get	data	#758
+fwd	data	#758	loss rate = 0.166968
+get	ack	#757
+fwd	ack	#757
+get	ack	#758
+fwd	ack	#758
+get	data	#759
+fwd	data	#759	loss rate = 0.166817
+get	data	#760
+drop	data	#760	loss rate = 0.167568
+get	data	#761
+fwd	data	#761	loss rate = 0.167417
+get	ack	#759
+fwd	ack	#759
+get	ack	#761
+fwd	ack	#761
+get	data	#760
+fwd	data	#760	loss rate = 0.167266
+get	ack	#760
+fwd	ack	#760
+get	data	#761
+fwd	data	#761	loss rate = 0.167116
+get	data	#762
+fwd	data	#762	loss rate = 0.166966
+get	ack	#761
+fwd	ack	#761
+get	ack	#762
+fwd	ack	#762
+get	data	#763
+fwd	data	#763	loss rate = 0.166816
+get	data	#764
+fwd	data	#764	loss rate = 0.166667
+get	data	#765
+fwd	data	#765	loss rate = 0.166517
+get	ack	#763
+fwd	ack	#763
+get	ack	#764
+fwd	ack	#764
+get	ack	#765
+fwd	ack	#765
+get	data	#766
+fwd	data	#766	loss rate = 0.166369
+get	data	#767
+fwd	data	#767	loss rate = 0.166220
+get	data	#768
+fwd	data	#768	loss rate = 0.166071
+get	data	#769
+fwd	data	#769	loss rate = 0.165923
+get	ack	#766
+fwd	ack	#766
+get	ack	#767
+fwd	ack	#767
+get	ack	#768
+fwd	ack	#768
+get	data	#769
+fwd	data	#769	loss rate = 0.165775
+get	ack	#769
+fwd	ack	#769
+get	data	#770
+fwd	data	#770	loss rate = 0.165628
+get	data	#771
+fwd	data	#771	loss rate = 0.165480
+get	ack	#770
+fwd	ack	#770
+get	ack	#771
+fwd	ack	#771
+get	data	#772
+fwd	data	#772	loss rate = 0.165333
+get	data	#773
+fwd	data	#773	loss rate = 0.165187
+get	data	#774
+fwd	data	#774	loss rate = 0.165040
+get	ack	#772
+fwd	ack	#772
+get	ack	#773
+fwd	ack	#773
+get	ack	#774
+fwd	ack	#774
+get	data	#775
+fwd	data	#775	loss rate = 0.164894
+get	data	#776
+fwd	data	#776	loss rate = 0.164748
+get	data	#777
+fwd	data	#777	loss rate = 0.164602
+get	data	#778
+fwd	data	#778	loss rate = 0.164456
+get	ack	#775
+fwd	ack	#775
+get	ack	#776
+fwd	ack	#776
+get	ack	#777
+fwd	ack	#777
+get	ack	#778
+fwd	ack	#778
+get	data	#779
+fwd	data	#779	loss rate = 0.164311
+get	data	#780
+fwd	data	#780	loss rate = 0.164166
+get	data	#781
+fwd	data	#781	loss rate = 0.164021
+get	data	#782
+fwd	data	#782	loss rate = 0.163877
+get	data	#783
+fwd	data	#783	loss rate = 0.163732
+get	ack	#779
+fwd	ack	#779
+get	ack	#780
+fwd	ack	#780
+get	ack	#781
+fwd	ack	#781
+get	ack	#782
+fwd	ack	#782
+get	ack	#783
+fwd	ack	#783
+get	data	#784
+fwd	data	#784	loss rate = 0.163588
+get	data	#785
+fwd	data	#785	loss rate = 0.163445
+get	data	#786
+fwd	data	#786	loss rate = 0.163301
+get	data	#787
+fwd	data	#787	loss rate = 0.163158
+get	data	#788
+fwd	data	#788	loss rate = 0.163015
+get	data	#789
+fwd	data	#789	loss rate = 0.162872
+get	ack	#784
+fwd	ack	#784
+get	ack	#785
+fwd	ack	#785
+get	ack	#786
+fwd	ack	#786
+get	ack	#787
+fwd	ack	#787
+get	ack	#788
+fwd	ack	#788
+get	ack	#789
+fwd	ack	#789
+get	data	#790
+fwd	data	#790	loss rate = 0.162730
+get	data	#791
+fwd	data	#791	loss rate = 0.162587
+get	data	#792
+fwd	data	#792	loss rate = 0.162445
+get	data	#793
+fwd	data	#793	loss rate = 0.162304
+get	data	#794
+fwd	data	#794	loss rate = 0.162162
+get	data	#795
+fwd	data	#795	loss rate = 0.162021
+get	data	#796
+drop	data	#796	loss rate = 0.162750
+get	ack	#790
+fwd	ack	#790
+get	ack	#791
+fwd	ack	#791
+get	ack	#792
+fwd	ack	#792
+get	ack	#793
+fwd	ack	#793
+get	ack	#794
+fwd	ack	#794
+get	ack	#795
+fwd	ack	#795
+get	data	#796
+fwd	data	#796	loss rate = 0.162609
+get	ack	#796
+fwd	ack	#796
+get	data	#797
+drop	data	#797	loss rate = 0.163336
+get	data	#798
+fwd	data	#798	loss rate = 0.163194
+get	ack	#798
+fwd	ack	#798
+get	data	#797
+fwd	data	#797	loss rate = 0.163053
+get	ack	#797
+fwd	ack	#797
+get	data	#798
+fwd	data	#798	loss rate = 0.162912
+get	data	#799
+drop	data	#799	loss rate = 0.163636
+get	ack	#798
+fwd	ack	#798
+get	data	#799
+drop	data	#799	loss rate = 0.164360
+get	data	#799
+fwd	data	#799	loss rate = 0.164218
+get	ack	#799
+fwd	ack	#799
+get	data	#800
+fwd	data	#800	loss rate = 0.164076
+get	data	#801
+fwd	data	#801	loss rate = 0.163934
+get	ack	#800
+fwd	ack	#800
+get	data	#801
+fwd	data	#801	loss rate = 0.163793
+get	ack	#801
+fwd	ack	#801
+get	data	#802
+fwd	data	#802	loss rate = 0.163652
+get	data	#803
+fwd	data	#803	loss rate = 0.163511
+get	ack	#802
+fwd	ack	#802
+get	ack	#803
+fwd	ack	#803
+get	data	#804
+fwd	data	#804	loss rate = 0.163371
+get	data	#805
+fwd	data	#805	loss rate = 0.163230
+get	data	#806
+fwd	data	#806	loss rate = 0.163090
+get	ack	#804
+fwd	ack	#804
+get	ack	#805
+fwd	ack	#805
+get	ack	#806
+fwd	ack	#806
+get	data	#807
+fwd	data	#807	loss rate = 0.162950
+get	data	#808
+fwd	data	#808	loss rate = 0.162811
+get	data	#809
+fwd	data	#809	loss rate = 0.162671
+get	data	#810
+fwd	data	#810	loss rate = 0.162532
+get	ack	#807
+fwd	ack	#807
+get	ack	#808
+fwd	ack	#808
+get	ack	#809
+fwd	ack	#809
+get	ack	#810
+fwd	ack	#810
+get	data	#811
+fwd	data	#811	loss rate = 0.162393
+get	data	#812
+fwd	data	#812	loss rate = 0.162254
+get	data	#813
+fwd	data	#813	loss rate = 0.162116
+get	data	#814
+fwd	data	#814	loss rate = 0.161978
+get	data	#815
+fwd	data	#815	loss rate = 0.161840
+get	ack	#811
+fwd	ack	#811
+get	ack	#812
+fwd	ack	#812
+get	ack	#813
+fwd	ack	#813
+get	ack	#814
+fwd	ack	#814
+get	ack	#815
+fwd	ack	#815
+get	data	#816
+fwd	data	#816	loss rate = 0.161702
+get	data	#817
+fwd	data	#817	loss rate = 0.161565
+get	data	#818
+fwd	data	#818	loss rate = 0.161427
+get	data	#819
+drop	data	#819	loss rate = 0.162139
+get	data	#820
+fwd	data	#820	loss rate = 0.162002
+get	data	#821
+fwd	data	#821	loss rate = 0.161864
+get	ack	#816
+fwd	ack	#816
+get	ack	#817
+fwd	ack	#817
+get	ack	#818
+fwd	ack	#818
+get	ack	#820
+fwd	ack	#820
+get	ack	#821
+fwd	ack	#821
+get	data	#819
+fwd	data	#819	loss rate = 0.161727
+get	ack	#819
+fwd	ack	#819
+get	data	#820
+fwd	data	#820	loss rate = 0.161591
+get	data	#821
+fwd	data	#821	loss rate = 0.161454
+get	ack	#820
+fwd	ack	#820
+get	ack	#821
+fwd	ack	#821
+get	data	#822
+fwd	data	#822	loss rate = 0.161318
+get	data	#823
+fwd	data	#823	loss rate = 0.161181
+get	data	#824
+fwd	data	#824	loss rate = 0.161046
+get	data	#825
+fwd	data	#825	loss rate = 0.160910
+get	ack	#822
+fwd	ack	#822
+get	ack	#823
+fwd	ack	#823
+get	ack	#824
+fwd	ack	#824
+get	ack	#825
+fwd	ack	#825
+get	data	#826
+fwd	data	#826	loss rate = 0.160774
+get	data	#827
+fwd	data	#827	loss rate = 0.160639
+get	data	#828
+drop	data	#828	loss rate = 0.161345
+get	ack	#826
+fwd	ack	#826
+get	ack	#827
+fwd	ack	#827
+get	data	#829
+fwd	data	#829	loss rate = 0.161209
+get	data	#830
+fwd	data	#830	loss rate = 0.161074
+get	ack	#829
+fwd	ack	#829
+get	ack	#830
+fwd	ack	#830
+get	data	#828
+fwd	data	#828	loss rate = 0.160939
+get	ack	#828
+fwd	ack	#828
+get	data	#829
+fwd	data	#829	loss rate = 0.160804
+get	data	#830
+drop	data	#830	loss rate = 0.161506
+get	ack	#829
+fwd	ack	#829
+get	data	#830
+fwd	data	#830	loss rate = 0.161371
+get	ack	#830
+fwd	ack	#830
+get	data	#831
+fwd	data	#831	loss rate = 0.161236
+get	data	#832
+fwd	data	#832	loss rate = 0.161102
+get	ack	#831
+fwd	ack	#831
+get	ack	#832
+fwd	ack	#832
+get	data	#833
+fwd	data	#833	loss rate = 0.160967
+get	data	#834
+fwd	data	#834	loss rate = 0.160833
+get	data	#835
+fwd	data	#835	loss rate = 0.160699
+get	ack	#834
+fwd	ack	#834
+get	ack	#835
+fwd	ack	#835
+get	data	#833
+fwd	data	#833	loss rate = 0.160566
+get	ack	#833
+fwd	ack	#833
+get	data	#834
+fwd	data	#834	loss rate = 0.160432
+get	data	#835
+fwd	data	#835	loss rate = 0.160299
+get	ack	#834
+fwd	ack	#834
+get	ack	#835
+fwd	ack	#835
+get	data	#836
+fwd	data	#836	loss rate = 0.160166
+get	data	#837
+fwd	data	#837	loss rate = 0.160033
+get	data	#838
+fwd	data	#838	loss rate = 0.159901
+get	ack	#836
+fwd	ack	#836
+get	ack	#837
+fwd	ack	#837
+get	ack	#838
+fwd	ack	#838
+get	data	#839
+fwd	data	#839	loss rate = 0.159768
+get	data	#840
+fwd	data	#840	loss rate = 0.159636
+get	data	#841
+fwd	data	#841	loss rate = 0.159504
+get	data	#842
+fwd	data	#842	loss rate = 0.159372
+get	ack	#839
+fwd	ack	#839
+get	ack	#840
+fwd	ack	#840
+get	ack	#841
+fwd	ack	#841
+get	ack	#842
+fwd	ack	#842
+get	data	#843
+drop	data	#843	loss rate = 0.160066
+get	data	#844
+fwd	data	#844	loss rate = 0.159934
+get	data	#845
+fwd	data	#845	loss rate = 0.159802
+get	data	#846
+fwd	data	#846	loss rate = 0.159671
+get	data	#847
+fwd	data	#847	loss rate = 0.159539
+get	ack	#844
+fwd	ack	#844
+get	ack	#845
+fwd	ack	#845
+get	ack	#846
+fwd	ack	#846
+get	ack	#847
+fwd	ack	#847
+get	data	#843
+fwd	data	#843	loss rate = 0.159408
+get	ack	#843
+fwd	ack	#843
+get	data	#844
+drop	data	#844	loss rate = 0.160099
+get	data	#845
+fwd	data	#845	loss rate = 0.159967
+get	ack	#845
+fwd	ack	#845
+get	data	#844
+fwd	data	#844	loss rate = 0.159836
+get	ack	#844
+fwd	ack	#844
+get	data	#845
+fwd	data	#845	loss rate = 0.159705
+get	data	#846
+fwd	data	#846	loss rate = 0.159574
+get	ack	#845
+fwd	ack	#845
+get	ack	#846
+fwd	ack	#846
+get	data	#847
+fwd	data	#847	loss rate = 0.159444
+get	data	#848
+fwd	data	#848	loss rate = 0.159314
+get	data	#849
+fwd	data	#849	loss rate = 0.159184
+get	ack	#847
+fwd	ack	#847
+get	ack	#848
+fwd	ack	#848
+get	ack	#849
+fwd	ack	#849
+get	data	#850
+fwd	data	#850	loss rate = 0.159054
+get	data	#851
+fwd	data	#851	loss rate = 0.158924
+get	data	#852
+fwd	data	#852	loss rate = 0.158795
+get	data	#853
+fwd	data	#853	loss rate = 0.158666
+get	ack	#850
+fwd	ack	#850
+get	ack	#851
+fwd	ack	#851
+get	ack	#852
+fwd	ack	#852
+get	ack	#853
+fwd	ack	#853
+get	data	#854
+fwd	data	#854	loss rate = 0.158537
+get	data	#855
+fwd	data	#855	loss rate = 0.158408
+get	data	#856
+fwd	data	#856	loss rate = 0.158279
+get	data	#857
+drop	data	#857	loss rate = 0.158962
+get	data	#858
+fwd	data	#858	loss rate = 0.158833
+get	ack	#854
+fwd	ack	#854
+get	ack	#855
+fwd	ack	#855
+get	ack	#856
+fwd	ack	#856
+get	ack	#858
+fwd	ack	#858
+get	data	#857
+drop	data	#857	loss rate = 0.159514
+get	data	#857
+fwd	data	#857	loss rate = 0.159385
+get	ack	#857
+fwd	ack	#857
+get	data	#858
+fwd	data	#858	loss rate = 0.159256
+get	data	#859
+fwd	data	#859	loss rate = 0.159128
+get	ack	#858
+fwd	ack	#858
+get	ack	#859
+fwd	ack	#859
+get	data	#860
+fwd	data	#860	loss rate = 0.158999
+get	data	#861
+fwd	data	#861	loss rate = 0.158871
+get	data	#862
+drop	data	#862	loss rate = 0.159549
+get	ack	#860
+fwd	ack	#860
+get	ack	#861
+fwd	ack	#861
+get	data	#862
+drop	data	#862	loss rate = 0.160225
+get	data	#862
+fwd	data	#862	loss rate = 0.160097
+get	ack	#862
+fwd	ack	#862
+get	data	#863
+fwd	data	#863	loss rate = 0.159968
+get	data	#864
+fwd	data	#864	loss rate = 0.159839
+get	ack	#863
+fwd	ack	#863
+get	ack	#864
+fwd	ack	#864
+get	data	#865
+fwd	data	#865	loss rate = 0.159711
+get	data	#866
+fwd	data	#866	loss rate = 0.159583
+get	data	#867
+fwd	data	#867	loss rate = 0.159455
+get	ack	#866
+fwd	ack	#866
+get	ack	#867
+fwd	ack	#867
+get	data	#865
+drop	data	#865	loss rate = 0.160128
+get	data	#865
+fwd	data	#865	loss rate = 0.160000
+get	ack	#865
+fwd	ack	#865
+get	data	#866
+fwd	data	#866	loss rate = 0.159872
+get	data	#867
+fwd	data	#867	loss rate = 0.159744
+get	ack	#866
+fwd	ack	#866
+get	ack	#867
+fwd	ack	#867
+get	data	#868
+fwd	data	#868	loss rate = 0.159617
+get	data	#869
+fwd	data	#869	loss rate = 0.159490
+get	data	#870
+fwd	data	#870	loss rate = 0.159363
+get	ack	#868
+fwd	ack	#868
+get	ack	#869
+fwd	ack	#869
+get	ack	#870
+fwd	ack	#870
+get	data	#871
+fwd	data	#871	loss rate = 0.159236
+get	data	#872
+fwd	data	#872	loss rate = 0.159109
+get	data	#873
+fwd	data	#873	loss rate = 0.158983
+get	data	#874
+drop	data	#874	loss rate = 0.159651
+get	ack	#871
+fwd	ack	#871
+get	ack	#872
+fwd	ack	#872
+get	ack	#873
+fwd	ack	#873
+get	data	#874
+fwd	data	#874	loss rate = 0.159524
+get	ack	#874
+fwd	ack	#874
+get	data	#875
+fwd	data	#875	loss rate = 0.159397
+get	data	#876
+drop	data	#876	loss rate = 0.160063
+get	ack	#875
+fwd	ack	#875
+get	data	#876
+drop	data	#876	loss rate = 0.160728
+get	data	#876
+fwd	data	#876	loss rate = 0.160601
+get	ack	#876
+fwd	ack	#876
+get	data	#877
+fwd	data	#877	loss rate = 0.160474
+get	data	#878
+fwd	data	#878	loss rate = 0.160348
+get	ack	#877
+fwd	ack	#877
+get	ack	#878
+fwd	ack	#878
+get	data	#879
+drop	data	#879	loss rate = 0.161010
+get	data	#880
+fwd	data	#880	loss rate = 0.160883
+get	data	#881
+fwd	data	#881	loss rate = 0.160757
+get	ack	#880
+fwd	ack	#880
+get	ack	#881
+fwd	ack	#881
+get	data	#879
+drop	data	#879	loss rate = 0.161417
+get	data	#879
+fwd	data	#879	loss rate = 0.161290
+get	ack	#879
+fwd	ack	#879
+get	data	#880
+fwd	data	#880	loss rate = 0.161164
+get	data	#881
+fwd	data	#881	loss rate = 0.161037
+get	ack	#880
+fwd	ack	#880
+get	ack	#881
+fwd	ack	#881
+get	data	#882
+fwd	data	#882	loss rate = 0.160911
+get	data	#883
+drop	data	#883	loss rate = 0.161569
+get	data	#884
+fwd	data	#884	loss rate = 0.161442
+get	ack	#882
+fwd	ack	#882
+get	ack	#884
+fwd	ack	#884
+get	data	#883
+fwd	data	#883	loss rate = 0.161316
+get	ack	#883
+fwd	ack	#883
+get	data	#884
+fwd	data	#884	loss rate = 0.161189
+get	data	#885
+drop	data	#885	loss rate = 0.161845
+get	ack	#884
+fwd	ack	#884
+get	data	#885
+fwd	data	#885	loss rate = 0.161719
+get	ack	#885
+fwd	ack	#885
+get	data	#886
+fwd	data	#886	loss rate = 0.161593
+get	data	#887
+fwd	data	#887	loss rate = 0.161466
+get	ack	#886
+fwd	ack	#886
+get	ack	#887
+fwd	ack	#887
+get	data	#888
+fwd	data	#888	loss rate = 0.161341
+get	data	#889
+fwd	data	#889	loss rate = 0.161215
+get	data	#890
+drop	data	#890	loss rate = 0.161868
+get	ack	#888
+fwd	ack	#888
+get	ack	#889
+fwd	ack	#889
+get	data	#890
+drop	data	#890	loss rate = 0.162519
+get	data	#890
+fwd	data	#890	loss rate = 0.162393
+get	ack	#890
+fwd	ack	#890
+get	data	#891
+fwd	data	#891	loss rate = 0.162267
+get	data	#892
+fwd	data	#892	loss rate = 0.162141
+get	ack	#891
+fwd	ack	#891
+get	ack	#892
+fwd	ack	#892
+get	data	#893
+fwd	data	#893	loss rate = 0.162016
+get	data	#894
+fwd	data	#894	loss rate = 0.161890
+get	data	#895
+drop	data	#895	loss rate = 0.162539
+get	ack	#893
+fwd	ack	#893
+get	ack	#894
+fwd	ack	#894
+get	data	#895
+fwd	data	#895	loss rate = 0.162413
+get	ack	#895
+fwd	ack	#895
+get	data	#896
+fwd	data	#896	loss rate = 0.162287
+get	data	#897
+fwd	data	#897	loss rate = 0.162162
+get	ack	#896
+fwd	ack	#896
+get	data	#897
+fwd	data	#897	loss rate = 0.162037
+get	ack	#897
+fwd	ack	#897
+get	data	#898
+fwd	data	#898	loss rate = 0.161912
+get	data	#899
+fwd	data	#899	loss rate = 0.161787
+get	ack	#898
+fwd	ack	#898
+get	ack	#899
+fwd	ack	#899
+get	data	#900
+drop	data	#900	loss rate = 0.162433
+get	data	#901
+fwd	data	#901	loss rate = 0.162308
+get	data	#902
+drop	data	#902	loss rate = 0.162952
+get	ack	#901
+fwd	ack	#901
+get	data	#900
+fwd	data	#900	loss rate = 0.162826
+get	ack	#900
+fwd	ack	#900
+get	data	#901
+fwd	data	#901	loss rate = 0.162701
+get	data	#902
+fwd	data	#902	loss rate = 0.162577
+get	ack	#901
+fwd	ack	#901
+get	ack	#902
+fwd	ack	#902
+get	data	#903
+fwd	data	#903	loss rate = 0.162452
+get	data	#904
+fwd	data	#904	loss rate = 0.162328
+get	data	#905
+fwd	data	#905	loss rate = 0.162204
+get	ack	#903
+fwd	ack	#903
+get	ack	#904
+fwd	ack	#904
+get	ack	#905
+fwd	ack	#905
+get	data	#906
+fwd	data	#906	loss rate = 0.162080
+get	data	#907
+drop	data	#907	loss rate = 0.162720
+get	data	#908
+fwd	data	#908	loss rate = 0.162595
+get	data	#909
+fwd	data	#909	loss rate = 0.162471
+get	ack	#906
+fwd	ack	#906
+get	ack	#908
+fwd	ack	#908
+get	ack	#909
+fwd	ack	#909
+get	data	#907
+fwd	data	#907	loss rate = 0.162348
+get	ack	#907
+fwd	ack	#907
+get	data	#908
+fwd	data	#908	loss rate = 0.162224
+get	data	#909
+fwd	data	#909	loss rate = 0.162100
+get	ack	#908
+fwd	ack	#908
+get	ack	#909
+fwd	ack	#909
+get	data	#910
+fwd	data	#910	loss rate = 0.161977
+get	data	#911
+fwd	data	#911	loss rate = 0.161854
+get	data	#912
+drop	data	#912	loss rate = 0.162491
+get	ack	#910
+fwd	ack	#910
+get	ack	#911
+fwd	ack	#911
+get	data	#912
+fwd	data	#912	loss rate = 0.162367
+get	ack	#912
+fwd	ack	#912
+get	data	#913
+fwd	data	#913	loss rate = 0.162244
+get	data	#914
+fwd	data	#914	loss rate = 0.162121
+get	ack	#913
+fwd	ack	#913
+get	ack	#914
+fwd	ack	#914
+get	data	#915
+fwd	data	#915	loss rate = 0.161998
+get	data	#916
+fwd	data	#916	loss rate = 0.161876
+get	data	#917
+drop	data	#917	loss rate = 0.162509
+get	ack	#915
+fwd	ack	#915
+get	ack	#916
+fwd	ack	#916
+get	data	#917
+fwd	data	#917	loss rate = 0.162387
+get	ack	#917
+fwd	ack	#917
+get	data	#918
+fwd	data	#918	loss rate = 0.162264
+get	data	#919
+fwd	data	#919	loss rate = 0.162142
+get	ack	#918
+fwd	ack	#918
+get	ack	#919
+fwd	ack	#919
+get	data	#920
+fwd	data	#920	loss rate = 0.162020
+get	data	#921
+fwd	data	#921	loss rate = 0.161898
+get	data	#922
+fwd	data	#922	loss rate = 0.161776
+get	ack	#920
+fwd	ack	#920
+get	ack	#921
+fwd	ack	#921
+get	ack	#922
+fwd	ack	#922
+get	data	#923
+fwd	data	#923	loss rate = 0.161654
+get	data	#924
+fwd	data	#924	loss rate = 0.161533
+get	data	#925
+fwd	data	#925	loss rate = 0.161411
+get	data	#926
+fwd	data	#926	loss rate = 0.161290
+get	ack	#923
+fwd	ack	#923
+get	ack	#924
+fwd	ack	#924
+get	ack	#925
+fwd	ack	#925
+get	ack	#926
+fwd	ack	#926
+get	data	#927
+fwd	data	#927	loss rate = 0.161169
+get	data	#928
+fwd	data	#928	loss rate = 0.161049
+get	data	#929
+fwd	data	#929	loss rate = 0.160928
+get	data	#930
+fwd	data	#930	loss rate = 0.160808
+get	data	#931
+fwd	data	#931	loss rate = 0.160688
+get	ack	#927
+fwd	ack	#927
+get	ack	#928
+fwd	ack	#928
+get	ack	#930
+fwd	ack	#930
+get	ack	#931
+fwd	ack	#931
+get	data	#929
+fwd	data	#929	loss rate = 0.160568
+get	ack	#929
+fwd	ack	#929
+get	data	#930
+fwd	data	#930	loss rate = 0.160448
+get	data	#931
+fwd	data	#931	loss rate = 0.160328
+get	ack	#930
+fwd	ack	#930
+get	ack	#931
+fwd	ack	#931
+get	data	#932
+fwd	data	#932	loss rate = 0.160209
+get	data	#933
+fwd	data	#933	loss rate = 0.160089
+get	data	#934
+fwd	data	#934	loss rate = 0.159970
+get	ack	#932
+fwd	ack	#932
+get	ack	#933
+fwd	ack	#933
+get	ack	#934
+fwd	ack	#934
+get	data	#935
+fwd	data	#935	loss rate = 0.159851
+get	data	#936
+drop	data	#936	loss rate = 0.160475
+get	data	#937
+fwd	data	#937	loss rate = 0.160356
+get	data	#938
+fwd	data	#938	loss rate = 0.160237
+get	ack	#935
+fwd	ack	#935
+get	ack	#937
+fwd	ack	#937
+get	ack	#938
+fwd	ack	#938
+get	data	#936
+fwd	data	#936	loss rate = 0.160119
+get	ack	#936
+fwd	ack	#936
+get	data	#937
+fwd	data	#937	loss rate = 0.160000
+get	data	#938
+fwd	data	#938	loss rate = 0.159882
+get	ack	#937
+fwd	ack	#937
+get	ack	#938
+fwd	ack	#938
+get	data	#939
+fwd	data	#939	loss rate = 0.159763
+get	data	#940
+fwd	data	#940	loss rate = 0.159645
+get	data	#941
+drop	data	#941	loss rate = 0.160266
+get	ack	#939
+fwd	ack	#939
+get	ack	#940
+fwd	ack	#940
+get	data	#941
+fwd	data	#941	loss rate = 0.160148
+get	ack	#941
+fwd	ack	#941
+get	data	#942
+drop	data	#942	loss rate = 0.160767
+get	data	#943
+drop	data	#943	loss rate = 0.161385
+get	data	#942
+drop	data	#942	loss rate = 0.162003
+get	data	#942
+fwd	data	#942	loss rate = 0.161884
+get	ack	#942
+fwd	ack	#942
+get	data	#943
+drop	data	#943	loss rate = 0.162500
+get	data	#944
+fwd	data	#944	loss rate = 0.162381
+get	ack	#944
+fwd	ack	#944
+get	data	#943
+drop	data	#943	loss rate = 0.162996
+get	data	#943
+fwd	data	#943	loss rate = 0.162876
+get	ack	#943
+fwd	ack	#943
+get	data	#944
+drop	data	#944	loss rate = 0.163490
+get	data	#945
+fwd	data	#945	loss rate = 0.163370
+get	ack	#945
+fwd	ack	#945
+get	data	#944
+fwd	data	#944	loss rate = 0.163250
+get	ack	#944
+fwd	ack	#944
+get	data	#945
+fwd	data	#945	loss rate = 0.163131
+get	data	#946
+fwd	data	#946	loss rate = 0.163012
+get	ack	#945
+fwd	ack	#945
+get	ack	#946
+fwd	ack	#946
+get	data	#947
+fwd	data	#947	loss rate = 0.162893
+get	data	#948
+fwd	data	#948	loss rate = 0.162774
+get	data	#949
+fwd	data	#949	loss rate = 0.162655
+get	ack	#947
+fwd	ack	#947
+get	ack	#948
+fwd	ack	#948
+get	ack	#949
+fwd	ack	#949
+get	data	#950
+fwd	data	#950	loss rate = 0.162536
+get	data	#951
+fwd	data	#951	loss rate = 0.162418
+get	data	#952
+fwd	data	#952	loss rate = 0.162300
+get	data	#953
+fwd	data	#953	loss rate = 0.162182
+get	ack	#950
+fwd	ack	#950
+get	ack	#951
+fwd	ack	#951
+get	ack	#952
+fwd	ack	#952
+get	ack	#953
+fwd	ack	#953
+get	data	#954
+fwd	data	#954	loss rate = 0.162064
+get	data	#955
+fwd	data	#955	loss rate = 0.161946
+get	data	#956
+fwd	data	#956	loss rate = 0.161829
+get	data	#957
+fwd	data	#957	loss rate = 0.161711
+get	data	#958
+fwd	data	#958	loss rate = 0.161594
+get	ack	#954
+fwd	ack	#954
+get	ack	#955
+fwd	ack	#955
+get	ack	#956
+fwd	ack	#956
+get	ack	#957
+fwd	ack	#957
+get	ack	#958
+fwd	ack	#958
+get	data	#959
+fwd	data	#959	loss rate = 0.161477
+get	data	#960
+fwd	data	#960	loss rate = 0.161360
+get	data	#961
+fwd	data	#961	loss rate = 0.161244
+get	data	#962
+drop	data	#962	loss rate = 0.161850
+get	data	#963
+fwd	data	#963	loss rate = 0.161733
+get	data	#964
+fwd	data	#964	loss rate = 0.161616
+get	ack	#959
+fwd	ack	#959
+get	ack	#960
+fwd	ack	#960
+get	ack	#963
+fwd	ack	#963
+get	ack	#964
+fwd	ack	#964
+get	data	#961
+drop	data	#961	loss rate = 0.162221
+get	data	#961
+fwd	data	#961	loss rate = 0.162104
+get	ack	#961
+fwd	ack	#961
+get	data	#962
+fwd	data	#962	loss rate = 0.161987
+get	data	#963
+fwd	data	#963	loss rate = 0.161871
+get	ack	#962
+fwd	ack	#962
+get	ack	#963
+fwd	ack	#963
+get	data	#964
+fwd	data	#964	loss rate = 0.161754
+get	data	#965
+fwd	data	#965	loss rate = 0.161638
+get	data	#966
+fwd	data	#966	loss rate = 0.161522
+get	ack	#964
+fwd	ack	#964
+get	ack	#965
+fwd	ack	#965
+get	ack	#966
+fwd	ack	#966
+get	data	#967
+fwd	data	#967	loss rate = 0.161406
+get	data	#968
+fwd	data	#968	loss rate = 0.161290
+get	data	#969
+fwd	data	#969	loss rate = 0.161175
+get	data	#970
+drop	data	#970	loss rate = 0.161775
+get	ack	#967
+fwd	ack	#967
+get	ack	#968
+fwd	ack	#968
+get	ack	#969
+fwd	ack	#969
+get	data	#970
+fwd	data	#970	loss rate = 0.161660
+get	ack	#970
+fwd	ack	#970
+get	data	#971
+fwd	data	#971	loss rate = 0.161544
+get	data	#972
+fwd	data	#972	loss rate = 0.161429
+get	ack	#971
+fwd	ack	#971
+get	ack	#972
+fwd	ack	#972
+get	data	#973
+fwd	data	#973	loss rate = 0.161313
+get	data	#974
+drop	data	#974	loss rate = 0.161912
+get	data	#975
+drop	data	#975	loss rate = 0.162509
+get	ack	#973
+fwd	ack	#973
+get	data	#974
+fwd	data	#974	loss rate = 0.162393
+get	ack	#974
+fwd	ack	#974
+get	data	#975
+fwd	data	#975	loss rate = 0.162278
+get	data	#976
+drop	data	#976	loss rate = 0.162873
+get	ack	#975
+fwd	ack	#975
+get	data	#976
+fwd	data	#976	loss rate = 0.162758
+get	ack	#976
+fwd	ack	#976
+get	data	#977
+fwd	data	#977	loss rate = 0.162642
+get	data	#978
+fwd	data	#978	loss rate = 0.162527
+get	ack	#977
+fwd	ack	#977
+get	ack	#978
+fwd	ack	#978
+get	data	#979
+fwd	data	#979	loss rate = 0.162411
+get	data	#980
+fwd	data	#980	loss rate = 0.162296
+get	data	#981
+fwd	data	#981	loss rate = 0.162181
+get	ack	#979
+fwd	ack	#979
+get	ack	#980
+fwd	ack	#980
+get	ack	#981
+fwd	ack	#981
+get	data	#982
+fwd	data	#982	loss rate = 0.162067
+get	data	#983
+fwd	data	#983	loss rate = 0.161952
+get	data	#984
+fwd	data	#984	loss rate = 0.161837
+get	data	#985
+fwd	data	#985	loss rate = 0.161723
+get	ack	#982
+fwd	ack	#982
+get	ack	#983
+fwd	ack	#983
+get	ack	#984
+fwd	ack	#984
+get	ack	#985
+fwd	ack	#985
+get	data	#986
+fwd	data	#986	loss rate = 0.161609
+get	data	#987
+fwd	data	#987	loss rate = 0.161495
+get	data	#988
+fwd	data	#988	loss rate = 0.161381
+get	data	#989
+fwd	data	#989	loss rate = 0.161268
+get	data	#990
+fwd	data	#990	loss rate = 0.161154
+get	ack	#986
+fwd	ack	#986
+get	ack	#987
+fwd	ack	#987
+get	ack	#988
+fwd	ack	#988
+get	ack	#989
+fwd	ack	#989
+get	ack	#990
+fwd	ack	#990
+get	data	#991
+fwd	data	#991	loss rate = 0.161041
+get	data	#992
+fwd	data	#992	loss rate = 0.160928
+get	data	#993
+fwd	data	#993	loss rate = 0.160815
+get	data	#994
+fwd	data	#994	loss rate = 0.160702
+get	data	#995
+fwd	data	#995	loss rate = 0.160589
+get	data	#996
+fwd	data	#996	loss rate = 0.160477
+get	ack	#991
+fwd	ack	#991
+get	ack	#992
+fwd	ack	#992
+get	ack	#994
+fwd	ack	#994
+get	ack	#995
+fwd	ack	#995
+get	ack	#996
+fwd	ack	#996
+get	data	#993
+fwd	data	#993	loss rate = 0.160364
+get	ack	#993
+fwd	ack	#993
+get	data	#994
+fwd	data	#994	loss rate = 0.160252
+get	data	#995
+fwd	data	#995	loss rate = 0.160140
+get	ack	#994
+fwd	ack	#994
+get	ack	#995
+fwd	ack	#995
+get	data	#996
+fwd	data	#996	loss rate = 0.160028
+get	data	#997
+fwd	data	#997	loss rate = 0.159916
+get	data	#998
+drop	data	#998	loss rate = 0.160502
+get	data	#999
+drop	data	#999	loss rate = 0.161088
+get	ack	#996
+fwd	ack	#996
+get	ack	#997
+fwd	ack	#997
+get	data	#998
+fwd	data	#998	loss rate = 0.160976
+get	ack	#998
+fwd	ack	#998
+get	data	#999
+drop	data	#999	loss rate = 0.161560
+get	data	#1000
+fwd	data	#1000	loss rate = 0.161447
+get	ack	#1000
+fwd	ack	#1000
+get	data	#999
+fwd	data	#999	loss rate = 0.161335
+get	ack	#999
+fwd	ack	#999
+get	data	#1000
+fwd	data	#1000	loss rate = 0.161223
+get	data	#1001
+fwd	data	#1001	loss rate = 0.161111
+get	ack	#1000
+fwd	ack	#1000
+get	ack	#1001
+fwd	ack	#1001
+get	data	#1002
+fwd	data	#1002	loss rate = 0.160999
+get	data	#1003
+fwd	data	#1003	loss rate = 0.160888
+get	data	#1004
+fwd	data	#1004	loss rate = 0.160776
+get	ack	#1002
+fwd	ack	#1002
+get	ack	#1003
+fwd	ack	#1003
+get	ack	#1004
+fwd	ack	#1004
+get	data	#1005
+fwd	data	#1005	loss rate = 0.160665
+get	data	#1006
+fwd	data	#1006	loss rate = 0.160554
+get	data	#1007
+fwd	data	#1007	loss rate = 0.160443
+get	data	#1008
+fwd	data	#1008	loss rate = 0.160332
+get	ack	#1005
+fwd	ack	#1005
+get	ack	#1006
+fwd	ack	#1006
+get	ack	#1007
+fwd	ack	#1007
+get	ack	#1008
+fwd	ack	#1008
+get	data	#1009
+fwd	data	#1009	loss rate = 0.160221
+get	data	#1010
+fwd	data	#1010	loss rate = 0.160110
+get	data	#1011
+drop	data	#1011	loss rate = 0.160690
+get	data	#1012
+fwd	data	#1012	loss rate = 0.160579
+get	data	#1013
+fwd	data	#1013	loss rate = 0.160468
+get	ack	#1009
+fwd	ack	#1009
+get	ack	#1010
+fwd	ack	#1010
+get	ack	#1012
+fwd	ack	#1012
+get	ack	#1013
+fwd	ack	#1013
+get	data	#1011
+fwd	data	#1011	loss rate = 0.160358
+get	ack	#1011
+fwd	ack	#1011
+get	data	#1012
+fwd	data	#1012	loss rate = 0.160248
+get	data	#1013
+fwd	data	#1013	loss rate = 0.160137
+get	ack	#1012
+fwd	ack	#1012
+get	ack	#1013
+fwd	ack	#1013
+get	data	#1014
+fwd	data	#1014	loss rate = 0.160027
+get	data	#1015
+fwd	data	#1015	loss rate = 0.159918
+get	data	#1016
+fwd	data	#1016	loss rate = 0.159808
+get	ack	#1014
+fwd	ack	#1014
+get	ack	#1015
+fwd	ack	#1015
+get	ack	#1016
+fwd	ack	#1016
+get	data	#1017
+fwd	data	#1017	loss rate = 0.159698
+get	data	#1018
+fwd	data	#1018	loss rate = 0.159589
+get	data	#1019
+fwd	data	#1019	loss rate = 0.159480
+get	data	#1020
+fwd	data	#1020	loss rate = 0.159371
+get	ack	#1017
+fwd	ack	#1017
+get	ack	#1018
+fwd	ack	#1018
+get	ack	#1019
+fwd	ack	#1019
+get	ack	#1020
+fwd	ack	#1020
+get	data	#1021
+fwd	data	#1021	loss rate = 0.159262
+get	data	#1022
+fwd	data	#1022	loss rate = 0.159153
+get	data	#1023
+fwd	data	#1023	loss rate = 0.159044
+get	data	#1024
+fwd	data	#1024	loss rate = 0.158936
+get	ack	#1021
+fwd	ack	#1021
+get	ack	#1022
+fwd	ack	#1022
+get	ack	#1023
+fwd	ack	#1023
+get	ack	#1024
+fwd	ack	#1024
+get	fin
+fwd	fin
+get	finack
+fwd	finack
